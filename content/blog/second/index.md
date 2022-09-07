@@ -1,6 +1,7 @@
 +++
 title = "My second post"
 date = 2019-11-28
+tags = ["other"]
 +++
 
 Go down to the next title.

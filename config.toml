@@ -1,5 +1,8 @@
 # The URL the site will be built for
 base_url = "https://nilsmango.ch"
+title = "Nils Mango"
+description = "Creating things & eliminating errors."
+
 
 # Whether to automatically compile all Sass files in the sass directory
 compile_sass = true
