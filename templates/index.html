@@ -4,5 +4,10 @@
 <h1 class="title">
   Creating things & eliminating errors.
 </h1>
-<p>Click <a href="{{ get_url(path="@/blog/_index.md") }}">here</a> to see my posts.</p>
+<ul>
+  <!-- If you are using pagination, section.pages will be empty. You need to use the paginator object -->
+  {% for page in section.pages %}
+  <li><a href="{{ page.permalink | safe }}">{{ page.title }}</a></li>
+  {% endfor %}
+</ul>
 {% endblock content %}

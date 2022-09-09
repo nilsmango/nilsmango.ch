@@ -16,4 +16,9 @@ build_search_index = true
 highlight_code = true
 
 [extra]
-# Put all your custom variables here
+# List of Papaya navigational menu items. Used to construct the navigation bar. See the README for item schema.
+menu_items = [
+    { name = "About", url = "/about" },
+    # articles machen
+    # projects machen
+]

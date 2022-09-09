@@ -9,7 +9,25 @@
 <body>
   <section class="section">
     <div class="container">
-      
+      {% block header %}
+
+    <header>
+        <h1 class="site-header">
+            <a href="{{ config.base_url }}">{{ config.title }}</a>
+        </h1>
+        <nav>
+            <ul>
+            {% block nav_bar %}
+            {% for subsec in config.extra.menu_items %}
+                {% set link_url = subsec.url %}
+                <li><a {% if current_url and current_url is starting_with(link_url) %}class="active"{% endif %} href="{{ link_url }}">{{ subsec.name }}</a></li>
+            {% endfor %}
+
+            {% endblock nav_bar %}
+            </ul>
+        </nav>
+    </header>
+    {% endblock header %}
       {% block content %} {% endblock %}
     </div>
   </section>
