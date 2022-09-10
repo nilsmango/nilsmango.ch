@@ -8,3 +8,4 @@ tags = ["other", "coding"]
 
 This is my first **blog** post.
 Want to go to where ever?
+Here is my second [post](/second)
