@@ -4,8 +4,137 @@
   box-sizing: border-box;
 }
 
+:root {
+
+
+}
+
+header {
+  text-align: center;
+}
 
 .logo {
-  height: 150px;
-width: 73px;
+  height: 172.5px;
+  width: 83.95px;
+  position: relative;
+  padding: 10px;
 }
+// für dark mode einfach filter: invert(1); machen bei .logo
+
+
+
+.logo:nth-child(1) {
+  z-index: 20;
+  background-color: white;
+  margin-top: random(10)+px;
+  margin-left: 40px;
+  position: absolute;
+  clip:rect(0,1000px,0,0);
+  animation:noise-anim2 3s infinite linear, noise-anim  15s infinite linear alternate-reverse;
+
+}
+
+.logo:nth-child(2) {
+  z-index: 21;
+  background-color: white;
+  margin-top: -10px;
+  margin-left: -10px;
+  animation:noise-anim2 2s infinite linear;
+  position: absolute;
+  clip:rect(0,1000px,0,0);
+  animation:noise-anim3  13s infinite linear alternate-reverse, noise-anim4 7s infinite linear;
+}
+
+ @keyframes noise-anim4 {
+  0% {
+    clip:rect(29px,1000px,0,0);
+    transform: rotate(0deg);
+  }
+  1%, 10% {
+    clip:rect(random(297)+px,1000px,random(17)+px,0);
+      transform: rotate(random(444)+deg);
+  }
+  11% {
+    transform: rotate(0deg);
+  }
+  12%, 40% {
+    clip:rect(random(297)+px,1000px,random(177)+px,0);
+      transform: rotate(random(444)+deg);
+  }
+  41% {
+    clip:rect(0,1000px,0,0);
+    transform: rotate(0deg);
+  }
+ }
+
+@keyframes noise-anim {
+  0% { clip:rect(0,1000px,0,0); transform: skew(0deg, 0deg);}
+  0.001%, 0.999% { clip:rect(random(297)+px,1000px,random(17)+px,0);  transform: skew(random(208)+deg, random(200)+deg);}
+  1% { clip:rect(0,1000px,0,0); transform: skew(0deg, 0deg);}
+  10% { clip:rect(0,1000px,0,0); }
+  10.001%, 10.999% { clip:rect(random(177)+px,1000px,random(177)+px,0); }
+  11% { clip:rect(0,1000px,0,0); }
+  30% { clip:rect(0,1000px,0,0); }
+  30.001%, 30.999% { clip:rect(random(77)+px,1000px,random(17)+px,0); }
+  31% { clip:rect(0,1000px,0,0); }
+  45% { clip:rect(0,1000px,0,0); }
+  45.001%, 45.999% {
+    clip:rect(random(77)+px,1000px,random(177)+px,0);
+  }
+  46% { clip:rect(0,1000px,0,0); }
+  50% { clip:rect(0,1000px,0,0); transform: skew(0deg, 0deg);}
+  50.001%, 50.999% { clip:rect(random(477)+px,1000px,random(177)+px,0);
+  transform: skew(random(28)+deg, random(200)+deg);}
+  51% { clip:rect(0,1000px,0,0); }
+  75% { clip:rect(0,1000px,0,0); transform: skew(0deg, 0deg);}
+  75.001%, 75.999% { clip:rect(random(17)+px,1000px,random(177)+px,0); }
+  76% { clip:rect(0,1000px,0,0); }
+  80% { clip:rect(0,1000px,0,0); }
+  80.001%, 80.999% { clip:rect(random(177)+px,1000px,random(12)+px,0); }
+  81% { clip:rect(0,1000px,0,0); }
+  88% { clip:rect(0,1000px,0,0); }
+  88.001%, 88.999% { clip:rect(random(177)+px,1000px,random(177)+px,0); }
+  89% { clip:rect(0,1000px,0,0); }
+}
+
+
+
+@keyframes noise-anim2 {
+      0%, 50% { margin-left: random(20)+px;  margin-top: random(35)+px;}
+      50.001%, 72.999% { margin-left: random(10)+px; margin-top: random(20)+px;}
+      73% 80% { margin-left: random(10)+px;
+      margin-top: random(10)+px;}
+      81% 100% { margin-left: random(40)+px;
+      margin-top: random(30)+px;}
+
+    }
+
+    @keyframes noise-anim3 {
+      0% { clip:rect(0,1000px,0,0); transform: skew(0deg, 0deg);}
+      0.001%, 0.999% { clip:rect(random(297)+px,1000px,random(177)+px,0);  transform: skew(random(28)+deg, random(200)+deg);}
+      1% { clip:rect(0,1000px,0,0); transform: skew(0deg, 0deg);}
+      10% { clip:rect(0,1000px,0,0); }
+      10.001%, 10.999% { clip:rect(random(177)+px,1000px,random(177)+px,0); }
+      11% { clip:rect(0,1000px,0,0); }
+      30% { clip:rect(0,1000px,0,0); }
+      30.001%, 30.999% { clip:rect(random(277)+px,1000px,random(17)+px,0); }
+      31% { clip:rect(0,1000px,0,0); }
+      45% { clip:rect(0,1000px,0,0); }
+      45.001%, 45.999% {
+        clip:rect(random(177)+px,1000px,random(177)+px,0);
+      }
+      46% { clip:rect(0,1000px,0,0); }
+      50% { clip:rect(0,1000px,0,0); transform: skew(0deg, 0deg);}
+      50.001%, 50.999% { clip:rect(random(477)+px,1000px,random(177)+px,0);
+      transform: skew(random(208)+deg, random(200)+deg);}
+      51% { clip:rect(0,1000px,0,0); }
+      75% { clip:rect(0,1000px,0,0); transform: skew(0deg, 0deg);}
+      75.001%, 75.999% { clip:rect(random(177)+px,1000px,random(177)+px,0); }
+      76% { clip:rect(0,1000px,0,0); }
+      80% { clip:rect(0,1000px,0,0); }
+      80.001%, 80.999% { clip:rect(random(177)+px,1000px,random(142)+px,0); }
+      81% { clip:rect(0,1000px,0,0); }
+      88% { clip:rect(0,1000px,0,0); }
+      88.001%, 88.999% { clip:rect(random(177)+px,1000px,random(177)+px,0); }
+      89% { clip:rect(0,1000px,0,0); }
+    }
