@@ -14,13 +14,14 @@
       {% block header %}
 
     <header>
-            <a href="{{ config.base_url }}"><img src="/zeichen73x150.svg" alt="{{ config.title }} Zeichen" class="logo"><img src="/zeichen73x150.svg" alt="{{ config.title }} Zeichen" class="logo"><img src="/zeichen73x150.svg" alt="{{ config.title }} Zeichen" class="logo"></a>
-        <nav>
-            <ul>
+            <a href="{{ config.base_url }}"><img src="/zeichen73x150.svg" alt="{{ config.title }} Zeichen" class="logo"></a>
+
+        <nav class="nav">
+            <ul class="nav-list">
             {% block nav_bar %}
             {% for subsec in config.extra.menu_items %}
                 {% set link_url = subsec.url %}
-                <li><a {% if current_url and current_url is starting_with(link_url) %}class="active"{% endif %} href="{{ link_url }}">{{ subsec.name }}</a></li>
+                <li class="nav-item"><a {% if current_url and current_url is starting_with(link_url) %}class="active"{% endif %} href="{{ link_url }}">{{ subsec.name }}</a></li>
             {% endfor %}
 
             {% endblock nav_bar %}

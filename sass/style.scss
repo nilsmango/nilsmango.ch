@@ -4,137 +4,189 @@
   box-sizing: border-box;
 }
 
-:root {
+/* Variables */
+$background-color: #f0e56b;
+$peachy-color: #fbcb8c;
+//#FFDAB9 #fff255
+$border-color: #c3c3c3;
 
+$text-color: #333;
+
+$a11y-gray: #757575;
+
+$link-color: #0f4280;
+$link-hover-color: #0e2e57;
+$link-hover-line-color: #007884;
+$icon-hover-color: $link-hover-color;
+
+$font-size-normal: 1.25rem;
+
+$page-width: 800px;
+$page-width-minus: 500px;
+
+body {
+    margin: 0;
+    background: $background-color;
+    animation: color-change 120s infinite;
+    color: $text-color;
+    font-size: $font-size-normal;
+    line-height: 1.6rem;
+}
+
+.section {
+  max-width: $page-width;
+  margin: auto;
+  padding: 1.5em 1.5em 3em 1.5em;
+}
+
+
+header {
+
+  display: flex;
+  justify-content: space-between;
 
 }
 
-header {
-  text-align: center;
+.nav {
+
+  padding-top: 10px;
+  ul {
+      margin: 0;
+      list-style: none;
+      //padding: 1.5em 1.5em 0 1.5em;
+      text-align: right;
+  li {
+
+
+  //margin-right: 10px;
+  //padding-right: 10px;
+  }
+
+  li + li:before {
+
+
+      padding: 0 10px;
+
+}
+
+      a {
+        text-decoration: none;
+        color: $text-color;
+      }
+      a:hover {
+        color: $link-hover-color;
+
+      }
+
+  }
+}
+
+a .active {
+  font-weight: bold;
+  color: $link-hover-color;
+}
+
+a {
+  //text-decoration: none;
+  color: $link-color;
+}
+a:hover {
+  color: $link-hover-color;
+  text-decoration: none;
+}
+// hier unten und oben noch verbessern, schauen auch andere themes! vor allem ob active in base auch so gemacht wird.
+
+h1 {
+  font-weight: normal;
+  font-size: 3.75rem;
+  line-height: 3.75rem;
+  margin-bottom: 0px;
+}
+
+h2 {
+  font-weight: normal;
+  font-size: 3rem;
+  line-height: 3rem;
+  margin-bottom: 0px;
+}
+
+h3 {
+  font-weight: normal;
+  font-size: 2rem;
+  line-height: 2rem;
+  margin-bottom: 0px;
+}
+
+.post-dates {
+  font-style: italic;
+}
+
+.post-updated {
+  font-weight: bold;
+  font-style: normal;
+}
+.divider {
+  font-style: normal;
 }
 
 .logo {
   height: 172.5px;
   width: 83.95px;
   position: relative;
-  padding: 10px;
+  //padding: 10px;
+  filter: invert(14%) sepia(0%) saturate(0%) hue-rotate(140deg) brightness(95%) contrast(81%);
 }
 // für dark mode einfach filter: invert(1); machen bei .logo
 
 
 
-.logo:nth-child(1) {
-  z-index: 20;
-  background-color: white;
-  margin-top: random(10)+px;
-  margin-left: 40px;
-  position: absolute;
-  clip:rect(0,1000px,0,0);
-  animation:noise-anim2 3s infinite linear, noise-anim  15s infinite linear alternate-reverse;
-
-}
-
-.logo:nth-child(2) {
-  z-index: 21;
-  background-color: white;
-  margin-top: -10px;
-  margin-left: -10px;
-  animation:noise-anim2 2s infinite linear;
-  position: absolute;
-  clip:rect(0,1000px,0,0);
-  animation:noise-anim3  13s infinite linear alternate-reverse, noise-anim4 7s infinite linear;
-}
-
- @keyframes noise-anim4 {
-  0% {
-    clip:rect(29px,1000px,0,0);
-    transform: rotate(0deg);
-  }
-  1%, 10% {
-    clip:rect(random(297)+px,1000px,random(17)+px,0);
-      transform: rotate(random(444)+deg);
-  }
-  11% {
-    transform: rotate(0deg);
-  }
-  12%, 40% {
-    clip:rect(random(297)+px,1000px,random(177)+px,0);
-      transform: rotate(random(444)+deg);
-  }
-  41% {
-    clip:rect(0,1000px,0,0);
-    transform: rotate(0deg);
-  }
- }
-
-@keyframes noise-anim {
-  0% { clip:rect(0,1000px,0,0); transform: skew(0deg, 0deg);}
-  0.001%, 0.999% { clip:rect(random(297)+px,1000px,random(17)+px,0);  transform: skew(random(208)+deg, random(200)+deg);}
-  1% { clip:rect(0,1000px,0,0); transform: skew(0deg, 0deg);}
-  10% { clip:rect(0,1000px,0,0); }
-  10.001%, 10.999% { clip:rect(random(177)+px,1000px,random(177)+px,0); }
-  11% { clip:rect(0,1000px,0,0); }
-  30% { clip:rect(0,1000px,0,0); }
-  30.001%, 30.999% { clip:rect(random(77)+px,1000px,random(17)+px,0); }
-  31% { clip:rect(0,1000px,0,0); }
-  45% { clip:rect(0,1000px,0,0); }
-  45.001%, 45.999% {
-    clip:rect(random(77)+px,1000px,random(177)+px,0);
-  }
-  46% { clip:rect(0,1000px,0,0); }
-  50% { clip:rect(0,1000px,0,0); transform: skew(0deg, 0deg);}
-  50.001%, 50.999% { clip:rect(random(477)+px,1000px,random(177)+px,0);
-  transform: skew(random(28)+deg, random(200)+deg);}
-  51% { clip:rect(0,1000px,0,0); }
-  75% { clip:rect(0,1000px,0,0); transform: skew(0deg, 0deg);}
-  75.001%, 75.999% { clip:rect(random(17)+px,1000px,random(177)+px,0); }
-  76% { clip:rect(0,1000px,0,0); }
-  80% { clip:rect(0,1000px,0,0); }
-  80.001%, 80.999% { clip:rect(random(177)+px,1000px,random(12)+px,0); }
-  81% { clip:rect(0,1000px,0,0); }
-  88% { clip:rect(0,1000px,0,0); }
-  88.001%, 88.999% { clip:rect(random(177)+px,1000px,random(177)+px,0); }
-  89% { clip:rect(0,1000px,0,0); }
-}
 
 
-
-@keyframes noise-anim2 {
-      0%, 50% { margin-left: random(20)+px;  margin-top: random(35)+px;}
-      50.001%, 72.999% { margin-left: random(10)+px; margin-top: random(20)+px;}
-      73% 80% { margin-left: random(10)+px;
-      margin-top: random(10)+px;}
-      81% 100% { margin-left: random(40)+px;
-      margin-top: random(30)+px;}
-
-    }
-
-    @keyframes noise-anim3 {
-      0% { clip:rect(0,1000px,0,0); transform: skew(0deg, 0deg);}
-      0.001%, 0.999% { clip:rect(random(297)+px,1000px,random(177)+px,0);  transform: skew(random(28)+deg, random(200)+deg);}
-      1% { clip:rect(0,1000px,0,0); transform: skew(0deg, 0deg);}
-      10% { clip:rect(0,1000px,0,0); }
-      10.001%, 10.999% { clip:rect(random(177)+px,1000px,random(177)+px,0); }
-      11% { clip:rect(0,1000px,0,0); }
-      30% { clip:rect(0,1000px,0,0); }
-      30.001%, 30.999% { clip:rect(random(277)+px,1000px,random(17)+px,0); }
-      31% { clip:rect(0,1000px,0,0); }
-      45% { clip:rect(0,1000px,0,0); }
-      45.001%, 45.999% {
-        clip:rect(random(177)+px,1000px,random(177)+px,0);
+      @keyframes color-change {
+        0% { background-color: $background-color; }
+        50% { background-color: $peachy-color; }
+        100% { background-color: $background-color; }
       }
-      46% { clip:rect(0,1000px,0,0); }
-      50% { clip:rect(0,1000px,0,0); transform: skew(0deg, 0deg);}
-      50.001%, 50.999% { clip:rect(random(477)+px,1000px,random(177)+px,0);
-      transform: skew(random(208)+deg, random(200)+deg);}
-      51% { clip:rect(0,1000px,0,0); }
-      75% { clip:rect(0,1000px,0,0); transform: skew(0deg, 0deg);}
-      75.001%, 75.999% { clip:rect(random(177)+px,1000px,random(177)+px,0); }
-      76% { clip:rect(0,1000px,0,0); }
-      80% { clip:rect(0,1000px,0,0); }
-      80.001%, 80.999% { clip:rect(random(177)+px,1000px,random(142)+px,0); }
-      81% { clip:rect(0,1000px,0,0); }
-      88% { clip:rect(0,1000px,0,0); }
-      88.001%, 88.999% { clip:rect(random(177)+px,1000px,random(177)+px,0); }
-      89% { clip:rect(0,1000px,0,0); }
-    }
+@media (min-width: 340px) {
+  h1 {
+    font-size: 4rem;
+    line-height: 4rem;
+  }
+
+}
+
+      @media (min-width: 600px) {
+        header {
+
+          display: flex;
+          justify-content: space-between;
+
+        }
+
+        .nav {
+    padding-top: 0px;
+    margin-top: -6px;
+          ul {
+              display: flex;
+          li {
+
+          }
+
+          li + li:before {
+              content: "|";
+              //padding: 0 10px;
+
+        }
+
+              a {
+                text-decoration: none;
+                color: $text-color;
+              }
+              a:hover {
+                color: $link-hover-color;
+
+              }
+
+          }
+        }
+      }

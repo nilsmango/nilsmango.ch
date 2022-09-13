@@ -1,8 +1,7 @@
 +++
 title = "About"
 description = "About Nils Mango"
-date = 2022-09-07
-
+date = 2022-09-12
 +++
 
-I am groot, am I?
+I am groot... erh Nils Mango! I am only here so I won't get fined, plus to make things and try to eliminate the resulting errors.

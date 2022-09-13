@@ -18,7 +18,10 @@ highlight_code = true
 [extra]
 # List of Papaya navigational menu items. Used to construct the navigation bar. See the README for item schema.
 menu_items = [
+    { name = "Home", url = "/" },
     { name = "About", url = "/about" },
-    # articles machen
-    # projects machen
+    { name = "Music", url = "/music" },
+    { name = "Articles", url = "/articles" },
+    { name = "Projects", url = "/about" },
+    { name = "Tags", url = "/tags" },
 ]
