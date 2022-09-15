@@ -10,6 +10,16 @@ compile_sass = true
 # Whether to build a search index to be used later on by a JavaScript library
 build_search_index = true
 
+# When set to "true", a feed is automatically generated.
+generate_feed = true
+
+# The taxonomies to be rendered for the site and their configuration of the default languages
+taxonomies = [
+   { name = "tags", feed = true },
+   { name = "categories", feed = true },
+]
+
+
 [markdown]
 # Whether to do syntax highlighting
 # Theme can be customised by setting the `highlight_theme` variable to a theme supported by Zola
@@ -22,6 +32,6 @@ menu_items = [
     { name = "About", url = "/about" },
     { name = "Music", url = "/music" },
     { name = "Articles", url = "/articles" },
-    { name = "Projects", url = "/about" },
+    { name = "Projects", url = "/projects" },
     { name = "Tags", url = "/tags" },
 ]

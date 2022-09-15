@@ -4,10 +4,13 @@
 <h1 class="title">
   Creating things & eliminating errors.
 </h1>
+<p>Read my latest articles:</p>
 <ul>
   <!-- If you are using pagination, section.pages will be empty. You need to use the paginator object -->
   {% for page in section.pages %}
+  {% if page.taxonomies.categories %}
   <li><a href="{{ page.permalink | safe }}">{{ page.title }}</a></li>
+  {% endif %}
   {% endfor %}
 </ul>
 {% endblock content %}

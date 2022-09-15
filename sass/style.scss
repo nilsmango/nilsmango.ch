@@ -16,13 +16,11 @@ $a11y-gray: #757575;
 
 $link-color: #0f4280;
 $link-hover-color: #0e2e57;
-$link-hover-line-color: #007884;
-$icon-hover-color: $link-hover-color;
+$link-visited: #7c7c7c;
 
 $font-size-normal: 1.25rem;
 
 $page-width: 800px;
-$page-width-minus: 500px;
 
 body {
     margin: 0;
@@ -41,15 +39,13 @@ body {
 
 
 header {
-
   display: flex;
   justify-content: space-between;
 
 }
 
 .nav {
-
-  padding-top: 10px;
+  margin-top: -6px;
   ul {
       margin: 0;
       list-style: none;
@@ -57,7 +53,7 @@ header {
       text-align: right;
   li {
 
-
+    padding-bottom: 9px;
   //margin-right: 10px;
   //padding-right: 10px;
   }
@@ -65,7 +61,7 @@ header {
   li + li:before {
 
 
-      padding: 0 10px;
+
 
 }
 
@@ -94,6 +90,12 @@ a:hover {
   color: $link-hover-color;
   text-decoration: none;
 }
+
+a:visited {
+  color: $link-visited;
+
+}
+
 // hier unten und oben noch verbessern, schauen auch andere themes! vor allem ob active in base auch so gemacht wird.
 
 h1 {
@@ -115,6 +117,10 @@ h3 {
   font-size: 2rem;
   line-height: 2rem;
   margin-bottom: 0px;
+}
+
+figure {
+  text-align: center;
 }
 
 .post-dates {
@@ -164,8 +170,7 @@ h3 {
         }
 
         .nav {
-    padding-top: 0px;
-    margin-top: -6px;
+
           ul {
               display: flex;
           li {
@@ -175,7 +180,7 @@ h3 {
           li + li:before {
               content: "|";
               //padding: 0 10px;
-
+            padding: 0 10px;
         }
 
               a {

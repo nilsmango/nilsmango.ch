@@ -3,7 +3,9 @@ title = "My first post"
 description = "Showing a first post"
 date = 2019-11-27
 updated = 2022-09-06
-tags = ["other", "coding"]
+[taxonomies]
+tags = ["testing"]
+categories = ["articles"]
 +++
 
 This is my first **blog** post.
