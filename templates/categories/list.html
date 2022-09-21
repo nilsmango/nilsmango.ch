@@ -1,0 +1,15 @@
+{% extends "index.html" %}
+
+{% block title %}Categories - {{ config.title }}{% endblock title %}
+
+{% block content %}
+<h1>Categories</h1>
+
+<ul class="terms">
+    {% for term in terms %}
+    <li>
+        <a href="{{ term.permalink }}">{{ term.name }}</a> ({{ term.pages | length }})
+    </li>
+    {% endfor %}
+</ul>
+{% endblock content %}

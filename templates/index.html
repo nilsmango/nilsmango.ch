@@ -4,13 +4,34 @@
 <h1 class="title">
   Creating things & eliminating errors.
 </h1>
-<p>Read my latest articles:</p>
+<h2>Latest articles</h2>
 <ul>
   <!-- If you are using pagination, section.pages will be empty. You need to use the paginator object -->
-  {% for page in section.pages %}
-  {% if page.taxonomies.categories %}
-  <li><a href="{{ page.permalink | safe }}">{{ page.title }}</a></li>
-  {% endif %}
+  {% for page in section.pages | filter(attribute="taxonomies.categories") | slice(end=3)%}
+
+  <article>
+    <h3><a class="title_link" href="{{ page.permalink | safe }}">{{ page.title }}</a></h3>
+
+      
+        <div class="article-info">
+
+        <time datetime="{{ page.date | date(format="%+") }}">{{ page.date | date(format="%B %d, %Y") }}</time> · {{ page.reading_time }} min {% if page.taxonomies.tags %}
+
+                {% for tag in page.taxonomies.tags %}
+                 · <a href="{{ get_taxonomy_url(kind="tags", name=tag) | safe }}">#{{ tag }}</a>
+                {% endfor %}
+
+              </div>
+        {% if page.date %}
+        {% set reading_time = "page.reading_time" %}
+
+        {% endif %}
+        {% endif %}
+
+
+      </article>
+
+
   {% endfor %}
 </ul>
 {% endblock content %}

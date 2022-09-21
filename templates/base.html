@@ -1,9 +1,26 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
   <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>{% block title %}{{ config.title }} - {{ config.description }}{% endblock title %}</title>
+  <!-- Favicon -->
+<link rel="apple-touch-icon" sizes="180x180" href="/favi/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="/favi/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/favi/favicon-16x16.png">
+<link rel="manifest" href="/favi/site.webmanifest">
+<!-- RSS Feed -->
+{% if config.generate_feed %}
+    <link rel="alternate" type={% if config.feed_filename == "atom.xml" %}"application/atom+xml"{% else %}"application/rss+xml"{% endif %} title="RSS" href="{{ get_url(path=config.feed_filename) | safe }}">
+    {% endif %}
+<!-- Share things -->
+{% block ogp_head %}
+<meta property="og:title" content="{{ config.title }} - {{ config.description }}">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="{{ config.base_url }}">
+  <meta property="og:image" content="{{ config.base_url }}/ogpic.jpg">
+{% endblock ogp_head %}
   <!-- My CSS -->
   <link rel="stylesheet" href="{{ config.base_url }}/style.css">
 </head>
@@ -29,9 +46,26 @@
         </nav>
     </header>
     {% endblock header %}
-      {% block content %} {% endblock %}
-    </div>
-  </section>
+      {% block content %} {% endblock content %}
+      {%- block gotop %}
+      {%- endblock gotop %}
+
+  {%- block footer %}
+    <footer>
+        <nav class="footernav">
+          <ul class="footernav-list">
+          {% for subsec in config.extra.footer_nav %}
+          {% set link_url = subsec.url %}
+            <li class="footernav-item"> <a {% if current_url and current_url is starting_with(link_url) %}class="active"{% endif %} href="{{ link_url }}">{{ subsec.name }} </a> </li>
+            {% endfor %}
+          </ul>
+        </nav>
+
+  <p class="copyright">© 2022 Nils Mango | Powered by <a href="https://www.getzola.org/" target="_blank">Zola</a>.</p>
+    </footer>
+  {%- endblock footer %}
+</div>
+</section>
 </body>
 
 </html>

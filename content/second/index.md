@@ -1,5 +1,6 @@
 +++
 title = "My second post"
+description="This is my second blog post where I show some images"
 date = 2019-11-28
 [taxonomies]
 tags = ["testing"]

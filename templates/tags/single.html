@@ -1,0 +1,15 @@
+{% extends "index.html" %}
+
+{% block title %}Tag: #{{ term.name }} - {{ config.title }}{% endblock title%}
+
+{% block content %}
+<h1>Tag: #{{ term.name }}</h1>
+
+    <p><a href="../">⇠</a> back to all tags</p>
+
+{% for page in term.pages %}
+<p><a href="{{ page.permalink | safe }}">{{ page.title }}</a></p>
+{% endfor %}
+
+
+{% endblock content %}

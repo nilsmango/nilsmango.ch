@@ -1,0 +1,30 @@
+{% extends "base.html" %}
+{% block title %}{{ page.title }} - {{ config.title }}{% endblock title %}
+{% block description %}{{ page.description | default(value=config.description) }}{% endblock description %}
+{% block content %}
+<h1 class="title">
+  Articles
+</h1>
+<p>View by: <a href="/tags">Tags</a></p>
+<ul>
+  <!-- If you are using pagination, section.pages will be empty. You need to use the paginator object -->
+
+  {% set subsec_path = "_index.md" %}
+  {% set subsec_section = get_section(path=subsec_path) %}
+  {% set subsec_section_pages = subsec_section.pages %}
+ {% for year, posts in subsec_section_pages | group_by(attribute="year") %}
+     <h2>{{ year }}</h2>
+
+
+     {% for post in posts | filter(attribute="taxonomies.categories") %}
+
+         <h3><a href="{{ post.permalink | safe }}">{{ post.title }}</a></h3>
+
+     {% endfor %}
+
+
+ {% endfor %}
+
+
+
+{% endblock content %}

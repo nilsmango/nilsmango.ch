@@ -16,7 +16,7 @@ $a11y-gray: #757575;
 
 $link-color: #0f4280;
 $link-hover-color: #0e2e57;
-$link-visited: #7c7c7c;
+$link-visited: #515151;
 
 $font-size-normal: 1.25rem;
 
@@ -37,10 +37,47 @@ body {
   padding: 1.5em 1.5em 3em 1.5em;
 }
 
+.top {
+  text-align: center;
+
+  a {
+    text-decoration: none;
+  }
+
+
+}
+
+.italic {
+  font-style: italic;
+}
+
+.title_link {
+  text-decoration: none;
+}
+
+.title_link:hover {
+  text-decoration: underline;
+}
 
 header {
   display: flex;
   justify-content: space-between;
+
+}
+
+ul  {
+    padding: 0;
+    // margin-top: -16px;
+}
+
+.sum {
+  //font-style: italic;
+}
+
+code, pre {
+      border-radius: .25rem;
+      background-color: rgba(237, 237, 237, 0.7);
+      padding:.3rem .2rem
 
 }
 
@@ -58,12 +95,6 @@ header {
   //padding-right: 10px;
   }
 
-  li + li:before {
-
-
-
-
-}
 
       a {
         text-decoration: none;
@@ -71,16 +102,48 @@ header {
       }
       a:hover {
         color: $link-hover-color;
+        text-decoration: underline;
 
+      }
+      a .active {
+        font-weight: bold;
+        color: $link-hover-color;
       }
 
   }
 }
 
-a .active {
-  font-weight: bold;
-  color: $link-hover-color;
+.footernav {
+  margin-top: 50px;
+  padding-top: 20px;
+  border-top: dotted 1px;
+  ul {
+      margin: 0;
+      list-style: none;
+      //padding: 1.5em 1.5em 0 1.5em;
+      text-align: center;
+
+  li {
+    padding-bottom: 9px;
+  }
+      a {
+        text-decoration: none;
+        color: $text-color;
+      }
+      a:hover {
+        color: $link-hover-color;
+        text-decoration: underline;
+
+      }
+      a .active {
+        font-weight: bold;
+        color: $link-hover-color;
+        text-decoration: overline;
+      }
+
+  }
 }
+
 
 a {
   //text-decoration: none;
@@ -121,6 +184,12 @@ h3 {
 
 figure {
   text-align: center;
+  margin-left: 0;
+  margin-right: 0;
+}
+
+.copyright {
+  text-align: center;
 }
 
 .post-dates {
@@ -140,10 +209,34 @@ figure {
   width: 83.95px;
   position: relative;
   //padding: 10px;
-  filter: invert(14%) sepia(0%) saturate(0%) hue-rotate(140deg) brightness(95%) contrast(81%);
+  filter: invert(14%) sepia(0%) saturate(0%) hue-rotate(140deg) brightness(95%) contrast(81%) opacity(1);
+  animation: flicker 9s linear infinite;
+  //animation: spin-it 25s linear 1;
+  animation-delay: 2s;
+}
+
+.logo:hover {
+  animation: spin-it 25s linear infinite;
 }
 // für dark mode einfach filter: invert(1); machen bei .logo
 
+@keyframes spin-it {
+  0% { transform: skew(0deg, 0deg) translate(0px, 0px) scale(1) rotateZ(0deg) ; }
+  50% { transform: skew(-30deg, 70deg) translate(0px, 0px) scale(30) rotateZ(380deg); }
+  93.8% { transform: skew(-20deg, 11deg) translate(0px, 0px) scale(2) rotateZ(680deg); }
+  100% { transform: skew(0deg, 0deg) translate(0px, 0px) scale(1) rotateZ(720deg) ; }
+}
+
+@keyframes flicker {
+  0%, 10%, 10.7%, 25%, 25.6%, 30%, 30.7%, 40%, 40.6%, 80%, 80.6% {
+  transform: translate(0px, 0px); }
+  25.1%, 25.3% {
+  transform:  translate(2px, 0px);}
+  10.1%, 10.4%, 80.1%, 80.5% {
+  transform: translate(-0.3px, 0.4px); }
+  30.1%, 30.4%, 40.1%, 40.3% {
+  transform: translate(-1px, 0px); }
+}
 
 
 
@@ -163,34 +256,28 @@ figure {
 
       @media (min-width: 600px) {
         header {
-
           display: flex;
           justify-content: space-between;
 
         }
+        .footernav {
+          ul {
+            display: flex;
+            justify-content: space-between;
+          }
+        }
+
 
         .nav {
 
           ul {
               display: flex;
-          li {
-
-          }
 
           li + li:before {
               content: "|";
               //padding: 0 10px;
             padding: 0 10px;
         }
-
-              a {
-                text-decoration: none;
-                color: $text-color;
-              }
-              a:hover {
-                color: $link-hover-color;
-
-              }
 
           }
         }
