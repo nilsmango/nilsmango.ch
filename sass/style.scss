@@ -9,24 +9,24 @@ $background-color: #ffeba5;
 $peachy-color: #fbcb8c;
 //#FFDAB9 #fff255 #fff5d1
 $border-color: #c3c3c3;
-
+$code-color: rgba(237, 237, 237, 0.7);
 $text-color: #333;
-
 $a11y-gray: #757575;
-
-$link-color: #0f4280;
+$link-color: #104f9c;
 $link-hover-color: #0e2e57;
-$link-visited: #515151;
-
+$link-visited: #3d536c;
 $font-size-normal: 1.25rem;
-
 $page-width: 800px;
 
-/* SASS as CSS Variables */
+/* SASS as CSS Variables so we can use them for dark mode */
 :root {
   --color-background: #{$background-color};
   --color-peachy: #{$peachy-color};
   --color-text: #{$text-color};
+  --color-code: #{$code-color};
+  --color-link: #{$link-color};
+  --color-hover: #{$link-hover-color};
+  --color-visited: #{$link-visited};
 }
 
 body {
@@ -60,11 +60,11 @@ body {
 }
 
 .title_link {
-  text-decoration: none;
+  //text-decoration: none;
 }
 
 .title_link:hover {
-  text-decoration: underline;
+  text-decoration: none;
 }
 
 header {
@@ -84,8 +84,10 @@ ul  {
 
 code, pre {
       border-radius: .25rem;
-      background-color: rgba(237, 237, 237, 0.7);
-      padding:.3rem .2rem
+      background-color: var(--color-code);
+      padding:.3rem .2rem;
+      max-width: 100%;
+      overflow:auto
 
 }
 
@@ -106,16 +108,16 @@ code, pre {
 
       a {
         text-decoration: none;
-        color: $text-color;
+        color: var(--color-text);
       }
       a:hover {
-        color: $link-hover-color;
+        color: var(--color-hover);
         text-decoration: underline;
 
       }
       a .active {
         font-weight: bold;
-        color: $link-hover-color;
+        color: var(--color-hover);
       }
 
   }
@@ -136,17 +138,17 @@ code, pre {
   }
       a {
         text-decoration: none;
-        color: $text-color;
+        color: var(--color-text);
       }
       a:hover {
-        color: $link-hover-color;
+        color: var(--color-hover);
         text-decoration: underline;
 
       }
       a .active {
         font-weight: bold;
-        color: $link-hover-color;
-        text-decoration: overline;
+        color: var(--color-hover);
+
       }
 
   }
@@ -155,15 +157,15 @@ code, pre {
 
 a {
   //text-decoration: none;
-  color: $link-color;
+  color: var(--color-link);
 }
-a:hover {
-  color: $link-hover-color;
+a:hover, a:hover:visited {
+  color: var(--color-hover);
   text-decoration: none;
 }
 
 a:visited {
-  color: $link-visited;
+  color: var(--color-visited);
 
 }
 
@@ -224,15 +226,19 @@ figure {
 }
 
 .logo:hover {
-  animation: spin-it 25s linear infinite;
+  animation: spin-it 5s linear infinite;
 }
 // für dark mode einfach filter: invert(1); machen bei .logo
 
 @keyframes spin-it {
-  0% { transform: skew(0deg, 0deg) translate(0px, 0px) scale(1) rotateZ(0deg) ; }
-  50% { transform: skew(-30deg, 70deg) translate(0px, 0px) scale(30) rotateZ(380deg); }
-  93.8% { transform: skew(-20deg, 11deg) translate(0px, 0px) scale(2) rotateZ(680deg); }
-  100% { transform: skew(0deg, 0deg) translate(0px, 0px) scale(1) rotateZ(720deg) ; }
+  0%, 10%, 10.7%, 25%, 25.6%, 30%, 30.7%, 40%, 40.6%, 80%, 80.6% {
+  transform: translate(0px, 0px); }
+  25.1%, 25.3% {
+  transform:  translate(5px, 0px);}
+  10.1%, 10.4%, 80.1%, 80.5% {
+  transform: translate(-8px, 0.3px); }
+  30.1%, 30.4%, 40.1%, 40.3% {
+  transform: translate(-4px, 0px); }
 }
 
 @keyframes flicker {
@@ -246,14 +252,13 @@ figure {
   transform: translate(-1px, 0px); }
 }
 
-
-
-
       @keyframes color-change {
         0% { background-color: var(--color-background); }
         50% { background-color: var(--color-peachy); }
         100% { background-color: var(--color-background); }
       }
+
+
 @media (min-width: 340px) {
   h1 {
     font-size: 4rem;
@@ -293,28 +298,18 @@ figure {
 
       @media (prefers-color-scheme: dark) {
         :root {
-          --color-background: black;
-          --color-peachy: #333;
-          --color-text: #c3c3c3;
+          --color-background: #212121;
+          --color-peachy: #151515;
+          --color-text: #e3e3e3;
+          --color-code: #333;
+          --color-link: #9ed69f;
+          --color-hover: #{$border-color};
+          --color-visited: #93b695;
         }
-
-
-
-        $background-color: #333;
-        $peachy-color: #fbcb8c;
-        //#FFDAB9 #fff255 #fff5d1
-        $border-color: #c3c3c3;
-
-
-        $a11y-gray: #757575;
-
-        $link-color: #0f4280;
-        $link-hover-color: #0e2e57;
-        $link-visited: #515151;
 
         .logo {
 
-          filter: invert(94%) sepia(0%) saturate(0%) hue-rotate(140deg) brightness(95%) contrast(81%) opacity(1);
+          filter: invert(98%) sepia(0%) saturate(0%) hue-rotate(140deg) brightness(98%) contrast(81%) opacity(1);
 
         }
 
