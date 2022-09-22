@@ -196,6 +196,11 @@ figure {
   text-align: center;
   margin-left: 0;
   margin-right: 0;
+  .imgset {
+    width: 500px;
+    height: auto;
+    max-width: 100%;
+  }
 }
 
 .copyright {
