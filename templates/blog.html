@@ -17,9 +17,20 @@
 
 
      {% for post in posts | filter(attribute="taxonomies.categories") %}
+<a class="title_link" href="{{ post.permalink | safe }}">
+         <h3>{{ post.title }}</h3>
+         <div class="sum">
 
-         <h3><a href="{{ post.permalink | safe }}">{{ post.title }}</a></h3>
+           {%- if post.summary %}
+             {{ post.summary | markdown(inline=true) | safe }} ...
+           {%- elif post.description %}
+             {{ post.description | safe }}  ...
+           {%- elif post.content %}
+             {{ post.content | striptags | truncate(length=64) | safe }}
+           {%- endif %}
 
+
+           </div></a>
      {% endfor %}
 
 

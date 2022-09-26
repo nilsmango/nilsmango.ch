@@ -8,7 +8,7 @@
     <p><a href="../">⇠</a> back to all tags</p>
 
 {% for page in term.pages %}
-<p><a href="{{ page.permalink | safe }}">{{ page.title }}</a></p>
+<h3><a href="{{ page.permalink | safe }}">{{ page.title }}</a></h3>
 {% endfor %}
 
 

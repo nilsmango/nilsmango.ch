@@ -60,11 +60,20 @@ body {
 }
 
 .title_link {
+  text-decoration: none;
+  color: var(--color-text);
+  //background-color: #8c92d0;
+}
+
+.title_link:visited {
   //text-decoration: none;
+  color: var(--color-text);
 }
 
 .title_link:hover {
-  text-decoration: none;
+  //text-decoration: underline;
+  color: var(--color-text);
+
 }
 
 header {

@@ -31,15 +31,16 @@ menu_items = [
     { name = "Home", url = "/" },
     { name = "About", url = "/about" },
     { name = "Music", url = "/music" },
-    { name = "Articles", url = "/articles" },
+    { name = "Blog", url = "/blog" },
     { name = "Projects", url = "/projects" },
-    { name = "Tags", url = "/tags" },
+    { name = "Now", url = "/now" },
 ]
 # Footer Navigation Items
 footer_nav = [
     { name = "Privacy", url = "/privacy" },
     { name = "Contact", url = "/contact" },
-    { name = "RSS/Atom", url = "/atom.xml" },
+    { name = "Feed", url = "/atom.xml" },
+    { name = "Tags", url = "/tags" },
     { name = "Twitter", url = "https://twitter.com/nilsmango" },
     { name = "YouTube", url = "https://www.youtube.com/nilsmango" },
     { name = "Instagram", url = "https://www.instagram.com/nilsmango/" },
