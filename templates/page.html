@@ -47,10 +47,16 @@
   {{ page.title }}
 </h1>
 {% if page.taxonomies.categories %}
-<p class="post-dates">Posted on <time datetime="{{ page.date | date(format="%+") }}">{{ page.date | date(format="%B %d, %Y") }}</time>
+<p><span class="post-dates">Posted on <time datetime="{{ page.date | date(format="%+") }}">{{ page.date | date(format="%B %d, %Y") }}</time></span>
 {% if page.updated %}
-<span class="divider">|</span><span class="post-updated"> Updated: <time datetime="{{ page.updated | date(format="%+") }}">{{ page.updated | date(format="%B %d, %Y") }}</time></span></p>
+<span class="divider">|</span><span class="post-updated"> Updated: <time datetime="{{ page.updated | date(format="%+") }}">{{ page.updated | date(format="%B %d, %Y") }}</time></span>
 {% endif %}
+{% if page.taxonomies.tags %}
+<span class="divider">|</span>{% for tag in page.taxonomies.tags %}
+ <a href="{{ get_taxonomy_url(kind="tags", name=tag) | safe }}">#{{ tag }}</a>
+{% endfor %}
+{% endif %}
+</p>
 {% endif %}
 {{ page.content | safe }}
 {% endblock content %}

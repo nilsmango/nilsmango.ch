@@ -6,8 +6,8 @@
 
 /* SASS Variables */
 $background-color: #ffeba5;
-$peachy-color: #fbcb8c;
-//#FFDAB9 #fff255 #fff5d1
+$peachy-color: #ffe4a5;
+//#FFDAB9 #fff255 #fff5d1 #fbcb8c
 $border-color: #c3c3c3;
 $code-color: rgba(237, 237, 237, 0.7);
 $text-color: #333;
@@ -63,6 +63,10 @@ body {
   text-decoration: none;
   color: var(--color-text);
   //background-color: #8c92d0;
+  .underline_h {
+    text-decoration: underline;
+    //color: var(--color-link);
+  }
 }
 
 .title_link:visited {
@@ -73,7 +77,9 @@ body {
 .title_link:hover {
   //text-decoration: underline;
   color: var(--color-text);
-
+  .underline_h {
+    text-decoration: none;
+  }
 }
 
 header {
@@ -167,6 +173,7 @@ code, pre {
 a {
   //text-decoration: none;
   color: var(--color-link);
+
 }
 a:hover, a:hover:visited {
   color: var(--color-hover);

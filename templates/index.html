@@ -4,13 +4,14 @@
 <h1 class="title">
   Creating things & eliminating errors.
 </h1>
-<p>Hi, my name is Nils Mango and I am trying to create things and eleminate errors.</p>
+<p>Hi, my name is Nils Mango and I am trying to create things and eliminate errors.</p>
 <h2>Latest articles</h2>
+<p>See all articles <a href="/blog">⇢</a></p>
 <ul>
   <!-- If you are using pagination, section.pages will be empty. You need to use the paginator object -->
   {% for page in section.pages | filter(attribute="taxonomies.categories") | slice(end=3)%}
 <a class="title_link" href="{{ page.permalink | safe }}">
-  <article>
+  <li>
     <h3>{{ page.title }}</h3>
 
 
@@ -40,7 +41,7 @@
 </a>
           </div>
 
-      </article></a>
+      </li></a>
 
 
   {% endfor %}

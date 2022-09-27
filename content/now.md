@@ -4,7 +4,7 @@ description = "What I am doing now"
 date = 2022-09-16
 updated = 2022-09-16
 +++
-This is a /now page, for more information visit <a href="https://nownownow.com/about" target="_blank">nownownow.com</a>
+This is a now page, for more information visit <a href="https://nownownow.com/about" target="_blank">nownownow.com</a>
 
 *Last updated, September 16, 2022 - Switzerland*
 
