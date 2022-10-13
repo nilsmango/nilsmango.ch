@@ -13,7 +13,7 @@ This is a now page, for more information visit <a href="https://nownownow.com/ab
 This is what I am up to right now, in no particular order:
 
 - Working on this blog
-- Winging and foiling
+- Winging and foiling (trying to get great at downwinding)
 - Learning to program
 - Making music (I should make more of this)
 - Essentializing my life

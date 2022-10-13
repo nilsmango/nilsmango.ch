@@ -6,7 +6,7 @@
 </h1>
 <p>Hi, my name is Nils Mango and I am trying to create things and eliminate errors.</p>
 <h2>Latest articles</h2>
-<p>View all articles <a href="/blog">→</a></p>
+<p>View all <a href="/blog">articles</a></p>
 <ul class="posts">
   <!-- If you are using pagination, section.pages will be empty. You need to use the paginator object -->
   {% for page in section.pages | filter(attribute="taxonomies.categories") | slice(end=3)%}

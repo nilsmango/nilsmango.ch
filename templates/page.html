@@ -66,12 +66,12 @@
 <ul>
   {% if page.taxonomies.categories %}
   {% if page.lower %}
-  <li><a href="{{ page.lower.permalink }}">←</a> {{ page.lower.title }}</li>
+  <li><a href="{{ page.lower.permalink }}">← {{ page.lower.title }}</a></li>
   {% endif %}
   {% endif %}
 {% if page.taxonomies.categories %}
 {% if page.higher %}
-<li>{{ page.higher.title }} <a href="{{ page.higher.permalink }}">→</a></li>
+<li><a href="{{ page.higher.permalink }}">{{ page.higher.title }} →</a></li>
 {% endif %}
 {% endif %}
 
