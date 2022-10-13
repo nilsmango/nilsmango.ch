@@ -146,7 +146,8 @@ code, pre {
 .footernav {
   margin-top: 30px;
   padding-top: 20px;
-  border-top: solid 2px;
+  //background-color: var(--color-code);
+  //border-top: solid 2px;
   ul {
       margin: 0;
       list-style: none;
@@ -254,6 +255,18 @@ figure {
   font-style: normal;
 }
 
+.footernav {
+  ul {
+    display: flex;
+    justify-content: center;
+    flex-wrap : wrap;
+    li + li:before {
+        content: "|";
+      padding: 0 10px;
+  }
+  }
+}
+
 .logo {
   height: 172.5px;
   width: 83.95px;
@@ -301,6 +314,7 @@ figure {
     font-size: 4rem;
     line-height: 4rem;
   }
+
 }
 
 
@@ -309,6 +323,7 @@ figure {
     font-size: 5rem;
     line-height: 5rem;
   }
+
 }
 
       @media (min-width: 600px) {
@@ -317,12 +332,7 @@ figure {
           justify-content: space-between;
 
         }
-        .footernav {
-          ul {
-            display: flex;
-            justify-content: space-between;
-          }
-        }
+
 
 
         .nav {

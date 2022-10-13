@@ -63,12 +63,12 @@
           <ul class="footernav-list">
           {% for subsec in config.extra.footer_nav %}
           {% set link_url = subsec.url %}
-            <li class="footernav-item"> <a {% if current_url and current_url is starting_with(link_url) %}class="active"{% endif %} href="{{ link_url }}">{{ subsec.name }} </a> </li>
+            <li class="footernav-item"><a {% if current_url and current_url is starting_with(link_url) %}class="active"{% endif %} href="{{ link_url }}">{{ subsec.name }} </a> </li>
             {% endfor %}
           </ul>
         </nav>
 
-  <p class="copyright">© 2022 Nils Mango | Powered by <a href="https://www.getzola.org/" target="_blank">Zola</a>.</p>
+  <p class="copyright">© 2022 Nils Mango · Powered by <a href="https://www.getzola.org/" target="_blank">Zola</a>.</p>
     </footer>
   {%- endblock footer %}
 </div>
