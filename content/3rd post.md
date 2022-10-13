@@ -1,7 +1,7 @@
 +++
 title = "3rd post"
 description = "333"
-date = 2022-09-12
+date = 2022-09-27
 [taxonomies]
 tags = ["testing"]
 categories = ["articles"]

@@ -5,10 +5,22 @@
 {% block content %}
 <h1>Tag: #{{ term.name }}</h1>
 
-    <p><a href="../">⇠</a> back to all tags</p>
-<ul>
+    <p><a href="../">←</a> back to all tags</p>
+<ul class="posts">
   {% for page in term.pages %}
-  <li><h3><a href="{{ page.permalink | safe }}">{{ page.title }}</a></h3></li>
+  <li class="nobullets"><h3><a href="{{ page.permalink | safe }}">{{ page.title }}</a></h3>
+    <div class="sum">
+
+      {%- if page.summary %}
+        {{ page.summary | markdown(inline=true) | safe }} ...
+      {%- elif page.description %}
+        {{ page.description | safe }}  ...
+      {%- elif page.content %}
+        {{ page.content | striptags | truncate(length=64) | safe }}
+      {%- endif %}
+
+
+      </div></li>
   {% endfor %}
 </ul>
 

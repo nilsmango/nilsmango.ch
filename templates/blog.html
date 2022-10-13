@@ -5,7 +5,7 @@
 <h1 class="title">
   Articles
 </h1>
-<p>View by tags <a href="/tags">⇢</a></p>
+<p>View by tags <a href="/tags">→</a></p>
 <ul>
   <!-- If you are using pagination, section.pages will be empty. You need to use the paginator object -->
 
@@ -14,10 +14,10 @@
   {% set subsec_section_pages = subsec_section.pages %}
  {% for year, posts in subsec_section_pages | group_by(attribute="year") %}
      <h2>{{ year }}</h2>
-    <ul>
+    <ul class="posts">
       {% for post in posts | filter(attribute="taxonomies.categories") %}
- <li><a class="title_link" href="{{ post.permalink | safe }}">
-          <h3 class="underline_h">{{ post.title }}</h3>
+ <li class="nobullets"><a href="{{ post.permalink | safe }}">
+          <h3>{{ post.title }}</h3></a>
           <div class="sum">
 
             {%- if post.summary %}
@@ -29,7 +29,7 @@
             {%- endif %}
 
 
-            </div></a></li>
+            </div></li>
       {% endfor %}
     </ul>
 

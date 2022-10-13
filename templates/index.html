@@ -1,19 +1,20 @@
 {% extends "base.html" %}
 
 {% block content %}
-<h1 class="title">
+<h1 class="eliminating">
   Creating things & eliminating errors.
 </h1>
 <p>Hi, my name is Nils Mango and I am trying to create things and eliminate errors.</p>
 <h2>Latest articles</h2>
-<p>See all articles <a href="/blog">⇢</a></p>
-<ul>
+<p>View all articles <a href="/blog">→</a></p>
+<ul class="posts">
   <!-- If you are using pagination, section.pages will be empty. You need to use the paginator object -->
   {% for page in section.pages | filter(attribute="taxonomies.categories") | slice(end=3)%}
-<a class="title_link" href="{{ page.permalink | safe }}">
-  <li>
-    <h3>{{ page.title }}</h3>
 
+  <li class="nobullets">
+    <a href="{{ page.permalink | safe }}">
+    <h3>{{ page.title }}</h3>
+</a>
 
         <div class="article-info">
           {% if page.date %}
@@ -21,15 +22,14 @@
         <time datetime="{{ page.date | date(format="%+") }}">{{ page.date | date(format="%B %d, %Y") }}</time> · {{ page.reading_time }} min
 {% endif %}
         {% if page.taxonomies.tags %}
-
+·
                 {% for tag in page.taxonomies.tags %}
-                 · <a href="{{ get_taxonomy_url(kind="tags", name=tag) | safe }}">#{{ tag }}</a>
+                  <a href="{{ get_taxonomy_url(kind="tags", name=tag) | safe }}">#{{ tag }}</a>
                 {% endfor %}
 {% endif %}
               </div>
 
         <div class="sum">
-<a class="title_link" href="{{ page.permalink | safe }}">
           {%- if page.summary %}
             {{ page.summary | markdown(inline=true) | safe }} ...
           {%- elif page.description %}
@@ -38,10 +38,10 @@
             {{ page.content | striptags | truncate(length=64) | safe }}
           {%- endif %}
 
-</a>
+
           </div>
 
-      </li></a>
+      </li>
 
 
   {% endfor %}

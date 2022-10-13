@@ -1,7 +1,7 @@
 +++
 title = "Privacy"
 description = "Privacy Policy"
-date = 2022-09-21
+date = 2022-09-13
 +++
 
 - This site does not set or use cookies.

@@ -61,10 +61,20 @@
 {{ page.content | safe }}
 {% endblock content %}
 
-{%- block gotop %}
-{%- if page.reading_time %}
-{%- if page.reading_time > 2 %}
-<p class="top"><a href="#"  title="back to top">⇡</p>
-{%- endif %}
-{%- endif %}
-{%- endblock gotop %}
+{%- block pagination %}
+<nav class="pagenav">
+<ul>
+  {% if page.taxonomies.categories %}
+  {% if page.lower %}
+  <li><a href="{{ page.lower.permalink }}">←</a> {{ page.lower.title }}</li>
+  {% endif %}
+  {% endif %}
+{% if page.taxonomies.categories %}
+{% if page.higher %}
+<li>{{ page.higher.title }} <a href="{{ page.higher.permalink }}">→</a></li>
+{% endif %}
+{% endif %}
+
+</ul>
+</nav>
+{%- endblock pagination %}

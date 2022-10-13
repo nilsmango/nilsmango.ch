@@ -4,10 +4,10 @@
 
 {% block content %}
 <h1>Tags</h1>
-
-<ul class="terms">
+<p>View all articles <a href="/blog">→</a> </p>
+<ul class="posts">
     {% for term in terms %}
-    <li><h3>
+    <li class="nobullets"><h3>
         <a href="{{ term.permalink }}">
         #{{ term.name }}</a> ({{ term.pages | length }})
     </h3></li>

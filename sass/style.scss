@@ -5,23 +5,21 @@
 }
 
 /* SASS Variables */
-$background-color: #ffeba5;
-$peachy-color: #ffe4a5;
-//#FFDAB9 #fff255 #fff5d1 #fbcb8c
+$background-color: white;
 $border-color: #c3c3c3;
 $code-color: rgba(237, 237, 237, 0.7);
 $text-color: #333;
 $a11y-gray: #757575;
-$link-color: #104f9c;
-$link-hover-color: #0e2e57;
-$link-visited: #3d536c;
+$link-color: #53b492;
+// #104f9c  #3d536c #669caa #6cb49b
+$link-hover-color: #333;
+$link-visited: #537cb4;
 $font-size-normal: 1.25rem;
 $page-width: 800px;
 
 /* SASS as CSS Variables so we can use them for dark mode */
 :root {
   --color-background: #{$background-color};
-  --color-peachy: #{$peachy-color};
   --color-text: #{$text-color};
   --color-code: #{$code-color};
   --color-link: #{$link-color};
@@ -32,10 +30,11 @@ $page-width: 800px;
 body {
     margin: 0;
     background: var(--color-background);
-    animation: color-change 120s infinite;
     color: var(--color-text);
     font-size: $font-size-normal;
     line-height: 1.6rem;
+    // font-family: monospace, monospace;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif
 }
 
 .section {
@@ -44,16 +43,7 @@ body {
   padding: 1.5em 1.5em 3em 1.5em;
 }
 
-.top {
-  text-align: center;
-  padding-top: 20px;
 
-  a {
-    text-decoration: none;
-  }
-
-
-}
 
 .italic {
   font-style: italic;
@@ -63,10 +53,6 @@ body {
   text-decoration: none;
   color: var(--color-text);
   //background-color: #8c92d0;
-  .underline_h {
-    text-decoration: underline;
-    //color: var(--color-link);
-  }
 }
 
 .title_link:visited {
@@ -95,6 +81,11 @@ ul  {
 
 .sum {
   //font-style: italic;
+
+}
+
+.posts {
+  padding-bottom: 40px;
 }
 
 code, pre {
@@ -138,10 +129,24 @@ code, pre {
   }
 }
 
+.pagenav {
+  ul {
+      margin: 0;
+      list-style: none;
+      //padding: 1.5em 1.5em 0 1.5em;
+      text-align: center;
+      padding-top: 20px;
+      display: flex;
+      justify-content: space-between;
+      li {
+        //margin-bottom: -20px;
+      }
+}
+}
 .footernav {
-  margin-top: 50px;
+  margin-top: 30px;
   padding-top: 20px;
-  border-top: dotted 1px;
+  border-top: solid 2px;
   ul {
       margin: 0;
       list-style: none;
@@ -171,13 +176,12 @@ code, pre {
 
 
 a {
-  //text-decoration: none;
+  text-decoration: none;
   color: var(--color-link);
 
 }
 a:hover, a:hover:visited {
-  color: var(--color-hover);
-  text-decoration: none;
+  text-decoration: underline;
 }
 
 a:visited {
@@ -187,11 +191,19 @@ a:visited {
 
 // hier unten und oben noch verbessern, schauen auch andere themes! vor allem ob active in base auch so gemacht wird.
 
+
+.eliminating {
+  font-size: 3.5rem;
+  line-height: 3.5rem;
+  //font-family: monospace, monospace;
+}
+
 h1 {
   font-weight: normal;
-  font-size: 3.75rem;
-  line-height: 3.75rem;
+  font-size: 3.5rem;
+  line-height: 3.5rem;
   margin-bottom: 0px;
+  //font-family: monospace, monospace;
 }
 
 h2 {
@@ -199,6 +211,7 @@ h2 {
   font-size: 3rem;
   line-height: 3rem;
   margin-bottom: 0px;
+  //font-family: monospace, monospace;
 }
 
 h3 {
@@ -206,6 +219,7 @@ h3 {
   font-size: 2rem;
   line-height: 2rem;
   margin-bottom: 0px;
+  //font-family: monospace, monospace;
 }
 
 figure {
@@ -217,6 +231,10 @@ figure {
     height: auto;
     max-width: 100%;
   }
+}
+
+.nobullets {
+  list-style: none;
 }
 
 .copyright {
@@ -231,6 +249,7 @@ figure {
   font-weight: bold;
   font-style: normal;
 }
+
 .divider {
   font-style: normal;
 }
@@ -273,19 +292,23 @@ figure {
   transform: translate(-1px, 0px); }
 }
 
-      @keyframes color-change {
-        0% { background-color: var(--color-background); }
-        50% { background-color: var(--color-peachy); }
-        100% { background-color: var(--color-background); }
-      }
-
-
-@media (min-width: 340px) {
+@media (min-width: 375px) {
+  .eliminating {
+    font-size: 4rem;
+    line-height: 4rem;
+  }
   h1 {
     font-size: 4rem;
     line-height: 4rem;
   }
+}
 
+
+@media (min-width: 460px) {
+  .eliminating, h1 {
+    font-size: 5rem;
+    line-height: 5rem;
+  }
 }
 
       @media (min-width: 600px) {
@@ -319,8 +342,7 @@ figure {
 
       @media (prefers-color-scheme: dark) {
         :root {
-          --color-background: #212121;
-          --color-peachy: #151515;
+          --color-background: #171717;
           --color-text: #e3e3e3;
           --color-code: #333;
           --color-link: #9ed69f;

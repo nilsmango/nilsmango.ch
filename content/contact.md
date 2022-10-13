@@ -1,7 +1,7 @@
 +++
 title = "Contact"
 description = "Make first contact with Nils Mango"
-date = 2022-09-21
+date = 2022-09-01
 +++
 
 Nils Mango  

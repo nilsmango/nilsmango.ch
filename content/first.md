@@ -1,7 +1,7 @@
 +++
 title = "My first post"
-date = 2019-11-27
-updated = 2022-09-06
+date = 2022-09-20
+updated = 2022-09-22
 [taxonomies]
 tags = ["testing", "first"]
 categories = ["articles"]
