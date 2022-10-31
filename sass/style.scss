@@ -7,21 +7,24 @@
 /* SASS Variables */
 $background-color: white;
 $border-color: #c3c3c3;
-$code-color: rgba(237, 237, 237, 0.7);
+$gray-color: rgba(0, 0, 0, 0.05);
 $text-color: #333;
 $a11y-gray: #757575;
 $link-color: #53b492;
 // #104f9c  #3d536c #669caa #6cb49b
 $link-hover-color: #333;
 $link-visited: #537cb4;
-$font-size-normal: 1.25rem;
+$font-size-normal: 1.125rem;
+$font-size-bigger: 1.25rem;
+$font-size-smaller: 0.75rem;
 $page-width: 800px;
 
 /* SASS as CSS Variables so we can use them for dark mode */
 :root {
   --color-background: #{$background-color};
   --color-text: #{$text-color};
-  --color-code: #{$code-color};
+  --color-code: #{$gray-color};
+  --color-gray: #{$gray-color};
   --color-link: #{$link-color};
   --color-hover: #{$link-hover-color};
   --color-visited: #{$link-visited};
@@ -40,7 +43,7 @@ body {
 .section {
   max-width: $page-width;
   margin: auto;
-  padding: 1.5em 1.5em 3em 1.5em;
+  padding: 1.5em 1.5em 0.5em 1.5em;
 }
 
 
@@ -89,7 +92,7 @@ ul  {
 }
 
 code, pre {
-      border-radius: .25rem;
+      border-radius: 6px;
       background-color: var(--color-code);
       padding:.3rem .2rem;
       max-width: 100%;
@@ -97,7 +100,10 @@ code, pre {
 
 }
 
+
+
 .nav {
+  font-size: $font-size-bigger;
   margin-top: -6px;
   ul {
       margin: 0;
@@ -130,13 +136,13 @@ code, pre {
 }
 
 .pagenav {
-  text-align: right;
+font-size: $font-size-bigger;
   ul {
       margin: 0;
       list-style: none;
       //padding: 1.5em 1.5em 0 1.5em;
 
-      padding-top: 20px;
+      padding-top: 50px;
       display: flex;
       justify-content: space-between;
       li {
@@ -144,11 +150,14 @@ code, pre {
       }
 }
 }
+
+
 .footernav {
-  margin-top: 30px;
-  padding-top: 20px;
-  //background-color: var(--color-code);
+  font-size: $font-size-bigger;
+  margin-top: 70px;
+
   //border-top: solid 2px;
+  //font-size: 18px;
   ul {
       margin: 0;
       list-style: none;
@@ -225,11 +234,12 @@ h3 {
 }
 
 figure {
+  padding: 0em 0em;
   text-align: center;
   margin-left: 0;
   margin-right: 0;
   .imgset {
-    width: 500px;
+    width: 600px;
     height: auto;
     max-width: 100%;
   }
@@ -240,7 +250,16 @@ figure {
 }
 
 .copyright {
+  border-radius: 10px;
+  background-color: var(--color-gray);
+  margin: auto, auto;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
   text-align: center;
+  font-size: $font-size-smaller;
+  line-height: 1.1rem;
 }
 
 .post-dates {
@@ -262,7 +281,7 @@ figure {
     justify-content: center;
     flex-wrap : wrap;
     li + li:before {
-        content: "|";
+        content: " ";
       padding: 0 10px;
   }
   }
@@ -306,6 +325,99 @@ figure {
   transform: translate(-1px, 0px); }
 }
 
+.youtube {
+  padding: 0em 0em;
+  padding-bottom: 1.2em;
+}
+
+.tvframe {
+  width: 100%;
+  margin: auto;
+}
+
+
+/*  lite-yt-stylesheet */
+lite-youtube {
+    background-color: var(--color-background);
+    position: relative;
+    display: block;
+    contain: content;
+    background-position: center center;
+    background-size: 100.5%;
+    cursor: pointer;
+    max-width: 600px;
+    border-radius: 20px;
+}
+
+/* gradient */
+
+
+/* responsive iframe with a 16:9 aspect ratio
+    thanks https://css-tricks.com/responsive-iframes/
+*/
+lite-youtube::after {
+    content: "";
+    display: block;
+    padding-bottom: calc(100% / (16 / 9));
+}
+
+lite-youtube > iframe {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    border: 0;
+}
+
+/* play button */
+lite-youtube > .lty-playbtn {
+    display: block;
+    width: 68px;
+    height: 48px;
+    position: absolute;
+    cursor: pointer;
+    transform: translate3d(-50%, -50%, 0);
+    top: 50%;
+    left: 50%;
+    z-index: 1;
+    background-color: transparent;
+    /* YT's actual play button svg */
+    background-image: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 68 48"><path d="M66.52 7.74c-.78-2.93-2.49-5.41-5.42-6.19C55.79.13 34 0 34 0S12.21.13 6.9 1.55c-2.93.78-4.63 3.26-5.42 6.19C.06 13.05 0 24 0 24s.06 10.95 1.48 16.26c.78 2.93 2.49 5.41 5.42 6.19C12.21 47.87 34 48 34 48s21.79-.13 27.1-1.55c2.93-.78 4.64-3.26 5.42-6.19C67.94 34.95 68 24 68 24s-.06-10.95-1.48-16.26z" fill="red"/><path d="M45 24 27 14v20" fill="white"/></svg>');
+    filter: grayscale(100%);
+    transition: filter .1s cubic-bezier(0, 0, 0.2, 1);
+    border: none;
+}
+
+lite-youtube:hover > .lty-playbtn,
+lite-youtube .lty-playbtn:focus {
+    filter: none;
+
+}
+
+/* Post-click styles */
+lite-youtube.lyt-activated {
+    cursor: unset;
+    border-radius: 0px;
+}
+lite-youtube.lyt-activated::before,
+lite-youtube.lyt-activated > .lty-playbtn {
+    opacity: 0;
+    pointer-events: none;
+}
+
+.lyt-visually-hidden {
+    clip: rect(0 0 0 0);
+    clip-path: inset(50%);
+    height: 1px;
+    overflow: hidden;
+    position: absolute;
+    white-space: nowrap;
+    width: 1px;
+  }
+
+
+
 @media (min-width: 375px) {
   .eliminating {
     font-size: 4rem;
@@ -327,44 +439,45 @@ figure {
 
 }
 
-      @media (min-width: 600px) {
-        header {
-          display: flex;
-          justify-content: space-between;
+@media (min-width: 600px) {
+  header {
+    display: flex;
+    justify-content: space-between;
 
-        }
+  }
 
 
 
-        .nav {
+.nav {
 
-          ul {
-              display: flex;
+    ul {
+        display: flex;
 
-          li + li:before {
-              content: "|";
-              //padding: 0 10px;
-            padding: 0 10px;
-        }
+    li + li:before {
+        content: "|";
+        //padding: 0 10px;
+      padding: 0 10px;
+  }
 
-          }
-        }
-      }
+    }
+  }
+}
 
-      @media (prefers-color-scheme: dark) {
-        :root {
-          --color-background: #171717;
-          --color-text: #e3e3e3;
-          --color-code: #333;
-          --color-link: #9ed69f;
-          --color-hover: #{$border-color};
-          --color-visited: #93b695;
-        }
+@media (prefers-color-scheme: dark) {
+  :root {
+    --color-background: #171717;
+    --color-text: #e3e3e3;
+    --color-code: #333;
+    --color-gray: #333;
+    --color-link: #9ed69f;
+    --color-hover: #{$border-color};
+    --color-visited: #93b695;
+  }
 
-        .logo {
+  .logo {
 
-          filter: invert(98%) sepia(0%) saturate(0%) hue-rotate(140deg) brightness(98%) contrast(81%) opacity(1);
+    filter: invert(98%) sepia(0%) saturate(0%) hue-rotate(140deg) brightness(98%) contrast(81%) opacity(1);
 
-        }
+  }
 
-      }
+}

@@ -1,8 +1,8 @@
 {% set meta = get_image_metadata(path=path) %}
 
-{% if meta.width >= 2000 %}
-{% set width4 = 2000  | int %}
-{% set height4 = (meta.height * 2000) / meta.width | int %}
+{% if meta.width >= 2400 %}
+{% set width4 = 2400  | int %}
+{% set height4 = (meta.height * 2400) / meta.width | int %}
 
 {% set width3 = width4 / 2  | int %}
 {% set height3 = height4 / 2  | int %}
@@ -23,9 +23,9 @@
 
 {% endif %}
 
-{% if meta.width >= 1000 and meta.width < 2000 %}
-{% set width3 = 1000  | int %}
-{% set height3 = (meta.height * 1000) / meta.width | int %}
+{% if meta.width >= 1200 and meta.width < 2400 %}
+{% set width3 = 1200  | int %}
+{% set height3 = (meta.height * 1200) / meta.width | int %}
 {% set width2 = width3 / 2  | int %}
 {% set height2 = height3 / 2  | int %}
 {% set width1 = width3 / 4  | int %}
@@ -39,12 +39,12 @@
 <figcaption>{{ caption }}</figcaption>
     </figure>
 
-{% elif meta.width < 1000 %}
+{% elif meta.width < 1200 %}
 {% set width3 = meta.width | int %}
 {% set height3 = meta.height | int %}
 
-{% set width2 = 500 %}
-{% set height2 = 500 * meta.width / meta.height  | int %}
+{% set width2 = 600 %}
+{% set height2 = 600 * meta.width / meta.height  | int %}
 {% set width1 = width2 / 2  | int %}
 {% set height1 = height2 / 2  | int %}
 

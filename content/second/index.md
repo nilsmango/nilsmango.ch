@@ -46,6 +46,7 @@ Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliqu
 Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
 
 {{ image_sets(path="content/second/things2.jpg", format="auto", op="fit_width", quality=75, alt="some things lying around upside down", caption="This is a picture of things upside down and smaller.") }}
+{{ youtube(id="jkiJmhJ1KDQ", start="0") }}
 
 ## Fuck This
 This is where I fuck around.

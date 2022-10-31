@@ -12,9 +12,12 @@
   {% for page in section.pages | filter(attribute="taxonomies.categories") | slice(end=3)%}
 
   <li class="nobullets">
-    <a href="{{ page.permalink | safe }}">
-    <h3>{{ page.title }}</h3>
-</a>
+    
+      <a href="{{ page.permalink | safe }}">
+      <h3>{{ page.title }}</h3>
+      </a>
+
+
 
         <div class="article-info">
           {% if page.date %}

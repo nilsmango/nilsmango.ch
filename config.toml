@@ -30,9 +30,9 @@ highlight_code = true
 menu_items = [
     { name = "Home", url = "/" },
     { name = "About", url = "/about" },
-    { name = "Music", url = "/music" },
     { name = "Blog", url = "/blog" },
     { name = "Projects", url = "/projects" },
+    { name = "Music", url = "/music" },
     { name = "Now", url = "/now" },
 ]
 # Footer Navigation Items

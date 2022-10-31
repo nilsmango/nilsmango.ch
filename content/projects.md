@@ -8,10 +8,13 @@ This is where you will find all my projects.
 
 ## Art
 [Music](/music)  
-[Horrorscope](/horrorscope)  
+[Horrorscope](/horrorscope)
+
 When I grow up  
  Etc  
 
+## Design
+[ReUse](/reuse)
 
 ## Apps
 - Zetteli
