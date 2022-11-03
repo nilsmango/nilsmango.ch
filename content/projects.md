@@ -6,9 +6,14 @@ date = 2022-09-15
 
 This is where you will find all my projects.
 
+## Apps
+- Zetteli
+- Countli
+
 ## Art
-[Music](/music)  
-[Horrorscope](/horrorscope)
+- [Music](/music)
+- [Horrorscope](/horrorscope)
+- [Toilet Series](/toiletseries)
 
 When I grow up  
  Etc  
@@ -16,6 +21,6 @@ When I grow up
 ## Design
 [ReUse](/reuse)
 
-## Apps
-- Zetteli
-- Countli
+## Music
+[Music](/music)  
+Max For Live (Zum Tag linken?)

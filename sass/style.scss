@@ -100,6 +100,12 @@ code, pre {
 
 }
 
+kbd {
+  border-radius: 4px;
+  background-color: var(--color-code);
+  padding: 0.2rem 0.28rem;
+}
+
 
 
 .nav {
@@ -155,7 +161,9 @@ font-size: $font-size-bigger;
 .footernav {
   font-size: $font-size-bigger;
   margin-top: 70px;
-
+  img {
+    height:1rem;
+  }
   //border-top: solid 2px;
   //font-size: 18px;
   ul {
@@ -262,6 +270,46 @@ figure {
   line-height: 1.1rem;
 }
 
+hr {
+  border: 0;
+  border-top: 1px solid var(--color-text);
+  width: 45%;
+  text-align: left;
+  margin-left: 0;
+}
+
+.footnote-definition {
+
+}
+
+.customButton {
+  border-radius:10px;
+  padding:8px 12px;
+  background-color:var(--color-link);
+  //opacity:1;
+  transition:0.2s;
+  color: var(--color-background);
+  text-decoration: none;
+}
+.customButton:visited {
+  border-radius:10px;
+  padding:8px 12px;
+  background-color:var(--color-link);
+  //opacity:1;
+  transition:0.2s;
+  color: var(--color-background);
+  text-decoration: none;
+}
+
+.customButton:hover {
+  cursor:pointer;
+  background-color:var(--color-visited);
+  //opacity:0.9;
+  transition:0.2s;
+  color: var(--color-background);
+  text-decoration: none;
+}
+
 .post-dates {
   font-style: italic;
 }
@@ -273,6 +321,12 @@ figure {
 
 .divider {
   font-style: normal;
+}
+
+
+
+.footnote-definition p {
+  display: inline;
 }
 
 .footernav {
@@ -327,13 +381,15 @@ figure {
 
 .youtube {
   padding: 0em 0em;
-  padding-bottom: 1.2em;
+  padding-bottom: 1.5em;
 }
 
 .tvframe {
   width: 100%;
   margin: auto;
 }
+
+
 
 
 /*  lite-yt-stylesheet */
@@ -428,6 +484,7 @@ lite-youtube.lyt-activated > .lty-playbtn {
     line-height: 4rem;
   }
 
+
 }
 
 
@@ -437,6 +494,7 @@ lite-youtube.lyt-activated > .lty-playbtn {
     line-height: 5rem;
   }
 
+
 }
 
 @media (min-width: 600px) {
@@ -445,7 +503,9 @@ lite-youtube.lyt-activated > .lty-playbtn {
     justify-content: space-between;
 
   }
-
+  hr {
+      width: 33%;
+  }
 
 
 .nav {
@@ -478,6 +538,10 @@ lite-youtube.lyt-activated > .lty-playbtn {
 
     filter: invert(98%) sepia(0%) saturate(0%) hue-rotate(140deg) brightness(98%) contrast(81%) opacity(1);
 
+  }
+
+  .kofi {
+    filter: invert(100%) sepia(0%) saturate(100%) hue-rotate(180deg) brightness(90%) contrast(100%) opacity(1);
   }
 
 }
