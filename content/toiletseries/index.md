@@ -5,7 +5,7 @@ date = 2022-11-03
 +++
 The Toilet Series was conceptualized and realized from 2010 to 2011. In a profound and daring contemplation of thermodynamic effects, this work is using the medium of digital photography and toilets in a revolutionary manner, breaking with the status quo.  
 This series of digital images is open to the public for the first time in history, as requested by the artist. Nils Mango wishes to open this work's incalculable wisdom up to impregnate all humanity and let the power of the Toilet Series transform this universe and beyond into a place of eternal peace, knowledge, and love. The tone and soul of the photographs further convey a richness in emotional value unprecedented and make this series one of the best works by Nils Mango. To this day, this paradigm-changing work has a crucial effect on modern art.  
-The Toilet Series encapsulates 20 pictures shot on mobile phones. Let the following pixels on a screen change your life forever.
+The Toilet Series encapsulates 19 pictures shot on mobile phones. Let the following pixels on a screen change your life forever.
 
 {{ image_sets(path="content/toiletseries/DSC00521.JPG", format="auto", op="fit_width", quality=75, alt="Nils Mango sitting on a toilet 521", caption="521") }}
 
@@ -14,8 +14,6 @@ The Toilet Series encapsulates 20 pictures shot on mobile phones. Let the follow
 {{ image_sets(path="content/toiletseries/IMG_1011.jpg", format="auto", op="fit_width", quality=75, alt="Nils Mango sitting on a toilet 1011", caption="1011") }}
 
 {{ image_sets(path="content/toiletseries/IMG_1013.jpg", format="auto", op="fit_width", quality=75, alt="Nils Mango sitting on a toilet 1013", caption="1013") }}
-
-{{ image_sets(path="content/toiletseries/IMG_1030.jpg", format="auto", op="fit_width", quality=75, alt="Nils Mango sitting on a toilet 1030", caption="1030") }}
 
 {{ image_sets(path="content/toiletseries/IMG_1031.jpg", format="auto", op="fit_width", quality=75, alt="Nils Mango sitting on a toilet 1031", caption="1031") }}
 

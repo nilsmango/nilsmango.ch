@@ -110,7 +110,7 @@ kbd {
 
 .nav {
   font-size: $font-size-bigger;
-  margin-top: -6px;
+  margin-top: -3.3px;
   ul {
       margin: 0;
       list-style: none;
@@ -210,6 +210,11 @@ a:visited {
 
 // hier unten und oben noch verbessern, schauen auch andere themes! vor allem ob active in base auch so gemacht wird.
 
+blockquote {
+  margin-left: 0px;
+  padding-left: 15px;
+  border-left: 3px solid var(--color-link);
+}
 
 .eliminating {
   font-size: 3.5rem;
@@ -292,11 +297,6 @@ hr {
   text-decoration: none;
 }
 .customButton:visited {
-  border-radius:10px;
-  padding:8px 12px;
-  background-color:var(--color-link);
-  //opacity:1;
-  transition:0.2s;
   color: var(--color-background);
   text-decoration: none;
 }
@@ -354,8 +354,11 @@ hr {
 
 .logo:hover {
   animation: spin-it 5s linear infinite;
+  //filter: opacity(0.8);
 }
 // für dark mode einfach filter: invert(1); machen bei .logo
+
+
 
 @keyframes spin-it {
   0%, 10%, 10.7%, 25%, 25.6%, 30%, 30.7%, 40%, 40.6%, 80%, 80.6% {
@@ -389,7 +392,20 @@ hr {
   margin: auto;
 }
 
-
+/* YouTube iFrames */
+.wrap-element {
+  position: relative;
+  overflow: hidden;
+  padding-top: 56.25%;
+}
+.wrapped-iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border: 0;
+}
 
 
 /*  lite-yt-stylesheet */
@@ -402,7 +418,7 @@ lite-youtube {
     background-size: 100.5%;
     cursor: pointer;
     max-width: 600px;
-    border-radius: 20px;
+    //border-radius: 20px;
 }
 
 /* gradient */
@@ -497,7 +513,7 @@ lite-youtube.lyt-activated > .lty-playbtn {
 
 }
 
-@media (min-width: 600px) {
+@media (min-width: 550px) {
   header {
     display: flex;
     justify-content: space-between;
@@ -509,12 +525,11 @@ lite-youtube.lyt-activated > .lty-playbtn {
 
 
 .nav {
-
     ul {
         display: flex;
 
     li + li:before {
-        content: "|";
+        content: " ";
         //padding: 0 10px;
       padding: 0 10px;
   }
@@ -541,7 +556,9 @@ lite-youtube.lyt-activated > .lty-playbtn {
   }
 
   .kofi {
-    filter: invert(100%) sepia(0%) saturate(100%) hue-rotate(180deg) brightness(90%) contrast(100%) opacity(1);
+    filter: invert(68%) sepia(0%) saturate(140%) hue-rotate(180deg) brightness(100%) contrast(200%) opacity(0.8);
+
+
   }
 
 }

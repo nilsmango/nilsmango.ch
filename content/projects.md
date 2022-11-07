@@ -4,23 +4,19 @@ description = "Projects by Nils Mango"
 date = 2022-09-15
 +++
 
-This is where you will find all my projects.
+This is where you find all my projects.
 
 ## Apps
 - Zetteli
 - Countli
 
-## Art
+## Art & Design
 - [Music](/music)
-- [Horrorscope](/horrorscope)
-- [Toilet Series](/toiletseries)
+- Max For Live (Zum Tag linken?)
+- [megaduo / 2000000](/megaduo) (early works)
+- [ReUse](/reuse)
 
-When I grow up  
- Etc  
-
-## Design
-[ReUse](/reuse)
-
-## Music
-[Music](/music)  
-Max For Live (Zum Tag linken?)
+## Business
+- [Project7III](https://project7iii.com)
+  - [Molecule Store](https://moleculestore.com)
+  - [Birs73](https://birs73.ch)
