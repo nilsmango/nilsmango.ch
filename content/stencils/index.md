@@ -1,6 +1,6 @@
 +++
 title = "Stencils"
-description = "Stencil grafitti by Nils Mango"
+description = "Stencil graffiti by Nils Mango"
 date = 2022-11-06
 +++
 A collection of stencil graffiti. [megaduo / 2000000](/megaduo), Basel 2010-2012.

@@ -28,7 +28,5 @@ Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor 
 
 What below, nobody knows.
 
----
-[^1]: this is the footnote  <a href="#fnref:1">&#8617;</a>
-
-[^2]: the second footnote  <a href="#fnref:2">&#8617;</a>
+<div class="footnote-definition"><p><span id="1">1. <a href="#fnref:1" title="Jump back up">^</a> the first footnote</span><br>
+<span id="2">2. <a href="#fnref:2" title="Jump back up">^</a> the second footnote</span></p></div>

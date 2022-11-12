@@ -8,11 +8,10 @@
 <h2>Latest articles</h2>
 <p>View all <a href="/blog">articles</a></p>
 <ul class="posts">
-  <!-- If you are using pagination, section.pages will be empty. You need to use the paginator object -->
   {% for page in section.pages | filter(attribute="taxonomies.categories") | slice(end=3)%}
 
   <li class="nobullets">
-    
+
       <a href="{{ page.permalink | safe }}">
       <h3>{{ page.title }}</h3>
       </a>
@@ -34,15 +33,14 @@
 
         <div class="sum">
           {%- if page.summary %}
-            {{ page.summary | markdown(inline=true) | safe }} ...
+            {{ page.summary | markdown(inline=true) | safe }}...
           {%- elif page.description %}
-            {{ page.description | safe }}  ...
+            {{ page.description | safe }}...
           {%- elif page.content %}
             {{ page.content | striptags | truncate(length=64) | safe }}
           {%- endif %}
-
-
           </div>
+
 
       </li>
 

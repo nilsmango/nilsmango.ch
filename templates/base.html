@@ -6,7 +6,7 @@
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <meta name="theme-color"
       content="#fff" media="(prefers-color-scheme: light)">
-      <meta name="theme-color" content="#212121"
+      <meta name="theme-color" content="#171717"
          media="(prefers-color-scheme: dark)">
 
 
@@ -54,8 +54,11 @@
     {% endblock header %}
       {% block content %}
       {% endblock content %}
+      {%- block comments %}
+      {%- endblock comments %}
       {%- block pagination %}
       {%- endblock pagination %}
+
 
   {%- block footer %}
     <footer>

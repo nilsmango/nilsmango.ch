@@ -61,20 +61,29 @@
 {{ page.content | safe }}
 {% endblock content %}
 
+{%- block comments %}
+{% if page.taxonomies.categories %}
+<div class="comments">
+<p>Got questions, suggestions, comments, or just want to share this post?<br>
+→ <a href="https://twitter.com/share?text=Your+comment+or+whatever&via=nilsmango&url={{ page.permalink | safe }}" target="_blank" rel="noopener" title="Tweeting can be used for both commenting and sharing">Tweet</a> or <a href="mailto:senf@nilsmango.ch?subject={{ page.title }}" title="Please don't email me if you want to share this post, I am already familiar with the theme">email</a> me and I will add it to this post, if appropriate.
+</p>
+</div>
+{% endif %}
+{%- endblock comments %}
+
 {%- block pagination %}
+{% if page.taxonomies.categories %}
 <nav class="pagenav">
 <ul>
-  {% if page.taxonomies.categories %}
   {% if page.lower %}
   <li><a href="{{ page.lower.permalink }}">← {{ page.lower.title }}</a></li>
   {% endif %}
-  {% endif %}
-{% if page.taxonomies.categories %}
 {% if page.higher %}
 <li><a href="{{ page.higher.permalink }}">{{ page.higher.title }} →</a></li>
 {% endif %}
-{% endif %}
+
 
 </ul>
 </nav>
+{% endif %}
 {%- endblock pagination %}

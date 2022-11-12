@@ -11,10 +11,12 @@ This is where you find all my projects.
 - Countli
 
 ## Art & Design
+- [megaduo / 2000000](/megaduo) (2004-2013)
 - [Music](/music)
 - Max For Live (Zum Tag linken?)
-- [megaduo / 2000000](/megaduo) (early works)
 - [ReUse](/reuse)
+- [Project Selfie](https://youtu.be/Nv-Qcn4upus)
+- [YouTube](https://youtube.com/nilsmango) / [Videos](/tags/video)
 
 ## Business
 - [Project7III](https://project7iii.com)
