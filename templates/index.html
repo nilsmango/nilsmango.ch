@@ -6,18 +6,14 @@
 </h1>
 <p>Hi, my name is Nils Mango and I am trying to create things and eliminate errors.</p>
 <h2>Latest articles</h2>
-<p>View all <a href="/blog">articles</a></p>
+
 <ul class="posts">
   {% for page in section.pages | filter(attribute="taxonomies.categories") | slice(end=3)%}
 
   <li class="nobullets">
-
       <a href="{{ page.permalink | safe }}">
       <h3>{{ page.title }}</h3>
       </a>
-
-
-
         <div class="article-info">
           {% if page.date %}
           {% set reading_time = "page.reading_time" %}
@@ -47,4 +43,5 @@
 
   {% endfor %}
 </ul>
+<p class="viewall">→ View all <a href="/blog">articles</a></p>
 {% endblock content %}

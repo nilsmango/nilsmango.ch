@@ -2,6 +2,9 @@
 title = "Landscapes"
 description = "Landscape Photography by Nils Mango"
 date = 2022-11-04
+[extra]
+featured_image = "Dolomites Image010_11A.jpg"
+featured_image_alt = "Landscape image by Nils Mango"
 +++
 
 A collection of landscape photographs shot from 2004 to 2013. [megaduo / 2000000](/megaduo)

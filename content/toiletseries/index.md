@@ -2,6 +2,9 @@
 title = "Toilet Series"
 description = "The groundbreaking Toilet Series by Nils Mango"
 date = 2022-11-03
+[extra]
+featured_image = "IMG_1108.jpg"
+featured_image_alt = "Toilet Series"
 +++
 The Toilet Series was conceptualized and realized by [megaduo](/megaduo) in Basel, 2010-2011.  
 In a profound and daring contemplation of thermodynamic effects, this work is using the medium of digital photography and toilets in a revolutionary manner, breaking with the status quo.  

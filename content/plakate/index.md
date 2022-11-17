@@ -2,6 +2,9 @@
 title = "Plakate anbringen verboten"
 description = "Ihr Idioten. Geht nach Hause!"
 date = 2022-11-03
+[extra]
+featured_image = "IMG_3933.JPG"
+featured_image_alt = "Plakate anbringen verboten"
 +++
 German for "Post no bills. You idiots. Go home!" Plakate anbringe verboten. Ihr Idioten. Geht nach Hause!  
 Basel, January 2011. A two-man job. Artistic civil disobedience for [megaduo](/megaduo).

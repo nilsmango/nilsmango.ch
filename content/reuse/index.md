@@ -2,6 +2,9 @@
 title = "ReUse"
 description = "Turning waste into design."
 date = 2022-10-14
+[extra]
+featured_image = "IMG_6224.jpg"
+featured_image_alt = "Project ReUse"
 +++
 Project ReUse takes things that are not useful anymore, aka waste, and makes useful products, aka design out of them.
 Things created:

@@ -7,13 +7,13 @@ date = 2022-09-15
 This is where you find all my projects.
 
 ## Apps
-- Zetteli
-- Countli
+- Zetteli (coming soon)
+- Countli (coming soon)
 
 ## Art & Design
 - [megaduo / 2000000](/megaduo) (2004-2013)
 - [Music](/music)
-- Max For Live (Zum Tag linken?)
+- [Max for Live](/phonogeneli)
 - [ReUse](/reuse)
 - [Project Selfie](https://youtu.be/Nv-Qcn4upus)
 - [YouTube](https://youtube.com/nilsmango) / [Videos](/tags/video)

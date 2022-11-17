@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
+	<title>Nils Mango - SUP</title>
+	<subtitle>Creating things &amp; eliminating errors.</subtitle>
+	<link href="https://nilsmango.ch/tags/sup/atom.xml" rel="self" type="application/atom+xml"/>
+  <link href="https://nilsmango.ch"/>
+	<generator uri="https://www.getzola.org/">Zola</generator>
+	<updated>2022-11-16T00:00:00+00:00</updated>
+	<id>https://nilsmango.ch/tags/sup/atom.xml</id>
+	<entry xml:lang="en">
+		<title>SUP in Basel</title>
+		<published>2022-11-16T00:00:00+00:00</published>
+		<updated>2022-11-16T00:00:00+00:00</updated>
+		<link rel="alternate" href="https://nilsmango.ch/supbasel/" type="text/html"/>
+		<id>https://nilsmango.ch/supbasel/</id>
+		<content type="html">&lt;p&gt;I recently found old footage of myself standup paddleboarding in Basel. These drone shots were recorded for a promo video for &lt;a rel=&quot;noopener&quot; target=&quot;_blank&quot; href=&quot;https:&#x2F;&#x2F;project7iii.com&#x2F;birs73.html&quot;&gt;Birs73&lt;&#x2F;a&gt;, but I never came around to editing them into a short video.&lt;&#x2F;p&gt;
+&lt;p&gt;Better late than never: Tag along for a sundowner SUP tour from the Birsköpfli in Birsfelden down the Rhine first paddling under the Schwarzwaldbrücke, then the Wettsteinbrücke, passing by the Münster and tackling the Mittlere Brücke and beyond with a bonus lap around the &amp;quot;Fähri&amp;quot;. Basel, 2018-2019.&lt;&#x2F;p&gt;
+&lt;div class=&quot;youtube&quot;&gt;
+&lt;lite-youtube videoid=&quot;6q-K6hR3rOI&quot; playlabel=&quot;Play: Keynote (Google I&#x2F;O &#x27;18)&quot; class=&quot;tvframe&quot; params=&quot;start=0&amp;modestbranding=2&amp;autoplay=1&amp;rel=0&quot;&gt;&lt;&#x2F;lite-youtube&gt;
+&lt;script src=&quot;&#x2F;lite-yt-embed.js&quot;&gt;&lt;&#x2F;script&gt;
+&lt;&#x2F;div&gt;
+</content>
+	</entry>
+</feed>

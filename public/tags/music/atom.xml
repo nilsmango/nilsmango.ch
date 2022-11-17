@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
+	<title>Nils Mango - music</title>
+	<subtitle>Creating things &amp; eliminating errors.</subtitle>
+	<link href="https://nilsmango.ch/tags/music/atom.xml" rel="self" type="application/atom+xml"/>
+  <link href="https://nilsmango.ch"/>
+	<generator uri="https://www.getzola.org/">Zola</generator>
+	<updated>2022-11-17T00:00:00+00:00</updated>
+	<id>https://nilsmango.ch/tags/music/atom.xml</id>
+	<entry xml:lang="en">
+		<title>Phonogeneli 0.1</title>
+		<published>2022-11-17T00:00:00+00:00</published>
+		<updated>2022-11-17T00:00:00+00:00</updated>
+		<link rel="alternate" href="https://nilsmango.ch/phonogeneli/" type="text/html"/>
+		<id>https://nilsmango.ch/phonogeneli/</id>
+		<content type="html">&lt;p&gt;I have just released my first Max for Live device called Phonogeneli. It&#x27;s a quirky tape loop effect and a free download. Check the &lt;a href=&quot;https:&#x2F;&#x2F;nilsmango.ch&#x2F;phonogeneli&#x2F;#manual&quot;&gt;manual&lt;&#x2F;a&gt; below. The name comes from the Eurorack module that inspired this device called &lt;a rel=&quot;noopener&quot; target=&quot;_blank&quot; href=&quot;https:&#x2F;&#x2F;makenoisemusic.com&#x2F;modules&#x2F;phonogene-legacy&quot;&gt;Phonogene&lt;&#x2F;a&gt; + li, a suffix used for diminutivization in Swiss German.&lt;br &#x2F;&gt;
+This audio effect is capable to produce micro-sounds, many clicks, delays, and sound on sound.&lt;&#x2F;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure&gt;
+&lt;a href=&quot;https:&amp;#x2F;&amp;#x2F;nilsmango.ch&amp;#x2F;processed_images&amp;#x2F;d37385a7a3d23cf600.webp&quot; target=&quot;_blank&quot;&gt;
+&lt;img srcset=&quot;https:&amp;#x2F;&amp;#x2F;nilsmango.ch&amp;#x2F;processed_images&amp;#x2F;c165e5a64bb82f1600.webp 300w, https:&amp;#x2F;&amp;#x2F;nilsmango.ch&amp;#x2F;processed_images&amp;#x2F;30aa64519dafd61200.webp 600w, https:&amp;#x2F;&amp;#x2F;nilsmango.ch&amp;#x2F;processed_images&amp;#x2F;d37385a7a3d23cf600.webp 669w&quot; src=&quot;https:&amp;#x2F;&amp;#x2F;nilsmango.ch&amp;#x2F;processed_images&amp;#x2F;30aa64519dafd61200.webp&quot; alt=&quot;Max for Live device Phonogeneli 0.1 in action&quot; class=&quot;imgset&quot;&gt;
+&lt;&#x2F;a&gt;
+&lt;figcaption&gt;Phonogeneli 0.1 in action&lt;&#x2F;figcaption&gt;
+&lt;&#x2F;figure&gt;
+
+&lt;h2 id=&quot;demo&quot;&gt;Demo&lt;&#x2F;h2&gt;
+&lt;div class=&quot;youtube&quot;&gt;
+&lt;lite-youtube videoid=&quot;hAwjpJ3qLZA&quot; playlabel=&quot;Play: Keynote (Google I&#x2F;O &#x27;18)&quot; class=&quot;tvframe&quot; params=&quot;start=0&amp;modestbranding=2&amp;autoplay=1&amp;rel=0&quot;&gt;&lt;&#x2F;lite-youtube&gt;
+&lt;script src=&quot;&#x2F;lite-yt-embed.js&quot;&gt;&lt;&#x2F;script&gt;
+&lt;&#x2F;div&gt;
+&lt;h2 id=&quot;manual&quot;&gt;Manual&lt;&#x2F;h2&gt;
+&lt;h3 id=&quot;introduction&quot;&gt;Introduction&lt;&#x2F;h3&gt;
+&lt;p&gt;Phonogeneli is a tape loop effect inspired by Phonogene by Make Noise.&lt;br &#x2F;&gt;
+It is available for free &lt;a rel=&quot;noopener&quot; target=&quot;_blank&quot; href=&quot;https:&#x2F;&#x2F;maxforlive.com&#x2F;library&#x2F;device&#x2F;8507&#x2F;phonogeneli&quot;&gt;here&lt;&#x2F;a&gt;.&lt;br &#x2F;&gt;
+If you like this device and would like to buy me a beer, you can do so &lt;a rel=&quot;noopener&quot; target=&quot;_blank&quot; href=&quot;https:&#x2F;&#x2F;ko-fi.com&#x2F;nilsmango&quot;&gt;here&lt;&#x2F;a&gt;.&lt;&#x2F;p&gt;
+&lt;h3 id=&quot;waveform-display&quot;&gt;Waveform Display&lt;&#x2F;h3&gt;
+&lt;p&gt;The waveform display of Phonogeneli shows the audio recorded into the 7-second buffer. The blue line shows the value of LFO1, the orange line shows the value of LFO2. The yellow band indicates the loop region.&lt;&#x2F;p&gt;
+&lt;h3 id=&quot;buttons&quot;&gt;Buttons&lt;&#x2F;h3&gt;
+&lt;p&gt;&lt;kbd&gt;Rec&lt;&#x2F;kbd&gt; starts the recording. It will stop at the end of the buffer or loop.&lt;&#x2F;p&gt;
+&lt;p&gt;&lt;kbd&gt;LoopRec&lt;&#x2F;kbd&gt; changes that behavior. If active, recording will not stop at the end of the buffer or loop.&lt;&#x2F;p&gt;
+&lt;p&gt;If &lt;kbd&gt;Match&lt;&#x2F;kbd&gt; is active, then &lt;kbd&gt;Rec&lt;&#x2F;kbd&gt; will only record the length of the loop region. Next to &lt;kbd&gt;Match&lt;&#x2F;kbd&gt; is the percentage of how much longer the record length is in relationship to the loop region.&lt;&#x2F;p&gt;
+&lt;p&gt;&lt;kbd&gt;Stretch&lt;&#x2F;kbd&gt; activates pitch stretch mode with the corresponding Pitch dial below the button.&lt;&#x2F;p&gt;
+&lt;p&gt;&lt;kbd&gt;Direct&lt;&#x2F;kbd&gt; activates direct mode. When active, the Start dial changes won&#x27;t go through an anti-click ducking. Great if you want to externally modulate or automate the Start dial or if you like a more gritty loop region scrubbing (internal modulation bypasses the ducking).&lt;&#x2F;p&gt;
+&lt;h3 id=&quot;dials&quot;&gt;Dials&lt;&#x2F;h3&gt;
+&lt;p&gt;The Mix dial mixes the dry (input) and wet (tape loop) signals. Can be used creatively as what you hear is what gets recorded onto the tape.&lt;&#x2F;p&gt;
+&lt;p&gt;The Start dial sets the starting point of the tape loop region.&lt;&#x2F;p&gt;
+&lt;p&gt;The Length dial sets the length of the tape loop region.&lt;&#x2F;p&gt;
+&lt;p&gt;The Speed dial sets the speed of the tape loop.&lt;&#x2F;p&gt;
+&lt;p&gt;The Pitch dial sets the pitch of the tape loop if &lt;kbd&gt;Stretch&lt;&#x2F;kbd&gt; is active.&lt;&#x2F;p&gt;
+&lt;p&gt;The Gain dial sets the extra gain of the tape loop signal.&lt;&#x2F;p&gt;
+&lt;h3 id=&quot;modulation-matrix&quot;&gt;Modulation Matrix&lt;&#x2F;h3&gt;
+&lt;p&gt;Row one shows the modulation (unipolar) of the dial by LFO1, and row two by LFO2. Negative values are also accepted.&lt;&#x2F;p&gt;
+&lt;h3 id=&quot;lfo-s&quot;&gt;LFO&#x27;s&lt;&#x2F;h3&gt;
+&lt;p&gt;The functions are:&lt;&#x2F;p&gt;
+&lt;ol&gt;
+&lt;li&gt;Shape of the LFO waveform. Available Waveforms are: Sine, Saw Up, Saw Down, Triangle, Square, and Random.&lt;&#x2F;li&gt;
+&lt;li&gt;Time mode toggle. Toggles between Beat Sync and Free Running (Hz).&lt;&#x2F;li&gt;
+&lt;li&gt;The Rate dial sets the base rate of the LFO expressed in note values or Hz.&lt;&#x2F;li&gt;
+&lt;&#x2F;ol&gt;
+&lt;h3 id=&quot;tips-tricks&quot;&gt;Tips &amp;amp; Tricks&lt;&#x2F;h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Adding a limiter might be a good idea. Be aware that you might get a click-fest. Adding a reverb will make this beast an ambient wunderkind.&lt;&#x2F;li&gt;
+&lt;li&gt;Phonogeneli is fully integrated with Ableton Push.&lt;&#x2F;li&gt;
+&lt;li&gt;The audio buffer will not get saved when closing the project.&lt;&#x2F;li&gt;
+&lt;li&gt;Phonogeneli can play itself, which is both dangerous and fun!&lt;&#x2F;li&gt;
+&lt;li&gt;Try automating the &lt;kbd&gt;Rec&lt;&#x2F;kbd&gt; button!&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;p&gt;&lt;strong&gt;Known bugs:&lt;&#x2F;strong&gt; if you copy the device sometimes the loop doesn&#x27;t start. Moving the Start dial will help make the tape loop start again.&lt;&#x2F;p&gt;
+&lt;h2 id=&quot;version-license&quot;&gt;Version &amp;amp; License&lt;&#x2F;h2&gt;
+&lt;p&gt;Phonogeneli 0.1&lt;br &#x2F;&gt;
+Made by Nils Mango, Biel&#x2F;Bienne Switzerland 2022 - This work is licensed under a &lt;a rel=&quot;noopener&quot; target=&quot;_blank&quot; href=&quot;http:&#x2F;&#x2F;creativecommons.org&#x2F;licenses&#x2F;by-sa&#x2F;4.0&#x2F;&quot;&gt;Creative Commons Attribution-ShareAlike 4.0 International License&lt;&#x2F;a&gt;, except where otherwise noted.&lt;&#x2F;p&gt;
+</content>
+	</entry>
+	<entry xml:lang="en">
+		<title>Tenerife 2021</title>
+		<published>2022-11-15T00:00:00+00:00</published>
+		<updated>2022-11-15T00:00:00+00:00</updated>
+		<link rel="alternate" href="https://nilsmango.ch/tenerife2021/" type="text/html"/>
+		<id>https://nilsmango.ch/tenerife2021/</id>
+		<content type="html">&lt;p&gt;A short video diary from Tenerife with action from La Matanza to Puerto de la Cruz to Parque Nacional del Teide, down to El Médano, etc.&lt;br &#x2F;&gt;
+The &lt;a href=&quot;&#x2F;music&quot;&gt;music&lt;&#x2F;a&gt; was made on a plane to Tenerife.&lt;&#x2F;p&gt;
+&lt;div class=&quot;youtube&quot;&gt;
+&lt;lite-youtube videoid=&quot;s0mlevh0-8Q&quot; playlabel=&quot;Play: Keynote (Google I&#x2F;O &#x27;18)&quot; class=&quot;tvframe&quot; params=&quot;start=0&amp;modestbranding=2&amp;autoplay=1&amp;rel=0&quot;&gt;&lt;&#x2F;lite-youtube&gt;
+&lt;script src=&quot;&#x2F;lite-yt-embed.js&quot;&gt;&lt;&#x2F;script&gt;
+&lt;&#x2F;div&gt;
+</content>
+	</entry>
+</feed>

@@ -2,6 +2,9 @@
 title = "Stencils"
 description = "Stencil graffiti by Nils Mango"
 date = 2022-11-06
+[extra]
+featured_image = "IMG_0261.jpeg"
+featured_image_alt = "I love art stencil"
 +++
 A collection of stencil graffiti. [megaduo / 2000000](/megaduo), Basel 2010-2012.
 

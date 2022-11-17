@@ -2,6 +2,9 @@
 title = "selling out"
 description = "Trying to sell dumb ideas."
 date = 2022-11-06
+[extra]
+featured_image = "ghosts.jpg"
+featured_image_alt = "Ghosts"
 +++
 Funny flyers, t-shirts, and stupid ideas to sell t-shirts for [megaduo / 2000000](/megaduo). Basel 2010-2012.  
 [Plakate anbringen verboten](/plakate) & [mega chain letter](/kettenmegabrief) are also part of this collection. You can still find some crazy [videos](https://www.youtube.com/user/simxn) for the t-shirts I designed.
@@ -33,7 +36,8 @@ Funny flyers, t-shirts, and stupid ideas to sell t-shirts for [megaduo / 2000000
 
 {{ image_sets(path="content/sellingout/schwarz1.webp", format="auto", op="fit_width", quality=75, alt="Definition von schwarz auf schwarzem Hintergrund.", caption="Schwarz") }}
 
-{{ image_sets(path="content/sellingout/Herz Partnershirt.png", format="auto", op="fit_width", quality=75, alt="A couple standing close with their t-shirts forming a heart.", caption="Heart partner t-shirt") }}
+<p id="herz"></p>
+{{ image_sets(path="content/sellingout/Herz Partnershirt.png", format="jpg", op="fit_width", quality=75, alt="A couple standing close with their t-shirts forming a heart.", caption="Heart partner t-shirt") }}
 
 {{ image_sets(path="content/sellingout/IMG_0583.JPG", format="auto", op="fit_width", quality=75, alt="A t-shirt with burn marks featuring a flamethrower and the caption: IGNITE MY LOVE.", caption="IGNITE MY LOVE t-shirt") }}
 

@@ -2,6 +2,9 @@
 title = "Wenn ich einmal Gross bin"
 description = "Wenn ich einmal Gross bin by Nils Mango"
 date = 2022-11-07
+[extra]
+featured_image = "IMG_5081.JPG"
+featured_image_alt = "Wenn ich einmal Gross bin"
 +++
 
 Eine Auseinandersetzung von digitaler zu analoger Fotografie, Fragmentieren und Street Art in Basel, 2011.  

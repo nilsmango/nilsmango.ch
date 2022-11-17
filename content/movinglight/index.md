@@ -2,6 +2,9 @@
 title = "Moving Light Series"
 description = "Contemplation of light and body shapes."
 date = 2022-11-04
+[extra]
+featured_image = "s1.jpg"
+featured_image_alt = "Moving light image"
 +++
 A study of light and body shapes.  
 Eine Auseinandersetzung mit Licht und dem menschlichen Körper.  

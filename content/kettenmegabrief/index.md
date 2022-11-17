@@ -2,6 +2,9 @@
 title = "ketten mega brief"
 description = "Ein Kettenbrief by Nils Mango."
 date = 2022-10-14
+[extra]
+featured_image = "guerillawerbung.jpg"
+featured_image_alt = "Guerillawerbung"
 +++
 A chain letter for [megaduo](/megaduo). Basel, 2010.
 {{ image_sets(path="content/kettenmegabrief/guerillawerbung.jpg", format="auto", op="fit_width", quality=75, alt="Bundesamt für Guerillawerbung", caption="") }}

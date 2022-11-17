@@ -77,9 +77,13 @@
 <ul>
   {% if page.lower %}
   <li><a href="{{ page.lower.permalink }}">← {{ page.lower.title }}</a></li>
+  {% else %}
+  <li></li>
   {% endif %}
 {% if page.higher %}
+{% if page.higher.taxonomies.categories %}
 <li><a href="{{ page.higher.permalink }}">{{ page.higher.title }} →</a></li>
+{% endif %}
 {% endif %}
 
 
