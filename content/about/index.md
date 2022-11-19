@@ -61,7 +61,7 @@ Made my next steps in programming, playing around with some Processing sketches.
 <figcaption>Nils Mango in 2013.</figcaption>
 </figure>
 
-**2014** Had enough of Basel, went almost homeless, and eventually moved to Flüh. Made a lot of music, started a new band <a href="https://vogesentapesessionscollective.bandcamp.com" target="_blank" rel="noopener">Vogesen Tape Sessions Collective</a>, recorded live sets Part I + II, continued to try to learn to program with processing and went surfing in France and Portugal.
+**2014** Had enough of Basel, went almost homeless, and eventually moved to Flüh. Made a lot of music, started a new band <a href="https://vogesentapesessionscollective.bandcamp.com" target="_blank" rel="noopener">Vogesen Tape Sessions Collective</a>, recorded live sets Part I + II, continued to try to learn to program with processing and went surfing in France and Portugal. Met my significant other. Not a bad year.
 
 **2015** Moved back to civilization (Blätzbums). Went to Tenerife for the first time. Worked on growing Molecule Store. Music: <a href="https://nilsmango.bandcamp.com/album/not-an-album-15" target="_blank">Not An Album 15</a>
 
