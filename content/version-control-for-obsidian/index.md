@@ -11,6 +11,7 @@ featured_image_alt = "Obsidian Version Control"
 +++
 
 Idea: Implement version control for my [Obsidian](https://obsidian.md) Vault stored in my iCloud Documents.
+
 Inspiration: The book [The Pragmatic Programmer](https://pragprog.com/titles/tpp20/the-pragmatic-programmer-20th-anniversary-edition/) encouraged me to implement version control for all of my work and to learn Shell for automation purposes.
 
 I thought, "How hard could it be?" - and voilà, after only one full day of work and swearing, I was able to successfully automate version control for my Obsidian Vault.
