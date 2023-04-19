@@ -63,7 +63,7 @@
     </url>
     <url>
         <loc>https://nilsmango.ch/phonogeneli/</loc>
-        <lastmod>2022-11-17</lastmod>
+        <lastmod>2022-11-23</lastmod>
     </url>
     <url>
         <loc>https://nilsmango.ch/plakate/</loc>
@@ -112,6 +112,9 @@
         <loc>https://nilsmango.ch/tags/obsidian/</loc>
     </url>
     <url>
+        <loc>https://nilsmango.ch/tags/shell/</loc>
+    </url>
+    <url>
         <loc>https://nilsmango.ch/tags/sup/</loc>
     </url>
     <url>
@@ -130,6 +133,10 @@
     <url>
         <loc>https://nilsmango.ch/toiletseries/</loc>
         <lastmod>2022-11-03</lastmod>
+    </url>
+    <url>
+        <loc>https://nilsmango.ch/version-control-for-obsidian/</loc>
+        <lastmod>2023-04-19</lastmod>
     </url>
     <url>
         <loc>https://nilsmango.ch/wennichgrossbin/</loc>

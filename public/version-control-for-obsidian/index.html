@@ -1,0 +1,352 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <meta name="theme-color"
+      content="#fff" media="(prefers-color-scheme: light)">
+      <meta name="theme-color" content="#171717"
+         media="(prefers-color-scheme: dark)">
+
+
+  <title>Version Control for Obsidian - Nils Mango</title>
+  <!-- Favicon -->
+<link rel="apple-touch-icon" sizes="180x180" href="/favi/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="/favi/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/favi/favicon-16x16.png">
+<link rel="manifest" href="/favi/site.webmanifest">
+<!-- RSS Feed -->
+
+    <link rel="alternate" type="application/atom+xml" title="RSS" href="https://nilsmango.ch/atom.xml">
+    
+<!-- Share things -->
+
+    
+    <meta name="author" content="Nils Mango">
+    <meta property="og:title" content="Version Control for Obsidian">
+    
+    <meta property="og:type" content="article">
+    <meta property="article:published_time" content="2023-04-19">
+    
+    
+    <meta property="article:tag" content="obsidian">
+    
+    <meta property="article:tag" content="journaling">
+    
+    <meta property="article:tag" content="writing">
+    
+    <meta property="article:tag" content="shell">
+    
+    
+    
+    
+    <meta property="og:url" content="https://nilsmango.ch/version-control-for-obsidian/">
+    
+    
+    <meta property="og:image" content="https://nilsmango.ch/version-control-for-obsidian/versioncontrol.png">
+    
+    <meta property="og:image:alt" content="Obsidian Version Control">
+    
+    
+    
+    <meta property="og:description" content="An automatic version control for Obsidian in 3 easy steps  ...">
+
+  <!-- My CSS -->
+  <link rel="stylesheet" href="https:&#x2F;&#x2F;nilsmango.ch/style.css">
+</head>
+
+<body>
+  <section class="section">
+    <div class="container">
+      
+
+    <header>
+            <a href="https:&#x2F;&#x2F;nilsmango.ch"><img src="/zeichen73x150.svg" alt="Nils Mango Zeichen" class="logo"></a>
+
+        <nav class="nav">
+            <ul class="nav-list">
+            
+            
+                
+                <li class="nav-item"><a  href="&#x2F;about">About</a></li>
+            
+                
+                <li class="nav-item"><a  href="&#x2F;blog">Blog</a></li>
+            
+                
+                <li class="nav-item"><a  href="&#x2F;projects">Projects</a></li>
+            
+                
+                <li class="nav-item"><a  href="&#x2F;music">Music</a></li>
+            
+                
+                <li class="nav-item"><a  href="&#x2F;now">Now</a></li>
+            
+
+            
+            </ul>
+        </nav>
+    </header>
+    
+      
+<h1 class="title">
+  Version Control for Obsidian
+</h1>
+
+<p><span class="post-dates">Posted on <time datetime="2023-04-19T00:00:00+00:00">April 19, 2023</time></span>
+
+
+<span class="divider">|</span>
+ <a href="https://nilsmango.ch/tags/obsidian/">#obsidian</a>
+
+ <a href="https://nilsmango.ch/tags/journaling/">#journaling</a>
+
+ <a href="https://nilsmango.ch/tags/writing/">#writing</a>
+
+ <a href="https://nilsmango.ch/tags/shell/">#shell</a>
+
+
+</p>
+
+<p>Idea: Implement version control for my <a rel="noopener" target="_blank" href="https://obsidian.md">Obsidian</a> Vault stored in my iCloud Documents.
+Inspiration: The book <a rel="noopener" target="_blank" href="https://pragprog.com/titles/tpp20/the-pragmatic-programmer-20th-anniversary-edition/">The Pragmatic Programmer</a> encouraged me to implement version control for all of my work and to learn Shell for automation purposes.</p>
+<p>I thought, &quot;How hard could it be?&quot; - and voilà, after only one full day of work and swearing, I was able to successfully automate version control for my Obsidian Vault.</p>
+<h2 id="the-plan">The Plan</h2>
+<ol>
+<li>Make a new older on your MacBook called <code>Version Control Obsidian</code>, copy your vault into this folder.</li>
+<li>Put that folder under version control via Git and GitHub</li>
+<li>Copy your Vault Folder in iCloud Documents to that <code>Version Control Obsidian</code> folder and commit changes and push to a private GitHub repository with a launchd job of a shell script once a day.</li>
+</ol>
+<h2 id="the-execution">The Execution</h2>
+<p>Because of safety measures in MacOS launchd jobs can't get access to the Documents, Downloads, and other folders. So we have to create an Automator app which will then get access to the Documents folder and can <code>cp</code> the files and commit etc.</p>
+<h3 id="1-the-script">1. The Script</h3>
+<pre data-lang="shell" style="background-color:#2b303b;color:#c0c5ce;" class="language-shell "><code class="language-shell" data-lang="shell"><span>#!/bin/bash
+</span><span>cp -R /Users/simxn/Library/Mobile\ Documents/iCloud~md~obsidian/Documents /Users/simxn/Documents/Version\ Control\ Obsidian &amp;&amp; cd /Users/simxn/Documents/Version\ Control\ Obsidian &amp;&amp; git add . &amp;&amp; git commit -m &quot;daily commit $(date +&#39;%Y-%m-%d&#39;)&quot; &amp;&amp; git push
+</span></code></pre>
+<p>Make it executable: <code>chmod +x daily-commit.sh</code></p>
+<h3 id="2-the-automator-app">2. The Automator App</h3>
+<p>Source: <a rel="noopener" target="_blank" href="https://stackoverflow.com/a/59350529/21681219">Stack Overflow answer by Steven Oxley</a></p>
+<ul>
+<li>
+<p>Create an Automator application</p>
+<ul>
+<li>Open <strong>Automator</strong></li>
+<li>Click <strong>New Document</strong></li>
+<li>Select <strong>Application</strong></li>
+<li>Click <strong>Choose</strong></li>
+<li>Select <strong>Utilities &gt; Run Shell Script</strong></li>
+<li>Select <strong>Pass Input: as arguments</strong></li>
+<li>Enter <code>/bin/bash -c &quot;$1&quot;</code> as the body of the script (see screenshot below)</li>
+<li>Click <strong>File &gt; Save</strong> and save the application wherever you'd like (<code>run-script.app</code> in this example)</li>
+</ul>
+</li>
+<li>
+<p>Next, run the application that was just created manually to make sure it has the permissions it needs (you need also grant <strong>Full Disk Access</strong> to the new application in <strong>Security &amp; Privacy</strong>, (in my case even Automator needed <strong>Full Disk Access</strong>))</p>
+<ul>
+<li>Open <strong>Terminal</strong></li>
+<li>Execute command:</li>
+</ul>
+<p><code>open -a run-script.app /Users/simxn/scripts/daily-commit.sh</code></p>
+<ul>
+<li>Click <strong>Allow</strong> when macOS asks if the application can access your Desktop</li>
+</ul>
+</li>
+</ul>
+<p>Screenshots:
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<figure>
+<a href="https:&#x2F;&#x2F;nilsmango.ch&#x2F;processed_images&#x2F;bd0c6118e0125c3c00.jpg" target="_blank">
+<img srcset="https:&#x2F;&#x2F;nilsmango.ch&#x2F;processed_images&#x2F;3d5509e5922da22a00.jpg 300w, https:&#x2F;&#x2F;nilsmango.ch&#x2F;processed_images&#x2F;be759f6fcd461e5300.jpg 600w, https:&#x2F;&#x2F;nilsmango.ch&#x2F;processed_images&#x2F;bd0c6118e0125c3c00.jpg 1073w" src="https:&#x2F;&#x2F;nilsmango.ch&#x2F;processed_images&#x2F;be759f6fcd461e5300.jpg" alt="Screenshot of Automator App" class="imgset">
+</a>
+<figcaption>Select Application</figcaption>
+</figure>
+
+</p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<figure>
+<a href="https:&#x2F;&#x2F;nilsmango.ch&#x2F;processed_images&#x2F;c486c8179f4884b700.jpg" target="_blank">
+<img srcset="https:&#x2F;&#x2F;nilsmango.ch&#x2F;processed_images&#x2F;f531d012a9b6fb9800.jpg 300w, https:&#x2F;&#x2F;nilsmango.ch&#x2F;processed_images&#x2F;dc4a8833eced433800.jpg 600w, https:&#x2F;&#x2F;nilsmango.ch&#x2F;processed_images&#x2F;0078bd62050d9b3800.jpg 1200w, , https:&#x2F;&#x2F;nilsmango.ch&#x2F;processed_images&#x2F;c486c8179f4884b700.jpg 2400w" src="https:&#x2F;&#x2F;nilsmango.ch&#x2F;processed_images&#x2F;dc4a8833eced433800.jpg" alt="Screenshot of Automator App" class="imgset">
+</a>
+<figcaption>Select Pass Input: as arguments</figcaption>
+    </figure>
+
+
+
+
+<h3 id="3-the-launchd-job">3. The Launchd Job</h3>
+<pre data-lang="xml" style="background-color:#2b303b;color:#c0c5ce;" class="language-xml "><code class="language-xml" data-lang="xml"><span>&lt;?</span><span style="color:#bf616a;">xml </span><span style="color:#d08770;">version</span><span>=&quot;</span><span style="color:#a3be8c;">1.0</span><span>&quot; </span><span style="color:#d08770;">encoding</span><span>=&quot;</span><span style="color:#a3be8c;">UTF-8</span><span>&quot;?&gt;
+</span><span>
+</span><span>&lt;!</span><span style="color:#b48ead;">DOCTYPE </span><span style="color:#bf616a;">plist </span><span style="color:#b48ead;">PUBLIC </span><span>&quot;</span><span style="color:#a3be8c;">-//Apple//DTD PLIST 1.0//EN</span><span>&quot;
+</span><span>
+</span><span>&quot;</span><span style="color:#a3be8c;">http://www.apple.com/DTDs/PropertyList-1.0.dtd</span><span>&quot;&gt;
+</span><span>
+</span><span>&lt;</span><span style="color:#bf616a;">plist </span><span style="color:#d08770;">version</span><span>=&quot;</span><span style="color:#a3be8c;">1.0</span><span>&quot;&gt;
+</span><span>
+</span><span>&lt;</span><span style="color:#bf616a;">dict</span><span>&gt;
+</span><span>
+</span><span>&lt;</span><span style="color:#bf616a;">key</span><span>&gt;Label&lt;/</span><span style="color:#bf616a;">key</span><span>&gt;
+</span><span>
+</span><span>&lt;</span><span style="color:#bf616a;">string</span><span>&gt;com.project7iii.daily-commit&lt;/</span><span style="color:#bf616a;">string</span><span>&gt;
+</span><span>
+</span><span>&lt;</span><span style="color:#bf616a;">key</span><span>&gt;ProgramArguments&lt;/</span><span style="color:#bf616a;">key</span><span>&gt;
+</span><span>
+</span><span>&lt;</span><span style="color:#bf616a;">array</span><span>&gt;
+</span><span>
+</span><span>&lt;</span><span style="color:#bf616a;">string</span><span>&gt;open&lt;/</span><span style="color:#bf616a;">string</span><span>&gt;
+</span><span>
+</span><span>&lt;</span><span style="color:#bf616a;">string</span><span>&gt;-a&lt;/</span><span style="color:#bf616a;">string</span><span>&gt;
+</span><span>
+</span><span>&lt;</span><span style="color:#bf616a;">string</span><span>&gt;/Users/simxn/scripts/run-script.app&lt;/</span><span style="color:#bf616a;">string</span><span>&gt;
+</span><span>
+</span><span>&lt;</span><span style="color:#bf616a;">string</span><span>&gt;/Users/simxn/scripts/daily-commit.sh&lt;/</span><span style="color:#bf616a;">string</span><span>&gt;
+</span><span>
+</span><span>&lt;/</span><span style="color:#bf616a;">array</span><span>&gt;
+</span><span>
+</span><span>&lt;</span><span style="color:#bf616a;">key</span><span>&gt;StartCalendarInterval&lt;/</span><span style="color:#bf616a;">key</span><span>&gt;
+</span><span>
+</span><span>&lt;</span><span style="color:#bf616a;">dict</span><span>&gt;
+</span><span>
+</span><span>&lt;</span><span style="color:#bf616a;">key</span><span>&gt;Hour&lt;/</span><span style="color:#bf616a;">key</span><span>&gt;
+</span><span>
+</span><span>&lt;</span><span style="color:#bf616a;">integer</span><span>&gt;14&lt;/</span><span style="color:#bf616a;">integer</span><span>&gt;
+</span><span>
+</span><span>&lt;</span><span style="color:#bf616a;">key</span><span>&gt;Minute&lt;/</span><span style="color:#bf616a;">key</span><span>&gt;
+</span><span>
+</span><span>&lt;</span><span style="color:#bf616a;">integer</span><span>&gt;6&lt;/</span><span style="color:#bf616a;">integer</span><span>&gt;
+</span><span>
+</span><span>&lt;/</span><span style="color:#bf616a;">dict</span><span>&gt;
+</span><span>
+</span><span>&lt;</span><span style="color:#bf616a;">key</span><span>&gt;StandardErrorPath&lt;/</span><span style="color:#bf616a;">key</span><span>&gt;
+</span><span>
+</span><span>&lt;</span><span style="color:#bf616a;">string</span><span>&gt;/tmp/com.project7iii.daily-commit.err&lt;/</span><span style="color:#bf616a;">string</span><span>&gt;
+</span><span>
+</span><span>&lt;</span><span style="color:#bf616a;">key</span><span>&gt;StandardOutPath&lt;/</span><span style="color:#bf616a;">key</span><span>&gt;
+</span><span>
+</span><span>&lt;</span><span style="color:#bf616a;">string</span><span>&gt;/tmp/com.project7iii.daily-commit.out&lt;/</span><span style="color:#bf616a;">string</span><span>&gt;
+</span><span>
+</span><span>&lt;/</span><span style="color:#bf616a;">dict</span><span>&gt;
+</span><span>
+</span><span>&lt;/</span><span style="color:#bf616a;">plist</span><span>&gt;
+</span></code></pre>
+<p>Making the document: </p>
+<pre style="background-color:#2b303b;color:#c0c5ce;"><code><span>nano ~/Library/LaunchAgents/com.project7iii.daily-commit.plist
+</span></code></pre>
+<p>Loading the launchd job: </p>
+<pre style="background-color:#2b303b;color:#c0c5ce;"><code><span>launchctl load ~/Library/LaunchAgents/com.project7iii.daily-commit.plist
+</span></code></pre>
+
+
+
+<div class="comments">
+<p>Got questions, suggestions, comments, or just want to share this post?<br>
+→ <a href="https://twitter.com/share?text=Your+comment+or+whatever&via=nilsmango&url=https://nilsmango.ch/version-control-for-obsidian/" target="_blank" rel="noopener" title="Tweeting can be used for both commenting and sharing">Tweet</a> or <a href="mailto:senf@nilsmango.ch?subject=Version Control for Obsidian" title="Please don't email me if you want to share this post, I am already familiar with the theme">email</a> me and I will add it to this post, if appropriate.
+</p>
+</div>
+
+
+<nav class="pagenav">
+<ul>
+  
+  <li></li>
+  
+
+
+<li><a href="https:&#x2F;&#x2F;nilsmango.ch&#x2F;phonogeneli&#x2F;">Phonogeneli 0.1 →</a></li>
+
+
+
+
+</ul>
+</nav>
+
+    <footer>
+        <nav class="footernav">
+          <ul class="footernav-list">
+          
+          
+          
+            <li class="footernav-item"><a   href="&#x2F;privacy">Privacy </a> </li>
+            
+            
+          
+          
+            <li class="footernav-item"><a   href="&#x2F;contact">Contact </a> </li>
+            
+            
+          
+          
+            <li class="footernav-item"><a   href="&#x2F;atom.xml">Feed </a> </li>
+            
+            
+          
+          
+            <li class="footernav-item"><a   href="&#x2F;tags">Tags </a> </li>
+            
+            
+          
+          
+            <li class="footernav-item"><a  target="_blank" rel="noopener" href="https:&#x2F;&#x2F;twitter.com&#x2F;nilsmango">Twitter </a> </li>
+            
+            
+          
+          
+            <li class="footernav-item"><a  target="_blank" rel="noopener" href="https:&#x2F;&#x2F;www.youtube.com&#x2F;nilsmango">YouTube </a> </li>
+            
+            
+          
+          
+            <li class="footernav-item"><a  target="_blank" rel="noopener" href="https:&#x2F;&#x2F;www.instagram.com&#x2F;nilsmango&#x2F;">Instagram </a> </li>
+            
+            
+          
+          
+            <li class="footernav-item"><a  target="_blank" rel="noopener" href="https:&#x2F;&#x2F;github.com&#x2F;nilsmango">GitHub </a> </li>
+            
+            
+          
+          
+            <li class="footernav-item"><a href="https:&#x2F;&#x2F;ko-fi.com&#x2F;nilsmango" target="_blank"><img src="/ko-fi.svg" alt="Buy me a Ko-fi" class="kofi"></a> </li>
+          
+            
+          </ul>
+        </nav>
+
+  <p class="copyright">This 🥭 thought factory is powered by <a href="https://www.getzola.org/" target="_blank" rel="noopener">Zola</a> | Except where otherwise noted, content on this site is licensed under <a href="https://creativecommons.org/licenses/by-sa/4.0/" target="_blank" rel="noopener">CC BY-SA 4.0</a>.</p>
+    </footer>
+</div>
+</section>
+</body>
+
+</html>

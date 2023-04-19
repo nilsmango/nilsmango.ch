@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
-	<title>Nils Mango - journaling</title>
+	<title>Nils Mango - shell</title>
 	<subtitle>Creating things &amp; eliminating errors.</subtitle>
-	<link href="https://nilsmango.ch/tags/journaling/atom.xml" rel="self" type="application/atom+xml"/>
+	<link href="https://nilsmango.ch/tags/shell/atom.xml" rel="self" type="application/atom+xml"/>
   <link href="https://nilsmango.ch"/>
 	<generator uri="https://www.getzola.org/">Zola</generator>
 	<updated>2023-04-19T00:00:00+00:00</updated>
-	<id>https://nilsmango.ch/tags/journaling/atom.xml</id>
+	<id>https://nilsmango.ch/tags/shell/atom.xml</id>
 	<entry xml:lang="en">
 		<title>Version Control for Obsidian</title>
 		<published>2023-04-19T00:00:00+00:00</published>
@@ -170,77 +170,6 @@ Inspiration: The book &lt;a rel=&quot;noopener&quot; target=&quot;_blank&quot; h
 &lt;p&gt;Loading the launchd job: &lt;&#x2F;p&gt;
 &lt;pre style=&quot;background-color:#2b303b;color:#c0c5ce;&quot;&gt;&lt;code&gt;&lt;span&gt;launchctl load ~&#x2F;Library&#x2F;LaunchAgents&#x2F;com.project7iii.daily-commit.plist
 &lt;&#x2F;span&gt;&lt;&#x2F;code&gt;&lt;&#x2F;pre&gt;
-</content>
-	</entry>
-	<entry xml:lang="en">
-		<title>Journaling</title>
-		<published>2022-11-14T00:00:00+00:00</published>
-		<updated>2022-11-14T00:00:00+00:00</updated>
-		<link rel="alternate" href="https://nilsmango.ch/journaling/" type="text/html"/>
-		<id>https://nilsmango.ch/journaling/</id>
-		<content type="html">&lt;p&gt;I started journaling and keeping notes in 2020. I think this is a must for anybody, especially knowledge workers. I write down how much time I spend on what in my daily note (my journal), followed by thoughts and ideas, how my health is doing, which of the things I want to do every day (habits) I actually did, and how much and what I trained that day.
-I use &lt;a rel=&quot;noopener&quot; target=&quot;_blank&quot; href=&quot;https:&#x2F;&#x2F;obsidian.md&quot;&gt;Obsidian&lt;&#x2F;a&gt; for this and all my other notes. I chose Obsidian because it saves everything in markdown files, allows for linking, shows backlinks, has nice macOS and iOS apps, and syncing via iCloud is simple and works great so far!&lt;&#x2F;p&gt;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-&lt;figure&gt;
-&lt;a href=&quot;https:&amp;#x2F;&amp;#x2F;nilsmango.ch&amp;#x2F;processed_images&amp;#x2F;367cd021ce8c22f200.webp&quot; target=&quot;_blank&quot;&gt;
-&lt;img srcset=&quot;https:&amp;#x2F;&amp;#x2F;nilsmango.ch&amp;#x2F;processed_images&amp;#x2F;89124f3adb82a36e00.webp 300w, https:&amp;#x2F;&amp;#x2F;nilsmango.ch&amp;#x2F;processed_images&amp;#x2F;c34044281378e8fd00.webp 600w, https:&amp;#x2F;&amp;#x2F;nilsmango.ch&amp;#x2F;processed_images&amp;#x2F;367cd021ce8c22f200.webp 1200w&quot; src=&quot;https:&amp;#x2F;&amp;#x2F;nilsmango.ch&amp;#x2F;processed_images&amp;#x2F;c34044281378e8fd00.webp&quot; alt=&quot;The app Obsidian open at a daily journal&quot; class=&quot;imgset&quot;&gt;
-&lt;&#x2F;a&gt;
-&lt;figcaption&gt;My daily journal in Obsidian.&lt;&#x2F;figcaption&gt;
-&lt;&#x2F;figure&gt;
-
-
-&lt;p&gt;My daily note template looks something like this:&lt;&#x2F;p&gt;
-&lt;pre data-lang=&quot;markdown&quot; style=&quot;background-color:#2b303b;color:#c0c5ce;&quot; class=&quot;language-markdown &quot;&gt;&lt;code class=&quot;language-markdown&quot; data-lang=&quot;markdown&quot;&gt;&lt;span style=&quot;color:#8fa1b3;&quot;&gt;# {{title}} - {{date: dddd}}
-&lt;&#x2F;span&gt;&lt;span&gt;
-&lt;&#x2F;span&gt;&lt;span&gt;Year: [[{{date:YYYY}}]]
-&lt;&#x2F;span&gt;&lt;span&gt;Place:
-&lt;&#x2F;span&gt;&lt;span&gt;Yesterday:
-&lt;&#x2F;span&gt;&lt;span&gt;Tomorrow:
-&lt;&#x2F;span&gt;&lt;span&gt;Weight:
-&lt;&#x2F;span&gt;&lt;span&gt;
-&lt;&#x2F;span&gt;&lt;span style=&quot;color:#8fa1b3;&quot;&gt;## Done Today
-&lt;&#x2F;span&gt;&lt;span&gt;
-&lt;&#x2F;span&gt;&lt;span&gt;
-&lt;&#x2F;span&gt;&lt;span style=&quot;color:#8fa1b3;&quot;&gt;## Thoughts &amp;amp; Ideas
-&lt;&#x2F;span&gt;&lt;span&gt;
-&lt;&#x2F;span&gt;&lt;span&gt;
-&lt;&#x2F;span&gt;&lt;span style=&quot;color:#8fa1b3;&quot;&gt;## Tracking
-&lt;&#x2F;span&gt;&lt;span style=&quot;color:#8fa1b3;&quot;&gt;### Health
-&lt;&#x2F;span&gt;&lt;span&gt;Healthy &#x2F; Sick
-&lt;&#x2F;span&gt;&lt;span&gt;
-&lt;&#x2F;span&gt;&lt;span style=&quot;color:#8fa1b3;&quot;&gt;### Habits
-&lt;&#x2F;span&gt;&lt;span style=&quot;color:#bf616a;&quot;&gt;- [ ] Meditation
-&lt;&#x2F;span&gt;&lt;span style=&quot;color:#bf616a;&quot;&gt;- [ ] Music
-&lt;&#x2F;span&gt;&lt;span style=&quot;color:#bf616a;&quot;&gt;- [ ] Reading
-&lt;&#x2F;span&gt;&lt;span style=&quot;color:#bf616a;&quot;&gt;- [ ] Programing &#x2F; Creating
-&lt;&#x2F;span&gt;&lt;span style=&quot;color:#bf616a;&quot;&gt;- [ ] Having done something today if I died tomorrow
-&lt;&#x2F;span&gt;&lt;span style=&quot;color:#bf616a;&quot;&gt;
-&lt;&#x2F;span&gt;&lt;span style=&quot;color:#8fa1b3;&quot;&gt;### Training
-&lt;&#x2F;span&gt;&lt;span&gt;0 minutes
-&lt;&#x2F;span&gt;&lt;span&gt;0 KCAL
-&lt;&#x2F;span&gt;&lt;span&gt;
-&lt;&#x2F;span&gt;&lt;span&gt;0 km jogging
-&lt;&#x2F;span&gt;&lt;span&gt;0 km walking
-&lt;&#x2F;span&gt;&lt;span&gt;... etc.
-&lt;&#x2F;span&gt;&lt;&#x2F;code&gt;&lt;&#x2F;pre&gt;
-&lt;p&gt;I have made a simple Apple Shortcut to paste in the dates for yesterday and tomorrow because I wanted to use as few community plugins as possible. You can download it &lt;a rel=&quot;noopener&quot; target=&quot;_blank&quot; href=&quot;https:&#x2F;&#x2F;www.icloud.com&#x2F;shortcuts&#x2F;73c5235482534518b9880863e25b6345&quot;&gt;here&lt;&#x2F;a&gt;. Yesterday and tomorrow are in German, but that&#x27;s an easy fix inside the Shortcut.&lt;&#x2F;p&gt;
-&lt;p&gt;Keeping a daily journal helped me many times to remember what I did when and why. I also write down almost everything I learn and interlink it. Kind of like a digital garden&lt;sup class=&quot;footnote-reference&quot;&gt;&lt;a href=&quot;#1&quot; id=&quot;fnref:1&quot;&gt;1&lt;&#x2F;a&gt;&lt;&#x2F;sup&gt;. Which is what I am trying to do here in my blog. As I write down everything in markdown in Obsidian, it&#x27;s easy to post to my blog which runs on &lt;a rel=&quot;noopener&quot; target=&quot;_blank&quot; href=&quot;https:&#x2F;&#x2F;www.getzola.org&quot;&gt;Zola&lt;&#x2F;a&gt;. Everybody should have a little space by themselves on the internet, as someone once wrote (I am sorry, I forgot who).&lt;&#x2F;p&gt;
-&lt;p&gt;I only wish I would have started journaling earlier!&lt;&#x2F;p&gt;
-&lt;div class=&quot;footnote-definition&quot;&gt;&lt;p&gt;&lt;span id=&quot;1&quot;&gt;1. &lt;a href=&quot;#fnref:1&quot; title=&quot;Jump back up&quot;&gt;^&lt;&#x2F;a&gt; &lt;a href=&quot;https:&#x2F;&#x2F;maggieappleton.com&#x2F;garden&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;Maggie Appleton&lt;&#x2F;a&gt; has a great little article about digital gardens.&lt;&#x2F;span&gt;&lt;&#x2F;p&gt;&lt;&#x2F;div&gt;
 </content>
 	</entry>
 </feed>

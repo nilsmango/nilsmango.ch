@@ -5,8 +5,173 @@
 	<link href="https://nilsmango.ch/tags/writing/atom.xml" rel="self" type="application/atom+xml"/>
   <link href="https://nilsmango.ch"/>
 	<generator uri="https://www.getzola.org/">Zola</generator>
-	<updated>2022-11-14T00:00:00+00:00</updated>
+	<updated>2023-04-19T00:00:00+00:00</updated>
 	<id>https://nilsmango.ch/tags/writing/atom.xml</id>
+	<entry xml:lang="en">
+		<title>Version Control for Obsidian</title>
+		<published>2023-04-19T00:00:00+00:00</published>
+		<updated>2023-04-19T00:00:00+00:00</updated>
+		<link rel="alternate" href="https://nilsmango.ch/version-control-for-obsidian/" type="text/html"/>
+		<id>https://nilsmango.ch/version-control-for-obsidian/</id>
+		<content type="html">&lt;p&gt;Idea: Implement version control for my &lt;a rel=&quot;noopener&quot; target=&quot;_blank&quot; href=&quot;https:&#x2F;&#x2F;obsidian.md&quot;&gt;Obsidian&lt;&#x2F;a&gt; Vault stored in my iCloud Documents.
+Inspiration: The book &lt;a rel=&quot;noopener&quot; target=&quot;_blank&quot; href=&quot;https:&#x2F;&#x2F;pragprog.com&#x2F;titles&#x2F;tpp20&#x2F;the-pragmatic-programmer-20th-anniversary-edition&#x2F;&quot;&gt;The Pragmatic Programmer&lt;&#x2F;a&gt; encouraged me to implement version control for all of my work and to learn Shell for automation purposes.&lt;&#x2F;p&gt;
+&lt;p&gt;I thought, &amp;quot;How hard could it be?&amp;quot; - and voilà, after only one full day of work and swearing, I was able to successfully automate version control for my Obsidian Vault.&lt;&#x2F;p&gt;
+&lt;h2 id=&quot;the-plan&quot;&gt;The Plan&lt;&#x2F;h2&gt;
+&lt;ol&gt;
+&lt;li&gt;Make a new older on your MacBook called &lt;code&gt;Version Control Obsidian&lt;&#x2F;code&gt;, copy your vault into this folder.&lt;&#x2F;li&gt;
+&lt;li&gt;Put that folder under version control via Git and GitHub&lt;&#x2F;li&gt;
+&lt;li&gt;Copy your Vault Folder in iCloud Documents to that &lt;code&gt;Version Control Obsidian&lt;&#x2F;code&gt; folder and commit changes and push to a private GitHub repository with a launchd job of a shell script once a day.&lt;&#x2F;li&gt;
+&lt;&#x2F;ol&gt;
+&lt;h2 id=&quot;the-execution&quot;&gt;The Execution&lt;&#x2F;h2&gt;
+&lt;p&gt;Because of safety measures in MacOS launchd jobs can&#x27;t get access to the Documents, Downloads, and other folders. So we have to create an Automator app which will then get access to the Documents folder and can &lt;code&gt;cp&lt;&#x2F;code&gt; the files and commit etc.&lt;&#x2F;p&gt;
+&lt;h3 id=&quot;1-the-script&quot;&gt;1. The Script&lt;&#x2F;h3&gt;
+&lt;pre data-lang=&quot;shell&quot; style=&quot;background-color:#2b303b;color:#c0c5ce;&quot; class=&quot;language-shell &quot;&gt;&lt;code class=&quot;language-shell&quot; data-lang=&quot;shell&quot;&gt;&lt;span&gt;#!&#x2F;bin&#x2F;bash
+&lt;&#x2F;span&gt;&lt;span&gt;cp -R &#x2F;Users&#x2F;simxn&#x2F;Library&#x2F;Mobile\ Documents&#x2F;iCloud~md~obsidian&#x2F;Documents &#x2F;Users&#x2F;simxn&#x2F;Documents&#x2F;Version\ Control\ Obsidian &amp;amp;&amp;amp; cd &#x2F;Users&#x2F;simxn&#x2F;Documents&#x2F;Version\ Control\ Obsidian &amp;amp;&amp;amp; git add . &amp;amp;&amp;amp; git commit -m &amp;quot;daily commit $(date +&amp;#39;%Y-%m-%d&amp;#39;)&amp;quot; &amp;amp;&amp;amp; git push
+&lt;&#x2F;span&gt;&lt;&#x2F;code&gt;&lt;&#x2F;pre&gt;
+&lt;p&gt;Make it executable: &lt;code&gt;chmod +x daily-commit.sh&lt;&#x2F;code&gt;&lt;&#x2F;p&gt;
+&lt;h3 id=&quot;2-the-automator-app&quot;&gt;2. The Automator App&lt;&#x2F;h3&gt;
+&lt;p&gt;Source: &lt;a rel=&quot;noopener&quot; target=&quot;_blank&quot; href=&quot;https:&#x2F;&#x2F;stackoverflow.com&#x2F;a&#x2F;59350529&#x2F;21681219&quot;&gt;Stack Overflow answer by Steven Oxley&lt;&#x2F;a&gt;&lt;&#x2F;p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;Create an Automator application&lt;&#x2F;p&gt;
+&lt;ul&gt;
+&lt;li&gt;Open &lt;strong&gt;Automator&lt;&#x2F;strong&gt;&lt;&#x2F;li&gt;
+&lt;li&gt;Click &lt;strong&gt;New Document&lt;&#x2F;strong&gt;&lt;&#x2F;li&gt;
+&lt;li&gt;Select &lt;strong&gt;Application&lt;&#x2F;strong&gt;&lt;&#x2F;li&gt;
+&lt;li&gt;Click &lt;strong&gt;Choose&lt;&#x2F;strong&gt;&lt;&#x2F;li&gt;
+&lt;li&gt;Select &lt;strong&gt;Utilities &amp;gt; Run Shell Script&lt;&#x2F;strong&gt;&lt;&#x2F;li&gt;
+&lt;li&gt;Select &lt;strong&gt;Pass Input: as arguments&lt;&#x2F;strong&gt;&lt;&#x2F;li&gt;
+&lt;li&gt;Enter &lt;code&gt;&#x2F;bin&#x2F;bash -c &amp;quot;$1&amp;quot;&lt;&#x2F;code&gt; as the body of the script (see screenshot below)&lt;&#x2F;li&gt;
+&lt;li&gt;Click &lt;strong&gt;File &amp;gt; Save&lt;&#x2F;strong&gt; and save the application wherever you&#x27;d like (&lt;code&gt;run-script.app&lt;&#x2F;code&gt; in this example)&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;&#x2F;li&gt;
+&lt;li&gt;
+&lt;p&gt;Next, run the application that was just created manually to make sure it has the permissions it needs (you need also grant &lt;strong&gt;Full Disk Access&lt;&#x2F;strong&gt; to the new application in &lt;strong&gt;Security &amp;amp; Privacy&lt;&#x2F;strong&gt;, (in my case even Automator needed &lt;strong&gt;Full Disk Access&lt;&#x2F;strong&gt;))&lt;&#x2F;p&gt;
+&lt;ul&gt;
+&lt;li&gt;Open &lt;strong&gt;Terminal&lt;&#x2F;strong&gt;&lt;&#x2F;li&gt;
+&lt;li&gt;Execute command:&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;p&gt;&lt;code&gt;open -a run-script.app &#x2F;Users&#x2F;simxn&#x2F;scripts&#x2F;daily-commit.sh&lt;&#x2F;code&gt;&lt;&#x2F;p&gt;
+&lt;ul&gt;
+&lt;li&gt;Click &lt;strong&gt;Allow&lt;&#x2F;strong&gt; when macOS asks if the application can access your Desktop&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;p&gt;Screenshots:
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure&gt;
+&lt;a href=&quot;https:&amp;#x2F;&amp;#x2F;nilsmango.ch&amp;#x2F;processed_images&amp;#x2F;bd0c6118e0125c3c00.jpg&quot; target=&quot;_blank&quot;&gt;
+&lt;img srcset=&quot;https:&amp;#x2F;&amp;#x2F;nilsmango.ch&amp;#x2F;processed_images&amp;#x2F;3d5509e5922da22a00.jpg 300w, https:&amp;#x2F;&amp;#x2F;nilsmango.ch&amp;#x2F;processed_images&amp;#x2F;be759f6fcd461e5300.jpg 600w, https:&amp;#x2F;&amp;#x2F;nilsmango.ch&amp;#x2F;processed_images&amp;#x2F;bd0c6118e0125c3c00.jpg 1073w&quot; src=&quot;https:&amp;#x2F;&amp;#x2F;nilsmango.ch&amp;#x2F;processed_images&amp;#x2F;be759f6fcd461e5300.jpg&quot; alt=&quot;Screenshot of Automator App&quot; class=&quot;imgset&quot;&gt;
+&lt;&#x2F;a&gt;
+&lt;figcaption&gt;Select Application&lt;&#x2F;figcaption&gt;
+&lt;&#x2F;figure&gt;
+
+&lt;&#x2F;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure&gt;
+&lt;a href=&quot;https:&amp;#x2F;&amp;#x2F;nilsmango.ch&amp;#x2F;processed_images&amp;#x2F;c486c8179f4884b700.jpg&quot; target=&quot;_blank&quot;&gt;
+&lt;img srcset=&quot;https:&amp;#x2F;&amp;#x2F;nilsmango.ch&amp;#x2F;processed_images&amp;#x2F;f531d012a9b6fb9800.jpg 300w, https:&amp;#x2F;&amp;#x2F;nilsmango.ch&amp;#x2F;processed_images&amp;#x2F;dc4a8833eced433800.jpg 600w, https:&amp;#x2F;&amp;#x2F;nilsmango.ch&amp;#x2F;processed_images&amp;#x2F;0078bd62050d9b3800.jpg 1200w, , https:&amp;#x2F;&amp;#x2F;nilsmango.ch&amp;#x2F;processed_images&amp;#x2F;c486c8179f4884b700.jpg 2400w&quot; src=&quot;https:&amp;#x2F;&amp;#x2F;nilsmango.ch&amp;#x2F;processed_images&amp;#x2F;dc4a8833eced433800.jpg&quot; alt=&quot;Screenshot of Automator App&quot; class=&quot;imgset&quot;&gt;
+&lt;&#x2F;a&gt;
+&lt;figcaption&gt;Select Pass Input: as arguments&lt;&#x2F;figcaption&gt;
+    &lt;&#x2F;figure&gt;
+
+
+
+
+&lt;h3 id=&quot;3-the-launchd-job&quot;&gt;3. The Launchd Job&lt;&#x2F;h3&gt;
+&lt;pre data-lang=&quot;xml&quot; style=&quot;background-color:#2b303b;color:#c0c5ce;&quot; class=&quot;language-xml &quot;&gt;&lt;code class=&quot;language-xml&quot; data-lang=&quot;xml&quot;&gt;&lt;span&gt;&amp;lt;?&lt;&#x2F;span&gt;&lt;span style=&quot;color:#bf616a;&quot;&gt;xml &lt;&#x2F;span&gt;&lt;span style=&quot;color:#d08770;&quot;&gt;version&lt;&#x2F;span&gt;&lt;span&gt;=&amp;quot;&lt;&#x2F;span&gt;&lt;span style=&quot;color:#a3be8c;&quot;&gt;1.0&lt;&#x2F;span&gt;&lt;span&gt;&amp;quot; &lt;&#x2F;span&gt;&lt;span style=&quot;color:#d08770;&quot;&gt;encoding&lt;&#x2F;span&gt;&lt;span&gt;=&amp;quot;&lt;&#x2F;span&gt;&lt;span style=&quot;color:#a3be8c;&quot;&gt;UTF-8&lt;&#x2F;span&gt;&lt;span&gt;&amp;quot;?&amp;gt;
+&lt;&#x2F;span&gt;&lt;span&gt;
+&lt;&#x2F;span&gt;&lt;span&gt;&amp;lt;!&lt;&#x2F;span&gt;&lt;span style=&quot;color:#b48ead;&quot;&gt;DOCTYPE &lt;&#x2F;span&gt;&lt;span style=&quot;color:#bf616a;&quot;&gt;plist &lt;&#x2F;span&gt;&lt;span style=&quot;color:#b48ead;&quot;&gt;PUBLIC &lt;&#x2F;span&gt;&lt;span&gt;&amp;quot;&lt;&#x2F;span&gt;&lt;span style=&quot;color:#a3be8c;&quot;&gt;-&#x2F;&#x2F;Apple&#x2F;&#x2F;DTD PLIST 1.0&#x2F;&#x2F;EN&lt;&#x2F;span&gt;&lt;span&gt;&amp;quot;
+&lt;&#x2F;span&gt;&lt;span&gt;
+&lt;&#x2F;span&gt;&lt;span&gt;&amp;quot;&lt;&#x2F;span&gt;&lt;span style=&quot;color:#a3be8c;&quot;&gt;http:&#x2F;&#x2F;www.apple.com&#x2F;DTDs&#x2F;PropertyList-1.0.dtd&lt;&#x2F;span&gt;&lt;span&gt;&amp;quot;&amp;gt;
+&lt;&#x2F;span&gt;&lt;span&gt;
+&lt;&#x2F;span&gt;&lt;span&gt;&amp;lt;&lt;&#x2F;span&gt;&lt;span style=&quot;color:#bf616a;&quot;&gt;plist &lt;&#x2F;span&gt;&lt;span style=&quot;color:#d08770;&quot;&gt;version&lt;&#x2F;span&gt;&lt;span&gt;=&amp;quot;&lt;&#x2F;span&gt;&lt;span style=&quot;color:#a3be8c;&quot;&gt;1.0&lt;&#x2F;span&gt;&lt;span&gt;&amp;quot;&amp;gt;
+&lt;&#x2F;span&gt;&lt;span&gt;
+&lt;&#x2F;span&gt;&lt;span&gt;&amp;lt;&lt;&#x2F;span&gt;&lt;span style=&quot;color:#bf616a;&quot;&gt;dict&lt;&#x2F;span&gt;&lt;span&gt;&amp;gt;
+&lt;&#x2F;span&gt;&lt;span&gt;
+&lt;&#x2F;span&gt;&lt;span&gt;&amp;lt;&lt;&#x2F;span&gt;&lt;span style=&quot;color:#bf616a;&quot;&gt;key&lt;&#x2F;span&gt;&lt;span&gt;&amp;gt;Label&amp;lt;&#x2F;&lt;&#x2F;span&gt;&lt;span style=&quot;color:#bf616a;&quot;&gt;key&lt;&#x2F;span&gt;&lt;span&gt;&amp;gt;
+&lt;&#x2F;span&gt;&lt;span&gt;
+&lt;&#x2F;span&gt;&lt;span&gt;&amp;lt;&lt;&#x2F;span&gt;&lt;span style=&quot;color:#bf616a;&quot;&gt;string&lt;&#x2F;span&gt;&lt;span&gt;&amp;gt;com.project7iii.daily-commit&amp;lt;&#x2F;&lt;&#x2F;span&gt;&lt;span style=&quot;color:#bf616a;&quot;&gt;string&lt;&#x2F;span&gt;&lt;span&gt;&amp;gt;
+&lt;&#x2F;span&gt;&lt;span&gt;
+&lt;&#x2F;span&gt;&lt;span&gt;&amp;lt;&lt;&#x2F;span&gt;&lt;span style=&quot;color:#bf616a;&quot;&gt;key&lt;&#x2F;span&gt;&lt;span&gt;&amp;gt;ProgramArguments&amp;lt;&#x2F;&lt;&#x2F;span&gt;&lt;span style=&quot;color:#bf616a;&quot;&gt;key&lt;&#x2F;span&gt;&lt;span&gt;&amp;gt;
+&lt;&#x2F;span&gt;&lt;span&gt;
+&lt;&#x2F;span&gt;&lt;span&gt;&amp;lt;&lt;&#x2F;span&gt;&lt;span style=&quot;color:#bf616a;&quot;&gt;array&lt;&#x2F;span&gt;&lt;span&gt;&amp;gt;
+&lt;&#x2F;span&gt;&lt;span&gt;
+&lt;&#x2F;span&gt;&lt;span&gt;&amp;lt;&lt;&#x2F;span&gt;&lt;span style=&quot;color:#bf616a;&quot;&gt;string&lt;&#x2F;span&gt;&lt;span&gt;&amp;gt;open&amp;lt;&#x2F;&lt;&#x2F;span&gt;&lt;span style=&quot;color:#bf616a;&quot;&gt;string&lt;&#x2F;span&gt;&lt;span&gt;&amp;gt;
+&lt;&#x2F;span&gt;&lt;span&gt;
+&lt;&#x2F;span&gt;&lt;span&gt;&amp;lt;&lt;&#x2F;span&gt;&lt;span style=&quot;color:#bf616a;&quot;&gt;string&lt;&#x2F;span&gt;&lt;span&gt;&amp;gt;-a&amp;lt;&#x2F;&lt;&#x2F;span&gt;&lt;span style=&quot;color:#bf616a;&quot;&gt;string&lt;&#x2F;span&gt;&lt;span&gt;&amp;gt;
+&lt;&#x2F;span&gt;&lt;span&gt;
+&lt;&#x2F;span&gt;&lt;span&gt;&amp;lt;&lt;&#x2F;span&gt;&lt;span style=&quot;color:#bf616a;&quot;&gt;string&lt;&#x2F;span&gt;&lt;span&gt;&amp;gt;&#x2F;Users&#x2F;simxn&#x2F;scripts&#x2F;run-script.app&amp;lt;&#x2F;&lt;&#x2F;span&gt;&lt;span style=&quot;color:#bf616a;&quot;&gt;string&lt;&#x2F;span&gt;&lt;span&gt;&amp;gt;
+&lt;&#x2F;span&gt;&lt;span&gt;
+&lt;&#x2F;span&gt;&lt;span&gt;&amp;lt;&lt;&#x2F;span&gt;&lt;span style=&quot;color:#bf616a;&quot;&gt;string&lt;&#x2F;span&gt;&lt;span&gt;&amp;gt;&#x2F;Users&#x2F;simxn&#x2F;scripts&#x2F;daily-commit.sh&amp;lt;&#x2F;&lt;&#x2F;span&gt;&lt;span style=&quot;color:#bf616a;&quot;&gt;string&lt;&#x2F;span&gt;&lt;span&gt;&amp;gt;
+&lt;&#x2F;span&gt;&lt;span&gt;
+&lt;&#x2F;span&gt;&lt;span&gt;&amp;lt;&#x2F;&lt;&#x2F;span&gt;&lt;span style=&quot;color:#bf616a;&quot;&gt;array&lt;&#x2F;span&gt;&lt;span&gt;&amp;gt;
+&lt;&#x2F;span&gt;&lt;span&gt;
+&lt;&#x2F;span&gt;&lt;span&gt;&amp;lt;&lt;&#x2F;span&gt;&lt;span style=&quot;color:#bf616a;&quot;&gt;key&lt;&#x2F;span&gt;&lt;span&gt;&amp;gt;StartCalendarInterval&amp;lt;&#x2F;&lt;&#x2F;span&gt;&lt;span style=&quot;color:#bf616a;&quot;&gt;key&lt;&#x2F;span&gt;&lt;span&gt;&amp;gt;
+&lt;&#x2F;span&gt;&lt;span&gt;
+&lt;&#x2F;span&gt;&lt;span&gt;&amp;lt;&lt;&#x2F;span&gt;&lt;span style=&quot;color:#bf616a;&quot;&gt;dict&lt;&#x2F;span&gt;&lt;span&gt;&amp;gt;
+&lt;&#x2F;span&gt;&lt;span&gt;
+&lt;&#x2F;span&gt;&lt;span&gt;&amp;lt;&lt;&#x2F;span&gt;&lt;span style=&quot;color:#bf616a;&quot;&gt;key&lt;&#x2F;span&gt;&lt;span&gt;&amp;gt;Hour&amp;lt;&#x2F;&lt;&#x2F;span&gt;&lt;span style=&quot;color:#bf616a;&quot;&gt;key&lt;&#x2F;span&gt;&lt;span&gt;&amp;gt;
+&lt;&#x2F;span&gt;&lt;span&gt;
+&lt;&#x2F;span&gt;&lt;span&gt;&amp;lt;&lt;&#x2F;span&gt;&lt;span style=&quot;color:#bf616a;&quot;&gt;integer&lt;&#x2F;span&gt;&lt;span&gt;&amp;gt;14&amp;lt;&#x2F;&lt;&#x2F;span&gt;&lt;span style=&quot;color:#bf616a;&quot;&gt;integer&lt;&#x2F;span&gt;&lt;span&gt;&amp;gt;
+&lt;&#x2F;span&gt;&lt;span&gt;
+&lt;&#x2F;span&gt;&lt;span&gt;&amp;lt;&lt;&#x2F;span&gt;&lt;span style=&quot;color:#bf616a;&quot;&gt;key&lt;&#x2F;span&gt;&lt;span&gt;&amp;gt;Minute&amp;lt;&#x2F;&lt;&#x2F;span&gt;&lt;span style=&quot;color:#bf616a;&quot;&gt;key&lt;&#x2F;span&gt;&lt;span&gt;&amp;gt;
+&lt;&#x2F;span&gt;&lt;span&gt;
+&lt;&#x2F;span&gt;&lt;span&gt;&amp;lt;&lt;&#x2F;span&gt;&lt;span style=&quot;color:#bf616a;&quot;&gt;integer&lt;&#x2F;span&gt;&lt;span&gt;&amp;gt;6&amp;lt;&#x2F;&lt;&#x2F;span&gt;&lt;span style=&quot;color:#bf616a;&quot;&gt;integer&lt;&#x2F;span&gt;&lt;span&gt;&amp;gt;
+&lt;&#x2F;span&gt;&lt;span&gt;
+&lt;&#x2F;span&gt;&lt;span&gt;&amp;lt;&#x2F;&lt;&#x2F;span&gt;&lt;span style=&quot;color:#bf616a;&quot;&gt;dict&lt;&#x2F;span&gt;&lt;span&gt;&amp;gt;
+&lt;&#x2F;span&gt;&lt;span&gt;
+&lt;&#x2F;span&gt;&lt;span&gt;&amp;lt;&lt;&#x2F;span&gt;&lt;span style=&quot;color:#bf616a;&quot;&gt;key&lt;&#x2F;span&gt;&lt;span&gt;&amp;gt;StandardErrorPath&amp;lt;&#x2F;&lt;&#x2F;span&gt;&lt;span style=&quot;color:#bf616a;&quot;&gt;key&lt;&#x2F;span&gt;&lt;span&gt;&amp;gt;
+&lt;&#x2F;span&gt;&lt;span&gt;
+&lt;&#x2F;span&gt;&lt;span&gt;&amp;lt;&lt;&#x2F;span&gt;&lt;span style=&quot;color:#bf616a;&quot;&gt;string&lt;&#x2F;span&gt;&lt;span&gt;&amp;gt;&#x2F;tmp&#x2F;com.project7iii.daily-commit.err&amp;lt;&#x2F;&lt;&#x2F;span&gt;&lt;span style=&quot;color:#bf616a;&quot;&gt;string&lt;&#x2F;span&gt;&lt;span&gt;&amp;gt;
+&lt;&#x2F;span&gt;&lt;span&gt;
+&lt;&#x2F;span&gt;&lt;span&gt;&amp;lt;&lt;&#x2F;span&gt;&lt;span style=&quot;color:#bf616a;&quot;&gt;key&lt;&#x2F;span&gt;&lt;span&gt;&amp;gt;StandardOutPath&amp;lt;&#x2F;&lt;&#x2F;span&gt;&lt;span style=&quot;color:#bf616a;&quot;&gt;key&lt;&#x2F;span&gt;&lt;span&gt;&amp;gt;
+&lt;&#x2F;span&gt;&lt;span&gt;
+&lt;&#x2F;span&gt;&lt;span&gt;&amp;lt;&lt;&#x2F;span&gt;&lt;span style=&quot;color:#bf616a;&quot;&gt;string&lt;&#x2F;span&gt;&lt;span&gt;&amp;gt;&#x2F;tmp&#x2F;com.project7iii.daily-commit.out&amp;lt;&#x2F;&lt;&#x2F;span&gt;&lt;span style=&quot;color:#bf616a;&quot;&gt;string&lt;&#x2F;span&gt;&lt;span&gt;&amp;gt;
+&lt;&#x2F;span&gt;&lt;span&gt;
+&lt;&#x2F;span&gt;&lt;span&gt;&amp;lt;&#x2F;&lt;&#x2F;span&gt;&lt;span style=&quot;color:#bf616a;&quot;&gt;dict&lt;&#x2F;span&gt;&lt;span&gt;&amp;gt;
+&lt;&#x2F;span&gt;&lt;span&gt;
+&lt;&#x2F;span&gt;&lt;span&gt;&amp;lt;&#x2F;&lt;&#x2F;span&gt;&lt;span style=&quot;color:#bf616a;&quot;&gt;plist&lt;&#x2F;span&gt;&lt;span&gt;&amp;gt;
+&lt;&#x2F;span&gt;&lt;&#x2F;code&gt;&lt;&#x2F;pre&gt;
+&lt;p&gt;Making the document: &lt;&#x2F;p&gt;
+&lt;pre style=&quot;background-color:#2b303b;color:#c0c5ce;&quot;&gt;&lt;code&gt;&lt;span&gt;nano ~&#x2F;Library&#x2F;LaunchAgents&#x2F;com.project7iii.daily-commit.plist
+&lt;&#x2F;span&gt;&lt;&#x2F;code&gt;&lt;&#x2F;pre&gt;
+&lt;p&gt;Loading the launchd job: &lt;&#x2F;p&gt;
+&lt;pre style=&quot;background-color:#2b303b;color:#c0c5ce;&quot;&gt;&lt;code&gt;&lt;span&gt;launchctl load ~&#x2F;Library&#x2F;LaunchAgents&#x2F;com.project7iii.daily-commit.plist
+&lt;&#x2F;span&gt;&lt;&#x2F;code&gt;&lt;&#x2F;pre&gt;
+</content>
+	</entry>
 	<entry xml:lang="en">
 		<title>Journaling</title>
 		<published>2022-11-14T00:00:00+00:00</published>
