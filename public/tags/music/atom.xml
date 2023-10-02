@@ -1,19 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
-	<title>Nils Mango - music</title>
-	<subtitle>Creating things &amp; eliminating errors.</subtitle>
-	<link href="https://nilsmango.ch/tags/music/atom.xml" rel="self" type="application/atom+xml"/>
-  <link href="https://nilsmango.ch"/>
-	<generator uri="https://www.getzola.org/">Zola</generator>
-	<updated>2022-11-23T00:00:00+00:00</updated>
-	<id>https://nilsmango.ch/tags/music/atom.xml</id>
-	<entry xml:lang="en">
-		<title>Phonogeneli 0.1</title>
-		<published>2022-11-17T00:00:00+00:00</published>
-		<updated>2022-11-23T00:00:00+00:00</updated>
-		<link rel="alternate" href="https://nilsmango.ch/phonogeneli/" type="text/html"/>
-		<id>https://nilsmango.ch/phonogeneli/</id>
-		<content type="html">&lt;p&gt;I have just released my first Max for Live device called Phonogeneli. It&#x27;s a quirky tape loop effect and a free download. Check the &lt;a href=&quot;https:&#x2F;&#x2F;nilsmango.ch&#x2F;phonogeneli&#x2F;#manual&quot;&gt;manual&lt;&#x2F;a&gt; below. The name comes from the Eurorack module that inspired this device called &lt;a rel=&quot;noopener&quot; target=&quot;_blank&quot; href=&quot;https:&#x2F;&#x2F;makenoisemusic.com&#x2F;modules&#x2F;phonogene-legacy&quot;&gt;Phonogene&lt;&#x2F;a&gt; + li, a suffix used for diminutivization in Swiss German.&lt;br &#x2F;&gt;
+    <title>Nils Mango - music</title>
+    <subtitle>Creating things &amp; eliminating errors.</subtitle>
+    <link href="https://nilsmango.ch/tags/music/atom.xml" rel="self" type="application/atom+xml"/>
+    <link href="https://nilsmango.ch"/>
+    <generator uri="https://www.getzola.org/">Zola</generator>
+    <updated>2022-11-23T00:00:00+00:00</updated>
+    <id>https://nilsmango.ch/tags/music/atom.xml</id>
+    <entry xml:lang="en">
+        <title>Phonogeneli 0.1</title>
+        <published>2022-11-17T00:00:00+00:00</published>
+        <updated>2022-11-23T00:00:00+00:00</updated>
+        <author>
+          <name>Unknown</name>
+        </author>
+        <link rel="alternate" href="https://nilsmango.ch/phonogeneli/" type="text/html"/>
+        <id>https://nilsmango.ch/phonogeneli/</id>
+        
+        <content type="html">&lt;p&gt;I have just released my first Max for Live device called Phonogeneli. It&#x27;s a quirky tape loop effect and a free download. Check the &lt;a href=&quot;https:&#x2F;&#x2F;nilsmango.ch&#x2F;phonogeneli&#x2F;#manual&quot;&gt;manual&lt;&#x2F;a&gt; below. The name comes from the Eurorack module that inspired this device called &lt;a rel=&quot;noopener&quot; target=&quot;_blank&quot; href=&quot;https:&#x2F;&#x2F;makenoisemusic.com&#x2F;modules&#x2F;phonogene-legacy&quot;&gt;Phonogene&lt;&#x2F;a&gt; + li, a suffix used for diminutivization in Swiss German.&lt;br &#x2F;&gt;
 This audio effect is capable to produce micro-sounds, many clicks, delays, and sound on sound.&lt;&#x2F;p&gt;
 
 
@@ -31,8 +35,8 @@ This audio effect is capable to produce micro-sounds, many clicks, delays, and s
 
 
 &lt;figure&gt;
-&lt;a href=&quot;https:&amp;#x2F;&amp;#x2F;nilsmango.ch&amp;#x2F;processed_images&amp;#x2F;d37385a7a3d23cf600.webp&quot; target=&quot;_blank&quot;&gt;
-&lt;img srcset=&quot;https:&amp;#x2F;&amp;#x2F;nilsmango.ch&amp;#x2F;processed_images&amp;#x2F;c165e5a64bb82f1600.webp 300w, https:&amp;#x2F;&amp;#x2F;nilsmango.ch&amp;#x2F;processed_images&amp;#x2F;30aa64519dafd61200.webp 600w, https:&amp;#x2F;&amp;#x2F;nilsmango.ch&amp;#x2F;processed_images&amp;#x2F;d37385a7a3d23cf600.webp 669w&quot; src=&quot;https:&amp;#x2F;&amp;#x2F;nilsmango.ch&amp;#x2F;processed_images&amp;#x2F;30aa64519dafd61200.webp&quot; alt=&quot;Max for Live device Phonogeneli 0.1 in action&quot; class=&quot;imgset&quot;&gt;
+&lt;a href=&quot;https:&amp;#x2F;&amp;#x2F;nilsmango.ch&amp;#x2F;processed_images&amp;#x2F;phonogeneli 0.1.5690583932becd8b.webp&quot; target=&quot;_blank&quot;&gt;
+&lt;img srcset=&quot;https:&amp;#x2F;&amp;#x2F;nilsmango.ch&amp;#x2F;processed_images&amp;#x2F;phonogeneli 0.1.735887434765851b.webp 300w, https:&amp;#x2F;&amp;#x2F;nilsmango.ch&amp;#x2F;processed_images&amp;#x2F;phonogeneli 0.1.207c66745b6b6638.webp 600w, https:&amp;#x2F;&amp;#x2F;nilsmango.ch&amp;#x2F;processed_images&amp;#x2F;phonogeneli 0.1.5690583932becd8b.webp 669w&quot; src=&quot;https:&amp;#x2F;&amp;#x2F;nilsmango.ch&amp;#x2F;processed_images&amp;#x2F;phonogeneli 0.1.207c66745b6b6638.webp&quot; alt=&quot;Max for Live device Phonogeneli 0.1 in action&quot; class=&quot;imgset&quot;&gt;
 &lt;&#x2F;a&gt;
 &lt;figcaption&gt;Phonogeneli 0.1 in action&lt;&#x2F;figcaption&gt;
 &lt;&#x2F;figure&gt;
@@ -91,19 +95,25 @@ big thank you.&lt;&#x2F;p&gt;
 I made a track using phonogeneli on all the sounds except the percussive ones (drums &amp;amp; tambourines). Just saying thanks to bring the world of tape manipulation to my DAW.&lt;&#x2F;p&gt;
 &lt;p&gt;I know some people want you to remove the glitchy aspect but that is one of my favorite things.&lt;&#x2F;p&gt;
 </content>
-	</entry>
-	<entry xml:lang="en">
-		<title>Tenerife 2021</title>
-		<published>2022-11-15T00:00:00+00:00</published>
-		<updated>2022-11-15T00:00:00+00:00</updated>
-		<link rel="alternate" href="https://nilsmango.ch/tenerife2021/" type="text/html"/>
-		<id>https://nilsmango.ch/tenerife2021/</id>
-		<content type="html">&lt;p&gt;A short video diary from Tenerife with action from La Matanza to Puerto de la Cruz to Parque Nacional del Teide, down to El Médano, etc.&lt;br &#x2F;&gt;
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>Tenerife 2021</title>
+        <published>2022-11-15T00:00:00+00:00</published>
+        <updated>2022-11-15T00:00:00+00:00</updated>
+        <author>
+          <name>Unknown</name>
+        </author>
+        <link rel="alternate" href="https://nilsmango.ch/tenerife2021/" type="text/html"/>
+        <id>https://nilsmango.ch/tenerife2021/</id>
+        
+        <content type="html">&lt;p&gt;A short video diary from Tenerife with action from La Matanza to Puerto de la Cruz to Parque Nacional del Teide, down to El Médano, etc.&lt;br &#x2F;&gt;
 The &lt;a href=&quot;&#x2F;music&quot;&gt;music&lt;&#x2F;a&gt; was made on a plane to Tenerife.&lt;&#x2F;p&gt;
 &lt;div class=&quot;youtube&quot;&gt;
 &lt;lite-youtube videoid=&quot;s0mlevh0-8Q&quot; playlabel=&quot;Play: Keynote (Google I&#x2F;O &#x27;18)&quot; class=&quot;tvframe&quot; params=&quot;start=0&amp;modestbranding=2&amp;autoplay=1&amp;rel=0&quot;&gt;&lt;&#x2F;lite-youtube&gt;
 &lt;script src=&quot;&#x2F;lite-yt-embed.js&quot;&gt;&lt;&#x2F;script&gt;
 &lt;&#x2F;div&gt;
 </content>
-	</entry>
+        
+    </entry>
 </feed>

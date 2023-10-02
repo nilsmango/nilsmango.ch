@@ -1,19 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
-	<title>Nils Mango - articles</title>
-	<subtitle>Creating things &amp; eliminating errors.</subtitle>
-	<link href="https://nilsmango.ch/categories/articles/atom.xml" rel="self" type="application/atom+xml"/>
-  <link href="https://nilsmango.ch"/>
-	<generator uri="https://www.getzola.org/">Zola</generator>
-	<updated>2023-04-19T00:00:00+00:00</updated>
-	<id>https://nilsmango.ch/categories/articles/atom.xml</id>
-	<entry xml:lang="en">
-		<title>Version Control for Obsidian</title>
-		<published>2023-04-19T00:00:00+00:00</published>
-		<updated>2023-04-19T00:00:00+00:00</updated>
-		<link rel="alternate" href="https://nilsmango.ch/version-control-for-obsidian/" type="text/html"/>
-		<id>https://nilsmango.ch/version-control-for-obsidian/</id>
-		<content type="html">&lt;p&gt;Idea: Implement version control for my &lt;a rel=&quot;noopener&quot; target=&quot;_blank&quot; href=&quot;https:&#x2F;&#x2F;obsidian.md&quot;&gt;Obsidian&lt;&#x2F;a&gt; Vault stored in my iCloud Documents.&lt;&#x2F;p&gt;
+    <title>Nils Mango - articles</title>
+    <subtitle>Creating things &amp; eliminating errors.</subtitle>
+    <link href="https://nilsmango.ch/categories/articles/atom.xml" rel="self" type="application/atom+xml"/>
+    <link href="https://nilsmango.ch"/>
+    <generator uri="https://www.getzola.org/">Zola</generator>
+    <updated>2023-04-19T00:00:00+00:00</updated>
+    <id>https://nilsmango.ch/categories/articles/atom.xml</id>
+    <entry xml:lang="en">
+        <title>Version Control for Obsidian</title>
+        <published>2023-04-19T00:00:00+00:00</published>
+        <updated>2023-04-19T00:00:00+00:00</updated>
+        <author>
+          <name>Unknown</name>
+        </author>
+        <link rel="alternate" href="https://nilsmango.ch/version-control-for-obsidian/" type="text/html"/>
+        <id>https://nilsmango.ch/version-control-for-obsidian/</id>
+        
+        <content type="html">&lt;p&gt;Idea: Implement version control for my &lt;a rel=&quot;noopener&quot; target=&quot;_blank&quot; href=&quot;https:&#x2F;&#x2F;obsidian.md&quot;&gt;Obsidian&lt;&#x2F;a&gt; Vault stored in my iCloud Documents.&lt;&#x2F;p&gt;
 &lt;p&gt;Inspiration: The book &lt;a rel=&quot;noopener&quot; target=&quot;_blank&quot; href=&quot;https:&#x2F;&#x2F;pragprog.com&#x2F;titles&#x2F;tpp20&#x2F;the-pragmatic-programmer-20th-anniversary-edition&#x2F;&quot;&gt;The Pragmatic Programmer&lt;&#x2F;a&gt; encouraged me to implement version control for all of my work and to learn Shell for automation purposes.&lt;&#x2F;p&gt;
 &lt;p&gt;I thought, &amp;quot;How hard could it be?&amp;quot; - and voilà, after only one full day of work and swearing, I was able to successfully automate version control for my Obsidian Vault.&lt;&#x2F;p&gt;
 &lt;h2 id=&quot;the-plan&quot;&gt;The Plan&lt;&#x2F;h2&gt;
@@ -74,8 +78,8 @@
 
 
 &lt;figure&gt;
-&lt;a href=&quot;https:&amp;#x2F;&amp;#x2F;nilsmango.ch&amp;#x2F;processed_images&amp;#x2F;bd0c6118e0125c3c00.jpg&quot; target=&quot;_blank&quot;&gt;
-&lt;img srcset=&quot;https:&amp;#x2F;&amp;#x2F;nilsmango.ch&amp;#x2F;processed_images&amp;#x2F;3d5509e5922da22a00.jpg 300w, https:&amp;#x2F;&amp;#x2F;nilsmango.ch&amp;#x2F;processed_images&amp;#x2F;be759f6fcd461e5300.jpg 600w, https:&amp;#x2F;&amp;#x2F;nilsmango.ch&amp;#x2F;processed_images&amp;#x2F;bd0c6118e0125c3c00.jpg 1073w&quot; src=&quot;https:&amp;#x2F;&amp;#x2F;nilsmango.ch&amp;#x2F;processed_images&amp;#x2F;be759f6fcd461e5300.jpg&quot; alt=&quot;Screenshot of Automator App&quot; class=&quot;imgset&quot;&gt;
+&lt;a href=&quot;https:&amp;#x2F;&amp;#x2F;nilsmango.ch&amp;#x2F;processed_images&amp;#x2F;8VqAB.2c2b0de2769054d1.jpg&quot; target=&quot;_blank&quot;&gt;
+&lt;img srcset=&quot;https:&amp;#x2F;&amp;#x2F;nilsmango.ch&amp;#x2F;processed_images&amp;#x2F;8VqAB.74721549ff18ee59.jpg 300w, https:&amp;#x2F;&amp;#x2F;nilsmango.ch&amp;#x2F;processed_images&amp;#x2F;8VqAB.4657e8d042ea35a4.jpg 600w, https:&amp;#x2F;&amp;#x2F;nilsmango.ch&amp;#x2F;processed_images&amp;#x2F;8VqAB.2c2b0de2769054d1.jpg 1073w&quot; src=&quot;https:&amp;#x2F;&amp;#x2F;nilsmango.ch&amp;#x2F;processed_images&amp;#x2F;8VqAB.4657e8d042ea35a4.jpg&quot; alt=&quot;Screenshot of Automator App&quot; class=&quot;imgset&quot;&gt;
 &lt;&#x2F;a&gt;
 &lt;figcaption&gt;Select Application&lt;&#x2F;figcaption&gt;
 &lt;&#x2F;figure&gt;
@@ -100,8 +104,8 @@
 
 
 &lt;figure&gt;
-&lt;a href=&quot;https:&amp;#x2F;&amp;#x2F;nilsmango.ch&amp;#x2F;processed_images&amp;#x2F;c486c8179f4884b700.jpg&quot; target=&quot;_blank&quot;&gt;
-&lt;img srcset=&quot;https:&amp;#x2F;&amp;#x2F;nilsmango.ch&amp;#x2F;processed_images&amp;#x2F;f531d012a9b6fb9800.jpg 300w, https:&amp;#x2F;&amp;#x2F;nilsmango.ch&amp;#x2F;processed_images&amp;#x2F;dc4a8833eced433800.jpg 600w, https:&amp;#x2F;&amp;#x2F;nilsmango.ch&amp;#x2F;processed_images&amp;#x2F;0078bd62050d9b3800.jpg 1200w, , https:&amp;#x2F;&amp;#x2F;nilsmango.ch&amp;#x2F;processed_images&amp;#x2F;c486c8179f4884b700.jpg 2400w&quot; src=&quot;https:&amp;#x2F;&amp;#x2F;nilsmango.ch&amp;#x2F;processed_images&amp;#x2F;dc4a8833eced433800.jpg&quot; alt=&quot;Screenshot of Automator App&quot; class=&quot;imgset&quot;&gt;
+&lt;a href=&quot;https:&amp;#x2F;&amp;#x2F;nilsmango.ch&amp;#x2F;processed_images&amp;#x2F;Xi9pR.8d3d8b87b19accf8.jpg&quot; target=&quot;_blank&quot;&gt;
+&lt;img srcset=&quot;https:&amp;#x2F;&amp;#x2F;nilsmango.ch&amp;#x2F;processed_images&amp;#x2F;Xi9pR.53342ae019a6dfe4.jpg 300w, https:&amp;#x2F;&amp;#x2F;nilsmango.ch&amp;#x2F;processed_images&amp;#x2F;Xi9pR.ee4e89717947e733.jpg 600w, https:&amp;#x2F;&amp;#x2F;nilsmango.ch&amp;#x2F;processed_images&amp;#x2F;Xi9pR.a9d29c4cfeb74e1a.jpg 1200w, , https:&amp;#x2F;&amp;#x2F;nilsmango.ch&amp;#x2F;processed_images&amp;#x2F;Xi9pR.8d3d8b87b19accf8.jpg 2400w&quot; src=&quot;https:&amp;#x2F;&amp;#x2F;nilsmango.ch&amp;#x2F;processed_images&amp;#x2F;Xi9pR.ee4e89717947e733.jpg&quot; alt=&quot;Screenshot of Automator App&quot; class=&quot;imgset&quot;&gt;
 &lt;&#x2F;a&gt;
 &lt;figcaption&gt;Select Pass Input: as arguments&lt;&#x2F;figcaption&gt;
     &lt;&#x2F;figure&gt;
@@ -171,14 +175,19 @@
 &lt;pre style=&quot;background-color:#2b303b;color:#c0c5ce;&quot;&gt;&lt;code&gt;&lt;span&gt;launchctl load ~&#x2F;Library&#x2F;LaunchAgents&#x2F;com.project7iii.daily-commit.plist
 &lt;&#x2F;span&gt;&lt;&#x2F;code&gt;&lt;&#x2F;pre&gt;
 </content>
-	</entry>
-	<entry xml:lang="en">
-		<title>Phonogeneli 0.1</title>
-		<published>2022-11-17T00:00:00+00:00</published>
-		<updated>2022-11-23T00:00:00+00:00</updated>
-		<link rel="alternate" href="https://nilsmango.ch/phonogeneli/" type="text/html"/>
-		<id>https://nilsmango.ch/phonogeneli/</id>
-		<content type="html">&lt;p&gt;I have just released my first Max for Live device called Phonogeneli. It&#x27;s a quirky tape loop effect and a free download. Check the &lt;a href=&quot;https:&#x2F;&#x2F;nilsmango.ch&#x2F;phonogeneli&#x2F;#manual&quot;&gt;manual&lt;&#x2F;a&gt; below. The name comes from the Eurorack module that inspired this device called &lt;a rel=&quot;noopener&quot; target=&quot;_blank&quot; href=&quot;https:&#x2F;&#x2F;makenoisemusic.com&#x2F;modules&#x2F;phonogene-legacy&quot;&gt;Phonogene&lt;&#x2F;a&gt; + li, a suffix used for diminutivization in Swiss German.&lt;br &#x2F;&gt;
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>Phonogeneli 0.1</title>
+        <published>2022-11-17T00:00:00+00:00</published>
+        <updated>2022-11-23T00:00:00+00:00</updated>
+        <author>
+          <name>Unknown</name>
+        </author>
+        <link rel="alternate" href="https://nilsmango.ch/phonogeneli/" type="text/html"/>
+        <id>https://nilsmango.ch/phonogeneli/</id>
+        
+        <content type="html">&lt;p&gt;I have just released my first Max for Live device called Phonogeneli. It&#x27;s a quirky tape loop effect and a free download. Check the &lt;a href=&quot;https:&#x2F;&#x2F;nilsmango.ch&#x2F;phonogeneli&#x2F;#manual&quot;&gt;manual&lt;&#x2F;a&gt; below. The name comes from the Eurorack module that inspired this device called &lt;a rel=&quot;noopener&quot; target=&quot;_blank&quot; href=&quot;https:&#x2F;&#x2F;makenoisemusic.com&#x2F;modules&#x2F;phonogene-legacy&quot;&gt;Phonogene&lt;&#x2F;a&gt; + li, a suffix used for diminutivization in Swiss German.&lt;br &#x2F;&gt;
 This audio effect is capable to produce micro-sounds, many clicks, delays, and sound on sound.&lt;&#x2F;p&gt;
 
 
@@ -196,8 +205,8 @@ This audio effect is capable to produce micro-sounds, many clicks, delays, and s
 
 
 &lt;figure&gt;
-&lt;a href=&quot;https:&amp;#x2F;&amp;#x2F;nilsmango.ch&amp;#x2F;processed_images&amp;#x2F;d37385a7a3d23cf600.webp&quot; target=&quot;_blank&quot;&gt;
-&lt;img srcset=&quot;https:&amp;#x2F;&amp;#x2F;nilsmango.ch&amp;#x2F;processed_images&amp;#x2F;c165e5a64bb82f1600.webp 300w, https:&amp;#x2F;&amp;#x2F;nilsmango.ch&amp;#x2F;processed_images&amp;#x2F;30aa64519dafd61200.webp 600w, https:&amp;#x2F;&amp;#x2F;nilsmango.ch&amp;#x2F;processed_images&amp;#x2F;d37385a7a3d23cf600.webp 669w&quot; src=&quot;https:&amp;#x2F;&amp;#x2F;nilsmango.ch&amp;#x2F;processed_images&amp;#x2F;30aa64519dafd61200.webp&quot; alt=&quot;Max for Live device Phonogeneli 0.1 in action&quot; class=&quot;imgset&quot;&gt;
+&lt;a href=&quot;https:&amp;#x2F;&amp;#x2F;nilsmango.ch&amp;#x2F;processed_images&amp;#x2F;phonogeneli 0.1.5690583932becd8b.webp&quot; target=&quot;_blank&quot;&gt;
+&lt;img srcset=&quot;https:&amp;#x2F;&amp;#x2F;nilsmango.ch&amp;#x2F;processed_images&amp;#x2F;phonogeneli 0.1.735887434765851b.webp 300w, https:&amp;#x2F;&amp;#x2F;nilsmango.ch&amp;#x2F;processed_images&amp;#x2F;phonogeneli 0.1.207c66745b6b6638.webp 600w, https:&amp;#x2F;&amp;#x2F;nilsmango.ch&amp;#x2F;processed_images&amp;#x2F;phonogeneli 0.1.5690583932becd8b.webp 669w&quot; src=&quot;https:&amp;#x2F;&amp;#x2F;nilsmango.ch&amp;#x2F;processed_images&amp;#x2F;phonogeneli 0.1.207c66745b6b6638.webp&quot; alt=&quot;Max for Live device Phonogeneli 0.1 in action&quot; class=&quot;imgset&quot;&gt;
 &lt;&#x2F;a&gt;
 &lt;figcaption&gt;Phonogeneli 0.1 in action&lt;&#x2F;figcaption&gt;
 &lt;&#x2F;figure&gt;
@@ -256,42 +265,57 @@ big thank you.&lt;&#x2F;p&gt;
 I made a track using phonogeneli on all the sounds except the percussive ones (drums &amp;amp; tambourines). Just saying thanks to bring the world of tape manipulation to my DAW.&lt;&#x2F;p&gt;
 &lt;p&gt;I know some people want you to remove the glitchy aspect but that is one of my favorite things.&lt;&#x2F;p&gt;
 </content>
-	</entry>
-	<entry xml:lang="en">
-		<title>SUP in Basel</title>
-		<published>2022-11-16T00:00:00+00:00</published>
-		<updated>2022-11-16T00:00:00+00:00</updated>
-		<link rel="alternate" href="https://nilsmango.ch/supbasel/" type="text/html"/>
-		<id>https://nilsmango.ch/supbasel/</id>
-		<content type="html">&lt;p&gt;I recently found old footage of myself standup paddleboarding in Basel. These drone shots were recorded for a promo video for &lt;a rel=&quot;noopener&quot; target=&quot;_blank&quot; href=&quot;https:&#x2F;&#x2F;project7iii.com&#x2F;birs73.html&quot;&gt;Birs73&lt;&#x2F;a&gt;, but I never came around to editing them into a short video.&lt;&#x2F;p&gt;
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>SUP in Basel</title>
+        <published>2022-11-16T00:00:00+00:00</published>
+        <updated>2022-11-16T00:00:00+00:00</updated>
+        <author>
+          <name>Unknown</name>
+        </author>
+        <link rel="alternate" href="https://nilsmango.ch/supbasel/" type="text/html"/>
+        <id>https://nilsmango.ch/supbasel/</id>
+        
+        <content type="html">&lt;p&gt;I recently found old footage of myself standup paddleboarding in Basel. These drone shots were recorded for a promo video for &lt;a rel=&quot;noopener&quot; target=&quot;_blank&quot; href=&quot;https:&#x2F;&#x2F;project7iii.com&#x2F;birs73.html&quot;&gt;Birs73&lt;&#x2F;a&gt;, but I never came around to editing them into a short video.&lt;&#x2F;p&gt;
 &lt;p&gt;Better late than never: Tag along for a sundowner SUP tour from the Birsköpfli in Birsfelden down the Rhine first paddling under the Schwarzwaldbrücke, then the Wettsteinbrücke, passing by the Münster and tackling the Mittlere Brücke and beyond with a bonus lap around the &amp;quot;Fähri&amp;quot;. Basel, 2018-2019.&lt;&#x2F;p&gt;
 &lt;div class=&quot;youtube&quot;&gt;
 &lt;lite-youtube videoid=&quot;6q-K6hR3rOI&quot; playlabel=&quot;Play: Keynote (Google I&#x2F;O &#x27;18)&quot; class=&quot;tvframe&quot; params=&quot;start=0&amp;modestbranding=2&amp;autoplay=1&amp;rel=0&quot;&gt;&lt;&#x2F;lite-youtube&gt;
 &lt;script src=&quot;&#x2F;lite-yt-embed.js&quot;&gt;&lt;&#x2F;script&gt;
 &lt;&#x2F;div&gt;
 </content>
-	</entry>
-	<entry xml:lang="en">
-		<title>Tenerife 2021</title>
-		<published>2022-11-15T00:00:00+00:00</published>
-		<updated>2022-11-15T00:00:00+00:00</updated>
-		<link rel="alternate" href="https://nilsmango.ch/tenerife2021/" type="text/html"/>
-		<id>https://nilsmango.ch/tenerife2021/</id>
-		<content type="html">&lt;p&gt;A short video diary from Tenerife with action from La Matanza to Puerto de la Cruz to Parque Nacional del Teide, down to El Médano, etc.&lt;br &#x2F;&gt;
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>Tenerife 2021</title>
+        <published>2022-11-15T00:00:00+00:00</published>
+        <updated>2022-11-15T00:00:00+00:00</updated>
+        <author>
+          <name>Unknown</name>
+        </author>
+        <link rel="alternate" href="https://nilsmango.ch/tenerife2021/" type="text/html"/>
+        <id>https://nilsmango.ch/tenerife2021/</id>
+        
+        <content type="html">&lt;p&gt;A short video diary from Tenerife with action from La Matanza to Puerto de la Cruz to Parque Nacional del Teide, down to El Médano, etc.&lt;br &#x2F;&gt;
 The &lt;a href=&quot;&#x2F;music&quot;&gt;music&lt;&#x2F;a&gt; was made on a plane to Tenerife.&lt;&#x2F;p&gt;
 &lt;div class=&quot;youtube&quot;&gt;
 &lt;lite-youtube videoid=&quot;s0mlevh0-8Q&quot; playlabel=&quot;Play: Keynote (Google I&#x2F;O &#x27;18)&quot; class=&quot;tvframe&quot; params=&quot;start=0&amp;modestbranding=2&amp;autoplay=1&amp;rel=0&quot;&gt;&lt;&#x2F;lite-youtube&gt;
 &lt;script src=&quot;&#x2F;lite-yt-embed.js&quot;&gt;&lt;&#x2F;script&gt;
 &lt;&#x2F;div&gt;
 </content>
-	</entry>
-	<entry xml:lang="en">
-		<title>Journaling</title>
-		<published>2022-11-14T00:00:00+00:00</published>
-		<updated>2022-11-14T00:00:00+00:00</updated>
-		<link rel="alternate" href="https://nilsmango.ch/journaling/" type="text/html"/>
-		<id>https://nilsmango.ch/journaling/</id>
-		<content type="html">&lt;p&gt;I started journaling and keeping notes in 2020. I think this is a must for anybody, especially knowledge workers. I write down how much time I spend on what in my daily note (my journal), followed by thoughts and ideas, how my health is doing, which of the things I want to do every day (habits) I actually did, and how much and what I trained that day.
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>Journaling</title>
+        <published>2022-11-14T00:00:00+00:00</published>
+        <updated>2022-11-14T00:00:00+00:00</updated>
+        <author>
+          <name>Unknown</name>
+        </author>
+        <link rel="alternate" href="https://nilsmango.ch/journaling/" type="text/html"/>
+        <id>https://nilsmango.ch/journaling/</id>
+        
+        <content type="html">&lt;p&gt;I started journaling and keeping notes in 2020. I think this is a must for anybody, especially knowledge workers. I write down how much time I spend on what in my daily note (my journal), followed by thoughts and ideas, how my health is doing, which of the things I want to do every day (habits) I actually did, and how much and what I trained that day.
 I use &lt;a rel=&quot;noopener&quot; target=&quot;_blank&quot; href=&quot;https:&#x2F;&#x2F;obsidian.md&quot;&gt;Obsidian&lt;&#x2F;a&gt; for this and all my other notes. I chose Obsidian because it saves everything in markdown files, allows for linking, shows backlinks, has nice macOS and iOS apps, and syncing via iCloud is simple and works great so far!&lt;&#x2F;p&gt;
 
 
@@ -309,8 +333,8 @@ I use &lt;a rel=&quot;noopener&quot; target=&quot;_blank&quot; href=&quot;https:
 
 
 &lt;figure&gt;
-&lt;a href=&quot;https:&amp;#x2F;&amp;#x2F;nilsmango.ch&amp;#x2F;processed_images&amp;#x2F;367cd021ce8c22f200.webp&quot; target=&quot;_blank&quot;&gt;
-&lt;img srcset=&quot;https:&amp;#x2F;&amp;#x2F;nilsmango.ch&amp;#x2F;processed_images&amp;#x2F;89124f3adb82a36e00.webp 300w, https:&amp;#x2F;&amp;#x2F;nilsmango.ch&amp;#x2F;processed_images&amp;#x2F;c34044281378e8fd00.webp 600w, https:&amp;#x2F;&amp;#x2F;nilsmango.ch&amp;#x2F;processed_images&amp;#x2F;367cd021ce8c22f200.webp 1200w&quot; src=&quot;https:&amp;#x2F;&amp;#x2F;nilsmango.ch&amp;#x2F;processed_images&amp;#x2F;c34044281378e8fd00.webp&quot; alt=&quot;The app Obsidian open at a daily journal&quot; class=&quot;imgset&quot;&gt;
+&lt;a href=&quot;https:&amp;#x2F;&amp;#x2F;nilsmango.ch&amp;#x2F;processed_images&amp;#x2F;journal.451094e2729952cf.webp&quot; target=&quot;_blank&quot;&gt;
+&lt;img srcset=&quot;https:&amp;#x2F;&amp;#x2F;nilsmango.ch&amp;#x2F;processed_images&amp;#x2F;journal.c5300a8d16844fd9.webp 300w, https:&amp;#x2F;&amp;#x2F;nilsmango.ch&amp;#x2F;processed_images&amp;#x2F;journal.a5428bbeadd63077.webp 600w, https:&amp;#x2F;&amp;#x2F;nilsmango.ch&amp;#x2F;processed_images&amp;#x2F;journal.451094e2729952cf.webp 1200w&quot; src=&quot;https:&amp;#x2F;&amp;#x2F;nilsmango.ch&amp;#x2F;processed_images&amp;#x2F;journal.a5428bbeadd63077.webp&quot; alt=&quot;The app Obsidian open at a daily journal&quot; class=&quot;imgset&quot;&gt;
 &lt;&#x2F;a&gt;
 &lt;figcaption&gt;My daily journal in Obsidian.&lt;&#x2F;figcaption&gt;
 &lt;&#x2F;figure&gt;
@@ -355,5 +379,6 @@ I use &lt;a rel=&quot;noopener&quot; target=&quot;_blank&quot; href=&quot;https:
 &lt;p&gt;I only wish I would have started journaling earlier!&lt;&#x2F;p&gt;
 &lt;div class=&quot;footnote-definition&quot;&gt;&lt;p&gt;&lt;span id=&quot;1&quot;&gt;1. &lt;a href=&quot;#fnref:1&quot; title=&quot;Jump back up&quot;&gt;^&lt;&#x2F;a&gt; &lt;a href=&quot;https:&#x2F;&#x2F;maggieappleton.com&#x2F;garden&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;Maggie Appleton&lt;&#x2F;a&gt; has a great little article about digital gardens.&lt;&#x2F;span&gt;&lt;&#x2F;p&gt;&lt;&#x2F;div&gt;
 </content>
-	</entry>
+        
+    </entry>
 </feed>

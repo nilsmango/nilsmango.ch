@@ -52,9 +52,9 @@ footer_nav = [
     { name = "Contact", url = "/contact", newtab = false },
     { name = "Feed", url = "/atom.xml", newtab = false },
     { name = "Tags", url = "/tags", newtab = false },
-    { name = "Twitter", url = "https://twitter.com/nilsmango", newtab = true },
+    { name = "X", url = "https://twitter.com/nilsmango", newtab = true },
     { name = "YouTube", url = "https://www.youtube.com/nilsmango", newtab = true },
-    { name = "Instagram", url = "https://www.instagram.com/nilsmango/", newtab = true },
+    { name = "Instagram", url = "https://www.instagram.com/nils_mango", newtab = true },
     { name = "GitHub", url = "https://github.com/nilsmango", newtab = true },
     { name = "Ko-fi", url = "https://ko-fi.com/nilsmango", newtab = true },
 

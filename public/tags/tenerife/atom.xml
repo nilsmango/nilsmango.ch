@@ -1,24 +1,29 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
-	<title>Nils Mango - tenerife</title>
-	<subtitle>Creating things &amp; eliminating errors.</subtitle>
-	<link href="https://nilsmango.ch/tags/tenerife/atom.xml" rel="self" type="application/atom+xml"/>
-  <link href="https://nilsmango.ch"/>
-	<generator uri="https://www.getzola.org/">Zola</generator>
-	<updated>2022-11-15T00:00:00+00:00</updated>
-	<id>https://nilsmango.ch/tags/tenerife/atom.xml</id>
-	<entry xml:lang="en">
-		<title>Tenerife 2021</title>
-		<published>2022-11-15T00:00:00+00:00</published>
-		<updated>2022-11-15T00:00:00+00:00</updated>
-		<link rel="alternate" href="https://nilsmango.ch/tenerife2021/" type="text/html"/>
-		<id>https://nilsmango.ch/tenerife2021/</id>
-		<content type="html">&lt;p&gt;A short video diary from Tenerife with action from La Matanza to Puerto de la Cruz to Parque Nacional del Teide, down to El Médano, etc.&lt;br &#x2F;&gt;
+    <title>Nils Mango - tenerife</title>
+    <subtitle>Creating things &amp; eliminating errors.</subtitle>
+    <link href="https://nilsmango.ch/tags/tenerife/atom.xml" rel="self" type="application/atom+xml"/>
+    <link href="https://nilsmango.ch"/>
+    <generator uri="https://www.getzola.org/">Zola</generator>
+    <updated>2022-11-15T00:00:00+00:00</updated>
+    <id>https://nilsmango.ch/tags/tenerife/atom.xml</id>
+    <entry xml:lang="en">
+        <title>Tenerife 2021</title>
+        <published>2022-11-15T00:00:00+00:00</published>
+        <updated>2022-11-15T00:00:00+00:00</updated>
+        <author>
+          <name>Unknown</name>
+        </author>
+        <link rel="alternate" href="https://nilsmango.ch/tenerife2021/" type="text/html"/>
+        <id>https://nilsmango.ch/tenerife2021/</id>
+        
+        <content type="html">&lt;p&gt;A short video diary from Tenerife with action from La Matanza to Puerto de la Cruz to Parque Nacional del Teide, down to El Médano, etc.&lt;br &#x2F;&gt;
 The &lt;a href=&quot;&#x2F;music&quot;&gt;music&lt;&#x2F;a&gt; was made on a plane to Tenerife.&lt;&#x2F;p&gt;
 &lt;div class=&quot;youtube&quot;&gt;
 &lt;lite-youtube videoid=&quot;s0mlevh0-8Q&quot; playlabel=&quot;Play: Keynote (Google I&#x2F;O &#x27;18)&quot; class=&quot;tvframe&quot; params=&quot;start=0&amp;modestbranding=2&amp;autoplay=1&amp;rel=0&quot;&gt;&lt;&#x2F;lite-youtube&gt;
 &lt;script src=&quot;&#x2F;lite-yt-embed.js&quot;&gt;&lt;&#x2F;script&gt;
 &lt;&#x2F;div&gt;
 </content>
-	</entry>
+        
+    </entry>
 </feed>
