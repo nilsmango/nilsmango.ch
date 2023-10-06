@@ -158,8 +158,8 @@ kbd {
         text-decoration: underline;
 
       }
-      a .active {
-        font-weight: bold;
+      a.active {
+        text-decoration: underline;
         color: var(--color-hover);
       }
 
@@ -209,8 +209,8 @@ font-size: $font-size-bigger;
         text-decoration: underline;
 
       }
-      a .active {
-        font-weight: bold;
+      a.active {
+        text-decoration: underline;
         color: var(--color-hover);
 
       }

@@ -18,3 +18,4 @@ This is what I am up to right now, in no particular order:
 - Making music (I should make more of this)
 - More social, less media (spending more time with loved ones and friends, meditation, and reading)
 - Essentializing my life
+
