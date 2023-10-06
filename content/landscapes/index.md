@@ -23,10 +23,10 @@ A collection of landscape photographs shot from 2004 to 2013. [megaduo / 2000000
 
 {{ image_sets(path="content/landscapes/Magic Mountain Lac Leman 2013.JPG", format="auto", op="fit_width", quality=75, alt="A lake with mountains in the clouds", caption="Lac Leman") }}
 
-{{ image_sets(path="content/landscapes/Playa de Pantin, 2013.JPG", format="auto", op="fit_width", quality=75, alt="A beach and the sea with waves in light fog", caption="Playa de Pantin") }}
+{{ image_sets(path="content/landscapes/Playa de Pantin 2013.JPG", format="auto", op="fit_width", quality=75, alt="A beach and the sea with waves in light fog", caption="Playa de Pantin") }}
 
 {{ image_sets(path="content/landscapes/IMG_7109.JPG", format="auto", op="fit_width", quality=75, alt="An off center swan on a river, shot with a lomo camera", caption="Schwan") }}
 
 {{ image_sets(path="content/landscapes/Scan0009.JPG", format="auto", op="fit_width", quality=75, alt="The front of a wooden boat on a lake in Kashmir", caption="Kashmir") }}
 
-{{ image_sets(path="content/landscapes/Skogskyrkogården Doe IMG_8362.JPG", format="auto", op="fit_width", quality=75, alt="A doe in a graveyard with trees and grass", caption="Skogskyrkogården") }}
+{{ image_sets(path="content/landscapes/Skogskyrkogarden Doe IMG_8362.JPG", format="auto", op="fit_width", quality=75, alt="A doe in a graveyard with trees and grass", caption="Skogskyrkogården") }}
