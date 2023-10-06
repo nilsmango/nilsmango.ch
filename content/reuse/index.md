@@ -17,8 +17,8 @@ PET bottle lamp (concept only)
 {{ image_sets(path="content/reuse/concept for pet bottle lamp.JPG", format="auto", op="fit_width", quality=75, alt="Concept for PET bottle lamp", caption="") }}
 ## Sewn
 Laptop sleeves and simple wallets made from scrap leather from the furniture industry.
-{{ image_sets(path="content/reuse/Laptop Hülle Front Schwarz.jpg", format="auto", op="fit_width", quality=75, alt="Leather laptop sleeve", caption="Laptop sleeve") }}
-{{ image_sets(path="content/reuse/Laptop Hülle Beide 3.jpg", format="auto", op="fit_width", quality=75, alt="2 leather laptop sleeves", caption="Laptop sleeves") }}
+{{ image_sets(path="content/reuse/Laptop Huelle Front Schwarz.jpg", format="auto", op="fit_width", quality=75, alt="Leather laptop sleeve", caption="Laptop sleeve") }}
+{{ image_sets(path="content/reuse/Laptop Huelle Beide 3.jpg", format="auto", op="fit_width", quality=75, alt="2 leather laptop sleeves", caption="Laptop sleeves") }}
 {{ image_sets(path="content/reuse/Le Portemonnaie Beide Seitlich Halbvoll.jpg", format="auto", op="fit_width", quality=75, alt="2 leather wallets", caption="2 x Le Portemonnaie") }}
 {{ image_sets(path="content/reuse/Le Portemonnaie Schwarz Front Halbleer.jpg", format="auto", op="fit_width", quality=75, alt="A simple leather wallet sleeve", caption="Le Portemonnaie") }}
 
