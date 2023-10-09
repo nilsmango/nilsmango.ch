@@ -77,6 +77,8 @@ The functions are:
 Phonogeneli 0.1  
 Made by Nils Mango, Biel/Bienne Switzerland 2022 - This work is licensed under a [Creative Commons Attribution-ShareAlike 4.0 International License](http://creativecommons.org/licenses/by-sa/4.0/), except where otherwise noted.
 
+---
+
 ## Comments
 **Felix**  
 your new (only?!) m4l glitcher is FABULOUS!:)  
@@ -85,4 +87,4 @@ big thank you.
 **Before-23**  
 I made a track using phonogeneli on all the sounds except the percussive ones (drums & tambourines). Just saying thanks to bring the world of tape manipulation to my DAW.
 
- I know some people want you to remove the glitchy aspect but that is one of my favorite things.
+I know some people want you to remove the glitchy aspect but that is one of my favorite things.
