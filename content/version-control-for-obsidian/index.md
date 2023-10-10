@@ -27,7 +27,7 @@ Because of safety measures in MacOS launchd jobs can't get access to the Documen
 ### 1. The Script
 ``` shell
 #!/bin/bash
-cp -R /Users/simxn/Library/Mobile\ Documents/iCloud~md~obsidian/Documents /Users/simxn/Documents/Version\ Control\ Obsidian && cd /Users/simxn/Documents/Version\ Control\ Obsidian && git add . && git commit -m "daily commit $(date +'%Y-%m-%d')" && git push
+cp -R /Users/nilsmango/Library/Mobile\ Documents/iCloud~md~obsidian/Documents /Users/nilsmango/Documents/Version\ Control\ Obsidian && cd /Users/nilsmango/Documents/Version\ Control\ Obsidian && git add . && git commit -m "daily commit $(date +'%Y-%m-%d')" && git push
 ```
 
 Make it executable: `chmod +x daily-commit.sh`
@@ -49,7 +49,7 @@ Source: [Stack Overflow answer by Steven Oxley](https://stackoverflow.com/a/5935
     -   Open **Terminal**
     -   Execute command:
     
-    `open -a run-script.app /Users/simxn/scripts/daily-commit.sh`
+    `open -a run-script.app /Users/nilsmango/scripts/daily-commit.sh`
     -   Click **Allow** when macOS asks if the application can access your Desktop
 
 Screenshots:
@@ -82,9 +82,9 @@ Screenshots:
 
 <string>-a</string>
 
-<string>/Users/simxn/scripts/run-script.app</string>
+<string>/Users/nilsmango/scripts/run-script.app</string>
 
-<string>/Users/simxn/scripts/daily-commit.sh</string>
+<string>/Users/nilsmango/scripts/daily-commit.sh</string>
 
 </array>
 
