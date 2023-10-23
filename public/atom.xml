@@ -5,7 +5,7 @@
     <link href="https://nilsmango.ch/atom.xml" rel="self" type="application/atom+xml"/>
     <link href="https://nilsmango.ch"/>
     <generator uri="https://www.getzola.org/">Zola</generator>
-    <updated>2023-10-02T00:00:00+00:00</updated>
+    <updated>2023-10-10T00:00:00+00:00</updated>
     <id>https://nilsmango.ch/atom.xml</id>
     <entry xml:lang="en">
         <title>Version Control for Obsidian</title>
@@ -30,7 +30,7 @@
 &lt;p&gt;Because of safety measures in MacOS launchd jobs can&#x27;t get access to the Documents, Downloads, and other folders. So we have to create an Automator app which will then get access to the Documents folder and can &lt;code&gt;cp&lt;&#x2F;code&gt; the files and commit etc.&lt;&#x2F;p&gt;
 &lt;h3 id=&quot;1-the-script&quot;&gt;1. The Script&lt;&#x2F;h3&gt;
 &lt;pre data-lang=&quot;shell&quot; style=&quot;background-color:#2b303b;color:#c0c5ce;&quot; class=&quot;language-shell &quot;&gt;&lt;code class=&quot;language-shell&quot; data-lang=&quot;shell&quot;&gt;&lt;span&gt;#!&#x2F;bin&#x2F;bash
-&lt;&#x2F;span&gt;&lt;span&gt;cp -R &#x2F;Users&#x2F;simxn&#x2F;Library&#x2F;Mobile\ Documents&#x2F;iCloud~md~obsidian&#x2F;Documents &#x2F;Users&#x2F;simxn&#x2F;Documents&#x2F;Version\ Control\ Obsidian &amp;amp;&amp;amp; cd &#x2F;Users&#x2F;simxn&#x2F;Documents&#x2F;Version\ Control\ Obsidian &amp;amp;&amp;amp; git add . &amp;amp;&amp;amp; git commit -m &amp;quot;daily commit $(date +&amp;#39;%Y-%m-%d&amp;#39;)&amp;quot; &amp;amp;&amp;amp; git push
+&lt;&#x2F;span&gt;&lt;span&gt;cp -R &#x2F;Users&#x2F;nilsmango&#x2F;Library&#x2F;Mobile\ Documents&#x2F;iCloud~md~obsidian&#x2F;Documents &#x2F;Users&#x2F;nilsmango&#x2F;Documents&#x2F;Version\ Control\ Obsidian &amp;amp;&amp;amp; cd &#x2F;Users&#x2F;nilsmango&#x2F;Documents&#x2F;Version\ Control\ Obsidian &amp;amp;&amp;amp; git add . &amp;amp;&amp;amp; git commit -m &amp;quot;daily commit $(date +&amp;#39;%Y-%m-%d&amp;#39;)&amp;quot; &amp;amp;&amp;amp; git push
 &lt;&#x2F;span&gt;&lt;&#x2F;code&gt;&lt;&#x2F;pre&gt;
 &lt;p&gt;Make it executable: &lt;code&gt;chmod +x daily-commit.sh&lt;&#x2F;code&gt;&lt;&#x2F;p&gt;
 &lt;h3 id=&quot;2-the-automator-app&quot;&gt;2. The Automator App&lt;&#x2F;h3&gt;
@@ -55,7 +55,7 @@
 &lt;li&gt;Open &lt;strong&gt;Terminal&lt;&#x2F;strong&gt;&lt;&#x2F;li&gt;
 &lt;li&gt;Execute command:&lt;&#x2F;li&gt;
 &lt;&#x2F;ul&gt;
-&lt;p&gt;&lt;code&gt;open -a run-script.app &#x2F;Users&#x2F;simxn&#x2F;scripts&#x2F;daily-commit.sh&lt;&#x2F;code&gt;&lt;&#x2F;p&gt;
+&lt;p&gt;&lt;code&gt;open -a run-script.app &#x2F;Users&#x2F;nilsmango&#x2F;scripts&#x2F;daily-commit.sh&lt;&#x2F;code&gt;&lt;&#x2F;p&gt;
 &lt;ul&gt;
 &lt;li&gt;Click &lt;strong&gt;Allow&lt;&#x2F;strong&gt; when macOS asks if the application can access your Desktop&lt;&#x2F;li&gt;
 &lt;&#x2F;ul&gt;
@@ -81,7 +81,9 @@
 &lt;a href=&quot;https:&amp;#x2F;&amp;#x2F;nilsmango.ch&amp;#x2F;processed_images&amp;#x2F;8VqAB.2c2b0de2769054d1.jpg&quot; target=&quot;_blank&quot;&gt;
 &lt;img srcset=&quot;https:&amp;#x2F;&amp;#x2F;nilsmango.ch&amp;#x2F;processed_images&amp;#x2F;8VqAB.74721549ff18ee59.jpg 300w, https:&amp;#x2F;&amp;#x2F;nilsmango.ch&amp;#x2F;processed_images&amp;#x2F;8VqAB.4657e8d042ea35a4.jpg 600w, https:&amp;#x2F;&amp;#x2F;nilsmango.ch&amp;#x2F;processed_images&amp;#x2F;8VqAB.2c2b0de2769054d1.jpg 1073w&quot; src=&quot;https:&amp;#x2F;&amp;#x2F;nilsmango.ch&amp;#x2F;processed_images&amp;#x2F;8VqAB.4657e8d042ea35a4.jpg&quot; alt=&quot;Screenshot of Automator App&quot; class=&quot;imgset&quot;&gt;
 &lt;&#x2F;a&gt;
+
 &lt;figcaption&gt;Select Application&lt;&#x2F;figcaption&gt;
+
 &lt;&#x2F;figure&gt;
 
 &lt;&#x2F;p&gt;
@@ -107,9 +109,10 @@
 &lt;a href=&quot;https:&amp;#x2F;&amp;#x2F;nilsmango.ch&amp;#x2F;processed_images&amp;#x2F;Xi9pR.8d3d8b87b19accf8.jpg&quot; target=&quot;_blank&quot;&gt;
 &lt;img srcset=&quot;https:&amp;#x2F;&amp;#x2F;nilsmango.ch&amp;#x2F;processed_images&amp;#x2F;Xi9pR.53342ae019a6dfe4.jpg 300w, https:&amp;#x2F;&amp;#x2F;nilsmango.ch&amp;#x2F;processed_images&amp;#x2F;Xi9pR.ee4e89717947e733.jpg 600w, https:&amp;#x2F;&amp;#x2F;nilsmango.ch&amp;#x2F;processed_images&amp;#x2F;Xi9pR.a9d29c4cfeb74e1a.jpg 1200w, , https:&amp;#x2F;&amp;#x2F;nilsmango.ch&amp;#x2F;processed_images&amp;#x2F;Xi9pR.8d3d8b87b19accf8.jpg 2400w&quot; src=&quot;https:&amp;#x2F;&amp;#x2F;nilsmango.ch&amp;#x2F;processed_images&amp;#x2F;Xi9pR.ee4e89717947e733.jpg&quot; alt=&quot;Screenshot of Automator App&quot; class=&quot;imgset&quot;&gt;
 &lt;&#x2F;a&gt;
-&lt;figcaption&gt;Select Pass Input: as arguments&lt;&#x2F;figcaption&gt;
-    &lt;&#x2F;figure&gt;
 
+&lt;figcaption&gt;Select Pass Input: as arguments&lt;&#x2F;figcaption&gt;
+
+    &lt;&#x2F;figure&gt;
 
 
 
@@ -136,9 +139,9 @@
 &lt;&#x2F;span&gt;&lt;span&gt;
 &lt;&#x2F;span&gt;&lt;span&gt;&amp;lt;&lt;&#x2F;span&gt;&lt;span style=&quot;color:#bf616a;&quot;&gt;string&lt;&#x2F;span&gt;&lt;span&gt;&amp;gt;-a&amp;lt;&#x2F;&lt;&#x2F;span&gt;&lt;span style=&quot;color:#bf616a;&quot;&gt;string&lt;&#x2F;span&gt;&lt;span&gt;&amp;gt;
 &lt;&#x2F;span&gt;&lt;span&gt;
-&lt;&#x2F;span&gt;&lt;span&gt;&amp;lt;&lt;&#x2F;span&gt;&lt;span style=&quot;color:#bf616a;&quot;&gt;string&lt;&#x2F;span&gt;&lt;span&gt;&amp;gt;&#x2F;Users&#x2F;simxn&#x2F;scripts&#x2F;run-script.app&amp;lt;&#x2F;&lt;&#x2F;span&gt;&lt;span style=&quot;color:#bf616a;&quot;&gt;string&lt;&#x2F;span&gt;&lt;span&gt;&amp;gt;
+&lt;&#x2F;span&gt;&lt;span&gt;&amp;lt;&lt;&#x2F;span&gt;&lt;span style=&quot;color:#bf616a;&quot;&gt;string&lt;&#x2F;span&gt;&lt;span&gt;&amp;gt;&#x2F;Users&#x2F;nilsmango&#x2F;scripts&#x2F;run-script.app&amp;lt;&#x2F;&lt;&#x2F;span&gt;&lt;span style=&quot;color:#bf616a;&quot;&gt;string&lt;&#x2F;span&gt;&lt;span&gt;&amp;gt;
 &lt;&#x2F;span&gt;&lt;span&gt;
-&lt;&#x2F;span&gt;&lt;span&gt;&amp;lt;&lt;&#x2F;span&gt;&lt;span style=&quot;color:#bf616a;&quot;&gt;string&lt;&#x2F;span&gt;&lt;span&gt;&amp;gt;&#x2F;Users&#x2F;simxn&#x2F;scripts&#x2F;daily-commit.sh&amp;lt;&#x2F;&lt;&#x2F;span&gt;&lt;span style=&quot;color:#bf616a;&quot;&gt;string&lt;&#x2F;span&gt;&lt;span&gt;&amp;gt;
+&lt;&#x2F;span&gt;&lt;span&gt;&amp;lt;&lt;&#x2F;span&gt;&lt;span style=&quot;color:#bf616a;&quot;&gt;string&lt;&#x2F;span&gt;&lt;span&gt;&amp;gt;&#x2F;Users&#x2F;nilsmango&#x2F;scripts&#x2F;daily-commit.sh&amp;lt;&#x2F;&lt;&#x2F;span&gt;&lt;span style=&quot;color:#bf616a;&quot;&gt;string&lt;&#x2F;span&gt;&lt;span&gt;&amp;gt;
 &lt;&#x2F;span&gt;&lt;span&gt;
 &lt;&#x2F;span&gt;&lt;span&gt;&amp;lt;&#x2F;&lt;&#x2F;span&gt;&lt;span style=&quot;color:#bf616a;&quot;&gt;array&lt;&#x2F;span&gt;&lt;span&gt;&amp;gt;
 &lt;&#x2F;span&gt;&lt;span&gt;
@@ -208,7 +211,9 @@ This audio effect is capable to produce micro-sounds, many clicks, delays, and s
 &lt;a href=&quot;https:&amp;#x2F;&amp;#x2F;nilsmango.ch&amp;#x2F;processed_images&amp;#x2F;phonogeneli 0.1.5690583932becd8b.webp&quot; target=&quot;_blank&quot;&gt;
 &lt;img srcset=&quot;https:&amp;#x2F;&amp;#x2F;nilsmango.ch&amp;#x2F;processed_images&amp;#x2F;phonogeneli 0.1.735887434765851b.webp 300w, https:&amp;#x2F;&amp;#x2F;nilsmango.ch&amp;#x2F;processed_images&amp;#x2F;phonogeneli 0.1.207c66745b6b6638.webp 600w, https:&amp;#x2F;&amp;#x2F;nilsmango.ch&amp;#x2F;processed_images&amp;#x2F;phonogeneli 0.1.5690583932becd8b.webp 669w&quot; src=&quot;https:&amp;#x2F;&amp;#x2F;nilsmango.ch&amp;#x2F;processed_images&amp;#x2F;phonogeneli 0.1.207c66745b6b6638.webp&quot; alt=&quot;Max for Live device Phonogeneli 0.1 in action&quot; class=&quot;imgset&quot;&gt;
 &lt;&#x2F;a&gt;
+
 &lt;figcaption&gt;Phonogeneli 0.1 in action&lt;&#x2F;figcaption&gt;
+
 &lt;&#x2F;figure&gt;
 
 &lt;h2 id=&quot;demo&quot;&gt;Demo&lt;&#x2F;h2&gt;
@@ -337,9 +342,10 @@ I use &lt;a rel=&quot;noopener&quot; target=&quot;_blank&quot; href=&quot;https:
 &lt;a href=&quot;https:&amp;#x2F;&amp;#x2F;nilsmango.ch&amp;#x2F;processed_images&amp;#x2F;journal.451094e2729952cf.webp&quot; target=&quot;_blank&quot;&gt;
 &lt;img srcset=&quot;https:&amp;#x2F;&amp;#x2F;nilsmango.ch&amp;#x2F;processed_images&amp;#x2F;journal.c5300a8d16844fd9.webp 300w, https:&amp;#x2F;&amp;#x2F;nilsmango.ch&amp;#x2F;processed_images&amp;#x2F;journal.a5428bbeadd63077.webp 600w, https:&amp;#x2F;&amp;#x2F;nilsmango.ch&amp;#x2F;processed_images&amp;#x2F;journal.451094e2729952cf.webp 1200w&quot; src=&quot;https:&amp;#x2F;&amp;#x2F;nilsmango.ch&amp;#x2F;processed_images&amp;#x2F;journal.a5428bbeadd63077.webp&quot; alt=&quot;The app Obsidian open at a daily journal&quot; class=&quot;imgset&quot;&gt;
 &lt;&#x2F;a&gt;
-&lt;figcaption&gt;My daily journal in Obsidian.&lt;&#x2F;figcaption&gt;
-&lt;&#x2F;figure&gt;
 
+&lt;figcaption&gt;My daily journal in Obsidian.&lt;&#x2F;figcaption&gt;
+
+&lt;&#x2F;figure&gt;
 
 &lt;p&gt;My daily note template looks something like this:&lt;&#x2F;p&gt;
 &lt;pre data-lang=&quot;markdown&quot; style=&quot;background-color:#2b303b;color:#c0c5ce;&quot; class=&quot;language-markdown &quot;&gt;&lt;code class=&quot;language-markdown&quot; data-lang=&quot;markdown&quot;&gt;&lt;span style=&quot;color:#8fa1b3;&quot;&gt;# {{title}} - {{date: dddd}}
@@ -416,9 +422,10 @@ A contemplation of digital to analog, fragmentation, growing up and street art i
 &lt;a href=&quot;https:&amp;#x2F;&amp;#x2F;nilsmango.ch&amp;#x2F;processed_images&amp;#x2F;IMG_5075.c0538a52b3b06b73.jpg&quot; target=&quot;_blank&quot;&gt;
 &lt;img srcset=&quot;https:&amp;#x2F;&amp;#x2F;nilsmango.ch&amp;#x2F;processed_images&amp;#x2F;IMG_5075.fb46a4331dcf123e.jpg 300w, https:&amp;#x2F;&amp;#x2F;nilsmango.ch&amp;#x2F;processed_images&amp;#x2F;IMG_5075.e0d8b095fb04c52c.jpg 600w, https:&amp;#x2F;&amp;#x2F;nilsmango.ch&amp;#x2F;processed_images&amp;#x2F;IMG_5075.02dc2de314d22213.jpg 1200w, , https:&amp;#x2F;&amp;#x2F;nilsmango.ch&amp;#x2F;processed_images&amp;#x2F;IMG_5075.c0538a52b3b06b73.jpg 2400w&quot; src=&quot;https:&amp;#x2F;&amp;#x2F;nilsmango.ch&amp;#x2F;processed_images&amp;#x2F;IMG_5075.e0d8b095fb04c52c.jpg&quot; alt=&quot;A palm tree on a wall made from small pictures&quot; class=&quot;imgset&quot;&gt;
 &lt;&#x2F;a&gt;
-&lt;figcaption&gt;Die Palme, Wettsteinbrücke Basel&lt;&#x2F;figcaption&gt;
-    &lt;&#x2F;figure&gt;
 
+&lt;figcaption&gt;Die Palme, Wettsteinbrücke Basel&lt;&#x2F;figcaption&gt;
+
+    &lt;&#x2F;figure&gt;
 
 
 
@@ -444,9 +451,10 @@ A contemplation of digital to analog, fragmentation, growing up and street art i
 &lt;a href=&quot;https:&amp;#x2F;&amp;#x2F;nilsmango.ch&amp;#x2F;processed_images&amp;#x2F;IMG_5081.524897ed8fa28944.jpg&quot; target=&quot;_blank&quot;&gt;
 &lt;img srcset=&quot;https:&amp;#x2F;&amp;#x2F;nilsmango.ch&amp;#x2F;processed_images&amp;#x2F;IMG_5081.da9924abc1519274.jpg 300w, https:&amp;#x2F;&amp;#x2F;nilsmango.ch&amp;#x2F;processed_images&amp;#x2F;IMG_5081.316a26c09548b0a0.jpg 600w, https:&amp;#x2F;&amp;#x2F;nilsmango.ch&amp;#x2F;processed_images&amp;#x2F;IMG_5081.5ba3900775657ec4.jpg 1200w, , https:&amp;#x2F;&amp;#x2F;nilsmango.ch&amp;#x2F;processed_images&amp;#x2F;IMG_5081.524897ed8fa28944.jpg 2400w&quot; src=&quot;https:&amp;#x2F;&amp;#x2F;nilsmango.ch&amp;#x2F;processed_images&amp;#x2F;IMG_5081.316a26c09548b0a0.jpg&quot; alt=&quot;A palm tree on a wall made from small pictures with a man next to it&quot; class=&quot;imgset&quot;&gt;
 &lt;&#x2F;a&gt;
-&lt;figcaption&gt;Die Palme, Wettsteinbrücke Basel&lt;&#x2F;figcaption&gt;
-    &lt;&#x2F;figure&gt;
 
+&lt;figcaption&gt;Die Palme, Wettsteinbrücke Basel&lt;&#x2F;figcaption&gt;
+
+    &lt;&#x2F;figure&gt;
 
 
 
@@ -472,9 +480,10 @@ A contemplation of digital to analog, fragmentation, growing up and street art i
 &lt;a href=&quot;https:&amp;#x2F;&amp;#x2F;nilsmango.ch&amp;#x2F;processed_images&amp;#x2F;IMG_6622.22d618b85c2dfe44.jpg&quot; target=&quot;_blank&quot;&gt;
 &lt;img srcset=&quot;https:&amp;#x2F;&amp;#x2F;nilsmango.ch&amp;#x2F;processed_images&amp;#x2F;IMG_6622.96ec3c34ef33fd46.jpg 300w, https:&amp;#x2F;&amp;#x2F;nilsmango.ch&amp;#x2F;processed_images&amp;#x2F;IMG_6622.27c4add7bef21992.jpg 600w, https:&amp;#x2F;&amp;#x2F;nilsmango.ch&amp;#x2F;processed_images&amp;#x2F;IMG_6622.dccc3ffb9ee7ad75.jpg 1200w, , https:&amp;#x2F;&amp;#x2F;nilsmango.ch&amp;#x2F;processed_images&amp;#x2F;IMG_6622.22d618b85c2dfe44.jpg 2400w&quot; src=&quot;https:&amp;#x2F;&amp;#x2F;nilsmango.ch&amp;#x2F;processed_images&amp;#x2F;IMG_6622.27c4add7bef21992.jpg&quot; alt=&quot;A watering can on a wall made from small pictures&quot; class=&quot;imgset&quot;&gt;
 &lt;&#x2F;a&gt;
-&lt;figcaption&gt;Die Giesskanne, Oberer Rheinweg Basel&lt;&#x2F;figcaption&gt;
-    &lt;&#x2F;figure&gt;
 
+&lt;figcaption&gt;Die Giesskanne, Oberer Rheinweg Basel&lt;&#x2F;figcaption&gt;
+
+    &lt;&#x2F;figure&gt;
 
 
 
@@ -500,9 +509,10 @@ A contemplation of digital to analog, fragmentation, growing up and street art i
 &lt;a href=&quot;https:&amp;#x2F;&amp;#x2F;nilsmango.ch&amp;#x2F;processed_images&amp;#x2F;IMG_9833.05f4915137579906.jpg&quot; target=&quot;_blank&quot;&gt;
 &lt;img srcset=&quot;https:&amp;#x2F;&amp;#x2F;nilsmango.ch&amp;#x2F;processed_images&amp;#x2F;IMG_9833.70ce0eccd10c109f.jpg 300w, https:&amp;#x2F;&amp;#x2F;nilsmango.ch&amp;#x2F;processed_images&amp;#x2F;IMG_9833.f160973782acdae4.jpg 600w, https:&amp;#x2F;&amp;#x2F;nilsmango.ch&amp;#x2F;processed_images&amp;#x2F;IMG_9833.e5cd20763063de32.jpg 1200w, , https:&amp;#x2F;&amp;#x2F;nilsmango.ch&amp;#x2F;processed_images&amp;#x2F;IMG_9833.05f4915137579906.jpg 2400w&quot; src=&quot;https:&amp;#x2F;&amp;#x2F;nilsmango.ch&amp;#x2F;processed_images&amp;#x2F;IMG_9833.f160973782acdae4.jpg&quot; alt=&quot;A tram on a wall made from small pictures&quot; class=&quot;imgset&quot;&gt;
 &lt;&#x2F;a&gt;
-&lt;figcaption&gt;Das Tram&lt;&#x2F;figcaption&gt;
-    &lt;&#x2F;figure&gt;
 
+&lt;figcaption&gt;Das Tram&lt;&#x2F;figcaption&gt;
+
+    &lt;&#x2F;figure&gt;
 
 
 
@@ -528,9 +538,10 @@ A contemplation of digital to analog, fragmentation, growing up and street art i
 &lt;a href=&quot;https:&amp;#x2F;&amp;#x2F;nilsmango.ch&amp;#x2F;processed_images&amp;#x2F;IMG_7462.8f6bd7560d437ffd.jpg&quot; target=&quot;_blank&quot;&gt;
 &lt;img srcset=&quot;https:&amp;#x2F;&amp;#x2F;nilsmango.ch&amp;#x2F;processed_images&amp;#x2F;IMG_7462.ecaa99b2d44ea1e1.jpg 300w, https:&amp;#x2F;&amp;#x2F;nilsmango.ch&amp;#x2F;processed_images&amp;#x2F;IMG_7462.92a9704fd91711e9.jpg 600w, https:&amp;#x2F;&amp;#x2F;nilsmango.ch&amp;#x2F;processed_images&amp;#x2F;IMG_7462.cd3f8007ad2cbb90.jpg 1200w, , https:&amp;#x2F;&amp;#x2F;nilsmango.ch&amp;#x2F;processed_images&amp;#x2F;IMG_7462.8f6bd7560d437ffd.jpg 2400w&quot; src=&quot;https:&amp;#x2F;&amp;#x2F;nilsmango.ch&amp;#x2F;processed_images&amp;#x2F;IMG_7462.92a9704fd91711e9.jpg&quot; alt=&quot;A hose on a wall made from small pictures&quot; class=&quot;imgset&quot;&gt;
 &lt;&#x2F;a&gt;
-&lt;figcaption&gt;Der Schlauch, Tinguely-Brunnen Basel&lt;&#x2F;figcaption&gt;
-    &lt;&#x2F;figure&gt;
 
+&lt;figcaption&gt;Der Schlauch, Tinguely-Brunnen Basel&lt;&#x2F;figcaption&gt;
+
+    &lt;&#x2F;figure&gt;
 
 
 
@@ -556,9 +567,10 @@ A contemplation of digital to analog, fragmentation, growing up and street art i
 &lt;a href=&quot;https:&amp;#x2F;&amp;#x2F;nilsmango.ch&amp;#x2F;processed_images&amp;#x2F;IMG_0648.430107276291ac11.jpg&quot; target=&quot;_blank&quot;&gt;
 &lt;img srcset=&quot;https:&amp;#x2F;&amp;#x2F;nilsmango.ch&amp;#x2F;processed_images&amp;#x2F;IMG_0648.9f318df93ecc4f63.jpg 300w, https:&amp;#x2F;&amp;#x2F;nilsmango.ch&amp;#x2F;processed_images&amp;#x2F;IMG_0648.d98f9bc950e1d96a.jpg 600w, https:&amp;#x2F;&amp;#x2F;nilsmango.ch&amp;#x2F;processed_images&amp;#x2F;IMG_0648.18b914f7e1f616ea.jpg 1200w, , https:&amp;#x2F;&amp;#x2F;nilsmango.ch&amp;#x2F;processed_images&amp;#x2F;IMG_0648.430107276291ac11.jpg 2400w&quot; src=&quot;https:&amp;#x2F;&amp;#x2F;nilsmango.ch&amp;#x2F;processed_images&amp;#x2F;IMG_0648.d98f9bc950e1d96a.jpg&quot; alt=&quot;A rainbow made from small pictures&quot; class=&quot;imgset&quot;&gt;
 &lt;&#x2F;a&gt;
-&lt;figcaption&gt;Der Regenbogen&lt;&#x2F;figcaption&gt;
-    &lt;&#x2F;figure&gt;
 
+&lt;figcaption&gt;Der Regenbogen&lt;&#x2F;figcaption&gt;
+
+    &lt;&#x2F;figure&gt;
 
 
 
@@ -596,9 +608,10 @@ A contemplation of digital to analog, fragmentation, growing up and street art i
 &lt;a href=&quot;https:&amp;#x2F;&amp;#x2F;nilsmango.ch&amp;#x2F;processed_images&amp;#x2F;mega1.d64735199351ebc3.jpg&quot; target=&quot;_blank&quot;&gt;
 &lt;img srcset=&quot;https:&amp;#x2F;&amp;#x2F;nilsmango.ch&amp;#x2F;processed_images&amp;#x2F;mega1.26ce51549009ae21.jpg 300w, https:&amp;#x2F;&amp;#x2F;nilsmango.ch&amp;#x2F;processed_images&amp;#x2F;mega1.75640bf0d9220b83.jpg 600w, https:&amp;#x2F;&amp;#x2F;nilsmango.ch&amp;#x2F;processed_images&amp;#x2F;mega1.d64735199351ebc3.jpg 1200w&quot; src=&quot;https:&amp;#x2F;&amp;#x2F;nilsmango.ch&amp;#x2F;processed_images&amp;#x2F;mega1.75640bf0d9220b83.jpg&quot; alt=&quot;Flyer with many t-shirts and a hoodie by megaduo.&quot; class=&quot;imgset&quot;&gt;
 &lt;&#x2F;a&gt;
-&lt;figcaption&gt;megaduo t-shirts flyer&lt;&#x2F;figcaption&gt;
-&lt;&#x2F;figure&gt;
 
+&lt;figcaption&gt;megaduo t-shirts flyer&lt;&#x2F;figcaption&gt;
+
+&lt;&#x2F;figure&gt;
 
 
 
@@ -619,9 +632,10 @@ A contemplation of digital to analog, fragmentation, growing up and street art i
 &lt;a href=&quot;https:&amp;#x2F;&amp;#x2F;nilsmango.ch&amp;#x2F;processed_images&amp;#x2F;mega2.51ec4d88db6a1804.jpg&quot; target=&quot;_blank&quot;&gt;
 &lt;img srcset=&quot;https:&amp;#x2F;&amp;#x2F;nilsmango.ch&amp;#x2F;processed_images&amp;#x2F;mega2.bf15dd52b25a0cac.jpg 300w, https:&amp;#x2F;&amp;#x2F;nilsmango.ch&amp;#x2F;processed_images&amp;#x2F;mega2.8c626b87a8d66b22.jpg 600w, https:&amp;#x2F;&amp;#x2F;nilsmango.ch&amp;#x2F;processed_images&amp;#x2F;mega2.51ec4d88db6a1804.jpg 1200w&quot; src=&quot;https:&amp;#x2F;&amp;#x2F;nilsmango.ch&amp;#x2F;processed_images&amp;#x2F;mega2.8c626b87a8d66b22.jpg&quot; alt=&quot;Flyer with text: Wenn ich einmal Gross bin will ich ein Poster werden.&quot; class=&quot;imgset&quot;&gt;
 &lt;&#x2F;a&gt;
-&lt;figcaption&gt;Wenn ich einmal Gross bin flyer&lt;&#x2F;figcaption&gt;
-&lt;&#x2F;figure&gt;
 
+&lt;figcaption&gt;Wenn ich einmal Gross bin flyer&lt;&#x2F;figcaption&gt;
+
+&lt;&#x2F;figure&gt;
 
 
 
@@ -642,7 +656,9 @@ A contemplation of digital to analog, fragmentation, growing up and street art i
 &lt;a href=&quot;https:&amp;#x2F;&amp;#x2F;nilsmango.ch&amp;#x2F;processed_images&amp;#x2F;2000000.c8f9530ee97a5af2.jpg&quot; target=&quot;_blank&quot;&gt;
 &lt;img srcset=&quot;https:&amp;#x2F;&amp;#x2F;nilsmango.ch&amp;#x2F;processed_images&amp;#x2F;2000000.35072e686f4ac6c3.jpg 300w, https:&amp;#x2F;&amp;#x2F;nilsmango.ch&amp;#x2F;processed_images&amp;#x2F;2000000.8ac386125787b71a.jpg 600w, https:&amp;#x2F;&amp;#x2F;nilsmango.ch&amp;#x2F;processed_images&amp;#x2F;2000000.c8f9530ee97a5af2.jpg 697w&quot; src=&quot;https:&amp;#x2F;&amp;#x2F;nilsmango.ch&amp;#x2F;processed_images&amp;#x2F;2000000.8ac386125787b71a.jpg&quot; alt=&quot;A sticker showing a framed canvas with a strange skull with 6 eyes forming the URL 2000000.ch and airbrush pistols underneath&quot; class=&quot;imgset&quot;&gt;
 &lt;&#x2F;a&gt;
+
 &lt;figcaption&gt;2000000.ch skull sticker&lt;&#x2F;figcaption&gt;
+
 &lt;&#x2F;figure&gt;
 
 
@@ -664,7 +680,9 @@ A contemplation of digital to analog, fragmentation, growing up and street art i
 &lt;a href=&quot;https:&amp;#x2F;&amp;#x2F;nilsmango.ch&amp;#x2F;processed_images&amp;#x2F;cool.67b935da75af86af.jpg&quot; target=&quot;_blank&quot;&gt;
 &lt;img srcset=&quot;https:&amp;#x2F;&amp;#x2F;nilsmango.ch&amp;#x2F;processed_images&amp;#x2F;cool.fa89e94dcfbe19ab.jpg 300w, https:&amp;#x2F;&amp;#x2F;nilsmango.ch&amp;#x2F;processed_images&amp;#x2F;cool.3100d6b91ec3a11f.jpg 600w, https:&amp;#x2F;&amp;#x2F;nilsmango.ch&amp;#x2F;processed_images&amp;#x2F;cool.67b935da75af86af.jpg 697w&quot; src=&quot;https:&amp;#x2F;&amp;#x2F;nilsmango.ch&amp;#x2F;processed_images&amp;#x2F;cool.3100d6b91ec3a11f.jpg&quot; alt=&quot;A sticker showing a framed canvas with an image riddle forming the Swiss German sentence: Du bisch super kuhl!&quot; class=&quot;imgset&quot;&gt;
 &lt;&#x2F;a&gt;
+
 &lt;figcaption&gt;2000000.ch riddle sticker&lt;&#x2F;figcaption&gt;
+
 &lt;&#x2F;figure&gt;
 
 &lt;p&gt;
@@ -686,9 +704,10 @@ A contemplation of digital to analog, fragmentation, growing up and street art i
 &lt;a href=&quot;https:&amp;#x2F;&amp;#x2F;nilsmango.ch&amp;#x2F;processed_images&amp;#x2F;FlyerRätsels1.ce4ad27e6a4b9ed3.jpg&quot; target=&quot;_blank&quot;&gt;
 &lt;img srcset=&quot;https:&amp;#x2F;&amp;#x2F;nilsmango.ch&amp;#x2F;processed_images&amp;#x2F;FlyerRätsels1.5cb9a2c19dec6997.jpg 300w, https:&amp;#x2F;&amp;#x2F;nilsmango.ch&amp;#x2F;processed_images&amp;#x2F;FlyerRätsels1.3deec5f41e239217.jpg 600w, https:&amp;#x2F;&amp;#x2F;nilsmango.ch&amp;#x2F;processed_images&amp;#x2F;FlyerRätsels1.ce4ad27e6a4b9ed3.jpg 1200w&quot; src=&quot;https:&amp;#x2F;&amp;#x2F;nilsmango.ch&amp;#x2F;processed_images&amp;#x2F;FlyerRätsels1.3deec5f41e239217.jpg&quot; alt=&quot;A flyer showing a piece of paper with an image riddle. Solution: Die besten T-Shirts der Welt und andere Sachen. Du bist super!&quot; class=&quot;imgset&quot;&gt;
 &lt;&#x2F;a&gt;
-&lt;figcaption&gt;megaduo.ch riddle flyer&lt;&#x2F;figcaption&gt;
-&lt;&#x2F;figure&gt;
 
+&lt;figcaption&gt;megaduo.ch riddle flyer&lt;&#x2F;figcaption&gt;
+
+&lt;&#x2F;figure&gt;
 
 
 &lt;br&gt;&lt;&#x2F;p&gt;
@@ -714,7 +733,9 @@ A contemplation of digital to analog, fragmentation, growing up and street art i
 &lt;a href=&quot;https:&amp;#x2F;&amp;#x2F;nilsmango.ch&amp;#x2F;processed_images&amp;#x2F;guerillawerbung.8e8f2f44cf098b5e.jpg&quot; target=&quot;_blank&quot;&gt;
 &lt;img srcset=&quot;https:&amp;#x2F;&amp;#x2F;nilsmango.ch&amp;#x2F;processed_images&amp;#x2F;guerillawerbung.2a25d299491d282d.jpg 300w, https:&amp;#x2F;&amp;#x2F;nilsmango.ch&amp;#x2F;processed_images&amp;#x2F;guerillawerbung.f0d2084ef53e2df7.jpg 600w, https:&amp;#x2F;&amp;#x2F;nilsmango.ch&amp;#x2F;processed_images&amp;#x2F;guerillawerbung.8e8f2f44cf098b5e.jpg 1028w&quot; src=&quot;https:&amp;#x2F;&amp;#x2F;nilsmango.ch&amp;#x2F;processed_images&amp;#x2F;guerillawerbung.f0d2084ef53e2df7.jpg&quot; alt=&quot;Bundesamt für Guerillawerbung&quot; class=&quot;imgset&quot;&gt;
 &lt;&#x2F;a&gt;
+
 &lt;figcaption&gt;Bundesamt für Guerillawerbung&lt;&#x2F;figcaption&gt;
+
 &lt;&#x2F;figure&gt;
 
 
@@ -744,9 +765,10 @@ A contemplation of digital to analog, fragmentation, growing up and street art i
 &lt;a href=&quot;https:&amp;#x2F;&amp;#x2F;nilsmango.ch&amp;#x2F;processed_images&amp;#x2F;megaduo.3d778ae86c069fac.jpg&quot; target=&quot;_blank&quot;&gt;
 &lt;img srcset=&quot;https:&amp;#x2F;&amp;#x2F;nilsmango.ch&amp;#x2F;processed_images&amp;#x2F;megaduo.6759ad7730f6eaa0.jpg 300w, https:&amp;#x2F;&amp;#x2F;nilsmango.ch&amp;#x2F;processed_images&amp;#x2F;megaduo.92ddff21eb5c5ea7.jpg 600w, https:&amp;#x2F;&amp;#x2F;nilsmango.ch&amp;#x2F;processed_images&amp;#x2F;megaduo.f73fb39b0327745b.jpg 1200w, , https:&amp;#x2F;&amp;#x2F;nilsmango.ch&amp;#x2F;processed_images&amp;#x2F;megaduo.3d778ae86c069fac.jpg 2400w&quot; src=&quot;https:&amp;#x2F;&amp;#x2F;nilsmango.ch&amp;#x2F;processed_images&amp;#x2F;megaduo.92ddff21eb5c5ea7.jpg&quot; alt=&quot;Plakate anbringen verboten poster&quot; class=&quot;imgset&quot;&gt;
 &lt;&#x2F;a&gt;
-&lt;figcaption&gt;Plakate anbringen verboten&lt;&#x2F;figcaption&gt;
-    &lt;&#x2F;figure&gt;
 
+&lt;figcaption&gt;Plakate anbringen verboten&lt;&#x2F;figcaption&gt;
+
+    &lt;&#x2F;figure&gt;
 
 
 
@@ -769,9 +791,10 @@ A contemplation of digital to analog, fragmentation, growing up and street art i
 &lt;a href=&quot;https:&amp;#x2F;&amp;#x2F;nilsmango.ch&amp;#x2F;processed_images&amp;#x2F;ghosts.1c254e48e02a97a4.jpg&quot; target=&quot;_blank&quot;&gt;
 &lt;img srcset=&quot;https:&amp;#x2F;&amp;#x2F;nilsmango.ch&amp;#x2F;processed_images&amp;#x2F;ghosts.251f939183abb280.jpg 300w, https:&amp;#x2F;&amp;#x2F;nilsmango.ch&amp;#x2F;processed_images&amp;#x2F;ghosts.7230eee756f36ac9.jpg 600w, https:&amp;#x2F;&amp;#x2F;nilsmango.ch&amp;#x2F;processed_images&amp;#x2F;ghosts.1c254e48e02a97a4.jpg 1200w&quot; src=&quot;https:&amp;#x2F;&amp;#x2F;nilsmango.ch&amp;#x2F;processed_images&amp;#x2F;ghosts.7230eee756f36ac9.jpg&quot; alt=&quot;A graphic showing many cute ghosts scaring each other&quot; class=&quot;imgset&quot;&gt;
 &lt;&#x2F;a&gt;
-&lt;figcaption&gt;Ghosts&lt;&#x2F;figcaption&gt;
-&lt;&#x2F;figure&gt;
 
+&lt;figcaption&gt;Ghosts&lt;&#x2F;figcaption&gt;
+
+&lt;&#x2F;figure&gt;
 
 
 
@@ -792,9 +815,10 @@ A contemplation of digital to analog, fragmentation, growing up and street art i
 &lt;a href=&quot;https:&amp;#x2F;&amp;#x2F;nilsmango.ch&amp;#x2F;processed_images&amp;#x2F;weareallfucked.f27dcafb923378ae.jpg&quot; target=&quot;_blank&quot;&gt;
 &lt;img srcset=&quot;https:&amp;#x2F;&amp;#x2F;nilsmango.ch&amp;#x2F;processed_images&amp;#x2F;weareallfucked.1458e7c2c80e91e1.jpg 300w, https:&amp;#x2F;&amp;#x2F;nilsmango.ch&amp;#x2F;processed_images&amp;#x2F;weareallfucked.6d7ce04514f9b657.jpg 600w, https:&amp;#x2F;&amp;#x2F;nilsmango.ch&amp;#x2F;processed_images&amp;#x2F;weareallfucked.f27dcafb923378ae.jpg 1200w&quot; src=&quot;https:&amp;#x2F;&amp;#x2F;nilsmango.ch&amp;#x2F;processed_images&amp;#x2F;weareallfucked.6d7ce04514f9b657.jpg&quot; alt=&quot;A graphic with the text - we are all fucked - in form of an ejaculating penis&quot; class=&quot;imgset&quot;&gt;
 &lt;&#x2F;a&gt;
-&lt;figcaption&gt;Fucked&lt;&#x2F;figcaption&gt;
-&lt;&#x2F;figure&gt;
 
+&lt;figcaption&gt;Fucked&lt;&#x2F;figcaption&gt;
+
+&lt;&#x2F;figure&gt;
 
 
 
@@ -815,7 +839,9 @@ A contemplation of digital to analog, fragmentation, growing up and street art i
 &lt;a href=&quot;https:&amp;#x2F;&amp;#x2F;nilsmango.ch&amp;#x2F;processed_images&amp;#x2F;schwarz1.dc1915f4da9bd221.jpg&quot; target=&quot;_blank&quot;&gt;
 &lt;img srcset=&quot;https:&amp;#x2F;&amp;#x2F;nilsmango.ch&amp;#x2F;processed_images&amp;#x2F;schwarz1.fad7bc97aa51d8bb.jpg 300w, https:&amp;#x2F;&amp;#x2F;nilsmango.ch&amp;#x2F;processed_images&amp;#x2F;schwarz1.bcd346005d43b69d.jpg 600w, https:&amp;#x2F;&amp;#x2F;nilsmango.ch&amp;#x2F;processed_images&amp;#x2F;schwarz1.dc1915f4da9bd221.jpg 727w&quot; src=&quot;https:&amp;#x2F;&amp;#x2F;nilsmango.ch&amp;#x2F;processed_images&amp;#x2F;schwarz1.bcd346005d43b69d.jpg&quot; alt=&quot;Definition von schwarz auf schwarzem Hintergrund.&quot; class=&quot;imgset&quot;&gt;
 &lt;&#x2F;a&gt;
+
 &lt;figcaption&gt;Schwarz&lt;&#x2F;figcaption&gt;
+
 &lt;&#x2F;figure&gt;
 
 &lt;p id=&quot;herz&quot;&gt;&lt;&#x2F;p&gt;
@@ -838,7 +864,9 @@ A contemplation of digital to analog, fragmentation, growing up and street art i
 &lt;a href=&quot;https:&amp;#x2F;&amp;#x2F;nilsmango.ch&amp;#x2F;processed_images&amp;#x2F;Herz Partnershirt.5871229cb393678c.jpg&quot; target=&quot;_blank&quot;&gt;
 &lt;img srcset=&quot;https:&amp;#x2F;&amp;#x2F;nilsmango.ch&amp;#x2F;processed_images&amp;#x2F;Herz Partnershirt.acf302a3f18a8391.jpg 300w, https:&amp;#x2F;&amp;#x2F;nilsmango.ch&amp;#x2F;processed_images&amp;#x2F;Herz Partnershirt.7c7d94f4d77c2e37.jpg 600w, https:&amp;#x2F;&amp;#x2F;nilsmango.ch&amp;#x2F;processed_images&amp;#x2F;Herz Partnershirt.5871229cb393678c.jpg 808w&quot; src=&quot;https:&amp;#x2F;&amp;#x2F;nilsmango.ch&amp;#x2F;processed_images&amp;#x2F;Herz Partnershirt.7c7d94f4d77c2e37.jpg&quot; alt=&quot;A couple standing close with their t-shirts forming a heart.&quot; class=&quot;imgset&quot;&gt;
 &lt;&#x2F;a&gt;
+
 &lt;figcaption&gt;Heart partner t-shirt&lt;&#x2F;figcaption&gt;
+
 &lt;&#x2F;figure&gt;
 
 
@@ -861,9 +889,10 @@ A contemplation of digital to analog, fragmentation, growing up and street art i
 &lt;a href=&quot;https:&amp;#x2F;&amp;#x2F;nilsmango.ch&amp;#x2F;processed_images&amp;#x2F;IMG_0583.3a4b41ef171bd1d0.jpg&quot; target=&quot;_blank&quot;&gt;
 &lt;img srcset=&quot;https:&amp;#x2F;&amp;#x2F;nilsmango.ch&amp;#x2F;processed_images&amp;#x2F;IMG_0583.b419b606806988e5.jpg 300w, https:&amp;#x2F;&amp;#x2F;nilsmango.ch&amp;#x2F;processed_images&amp;#x2F;IMG_0583.25371cdd3c29c15e.jpg 600w, https:&amp;#x2F;&amp;#x2F;nilsmango.ch&amp;#x2F;processed_images&amp;#x2F;IMG_0583.3a4b41ef171bd1d0.jpg 1200w&quot; src=&quot;https:&amp;#x2F;&amp;#x2F;nilsmango.ch&amp;#x2F;processed_images&amp;#x2F;IMG_0583.25371cdd3c29c15e.jpg&quot; alt=&quot;A t-shirt with burn marks featuring a flamethrower and the caption: IGNITE MY LOVE.&quot; class=&quot;imgset&quot;&gt;
 &lt;&#x2F;a&gt;
-&lt;figcaption&gt;IGNITE MY LOVE t-shirt&lt;&#x2F;figcaption&gt;
-&lt;&#x2F;figure&gt;
 
+&lt;figcaption&gt;IGNITE MY LOVE t-shirt&lt;&#x2F;figcaption&gt;
+
+&lt;&#x2F;figure&gt;
 
 
 
@@ -887,9 +916,10 @@ A contemplation of digital to analog, fragmentation, growing up and street art i
 &lt;a href=&quot;https:&amp;#x2F;&amp;#x2F;nilsmango.ch&amp;#x2F;processed_images&amp;#x2F;IMG_0637.ba026ff4d5e1d461.jpg&quot; target=&quot;_blank&quot;&gt;
 &lt;img srcset=&quot;https:&amp;#x2F;&amp;#x2F;nilsmango.ch&amp;#x2F;processed_images&amp;#x2F;IMG_0637.e978ae96a619442e.jpg 300w, https:&amp;#x2F;&amp;#x2F;nilsmango.ch&amp;#x2F;processed_images&amp;#x2F;IMG_0637.26b20c27d1bce6e3.jpg 600w, https:&amp;#x2F;&amp;#x2F;nilsmango.ch&amp;#x2F;processed_images&amp;#x2F;IMG_0637.1c6de975e612545b.jpg 1200w, , https:&amp;#x2F;&amp;#x2F;nilsmango.ch&amp;#x2F;processed_images&amp;#x2F;IMG_0637.ba026ff4d5e1d461.jpg 2400w&quot; src=&quot;https:&amp;#x2F;&amp;#x2F;nilsmango.ch&amp;#x2F;processed_images&amp;#x2F;IMG_0637.26b20c27d1bce6e3.jpg&quot; alt=&quot;A black sofa with white airbrushed text.&quot; class=&quot;imgset&quot;&gt;
 &lt;&#x2F;a&gt;
-&lt;figcaption&gt;Literary sofa&lt;&#x2F;figcaption&gt;
-    &lt;&#x2F;figure&gt;
 
+&lt;figcaption&gt;Literary sofa&lt;&#x2F;figcaption&gt;
+
+    &lt;&#x2F;figure&gt;
 
 
 
@@ -915,9 +945,10 @@ A contemplation of digital to analog, fragmentation, growing up and street art i
 &lt;a href=&quot;https:&amp;#x2F;&amp;#x2F;nilsmango.ch&amp;#x2F;processed_images&amp;#x2F;IMG_0840.3aba56aca8dad35c.jpg&quot; target=&quot;_blank&quot;&gt;
 &lt;img srcset=&quot;https:&amp;#x2F;&amp;#x2F;nilsmango.ch&amp;#x2F;processed_images&amp;#x2F;IMG_0840.6a0e5b2e4f082919.jpg 300w, https:&amp;#x2F;&amp;#x2F;nilsmango.ch&amp;#x2F;processed_images&amp;#x2F;IMG_0840.2c7cda702d8f737b.jpg 600w, https:&amp;#x2F;&amp;#x2F;nilsmango.ch&amp;#x2F;processed_images&amp;#x2F;IMG_0840.4bc6610bdba92722.jpg 1200w, , https:&amp;#x2F;&amp;#x2F;nilsmango.ch&amp;#x2F;processed_images&amp;#x2F;IMG_0840.3aba56aca8dad35c.jpg 2400w&quot; src=&quot;https:&amp;#x2F;&amp;#x2F;nilsmango.ch&amp;#x2F;processed_images&amp;#x2F;IMG_0840.2c7cda702d8f737b.jpg&quot; alt=&quot;T-Shirts on a washing line forming the URL megaduo.ch.&quot; class=&quot;imgset&quot;&gt;
 &lt;&#x2F;a&gt;
-&lt;figcaption&gt;megaduo t-shirts&lt;&#x2F;figcaption&gt;
-    &lt;&#x2F;figure&gt;
 
+&lt;figcaption&gt;megaduo t-shirts&lt;&#x2F;figcaption&gt;
+
+    &lt;&#x2F;figure&gt;
 
 
 
@@ -943,9 +974,10 @@ A contemplation of digital to analog, fragmentation, growing up and street art i
 &lt;a href=&quot;https:&amp;#x2F;&amp;#x2F;nilsmango.ch&amp;#x2F;processed_images&amp;#x2F;IMG_2584.542614b83bbeaeda.jpg&quot; target=&quot;_blank&quot;&gt;
 &lt;img srcset=&quot;https:&amp;#x2F;&amp;#x2F;nilsmango.ch&amp;#x2F;processed_images&amp;#x2F;IMG_2584.f61ff19b7d8b2903.jpg 300w, https:&amp;#x2F;&amp;#x2F;nilsmango.ch&amp;#x2F;processed_images&amp;#x2F;IMG_2584.ab59b77aab4ae978.jpg 600w, https:&amp;#x2F;&amp;#x2F;nilsmango.ch&amp;#x2F;processed_images&amp;#x2F;IMG_2584.5b3e9efc1bce8b85.jpg 1200w, , https:&amp;#x2F;&amp;#x2F;nilsmango.ch&amp;#x2F;processed_images&amp;#x2F;IMG_2584.542614b83bbeaeda.jpg 2400w&quot; src=&quot;https:&amp;#x2F;&amp;#x2F;nilsmango.ch&amp;#x2F;processed_images&amp;#x2F;IMG_2584.ab59b77aab4ae978.jpg&quot; alt=&quot;Nils Mango with a t-shirt saying MAKE LOVE NOT ART, sprinkled with colorful paint.&quot; class=&quot;imgset&quot;&gt;
 &lt;&#x2F;a&gt;
-&lt;figcaption&gt;MAKE LOVE NOT ART t-shirt&lt;&#x2F;figcaption&gt;
-    &lt;&#x2F;figure&gt;
 
+&lt;figcaption&gt;MAKE LOVE NOT ART t-shirt&lt;&#x2F;figcaption&gt;
+
+    &lt;&#x2F;figure&gt;
 
 
 
@@ -971,9 +1003,10 @@ A contemplation of digital to analog, fragmentation, growing up and street art i
 &lt;a href=&quot;https:&amp;#x2F;&amp;#x2F;nilsmango.ch&amp;#x2F;processed_images&amp;#x2F;IMG_6601.8ada959be136d59c.jpg&quot; target=&quot;_blank&quot;&gt;
 &lt;img srcset=&quot;https:&amp;#x2F;&amp;#x2F;nilsmango.ch&amp;#x2F;processed_images&amp;#x2F;IMG_6601.3418ee0ad74e80e8.jpg 300w, https:&amp;#x2F;&amp;#x2F;nilsmango.ch&amp;#x2F;processed_images&amp;#x2F;IMG_6601.c2aa3e6e24523734.jpg 600w, https:&amp;#x2F;&amp;#x2F;nilsmango.ch&amp;#x2F;processed_images&amp;#x2F;IMG_6601.ce0ea731e7cf9e02.jpg 1200w, , https:&amp;#x2F;&amp;#x2F;nilsmango.ch&amp;#x2F;processed_images&amp;#x2F;IMG_6601.8ada959be136d59c.jpg 2400w&quot; src=&quot;https:&amp;#x2F;&amp;#x2F;nilsmango.ch&amp;#x2F;processed_images&amp;#x2F;IMG_6601.c2aa3e6e24523734.jpg&quot; alt=&quot;megaduo at Art Basel.&quot; class=&quot;imgset&quot;&gt;
 &lt;&#x2F;a&gt;
-&lt;figcaption&gt;megaduo @ Art | Basel ...&lt;&#x2F;figcaption&gt;
-    &lt;&#x2F;figure&gt;
 
+&lt;figcaption&gt;megaduo @ Art | Basel ...&lt;&#x2F;figcaption&gt;
+
+    &lt;&#x2F;figure&gt;
 
 
 
@@ -999,9 +1032,10 @@ A contemplation of digital to analog, fragmentation, growing up and street art i
 &lt;a href=&quot;https:&amp;#x2F;&amp;#x2F;nilsmango.ch&amp;#x2F;processed_images&amp;#x2F;IMG_6602.b4cf9a757af26d82.jpg&quot; target=&quot;_blank&quot;&gt;
 &lt;img srcset=&quot;https:&amp;#x2F;&amp;#x2F;nilsmango.ch&amp;#x2F;processed_images&amp;#x2F;IMG_6602.b622fea45ec8bee5.jpg 300w, https:&amp;#x2F;&amp;#x2F;nilsmango.ch&amp;#x2F;processed_images&amp;#x2F;IMG_6602.9d29a1364b798318.jpg 600w, https:&amp;#x2F;&amp;#x2F;nilsmango.ch&amp;#x2F;processed_images&amp;#x2F;IMG_6602.3c0edb73a6053530.jpg 1200w, , https:&amp;#x2F;&amp;#x2F;nilsmango.ch&amp;#x2F;processed_images&amp;#x2F;IMG_6602.b4cf9a757af26d82.jpg 2400w&quot; src=&quot;https:&amp;#x2F;&amp;#x2F;nilsmango.ch&amp;#x2F;processed_images&amp;#x2F;IMG_6602.9d29a1364b798318.jpg&quot; alt=&quot;megaduo at Art Basel.&quot; class=&quot;imgset&quot;&gt;
 &lt;&#x2F;a&gt;
-&lt;figcaption&gt;... trying to sell a 3 pieces of wood screaming KAUFEN!&lt;&#x2F;figcaption&gt;
-    &lt;&#x2F;figure&gt;
 
+&lt;figcaption&gt;... trying to sell a 3 pieces of wood screaming KAUFEN!&lt;&#x2F;figcaption&gt;
+
+    &lt;&#x2F;figure&gt;
 
 
 
@@ -1041,9 +1075,10 @@ A contemplation of digital to analog, fragmentation, growing up and street art i
 &lt;a href=&quot;https:&amp;#x2F;&amp;#x2F;nilsmango.ch&amp;#x2F;processed_images&amp;#x2F;IMG_0261.697a8b4bddd88f4b.jpg&quot; target=&quot;_blank&quot;&gt;
 &lt;img srcset=&quot;https:&amp;#x2F;&amp;#x2F;nilsmango.ch&amp;#x2F;processed_images&amp;#x2F;IMG_0261.2b7aab6087f7dc9a.jpg 300w, https:&amp;#x2F;&amp;#x2F;nilsmango.ch&amp;#x2F;processed_images&amp;#x2F;IMG_0261.ac6750ce2f9af863.jpg 600w, https:&amp;#x2F;&amp;#x2F;nilsmango.ch&amp;#x2F;processed_images&amp;#x2F;IMG_0261.022fde12fe0f4bde.jpg 1200w, , https:&amp;#x2F;&amp;#x2F;nilsmango.ch&amp;#x2F;processed_images&amp;#x2F;IMG_0261.697a8b4bddd88f4b.jpg 2400w&quot; src=&quot;https:&amp;#x2F;&amp;#x2F;nilsmango.ch&amp;#x2F;processed_images&amp;#x2F;IMG_0261.ac6750ce2f9af863.jpg&quot; alt=&quot;Canvas with stencil graffiti depicting a woman sucking on a banana and the text I heart art underneath&quot; class=&quot;imgset&quot;&gt;
 &lt;&#x2F;a&gt;
-&lt;figcaption&gt;I ❤️ art&lt;&#x2F;figcaption&gt;
-    &lt;&#x2F;figure&gt;
 
+&lt;figcaption&gt;I ❤️ art&lt;&#x2F;figcaption&gt;
+
+    &lt;&#x2F;figure&gt;
 
 
 
@@ -1069,9 +1104,10 @@ A contemplation of digital to analog, fragmentation, growing up and street art i
 &lt;a href=&quot;https:&amp;#x2F;&amp;#x2F;nilsmango.ch&amp;#x2F;processed_images&amp;#x2F;IMG_0309.3bcc6ebe1254e9c2.jpg&quot; target=&quot;_blank&quot;&gt;
 &lt;img srcset=&quot;https:&amp;#x2F;&amp;#x2F;nilsmango.ch&amp;#x2F;processed_images&amp;#x2F;IMG_0309.1f4d3923922adfa6.jpg 300w, https:&amp;#x2F;&amp;#x2F;nilsmango.ch&amp;#x2F;processed_images&amp;#x2F;IMG_0309.449a2c2b5dcaafe3.jpg 600w, https:&amp;#x2F;&amp;#x2F;nilsmango.ch&amp;#x2F;processed_images&amp;#x2F;IMG_0309.e55d4e68686f8b84.jpg 1200w, , https:&amp;#x2F;&amp;#x2F;nilsmango.ch&amp;#x2F;processed_images&amp;#x2F;IMG_0309.3bcc6ebe1254e9c2.jpg 2400w&quot; src=&quot;https:&amp;#x2F;&amp;#x2F;nilsmango.ch&amp;#x2F;processed_images&amp;#x2F;IMG_0309.449a2c2b5dcaafe3.jpg&quot; alt=&quot;Canvas stencil graffiti depicting small red hearts forming the words FUCK YOU&quot; class=&quot;imgset&quot;&gt;
 &lt;&#x2F;a&gt;
-&lt;figcaption&gt;FUCK YOU&lt;&#x2F;figcaption&gt;
-    &lt;&#x2F;figure&gt;
 
+&lt;figcaption&gt;FUCK YOU&lt;&#x2F;figcaption&gt;
+
+    &lt;&#x2F;figure&gt;
 
 
 
@@ -1097,9 +1133,10 @@ A contemplation of digital to analog, fragmentation, growing up and street art i
 &lt;a href=&quot;https:&amp;#x2F;&amp;#x2F;nilsmango.ch&amp;#x2F;processed_images&amp;#x2F;IMG_0311.6823a37330c4fa3a.jpg&quot; target=&quot;_blank&quot;&gt;
 &lt;img srcset=&quot;https:&amp;#x2F;&amp;#x2F;nilsmango.ch&amp;#x2F;processed_images&amp;#x2F;IMG_0311.818edb3640c2906f.jpg 300w, https:&amp;#x2F;&amp;#x2F;nilsmango.ch&amp;#x2F;processed_images&amp;#x2F;IMG_0311.3383d89fd4a8691c.jpg 600w, https:&amp;#x2F;&amp;#x2F;nilsmango.ch&amp;#x2F;processed_images&amp;#x2F;IMG_0311.2273516113c80e9a.jpg 1200w, , https:&amp;#x2F;&amp;#x2F;nilsmango.ch&amp;#x2F;processed_images&amp;#x2F;IMG_0311.6823a37330c4fa3a.jpg 2400w&quot; src=&quot;https:&amp;#x2F;&amp;#x2F;nilsmango.ch&amp;#x2F;processed_images&amp;#x2F;IMG_0311.3383d89fd4a8691c.jpg&quot; alt=&quot;Canvas stencil graffiti of a big tree with the words Bäume statt Bürger underneath&quot; class=&quot;imgset&quot;&gt;
 &lt;&#x2F;a&gt;
-&lt;figcaption&gt;Bäume statt Bürger&lt;&#x2F;figcaption&gt;
-    &lt;&#x2F;figure&gt;
 
+&lt;figcaption&gt;Bäume statt Bürger&lt;&#x2F;figcaption&gt;
+
+    &lt;&#x2F;figure&gt;
 
 
 
@@ -1125,9 +1162,10 @@ A contemplation of digital to analog, fragmentation, growing up and street art i
 &lt;a href=&quot;https:&amp;#x2F;&amp;#x2F;nilsmango.ch&amp;#x2F;processed_images&amp;#x2F;IMG_0331.17d966e44a3973d7.jpg&quot; target=&quot;_blank&quot;&gt;
 &lt;img srcset=&quot;https:&amp;#x2F;&amp;#x2F;nilsmango.ch&amp;#x2F;processed_images&amp;#x2F;IMG_0331.93b0010c43617a77.jpg 300w, https:&amp;#x2F;&amp;#x2F;nilsmango.ch&amp;#x2F;processed_images&amp;#x2F;IMG_0331.414b56048f462d96.jpg 600w, https:&amp;#x2F;&amp;#x2F;nilsmango.ch&amp;#x2F;processed_images&amp;#x2F;IMG_0331.a9f9741011ff0c9f.jpg 1200w, , https:&amp;#x2F;&amp;#x2F;nilsmango.ch&amp;#x2F;processed_images&amp;#x2F;IMG_0331.17d966e44a3973d7.jpg 2400w&quot; src=&quot;https:&amp;#x2F;&amp;#x2F;nilsmango.ch&amp;#x2F;processed_images&amp;#x2F;IMG_0331.414b56048f462d96.jpg&quot; alt=&quot;Canvas stencil graffiti depicting two copulating zebras with the caption saying: COPULO ERGO SUM&quot; class=&quot;imgset&quot;&gt;
 &lt;&#x2F;a&gt;
-&lt;figcaption&gt;COPULO ERGO SUM&lt;&#x2F;figcaption&gt;
-    &lt;&#x2F;figure&gt;
 
+&lt;figcaption&gt;COPULO ERGO SUM&lt;&#x2F;figcaption&gt;
+
+    &lt;&#x2F;figure&gt;
 
 
 
@@ -1150,9 +1188,10 @@ A contemplation of digital to analog, fragmentation, growing up and street art i
 &lt;a href=&quot;https:&amp;#x2F;&amp;#x2F;nilsmango.ch&amp;#x2F;processed_images&amp;#x2F;IMG_2359.88093d16db6386ff.jpg&quot; target=&quot;_blank&quot;&gt;
 &lt;img srcset=&quot;https:&amp;#x2F;&amp;#x2F;nilsmango.ch&amp;#x2F;processed_images&amp;#x2F;IMG_2359.d7aafe1041f8c37a.jpg 300w, https:&amp;#x2F;&amp;#x2F;nilsmango.ch&amp;#x2F;processed_images&amp;#x2F;IMG_2359.63c07ea242978bfc.jpg 600w, https:&amp;#x2F;&amp;#x2F;nilsmango.ch&amp;#x2F;processed_images&amp;#x2F;IMG_2359.88093d16db6386ff.jpg 1200w&quot; src=&quot;https:&amp;#x2F;&amp;#x2F;nilsmango.ch&amp;#x2F;processed_images&amp;#x2F;IMG_2359.63c07ea242978bfc.jpg&quot; alt=&quot;Framed stencil graffiti art depicting a nacked woman sitting on a sofa with an old TV for a head and the caption: watch me&quot; class=&quot;imgset&quot;&gt;
 &lt;&#x2F;a&gt;
-&lt;figcaption&gt;watch me&lt;&#x2F;figcaption&gt;
-&lt;&#x2F;figure&gt;
 
+&lt;figcaption&gt;watch me&lt;&#x2F;figcaption&gt;
+
+&lt;&#x2F;figure&gt;
 
 
 
@@ -1173,9 +1212,10 @@ A contemplation of digital to analog, fragmentation, growing up and street art i
 &lt;a href=&quot;https:&amp;#x2F;&amp;#x2F;nilsmango.ch&amp;#x2F;processed_images&amp;#x2F;IMG_2360.b1db3d3c0c75dedd.jpg&quot; target=&quot;_blank&quot;&gt;
 &lt;img srcset=&quot;https:&amp;#x2F;&amp;#x2F;nilsmango.ch&amp;#x2F;processed_images&amp;#x2F;IMG_2360.9c331a33653c6f5e.jpg 300w, https:&amp;#x2F;&amp;#x2F;nilsmango.ch&amp;#x2F;processed_images&amp;#x2F;IMG_2360.f8b51c99bb4aa196.jpg 600w, https:&amp;#x2F;&amp;#x2F;nilsmango.ch&amp;#x2F;processed_images&amp;#x2F;IMG_2360.b1db3d3c0c75dedd.jpg 1200w&quot; src=&quot;https:&amp;#x2F;&amp;#x2F;nilsmango.ch&amp;#x2F;processed_images&amp;#x2F;IMG_2360.f8b51c99bb4aa196.jpg&quot; alt=&quot;Canvas with stencil graffiti art with handwritten words love forming a skull with hearts as eyes&quot; class=&quot;imgset&quot;&gt;
 &lt;&#x2F;a&gt;
-&lt;figcaption&gt;Love kills&lt;&#x2F;figcaption&gt;
-&lt;&#x2F;figure&gt;
 
+&lt;figcaption&gt;Love kills&lt;&#x2F;figcaption&gt;
+
+&lt;&#x2F;figure&gt;
 
 
 
@@ -1196,9 +1236,10 @@ A contemplation of digital to analog, fragmentation, growing up and street art i
 &lt;a href=&quot;https:&amp;#x2F;&amp;#x2F;nilsmango.ch&amp;#x2F;processed_images&amp;#x2F;IMG_2362.1dd0d59647e0079d.jpg&quot; target=&quot;_blank&quot;&gt;
 &lt;img srcset=&quot;https:&amp;#x2F;&amp;#x2F;nilsmango.ch&amp;#x2F;processed_images&amp;#x2F;IMG_2362.b4576c1bf81e2fe5.jpg 300w, https:&amp;#x2F;&amp;#x2F;nilsmango.ch&amp;#x2F;processed_images&amp;#x2F;IMG_2362.fe57e374b92d7b23.jpg 600w, https:&amp;#x2F;&amp;#x2F;nilsmango.ch&amp;#x2F;processed_images&amp;#x2F;IMG_2362.1dd0d59647e0079d.jpg 1200w&quot; src=&quot;https:&amp;#x2F;&amp;#x2F;nilsmango.ch&amp;#x2F;processed_images&amp;#x2F;IMG_2362.fe57e374b92d7b23.jpg&quot; alt=&quot;Canvas stencil graffiti saying FUCK ME OR FUCK YOU in big letters.&quot; class=&quot;imgset&quot;&gt;
 &lt;&#x2F;a&gt;
-&lt;figcaption&gt;FUCK ME OR FUCK YOU&lt;&#x2F;figcaption&gt;
-&lt;&#x2F;figure&gt;
 
+&lt;figcaption&gt;FUCK ME OR FUCK YOU&lt;&#x2F;figcaption&gt;
+
+&lt;&#x2F;figure&gt;
 
 
 
@@ -1219,9 +1260,10 @@ A contemplation of digital to analog, fragmentation, growing up and street art i
 &lt;a href=&quot;https:&amp;#x2F;&amp;#x2F;nilsmango.ch&amp;#x2F;processed_images&amp;#x2F;IMG_2364.66179ccf0d929d0f.jpg&quot; target=&quot;_blank&quot;&gt;
 &lt;img srcset=&quot;https:&amp;#x2F;&amp;#x2F;nilsmango.ch&amp;#x2F;processed_images&amp;#x2F;IMG_2364.0a1de9b091a56efd.jpg 300w, https:&amp;#x2F;&amp;#x2F;nilsmango.ch&amp;#x2F;processed_images&amp;#x2F;IMG_2364.228a7e5a176c5a81.jpg 600w, https:&amp;#x2F;&amp;#x2F;nilsmango.ch&amp;#x2F;processed_images&amp;#x2F;IMG_2364.66179ccf0d929d0f.jpg 1200w&quot; src=&quot;https:&amp;#x2F;&amp;#x2F;nilsmango.ch&amp;#x2F;processed_images&amp;#x2F;IMG_2364.228a7e5a176c5a81.jpg&quot; alt=&quot;Canvas with stencil graffiti of footprints all over the canvas.&quot; class=&quot;imgset&quot;&gt;
 &lt;&#x2F;a&gt;
-&lt;figcaption&gt;Untitled&lt;&#x2F;figcaption&gt;
-&lt;&#x2F;figure&gt;
 
+&lt;figcaption&gt;Untitled&lt;&#x2F;figcaption&gt;
+
+&lt;&#x2F;figure&gt;
 
 
 
@@ -1245,9 +1287,10 @@ A contemplation of digital to analog, fragmentation, growing up and street art i
 &lt;a href=&quot;https:&amp;#x2F;&amp;#x2F;nilsmango.ch&amp;#x2F;processed_images&amp;#x2F;IMG_7702.1035e4d4d1d6df3f.jpg&quot; target=&quot;_blank&quot;&gt;
 &lt;img srcset=&quot;https:&amp;#x2F;&amp;#x2F;nilsmango.ch&amp;#x2F;processed_images&amp;#x2F;IMG_7702.d134b332bb926882.jpg 300w, https:&amp;#x2F;&amp;#x2F;nilsmango.ch&amp;#x2F;processed_images&amp;#x2F;IMG_7702.25c9066edfc8a303.jpg 600w, https:&amp;#x2F;&amp;#x2F;nilsmango.ch&amp;#x2F;processed_images&amp;#x2F;IMG_7702.75126c7a4e92dc1d.jpg 1200w, , https:&amp;#x2F;&amp;#x2F;nilsmango.ch&amp;#x2F;processed_images&amp;#x2F;IMG_7702.1035e4d4d1d6df3f.jpg 2400w&quot; src=&quot;https:&amp;#x2F;&amp;#x2F;nilsmango.ch&amp;#x2F;processed_images&amp;#x2F;IMG_7702.25c9066edfc8a303.jpg&quot; alt=&quot;Canvas airbrushed text saying today is a perfect day for a perfect day and I DON&amp;#x27;T GIVE A FUCK&quot; class=&quot;imgset&quot;&gt;
 &lt;&#x2F;a&gt;
-&lt;figcaption&gt;perfect day&lt;&#x2F;figcaption&gt;
-    &lt;&#x2F;figure&gt;
 
+&lt;figcaption&gt;perfect day&lt;&#x2F;figcaption&gt;
+
+    &lt;&#x2F;figure&gt;
 
 
 
@@ -1323,9 +1366,10 @@ A contemplation of digital to analog, fragmentation, growing up and street art i
 &lt;a href=&quot;https:&amp;#x2F;&amp;#x2F;nilsmango.ch&amp;#x2F;processed_images&amp;#x2F;colombia 100.95f856ee8c36ddbd.jpg&quot; target=&quot;_blank&quot;&gt;
 &lt;img srcset=&quot;https:&amp;#x2F;&amp;#x2F;nilsmango.ch&amp;#x2F;processed_images&amp;#x2F;colombia 100.c5acf0048d73d11d.jpg 300w, https:&amp;#x2F;&amp;#x2F;nilsmango.ch&amp;#x2F;processed_images&amp;#x2F;colombia 100.605b3c01cfcbaf8e.jpg 600w, https:&amp;#x2F;&amp;#x2F;nilsmango.ch&amp;#x2F;processed_images&amp;#x2F;colombia 100.1edbc83989ed7fee.jpg 1200w, , https:&amp;#x2F;&amp;#x2F;nilsmango.ch&amp;#x2F;processed_images&amp;#x2F;colombia 100.95f856ee8c36ddbd.jpg 2400w&quot; src=&quot;https:&amp;#x2F;&amp;#x2F;nilsmango.ch&amp;#x2F;processed_images&amp;#x2F;colombia 100.605b3c01cfcbaf8e.jpg&quot; alt=&quot;Tall palm trees with fog in Colombia&quot; class=&quot;imgset&quot;&gt;
 &lt;&#x2F;a&gt;
-&lt;figcaption&gt;Colombia&lt;&#x2F;figcaption&gt;
-    &lt;&#x2F;figure&gt;
 
+&lt;figcaption&gt;Colombia&lt;&#x2F;figcaption&gt;
+
+    &lt;&#x2F;figure&gt;
 
 
 
@@ -1348,7 +1392,9 @@ A contemplation of digital to analog, fragmentation, growing up and street art i
 &lt;a href=&quot;https:&amp;#x2F;&amp;#x2F;nilsmango.ch&amp;#x2F;processed_images&amp;#x2F;Dolomites Image010_11A.f7b2ad2eb27e4036.jpg&quot; target=&quot;_blank&quot;&gt;
 &lt;img srcset=&quot;https:&amp;#x2F;&amp;#x2F;nilsmango.ch&amp;#x2F;processed_images&amp;#x2F;Dolomites Image010_11A.9afce3c6e983442b.jpg 300w, https:&amp;#x2F;&amp;#x2F;nilsmango.ch&amp;#x2F;processed_images&amp;#x2F;Dolomites Image010_11A.6e7cc8c0729e8a57.jpg 600w, https:&amp;#x2F;&amp;#x2F;nilsmango.ch&amp;#x2F;processed_images&amp;#x2F;Dolomites Image010_11A.f7b2ad2eb27e4036.jpg 1024w&quot; src=&quot;https:&amp;#x2F;&amp;#x2F;nilsmango.ch&amp;#x2F;processed_images&amp;#x2F;Dolomites Image010_11A.6e7cc8c0729e8a57.jpg&quot; alt=&quot;Mountains and firs in blue light in the Dolomites Italy&quot; class=&quot;imgset&quot;&gt;
 &lt;&#x2F;a&gt;
+
 &lt;figcaption&gt;Dolomites&lt;&#x2F;figcaption&gt;
+
 &lt;&#x2F;figure&gt;
 
 
@@ -1373,9 +1419,10 @@ A contemplation of digital to analog, fragmentation, growing up and street art i
 &lt;a href=&quot;https:&amp;#x2F;&amp;#x2F;nilsmango.ch&amp;#x2F;processed_images&amp;#x2F;Ecuador 208.15a7f971ce6f9bf6.jpg&quot; target=&quot;_blank&quot;&gt;
 &lt;img srcset=&quot;https:&amp;#x2F;&amp;#x2F;nilsmango.ch&amp;#x2F;processed_images&amp;#x2F;Ecuador 208.6ef35088d6c48799.jpg 300w, https:&amp;#x2F;&amp;#x2F;nilsmango.ch&amp;#x2F;processed_images&amp;#x2F;Ecuador 208.7998bacea39a99a9.jpg 600w, https:&amp;#x2F;&amp;#x2F;nilsmango.ch&amp;#x2F;processed_images&amp;#x2F;Ecuador 208.40e4bca1b276784a.jpg 1200w, , https:&amp;#x2F;&amp;#x2F;nilsmango.ch&amp;#x2F;processed_images&amp;#x2F;Ecuador 208.15a7f971ce6f9bf6.jpg 2400w&quot; src=&quot;https:&amp;#x2F;&amp;#x2F;nilsmango.ch&amp;#x2F;processed_images&amp;#x2F;Ecuador 208.7998bacea39a99a9.jpg&quot; alt=&quot;A man on a swing in the mountains of Ecuador&quot; class=&quot;imgset&quot;&gt;
 &lt;&#x2F;a&gt;
-&lt;figcaption&gt;Ecuador&lt;&#x2F;figcaption&gt;
-    &lt;&#x2F;figure&gt;
 
+&lt;figcaption&gt;Ecuador&lt;&#x2F;figcaption&gt;
+
+    &lt;&#x2F;figure&gt;
 
 
 
@@ -1401,9 +1448,10 @@ A contemplation of digital to analog, fragmentation, growing up and street art i
 &lt;a href=&quot;https:&amp;#x2F;&amp;#x2F;nilsmango.ch&amp;#x2F;processed_images&amp;#x2F;Geispel Muttenz 2013.b931674c166b28ef.jpg&quot; target=&quot;_blank&quot;&gt;
 &lt;img srcset=&quot;https:&amp;#x2F;&amp;#x2F;nilsmango.ch&amp;#x2F;processed_images&amp;#x2F;Geispel Muttenz 2013.16421bd2ed158885.jpg 300w, https:&amp;#x2F;&amp;#x2F;nilsmango.ch&amp;#x2F;processed_images&amp;#x2F;Geispel Muttenz 2013.1ef817e154fa89ec.jpg 600w, https:&amp;#x2F;&amp;#x2F;nilsmango.ch&amp;#x2F;processed_images&amp;#x2F;Geispel Muttenz 2013.0cf9d9f6bd3150ec.jpg 1200w, , https:&amp;#x2F;&amp;#x2F;nilsmango.ch&amp;#x2F;processed_images&amp;#x2F;Geispel Muttenz 2013.b931674c166b28ef.jpg 2400w&quot; src=&quot;https:&amp;#x2F;&amp;#x2F;nilsmango.ch&amp;#x2F;processed_images&amp;#x2F;Geispel Muttenz 2013.1ef817e154fa89ec.jpg&quot; alt=&quot;Trees and a trail with grass in the fog&quot; class=&quot;imgset&quot;&gt;
 &lt;&#x2F;a&gt;
-&lt;figcaption&gt;Geispel, Muttenz&lt;&#x2F;figcaption&gt;
-    &lt;&#x2F;figure&gt;
 
+&lt;figcaption&gt;Geispel, Muttenz&lt;&#x2F;figcaption&gt;
+
+    &lt;&#x2F;figure&gt;
 
 
 
@@ -1429,9 +1477,10 @@ A contemplation of digital to analog, fragmentation, growing up and street art i
 &lt;a href=&quot;https:&amp;#x2F;&amp;#x2F;nilsmango.ch&amp;#x2F;processed_images&amp;#x2F;Infrared IMG_7261.e26bade9a5f62bbb.jpg&quot; target=&quot;_blank&quot;&gt;
 &lt;img srcset=&quot;https:&amp;#x2F;&amp;#x2F;nilsmango.ch&amp;#x2F;processed_images&amp;#x2F;Infrared IMG_7261.d042eed90e04dcc3.jpg 300w, https:&amp;#x2F;&amp;#x2F;nilsmango.ch&amp;#x2F;processed_images&amp;#x2F;Infrared IMG_7261.a8e88ebb7e881423.jpg 600w, https:&amp;#x2F;&amp;#x2F;nilsmango.ch&amp;#x2F;processed_images&amp;#x2F;Infrared IMG_7261.319e332c8ce419b5.jpg 1200w, , https:&amp;#x2F;&amp;#x2F;nilsmango.ch&amp;#x2F;processed_images&amp;#x2F;Infrared IMG_7261.e26bade9a5f62bbb.jpg 2400w&quot; src=&quot;https:&amp;#x2F;&amp;#x2F;nilsmango.ch&amp;#x2F;processed_images&amp;#x2F;Infrared IMG_7261.a8e88ebb7e881423.jpg&quot; alt=&quot;Infrared picture of tress and a house&quot; class=&quot;imgset&quot;&gt;
 &lt;&#x2F;a&gt;
-&lt;figcaption&gt;Infrared&lt;&#x2F;figcaption&gt;
-    &lt;&#x2F;figure&gt;
 
+&lt;figcaption&gt;Infrared&lt;&#x2F;figcaption&gt;
+
+    &lt;&#x2F;figure&gt;
 
 
 
@@ -1457,9 +1506,10 @@ A contemplation of digital to analog, fragmentation, growing up and street art i
 &lt;a href=&quot;https:&amp;#x2F;&amp;#x2F;nilsmango.ch&amp;#x2F;processed_images&amp;#x2F;Lauwil 2013.2716c7249eb437d6.jpg&quot; target=&quot;_blank&quot;&gt;
 &lt;img srcset=&quot;https:&amp;#x2F;&amp;#x2F;nilsmango.ch&amp;#x2F;processed_images&amp;#x2F;Lauwil 2013.1aaed8e8f79dd439.jpg 300w, https:&amp;#x2F;&amp;#x2F;nilsmango.ch&amp;#x2F;processed_images&amp;#x2F;Lauwil 2013.d0c25d2b9d7b90f1.jpg 600w, https:&amp;#x2F;&amp;#x2F;nilsmango.ch&amp;#x2F;processed_images&amp;#x2F;Lauwil 2013.2881ddc488c058e4.jpg 1200w, , https:&amp;#x2F;&amp;#x2F;nilsmango.ch&amp;#x2F;processed_images&amp;#x2F;Lauwil 2013.2716c7249eb437d6.jpg 2400w&quot; src=&quot;https:&amp;#x2F;&amp;#x2F;nilsmango.ch&amp;#x2F;processed_images&amp;#x2F;Lauwil 2013.d0c25d2b9d7b90f1.jpg&quot; alt=&quot;Man standing on a trail with huge trees in the fog&quot; class=&quot;imgset&quot;&gt;
 &lt;&#x2F;a&gt;
-&lt;figcaption&gt;Lauwil&lt;&#x2F;figcaption&gt;
-    &lt;&#x2F;figure&gt;
 
+&lt;figcaption&gt;Lauwil&lt;&#x2F;figcaption&gt;
+
+    &lt;&#x2F;figure&gt;
 
 
 
@@ -1482,9 +1532,10 @@ A contemplation of digital to analog, fragmentation, growing up and street art i
 &lt;a href=&quot;https:&amp;#x2F;&amp;#x2F;nilsmango.ch&amp;#x2F;processed_images&amp;#x2F;Magic Mountain Lac Leman 2013.2065b10e0a24b816.jpg&quot; target=&quot;_blank&quot;&gt;
 &lt;img srcset=&quot;https:&amp;#x2F;&amp;#x2F;nilsmango.ch&amp;#x2F;processed_images&amp;#x2F;Magic Mountain Lac Leman 2013.b3423825b98fb81e.jpg 300w, https:&amp;#x2F;&amp;#x2F;nilsmango.ch&amp;#x2F;processed_images&amp;#x2F;Magic Mountain Lac Leman 2013.33e642913a270fbd.jpg 600w, https:&amp;#x2F;&amp;#x2F;nilsmango.ch&amp;#x2F;processed_images&amp;#x2F;Magic Mountain Lac Leman 2013.2065b10e0a24b816.jpg 1200w&quot; src=&quot;https:&amp;#x2F;&amp;#x2F;nilsmango.ch&amp;#x2F;processed_images&amp;#x2F;Magic Mountain Lac Leman 2013.33e642913a270fbd.jpg&quot; alt=&quot;A lake with mountains in the clouds&quot; class=&quot;imgset&quot;&gt;
 &lt;&#x2F;a&gt;
-&lt;figcaption&gt;Lac Leman&lt;&#x2F;figcaption&gt;
-&lt;&#x2F;figure&gt;
 
+&lt;figcaption&gt;Lac Leman&lt;&#x2F;figcaption&gt;
+
+&lt;&#x2F;figure&gt;
 
 
 
@@ -1508,9 +1559,10 @@ A contemplation of digital to analog, fragmentation, growing up and street art i
 &lt;a href=&quot;https:&amp;#x2F;&amp;#x2F;nilsmango.ch&amp;#x2F;processed_images&amp;#x2F;Playa de Pantin 2013.4af4e3b3b6fb59fc.jpg&quot; target=&quot;_blank&quot;&gt;
 &lt;img srcset=&quot;https:&amp;#x2F;&amp;#x2F;nilsmango.ch&amp;#x2F;processed_images&amp;#x2F;Playa de Pantin 2013.f5ad799ef3ba2794.jpg 300w, https:&amp;#x2F;&amp;#x2F;nilsmango.ch&amp;#x2F;processed_images&amp;#x2F;Playa de Pantin 2013.a9f1ebe47ca50b63.jpg 600w, https:&amp;#x2F;&amp;#x2F;nilsmango.ch&amp;#x2F;processed_images&amp;#x2F;Playa de Pantin 2013.5493d754e55e14bd.jpg 1200w, , https:&amp;#x2F;&amp;#x2F;nilsmango.ch&amp;#x2F;processed_images&amp;#x2F;Playa de Pantin 2013.4af4e3b3b6fb59fc.jpg 2400w&quot; src=&quot;https:&amp;#x2F;&amp;#x2F;nilsmango.ch&amp;#x2F;processed_images&amp;#x2F;Playa de Pantin 2013.a9f1ebe47ca50b63.jpg&quot; alt=&quot;A beach and the sea with waves in light fog&quot; class=&quot;imgset&quot;&gt;
 &lt;&#x2F;a&gt;
-&lt;figcaption&gt;Playa de Pantin&lt;&#x2F;figcaption&gt;
-    &lt;&#x2F;figure&gt;
 
+&lt;figcaption&gt;Playa de Pantin&lt;&#x2F;figcaption&gt;
+
+    &lt;&#x2F;figure&gt;
 
 
 
@@ -1536,9 +1588,10 @@ A contemplation of digital to analog, fragmentation, growing up and street art i
 &lt;a href=&quot;https:&amp;#x2F;&amp;#x2F;nilsmango.ch&amp;#x2F;processed_images&amp;#x2F;IMG_7109.e697bf7867f201cb.jpg&quot; target=&quot;_blank&quot;&gt;
 &lt;img srcset=&quot;https:&amp;#x2F;&amp;#x2F;nilsmango.ch&amp;#x2F;processed_images&amp;#x2F;IMG_7109.847b6cb2397ea013.jpg 300w, https:&amp;#x2F;&amp;#x2F;nilsmango.ch&amp;#x2F;processed_images&amp;#x2F;IMG_7109.4f828e73679e178f.jpg 600w, https:&amp;#x2F;&amp;#x2F;nilsmango.ch&amp;#x2F;processed_images&amp;#x2F;IMG_7109.e2bf973012f164f0.jpg 1200w, , https:&amp;#x2F;&amp;#x2F;nilsmango.ch&amp;#x2F;processed_images&amp;#x2F;IMG_7109.e697bf7867f201cb.jpg 2400w&quot; src=&quot;https:&amp;#x2F;&amp;#x2F;nilsmango.ch&amp;#x2F;processed_images&amp;#x2F;IMG_7109.4f828e73679e178f.jpg&quot; alt=&quot;An off center swan on a river, shot with a lomo camera&quot; class=&quot;imgset&quot;&gt;
 &lt;&#x2F;a&gt;
-&lt;figcaption&gt;Schwan&lt;&#x2F;figcaption&gt;
-    &lt;&#x2F;figure&gt;
 
+&lt;figcaption&gt;Schwan&lt;&#x2F;figcaption&gt;
+
+    &lt;&#x2F;figure&gt;
 
 
 
@@ -1564,9 +1617,10 @@ A contemplation of digital to analog, fragmentation, growing up and street art i
 &lt;a href=&quot;https:&amp;#x2F;&amp;#x2F;nilsmango.ch&amp;#x2F;processed_images&amp;#x2F;Scan0009.48b36a11dbf2f1b6.jpg&quot; target=&quot;_blank&quot;&gt;
 &lt;img srcset=&quot;https:&amp;#x2F;&amp;#x2F;nilsmango.ch&amp;#x2F;processed_images&amp;#x2F;Scan0009.6690c41f1837bebf.jpg 300w, https:&amp;#x2F;&amp;#x2F;nilsmango.ch&amp;#x2F;processed_images&amp;#x2F;Scan0009.5cfb9bc529bf868e.jpg 600w, https:&amp;#x2F;&amp;#x2F;nilsmango.ch&amp;#x2F;processed_images&amp;#x2F;Scan0009.44be921163d61b44.jpg 1200w, , https:&amp;#x2F;&amp;#x2F;nilsmango.ch&amp;#x2F;processed_images&amp;#x2F;Scan0009.48b36a11dbf2f1b6.jpg 2400w&quot; src=&quot;https:&amp;#x2F;&amp;#x2F;nilsmango.ch&amp;#x2F;processed_images&amp;#x2F;Scan0009.5cfb9bc529bf868e.jpg&quot; alt=&quot;The front of a wooden boat on a lake in Kashmir&quot; class=&quot;imgset&quot;&gt;
 &lt;&#x2F;a&gt;
-&lt;figcaption&gt;Kashmir&lt;&#x2F;figcaption&gt;
-    &lt;&#x2F;figure&gt;
 
+&lt;figcaption&gt;Kashmir&lt;&#x2F;figcaption&gt;
+
+    &lt;&#x2F;figure&gt;
 
 
 
@@ -1592,9 +1646,10 @@ A contemplation of digital to analog, fragmentation, growing up and street art i
 &lt;a href=&quot;https:&amp;#x2F;&amp;#x2F;nilsmango.ch&amp;#x2F;processed_images&amp;#x2F;Skogskyrkogarden Doe IMG_8362.fb2038712b9b8499.jpg&quot; target=&quot;_blank&quot;&gt;
 &lt;img srcset=&quot;https:&amp;#x2F;&amp;#x2F;nilsmango.ch&amp;#x2F;processed_images&amp;#x2F;Skogskyrkogarden Doe IMG_8362.3e5bc121182135ff.jpg 300w, https:&amp;#x2F;&amp;#x2F;nilsmango.ch&amp;#x2F;processed_images&amp;#x2F;Skogskyrkogarden Doe IMG_8362.42f925a2f16d10cd.jpg 600w, https:&amp;#x2F;&amp;#x2F;nilsmango.ch&amp;#x2F;processed_images&amp;#x2F;Skogskyrkogarden Doe IMG_8362.5909c94fc7b4419e.jpg 1200w, , https:&amp;#x2F;&amp;#x2F;nilsmango.ch&amp;#x2F;processed_images&amp;#x2F;Skogskyrkogarden Doe IMG_8362.fb2038712b9b8499.jpg 2400w&quot; src=&quot;https:&amp;#x2F;&amp;#x2F;nilsmango.ch&amp;#x2F;processed_images&amp;#x2F;Skogskyrkogarden Doe IMG_8362.42f925a2f16d10cd.jpg&quot; alt=&quot;A doe in a graveyard with trees and grass&quot; class=&quot;imgset&quot;&gt;
 &lt;&#x2F;a&gt;
-&lt;figcaption&gt;Skogskyrkogården&lt;&#x2F;figcaption&gt;
-    &lt;&#x2F;figure&gt;
 
+&lt;figcaption&gt;Skogskyrkogården&lt;&#x2F;figcaption&gt;
+
+    &lt;&#x2F;figure&gt;
 
 
 
@@ -1636,9 +1691,10 @@ Eine Auseinandersetzung mit Licht und dem menschlichen Körper.&lt;br &#x2F;&gt;
 &lt;a href=&quot;https:&amp;#x2F;&amp;#x2F;nilsmango.ch&amp;#x2F;processed_images&amp;#x2F;1.64ea046fdfa7b351.jpg&quot; target=&quot;_blank&quot;&gt;
 &lt;img srcset=&quot;https:&amp;#x2F;&amp;#x2F;nilsmango.ch&amp;#x2F;processed_images&amp;#x2F;1.c3b1ffb2ffd33f1f.jpg 300w, https:&amp;#x2F;&amp;#x2F;nilsmango.ch&amp;#x2F;processed_images&amp;#x2F;1.247e0ab373d8e95d.jpg 600w, https:&amp;#x2F;&amp;#x2F;nilsmango.ch&amp;#x2F;processed_images&amp;#x2F;1.f5088758e2b95fba.jpg 1200w, , https:&amp;#x2F;&amp;#x2F;nilsmango.ch&amp;#x2F;processed_images&amp;#x2F;1.64ea046fdfa7b351.jpg 2400w&quot; src=&quot;https:&amp;#x2F;&amp;#x2F;nilsmango.ch&amp;#x2F;processed_images&amp;#x2F;1.247e0ab373d8e95d.jpg&quot; alt=&quot;Moving Light&quot; class=&quot;imgset&quot;&gt;
 &lt;&#x2F;a&gt;
-&lt;figcaption&gt;Lift&lt;&#x2F;figcaption&gt;
-    &lt;&#x2F;figure&gt;
 
+&lt;figcaption&gt;Lift&lt;&#x2F;figcaption&gt;
+
+    &lt;&#x2F;figure&gt;
 
 
 
@@ -1665,9 +1721,10 @@ Eine Auseinandersetzung mit Licht und dem menschlichen Körper.&lt;br &#x2F;&gt;
 &lt;a href=&quot;https:&amp;#x2F;&amp;#x2F;nilsmango.ch&amp;#x2F;processed_images&amp;#x2F;2.040e6413f4faf48b.jpg&quot; target=&quot;_blank&quot;&gt;
 &lt;img srcset=&quot;https:&amp;#x2F;&amp;#x2F;nilsmango.ch&amp;#x2F;processed_images&amp;#x2F;2.324d55224c20d6b3.jpg 300w, https:&amp;#x2F;&amp;#x2F;nilsmango.ch&amp;#x2F;processed_images&amp;#x2F;2.684cd0157670ed3e.jpg 600w, https:&amp;#x2F;&amp;#x2F;nilsmango.ch&amp;#x2F;processed_images&amp;#x2F;2.2022a829dca68c55.jpg 1200w, , https:&amp;#x2F;&amp;#x2F;nilsmango.ch&amp;#x2F;processed_images&amp;#x2F;2.040e6413f4faf48b.jpg 2400w&quot; src=&quot;https:&amp;#x2F;&amp;#x2F;nilsmango.ch&amp;#x2F;processed_images&amp;#x2F;2.684cd0157670ed3e.jpg&quot; alt=&quot;Moving Light&quot; class=&quot;imgset&quot;&gt;
 &lt;&#x2F;a&gt;
-&lt;figcaption&gt;Kreuzung&lt;&#x2F;figcaption&gt;
-    &lt;&#x2F;figure&gt;
 
+&lt;figcaption&gt;Kreuzung&lt;&#x2F;figcaption&gt;
+
+    &lt;&#x2F;figure&gt;
 
 
 
@@ -1694,9 +1751,10 @@ Eine Auseinandersetzung mit Licht und dem menschlichen Körper.&lt;br &#x2F;&gt;
 &lt;a href=&quot;https:&amp;#x2F;&amp;#x2F;nilsmango.ch&amp;#x2F;processed_images&amp;#x2F;3.5409a60ff3e564c4.jpg&quot; target=&quot;_blank&quot;&gt;
 &lt;img srcset=&quot;https:&amp;#x2F;&amp;#x2F;nilsmango.ch&amp;#x2F;processed_images&amp;#x2F;3.0ddf5683b2d112bd.jpg 300w, https:&amp;#x2F;&amp;#x2F;nilsmango.ch&amp;#x2F;processed_images&amp;#x2F;3.13c2a6f96ea88ece.jpg 600w, https:&amp;#x2F;&amp;#x2F;nilsmango.ch&amp;#x2F;processed_images&amp;#x2F;3.e5f95c65b54ad06c.jpg 1200w, , https:&amp;#x2F;&amp;#x2F;nilsmango.ch&amp;#x2F;processed_images&amp;#x2F;3.5409a60ff3e564c4.jpg 2400w&quot; src=&quot;https:&amp;#x2F;&amp;#x2F;nilsmango.ch&amp;#x2F;processed_images&amp;#x2F;3.13c2a6f96ea88ece.jpg&quot; alt=&quot;Moving Light&quot; class=&quot;imgset&quot;&gt;
 &lt;&#x2F;a&gt;
-&lt;figcaption&gt;Faces&lt;&#x2F;figcaption&gt;
-    &lt;&#x2F;figure&gt;
 
+&lt;figcaption&gt;Faces&lt;&#x2F;figcaption&gt;
+
+    &lt;&#x2F;figure&gt;
 
 
 
@@ -1723,9 +1781,10 @@ Eine Auseinandersetzung mit Licht und dem menschlichen Körper.&lt;br &#x2F;&gt;
 &lt;a href=&quot;https:&amp;#x2F;&amp;#x2F;nilsmango.ch&amp;#x2F;processed_images&amp;#x2F;s1.7aabdca5d48dd400.jpg&quot; target=&quot;_blank&quot;&gt;
 &lt;img srcset=&quot;https:&amp;#x2F;&amp;#x2F;nilsmango.ch&amp;#x2F;processed_images&amp;#x2F;s1.93f7c85de617370d.jpg 300w, https:&amp;#x2F;&amp;#x2F;nilsmango.ch&amp;#x2F;processed_images&amp;#x2F;s1.768137fdc10bd354.jpg 600w, https:&amp;#x2F;&amp;#x2F;nilsmango.ch&amp;#x2F;processed_images&amp;#x2F;s1.41d949e4f3310713.jpg 1200w, , https:&amp;#x2F;&amp;#x2F;nilsmango.ch&amp;#x2F;processed_images&amp;#x2F;s1.7aabdca5d48dd400.jpg 2400w&quot; src=&quot;https:&amp;#x2F;&amp;#x2F;nilsmango.ch&amp;#x2F;processed_images&amp;#x2F;s1.768137fdc10bd354.jpg&quot; alt=&quot;Moving Light&quot; class=&quot;imgset&quot;&gt;
 &lt;&#x2F;a&gt;
-&lt;figcaption&gt;See&lt;&#x2F;figcaption&gt;
-    &lt;&#x2F;figure&gt;
 
+&lt;figcaption&gt;See&lt;&#x2F;figcaption&gt;
+
+    &lt;&#x2F;figure&gt;
 
 
 
@@ -1752,9 +1811,10 @@ Eine Auseinandersetzung mit Licht und dem menschlichen Körper.&lt;br &#x2F;&gt;
 &lt;a href=&quot;https:&amp;#x2F;&amp;#x2F;nilsmango.ch&amp;#x2F;processed_images&amp;#x2F;s2.8499306aff634e27.jpg&quot; target=&quot;_blank&quot;&gt;
 &lt;img srcset=&quot;https:&amp;#x2F;&amp;#x2F;nilsmango.ch&amp;#x2F;processed_images&amp;#x2F;s2.2e916e08ad52e03b.jpg 300w, https:&amp;#x2F;&amp;#x2F;nilsmango.ch&amp;#x2F;processed_images&amp;#x2F;s2.0dcc35b9b75bdc0c.jpg 600w, https:&amp;#x2F;&amp;#x2F;nilsmango.ch&amp;#x2F;processed_images&amp;#x2F;s2.8cdaf9e171f6174a.jpg 1200w, , https:&amp;#x2F;&amp;#x2F;nilsmango.ch&amp;#x2F;processed_images&amp;#x2F;s2.8499306aff634e27.jpg 2400w&quot; src=&quot;https:&amp;#x2F;&amp;#x2F;nilsmango.ch&amp;#x2F;processed_images&amp;#x2F;s2.0dcc35b9b75bdc0c.jpg&quot; alt=&quot;Moving Light&quot; class=&quot;imgset&quot;&gt;
 &lt;&#x2F;a&gt;
-&lt;figcaption&gt;Feel&lt;&#x2F;figcaption&gt;
-    &lt;&#x2F;figure&gt;
 
+&lt;figcaption&gt;Feel&lt;&#x2F;figcaption&gt;
+
+    &lt;&#x2F;figure&gt;
 
 
 
@@ -1781,9 +1841,10 @@ Eine Auseinandersetzung mit Licht und dem menschlichen Körper.&lt;br &#x2F;&gt;
 &lt;a href=&quot;https:&amp;#x2F;&amp;#x2F;nilsmango.ch&amp;#x2F;processed_images&amp;#x2F;s3.638874da1036c073.jpg&quot; target=&quot;_blank&quot;&gt;
 &lt;img srcset=&quot;https:&amp;#x2F;&amp;#x2F;nilsmango.ch&amp;#x2F;processed_images&amp;#x2F;s3.d2a26fb17f1ef3a4.jpg 300w, https:&amp;#x2F;&amp;#x2F;nilsmango.ch&amp;#x2F;processed_images&amp;#x2F;s3.9f0a84d5b4b3d972.jpg 600w, https:&amp;#x2F;&amp;#x2F;nilsmango.ch&amp;#x2F;processed_images&amp;#x2F;s3.21c3b9ea316e7be3.jpg 1200w, , https:&amp;#x2F;&amp;#x2F;nilsmango.ch&amp;#x2F;processed_images&amp;#x2F;s3.638874da1036c073.jpg 2400w&quot; src=&quot;https:&amp;#x2F;&amp;#x2F;nilsmango.ch&amp;#x2F;processed_images&amp;#x2F;s3.9f0a84d5b4b3d972.jpg&quot; alt=&quot;Moving Light&quot; class=&quot;imgset&quot;&gt;
 &lt;&#x2F;a&gt;
-&lt;figcaption&gt;Seek&lt;&#x2F;figcaption&gt;
-    &lt;&#x2F;figure&gt;
 
+&lt;figcaption&gt;Seek&lt;&#x2F;figcaption&gt;
+
+    &lt;&#x2F;figure&gt;
 
 
 
@@ -1807,7 +1868,9 @@ Eine Auseinandersetzung mit Licht und dem menschlichen Körper.&lt;br &#x2F;&gt;
 &lt;a href=&quot;https:&amp;#x2F;&amp;#x2F;nilsmango.ch&amp;#x2F;processed_images&amp;#x2F;sa.9afd22a3a8614b34.jpg&quot; target=&quot;_blank&quot;&gt;
 &lt;img srcset=&quot;https:&amp;#x2F;&amp;#x2F;nilsmango.ch&amp;#x2F;processed_images&amp;#x2F;sa.08086043ffe585d9.jpg 300w, https:&amp;#x2F;&amp;#x2F;nilsmango.ch&amp;#x2F;processed_images&amp;#x2F;sa.c3033355d37f9858.jpg 600w, https:&amp;#x2F;&amp;#x2F;nilsmango.ch&amp;#x2F;processed_images&amp;#x2F;sa.9afd22a3a8614b34.jpg 768w&quot; src=&quot;https:&amp;#x2F;&amp;#x2F;nilsmango.ch&amp;#x2F;processed_images&amp;#x2F;sa.c3033355d37f9858.jpg&quot; alt=&quot;Moving Light&quot; class=&quot;imgset&quot;&gt;
 &lt;&#x2F;a&gt;
+
 &lt;figcaption&gt;Self portrait&lt;&#x2F;figcaption&gt;
+
 &lt;&#x2F;figure&gt;
 
 
@@ -1830,9 +1893,10 @@ Eine Auseinandersetzung mit Licht und dem menschlichen Körper.&lt;br &#x2F;&gt;
 &lt;a href=&quot;https:&amp;#x2F;&amp;#x2F;nilsmango.ch&amp;#x2F;processed_images&amp;#x2F;sa1.82984f35fc726bb3.jpg&quot; target=&quot;_blank&quot;&gt;
 &lt;img srcset=&quot;https:&amp;#x2F;&amp;#x2F;nilsmango.ch&amp;#x2F;processed_images&amp;#x2F;sa1.21bac2a6dd4a16e5.jpg 300w, https:&amp;#x2F;&amp;#x2F;nilsmango.ch&amp;#x2F;processed_images&amp;#x2F;sa1.b2fb366779da7293.jpg 600w, https:&amp;#x2F;&amp;#x2F;nilsmango.ch&amp;#x2F;processed_images&amp;#x2F;sa1.82984f35fc726bb3.jpg 1200w&quot; src=&quot;https:&amp;#x2F;&amp;#x2F;nilsmango.ch&amp;#x2F;processed_images&amp;#x2F;sa1.b2fb366779da7293.jpg&quot; alt=&quot;Moving Light&quot; class=&quot;imgset&quot;&gt;
 &lt;&#x2F;a&gt;
-&lt;figcaption&gt;Plasma&lt;&#x2F;figcaption&gt;
-&lt;&#x2F;figure&gt;
 
+&lt;figcaption&gt;Plasma&lt;&#x2F;figcaption&gt;
+
+&lt;&#x2F;figure&gt;
 
 
 
@@ -1857,9 +1921,10 @@ Eine Auseinandersetzung mit Licht und dem menschlichen Körper.&lt;br &#x2F;&gt;
 &lt;a href=&quot;https:&amp;#x2F;&amp;#x2F;nilsmango.ch&amp;#x2F;processed_images&amp;#x2F;sa2.8a8081fd11cc5e5c.jpg&quot; target=&quot;_blank&quot;&gt;
 &lt;img srcset=&quot;https:&amp;#x2F;&amp;#x2F;nilsmango.ch&amp;#x2F;processed_images&amp;#x2F;sa2.5002c09f31926345.jpg 300w, https:&amp;#x2F;&amp;#x2F;nilsmango.ch&amp;#x2F;processed_images&amp;#x2F;sa2.1e363d21a7ecc030.jpg 600w, https:&amp;#x2F;&amp;#x2F;nilsmango.ch&amp;#x2F;processed_images&amp;#x2F;sa2.f8a6ad8ad8398a52.jpg 1200w, , https:&amp;#x2F;&amp;#x2F;nilsmango.ch&amp;#x2F;processed_images&amp;#x2F;sa2.8a8081fd11cc5e5c.jpg 2400w&quot; src=&quot;https:&amp;#x2F;&amp;#x2F;nilsmango.ch&amp;#x2F;processed_images&amp;#x2F;sa2.1e363d21a7ecc030.jpg&quot; alt=&quot;Moving Light&quot; class=&quot;imgset&quot;&gt;
 &lt;&#x2F;a&gt;
-&lt;figcaption&gt;Card&lt;&#x2F;figcaption&gt;
-    &lt;&#x2F;figure&gt;
 
+&lt;figcaption&gt;Card&lt;&#x2F;figcaption&gt;
+
+    &lt;&#x2F;figure&gt;
 
 
 
@@ -1883,9 +1948,10 @@ Eine Auseinandersetzung mit Licht und dem menschlichen Körper.&lt;br &#x2F;&gt;
 &lt;a href=&quot;https:&amp;#x2F;&amp;#x2F;nilsmango.ch&amp;#x2F;processed_images&amp;#x2F;sa3.50af2a32f8d84b47.jpg&quot; target=&quot;_blank&quot;&gt;
 &lt;img srcset=&quot;https:&amp;#x2F;&amp;#x2F;nilsmango.ch&amp;#x2F;processed_images&amp;#x2F;sa3.2643151804d019a1.jpg 300w, https:&amp;#x2F;&amp;#x2F;nilsmango.ch&amp;#x2F;processed_images&amp;#x2F;sa3.f6dc4607e4d6c65c.jpg 600w, https:&amp;#x2F;&amp;#x2F;nilsmango.ch&amp;#x2F;processed_images&amp;#x2F;sa3.50af2a32f8d84b47.jpg 1200w&quot; src=&quot;https:&amp;#x2F;&amp;#x2F;nilsmango.ch&amp;#x2F;processed_images&amp;#x2F;sa3.f6dc4607e4d6c65c.jpg&quot; alt=&quot;Moving Light&quot; class=&quot;imgset&quot;&gt;
 &lt;&#x2F;a&gt;
-&lt;figcaption&gt;Lamp&lt;&#x2F;figcaption&gt;
-&lt;&#x2F;figure&gt;
 
+&lt;figcaption&gt;Lamp&lt;&#x2F;figcaption&gt;
+
+&lt;&#x2F;figure&gt;
 
 
 
@@ -1910,9 +1976,10 @@ Eine Auseinandersetzung mit Licht und dem menschlichen Körper.&lt;br &#x2F;&gt;
 &lt;a href=&quot;https:&amp;#x2F;&amp;#x2F;nilsmango.ch&amp;#x2F;processed_images&amp;#x2F;sa4.2fa783ef30554e77.jpg&quot; target=&quot;_blank&quot;&gt;
 &lt;img srcset=&quot;https:&amp;#x2F;&amp;#x2F;nilsmango.ch&amp;#x2F;processed_images&amp;#x2F;sa4.4318353cf8838781.jpg 300w, https:&amp;#x2F;&amp;#x2F;nilsmango.ch&amp;#x2F;processed_images&amp;#x2F;sa4.73eecaa1579286c2.jpg 600w, https:&amp;#x2F;&amp;#x2F;nilsmango.ch&amp;#x2F;processed_images&amp;#x2F;sa4.f2748668382110d4.jpg 1200w, , https:&amp;#x2F;&amp;#x2F;nilsmango.ch&amp;#x2F;processed_images&amp;#x2F;sa4.2fa783ef30554e77.jpg 2400w&quot; src=&quot;https:&amp;#x2F;&amp;#x2F;nilsmango.ch&amp;#x2F;processed_images&amp;#x2F;sa4.73eecaa1579286c2.jpg&quot; alt=&quot;Moving Light&quot; class=&quot;imgset&quot;&gt;
 &lt;&#x2F;a&gt;
-&lt;figcaption&gt;Geometry&lt;&#x2F;figcaption&gt;
-    &lt;&#x2F;figure&gt;
 
+&lt;figcaption&gt;Geometry&lt;&#x2F;figcaption&gt;
+
+    &lt;&#x2F;figure&gt;
 
 
 
@@ -1939,9 +2006,10 @@ Eine Auseinandersetzung mit Licht und dem menschlichen Körper.&lt;br &#x2F;&gt;
 &lt;a href=&quot;https:&amp;#x2F;&amp;#x2F;nilsmango.ch&amp;#x2F;processed_images&amp;#x2F;sa5.1893cbb52fb3d016.jpg&quot; target=&quot;_blank&quot;&gt;
 &lt;img srcset=&quot;https:&amp;#x2F;&amp;#x2F;nilsmango.ch&amp;#x2F;processed_images&amp;#x2F;sa5.b9556974696d89e2.jpg 300w, https:&amp;#x2F;&amp;#x2F;nilsmango.ch&amp;#x2F;processed_images&amp;#x2F;sa5.4454858eb75a2e5d.jpg 600w, https:&amp;#x2F;&amp;#x2F;nilsmango.ch&amp;#x2F;processed_images&amp;#x2F;sa5.a1659d864c8331fc.jpg 1200w, , https:&amp;#x2F;&amp;#x2F;nilsmango.ch&amp;#x2F;processed_images&amp;#x2F;sa5.1893cbb52fb3d016.jpg 2400w&quot; src=&quot;https:&amp;#x2F;&amp;#x2F;nilsmango.ch&amp;#x2F;processed_images&amp;#x2F;sa5.4454858eb75a2e5d.jpg&quot; alt=&quot;Moving Light&quot; class=&quot;imgset&quot;&gt;
 &lt;&#x2F;a&gt;
-&lt;figcaption&gt;Colors&lt;&#x2F;figcaption&gt;
-    &lt;&#x2F;figure&gt;
 
+&lt;figcaption&gt;Colors&lt;&#x2F;figcaption&gt;
+
+    &lt;&#x2F;figure&gt;
 
 
 
@@ -2028,9 +2096,10 @@ I managed to resurrect one wall of the mega galerie. The surviving wall (wand 4)
 &lt;a href=&quot;https:&amp;#x2F;&amp;#x2F;nilsmango.ch&amp;#x2F;processed_images&amp;#x2F;welcome.025ecef92d447e78.jpg&quot; target=&quot;_blank&quot;&gt;
 &lt;img srcset=&quot;https:&amp;#x2F;&amp;#x2F;nilsmango.ch&amp;#x2F;processed_images&amp;#x2F;welcome.e9b0103b21754a84.jpg 300w, https:&amp;#x2F;&amp;#x2F;nilsmango.ch&amp;#x2F;processed_images&amp;#x2F;welcome.bbaa257ec4c3a84b.jpg 600w, https:&amp;#x2F;&amp;#x2F;nilsmango.ch&amp;#x2F;processed_images&amp;#x2F;welcome.8564eff7aa7b98e0.jpg 1200w, , https:&amp;#x2F;&amp;#x2F;nilsmango.ch&amp;#x2F;processed_images&amp;#x2F;welcome.025ecef92d447e78.jpg 2400w&quot; src=&quot;https:&amp;#x2F;&amp;#x2F;nilsmango.ch&amp;#x2F;processed_images&amp;#x2F;welcome.bbaa257ec4c3a84b.jpg&quot; alt=&quot;Screenshot of an online exhibition with a floor plan&quot; class=&quot;imgset&quot;&gt;
 &lt;&#x2F;a&gt;
-&lt;figcaption&gt;Welcome page of the mega galerie (Eingang).&lt;&#x2F;figcaption&gt;
-    &lt;&#x2F;figure&gt;
 
+&lt;figcaption&gt;Welcome page of the mega galerie (Eingang).&lt;&#x2F;figcaption&gt;
+
+    &lt;&#x2F;figure&gt;
 
 
 
@@ -2053,9 +2122,10 @@ I managed to resurrect one wall of the mega galerie. The surviving wall (wand 4)
 &lt;a href=&quot;https:&amp;#x2F;&amp;#x2F;nilsmango.ch&amp;#x2F;processed_images&amp;#x2F;02.ed561b4737c7ed9c.jpg&quot; target=&quot;_blank&quot;&gt;
 &lt;img srcset=&quot;https:&amp;#x2F;&amp;#x2F;nilsmango.ch&amp;#x2F;processed_images&amp;#x2F;02.527940bfa22b592d.jpg 300w, https:&amp;#x2F;&amp;#x2F;nilsmango.ch&amp;#x2F;processed_images&amp;#x2F;02.6ac5aed11467b44c.jpg 600w, https:&amp;#x2F;&amp;#x2F;nilsmango.ch&amp;#x2F;processed_images&amp;#x2F;02.ed561b4737c7ed9c.jpg 1200w&quot; src=&quot;https:&amp;#x2F;&amp;#x2F;nilsmango.ch&amp;#x2F;processed_images&amp;#x2F;02.6ac5aed11467b44c.jpg&quot; alt=&quot;Screenshot of a video art installation showing a man divided into 4 unsynchronized frames&quot; class=&quot;imgset&quot;&gt;
 &lt;&#x2F;a&gt;
-&lt;figcaption&gt;Screenshot of a video installation at the mega galerie.&lt;&#x2F;figcaption&gt;
-&lt;&#x2F;figure&gt;
 
+&lt;figcaption&gt;Screenshot of a video installation at the mega galerie.&lt;&#x2F;figcaption&gt;
+
+&lt;&#x2F;figure&gt;
 
 
 
@@ -2079,9 +2149,10 @@ I managed to resurrect one wall of the mega galerie. The surviving wall (wand 4)
 &lt;a href=&quot;https:&amp;#x2F;&amp;#x2F;nilsmango.ch&amp;#x2F;processed_images&amp;#x2F;wand2.ac444e67139af3bb.jpg&quot; target=&quot;_blank&quot;&gt;
 &lt;img srcset=&quot;https:&amp;#x2F;&amp;#x2F;nilsmango.ch&amp;#x2F;processed_images&amp;#x2F;wand2.c00f2c55748c8aaa.jpg 300w, https:&amp;#x2F;&amp;#x2F;nilsmango.ch&amp;#x2F;processed_images&amp;#x2F;wand2.287834148c47cfde.jpg 600w, https:&amp;#x2F;&amp;#x2F;nilsmango.ch&amp;#x2F;processed_images&amp;#x2F;wand2.ae0344bd3c2b65d0.jpg 1200w, , https:&amp;#x2F;&amp;#x2F;nilsmango.ch&amp;#x2F;processed_images&amp;#x2F;wand2.ac444e67139af3bb.jpg 2400w&quot; src=&quot;https:&amp;#x2F;&amp;#x2F;nilsmango.ch&amp;#x2F;processed_images&amp;#x2F;wand2.287834148c47cfde.jpg&quot; alt=&quot;Screenshot of wand 2&quot; class=&quot;imgset&quot;&gt;
 &lt;&#x2F;a&gt;
-&lt;figcaption&gt;Screenshot of wand 2.&lt;&#x2F;figcaption&gt;
-    &lt;&#x2F;figure&gt;
 
+&lt;figcaption&gt;Screenshot of wand 2.&lt;&#x2F;figcaption&gt;
+
+    &lt;&#x2F;figure&gt;
 
 
 
@@ -2104,9 +2175,10 @@ I managed to resurrect one wall of the mega galerie. The surviving wall (wand 4)
 &lt;a href=&quot;https:&amp;#x2F;&amp;#x2F;nilsmango.ch&amp;#x2F;processed_images&amp;#x2F;nichtklicken0.ea7d585f64df7a8a.jpg&quot; target=&quot;_blank&quot;&gt;
 &lt;img srcset=&quot;https:&amp;#x2F;&amp;#x2F;nilsmango.ch&amp;#x2F;processed_images&amp;#x2F;nichtklicken0.8b51f964f786221e.jpg 300w, https:&amp;#x2F;&amp;#x2F;nilsmango.ch&amp;#x2F;processed_images&amp;#x2F;nichtklicken0.5cab6275448753af.jpg 600w, https:&amp;#x2F;&amp;#x2F;nilsmango.ch&amp;#x2F;processed_images&amp;#x2F;nichtklicken0.ea7d585f64df7a8a.jpg 1200w&quot; src=&quot;https:&amp;#x2F;&amp;#x2F;nilsmango.ch&amp;#x2F;processed_images&amp;#x2F;nichtklicken0.5cab6275448753af.jpg&quot; alt=&quot;Screenshot of bitte nicht klicken&quot; class=&quot;imgset&quot;&gt;
 &lt;&#x2F;a&gt;
-&lt;figcaption&gt;Screenshot bitte nicht klicken 01.&lt;&#x2F;figcaption&gt;
-&lt;&#x2F;figure&gt;
 
+&lt;figcaption&gt;Screenshot bitte nicht klicken 01.&lt;&#x2F;figcaption&gt;
+
+&lt;&#x2F;figure&gt;
 
 
 
@@ -2128,9 +2200,10 @@ I managed to resurrect one wall of the mega galerie. The surviving wall (wand 4)
 &lt;a href=&quot;https:&amp;#x2F;&amp;#x2F;nilsmango.ch&amp;#x2F;processed_images&amp;#x2F;nichtklicken2.2620891094c6c833.jpg&quot; target=&quot;_blank&quot;&gt;
 &lt;img srcset=&quot;https:&amp;#x2F;&amp;#x2F;nilsmango.ch&amp;#x2F;processed_images&amp;#x2F;nichtklicken2.9e62f1c6621dfd00.jpg 300w, https:&amp;#x2F;&amp;#x2F;nilsmango.ch&amp;#x2F;processed_images&amp;#x2F;nichtklicken2.f347c678f933026e.jpg 600w, https:&amp;#x2F;&amp;#x2F;nilsmango.ch&amp;#x2F;processed_images&amp;#x2F;nichtklicken2.2620891094c6c833.jpg 1200w&quot; src=&quot;https:&amp;#x2F;&amp;#x2F;nilsmango.ch&amp;#x2F;processed_images&amp;#x2F;nichtklicken2.f347c678f933026e.jpg&quot; alt=&quot;Screenshot of bitte nicht klicken&quot; class=&quot;imgset&quot;&gt;
 &lt;&#x2F;a&gt;
-&lt;figcaption&gt;Screenshot bitte nicht klicken 02.&lt;&#x2F;figcaption&gt;
-&lt;&#x2F;figure&gt;
 
+&lt;figcaption&gt;Screenshot bitte nicht klicken 02.&lt;&#x2F;figcaption&gt;
+
+&lt;&#x2F;figure&gt;
 
 
 
@@ -2152,9 +2225,10 @@ I managed to resurrect one wall of the mega galerie. The surviving wall (wand 4)
 &lt;a href=&quot;https:&amp;#x2F;&amp;#x2F;nilsmango.ch&amp;#x2F;processed_images&amp;#x2F;nichtklicken1.f3b747d07e0be184.jpg&quot; target=&quot;_blank&quot;&gt;
 &lt;img srcset=&quot;https:&amp;#x2F;&amp;#x2F;nilsmango.ch&amp;#x2F;processed_images&amp;#x2F;nichtklicken1.dad513b84fdd3ae2.jpg 300w, https:&amp;#x2F;&amp;#x2F;nilsmango.ch&amp;#x2F;processed_images&amp;#x2F;nichtklicken1.93be4d03cc55b252.jpg 600w, https:&amp;#x2F;&amp;#x2F;nilsmango.ch&amp;#x2F;processed_images&amp;#x2F;nichtklicken1.f3b747d07e0be184.jpg 1200w&quot; src=&quot;https:&amp;#x2F;&amp;#x2F;nilsmango.ch&amp;#x2F;processed_images&amp;#x2F;nichtklicken1.93be4d03cc55b252.jpg&quot; alt=&quot;Screenshot of bitte nicht klicken&quot; class=&quot;imgset&quot;&gt;
 &lt;&#x2F;a&gt;
-&lt;figcaption&gt;Screenshot bitte nicht klicken 03.&lt;&#x2F;figcaption&gt;
-&lt;&#x2F;figure&gt;
 
+&lt;figcaption&gt;Screenshot bitte nicht klicken 03.&lt;&#x2F;figcaption&gt;
+
+&lt;&#x2F;figure&gt;
 
 &lt;&#x2F;p&gt;
 
@@ -2176,9 +2250,10 @@ I managed to resurrect one wall of the mega galerie. The surviving wall (wand 4)
 &lt;a href=&quot;https:&amp;#x2F;&amp;#x2F;nilsmango.ch&amp;#x2F;processed_images&amp;#x2F;satzderwoche.5eb9380363c84611.jpg&quot; target=&quot;_blank&quot;&gt;
 &lt;img srcset=&quot;https:&amp;#x2F;&amp;#x2F;nilsmango.ch&amp;#x2F;processed_images&amp;#x2F;satzderwoche.2354724ff6eab22a.jpg 300w, https:&amp;#x2F;&amp;#x2F;nilsmango.ch&amp;#x2F;processed_images&amp;#x2F;satzderwoche.0065cfaf15ae29e3.jpg 600w, https:&amp;#x2F;&amp;#x2F;nilsmango.ch&amp;#x2F;processed_images&amp;#x2F;satzderwoche.5eb9380363c84611.jpg 1200w&quot; src=&quot;https:&amp;#x2F;&amp;#x2F;nilsmango.ch&amp;#x2F;processed_images&amp;#x2F;satzderwoche.0065cfaf15ae29e3.jpg&quot; alt=&quot;Screenshot of sentence of the week&quot; class=&quot;imgset&quot;&gt;
 &lt;&#x2F;a&gt;
-&lt;figcaption&gt;Screenshot of Satz der Woche (sentence of the week).&lt;&#x2F;figcaption&gt;
-&lt;&#x2F;figure&gt;
 
+&lt;figcaption&gt;Screenshot of Satz der Woche (sentence of the week).&lt;&#x2F;figcaption&gt;
+
+&lt;&#x2F;figure&gt;
 
 
 
@@ -2199,9 +2274,10 @@ I managed to resurrect one wall of the mega galerie. The surviving wall (wand 4)
 &lt;a href=&quot;https:&amp;#x2F;&amp;#x2F;nilsmango.ch&amp;#x2F;processed_images&amp;#x2F;scroll0.88d91abf75d89d36.jpg&quot; target=&quot;_blank&quot;&gt;
 &lt;img srcset=&quot;https:&amp;#x2F;&amp;#x2F;nilsmango.ch&amp;#x2F;processed_images&amp;#x2F;scroll0.aee5ba308c0bfb9f.jpg 300w, https:&amp;#x2F;&amp;#x2F;nilsmango.ch&amp;#x2F;processed_images&amp;#x2F;scroll0.ce97fe5cb5259768.jpg 600w, https:&amp;#x2F;&amp;#x2F;nilsmango.ch&amp;#x2F;processed_images&amp;#x2F;scroll0.88d91abf75d89d36.jpg 1200w&quot; src=&quot;https:&amp;#x2F;&amp;#x2F;nilsmango.ch&amp;#x2F;processed_images&amp;#x2F;scroll0.ce97fe5cb5259768.jpg&quot; alt=&quot;Screenshot of Scoooll&quot; class=&quot;imgset&quot;&gt;
 &lt;&#x2F;a&gt;
-&lt;figcaption&gt;Screenshot of Scrooooll.&lt;&#x2F;figcaption&gt;
-&lt;&#x2F;figure&gt;
 
+&lt;figcaption&gt;Screenshot of Scrooooll.&lt;&#x2F;figcaption&gt;
+
+&lt;&#x2F;figure&gt;
 
 
 
@@ -2225,9 +2301,10 @@ I managed to resurrect one wall of the mega galerie. The surviving wall (wand 4)
 &lt;a href=&quot;https:&amp;#x2F;&amp;#x2F;nilsmango.ch&amp;#x2F;processed_images&amp;#x2F;scroll1.0aaedc776b8320c7.jpg&quot; target=&quot;_blank&quot;&gt;
 &lt;img srcset=&quot;https:&amp;#x2F;&amp;#x2F;nilsmango.ch&amp;#x2F;processed_images&amp;#x2F;scroll1.fdec6318c914f5ab.jpg 300w, https:&amp;#x2F;&amp;#x2F;nilsmango.ch&amp;#x2F;processed_images&amp;#x2F;scroll1.626409401822a6c9.jpg 600w, https:&amp;#x2F;&amp;#x2F;nilsmango.ch&amp;#x2F;processed_images&amp;#x2F;scroll1.d9401874de2f8275.jpg 1200w, , https:&amp;#x2F;&amp;#x2F;nilsmango.ch&amp;#x2F;processed_images&amp;#x2F;scroll1.0aaedc776b8320c7.jpg 2400w&quot; src=&quot;https:&amp;#x2F;&amp;#x2F;nilsmango.ch&amp;#x2F;processed_images&amp;#x2F;scroll1.626409401822a6c9.jpg&quot; alt=&quot;Screenshot of Scoooll&quot; class=&quot;imgset&quot;&gt;
 &lt;&#x2F;a&gt;
-&lt;figcaption&gt;Screenshot of Scrooooll.&lt;&#x2F;figcaption&gt;
-    &lt;&#x2F;figure&gt;
 
+&lt;figcaption&gt;Screenshot of Scrooooll.&lt;&#x2F;figcaption&gt;
+
+    &lt;&#x2F;figure&gt;
 
 
 
@@ -2268,9 +2345,10 @@ Basel, January 2011. A two-man job. Artistic civil disobedience for &lt;a href=&
 &lt;a href=&quot;https:&amp;#x2F;&amp;#x2F;nilsmango.ch&amp;#x2F;processed_images&amp;#x2F;IMG_3844.d5c44960e84e05d8.jpg&quot; target=&quot;_blank&quot;&gt;
 &lt;img srcset=&quot;https:&amp;#x2F;&amp;#x2F;nilsmango.ch&amp;#x2F;processed_images&amp;#x2F;IMG_3844.8272fe16e6cb5541.jpg 300w, https:&amp;#x2F;&amp;#x2F;nilsmango.ch&amp;#x2F;processed_images&amp;#x2F;IMG_3844.4826a1137a5be26d.jpg 600w, https:&amp;#x2F;&amp;#x2F;nilsmango.ch&amp;#x2F;processed_images&amp;#x2F;IMG_3844.7230e37671072caf.jpg 1200w, , https:&amp;#x2F;&amp;#x2F;nilsmango.ch&amp;#x2F;processed_images&amp;#x2F;IMG_3844.d5c44960e84e05d8.jpg 2400w&quot; src=&quot;https:&amp;#x2F;&amp;#x2F;nilsmango.ch&amp;#x2F;processed_images&amp;#x2F;IMG_3844.4826a1137a5be26d.jpg&quot; alt=&quot;Plakate anbringen verboten Leonhardsberg&quot; class=&quot;imgset&quot;&gt;
 &lt;&#x2F;a&gt;
-&lt;figcaption&gt;Leonhardsberg&lt;&#x2F;figcaption&gt;
-    &lt;&#x2F;figure&gt;
 
+&lt;figcaption&gt;Leonhardsberg&lt;&#x2F;figcaption&gt;
+
+    &lt;&#x2F;figure&gt;
 
 
 
@@ -2296,9 +2374,10 @@ Basel, January 2011. A two-man job. Artistic civil disobedience for &lt;a href=&
 &lt;a href=&quot;https:&amp;#x2F;&amp;#x2F;nilsmango.ch&amp;#x2F;processed_images&amp;#x2F;IMG_3851.93fd251d8d23c105.jpg&quot; target=&quot;_blank&quot;&gt;
 &lt;img srcset=&quot;https:&amp;#x2F;&amp;#x2F;nilsmango.ch&amp;#x2F;processed_images&amp;#x2F;IMG_3851.476c2081adf72fce.jpg 300w, https:&amp;#x2F;&amp;#x2F;nilsmango.ch&amp;#x2F;processed_images&amp;#x2F;IMG_3851.de3d5e62a55134c8.jpg 600w, https:&amp;#x2F;&amp;#x2F;nilsmango.ch&amp;#x2F;processed_images&amp;#x2F;IMG_3851.7f0e6ba9ee4b613d.jpg 1200w, , https:&amp;#x2F;&amp;#x2F;nilsmango.ch&amp;#x2F;processed_images&amp;#x2F;IMG_3851.93fd251d8d23c105.jpg 2400w&quot; src=&quot;https:&amp;#x2F;&amp;#x2F;nilsmango.ch&amp;#x2F;processed_images&amp;#x2F;IMG_3851.de3d5e62a55134c8.jpg&quot; alt=&quot;Plakate anbringen verboten Gerbergasse&quot; class=&quot;imgset&quot;&gt;
 &lt;&#x2F;a&gt;
-&lt;figcaption&gt;Gerbergasse&lt;&#x2F;figcaption&gt;
-    &lt;&#x2F;figure&gt;
 
+&lt;figcaption&gt;Gerbergasse&lt;&#x2F;figcaption&gt;
+
+    &lt;&#x2F;figure&gt;
 
 
 
@@ -2324,9 +2403,10 @@ Basel, January 2011. A two-man job. Artistic civil disobedience for &lt;a href=&
 &lt;a href=&quot;https:&amp;#x2F;&amp;#x2F;nilsmango.ch&amp;#x2F;processed_images&amp;#x2F;IMG_3855.dfe01947e94fbd5e.jpg&quot; target=&quot;_blank&quot;&gt;
 &lt;img srcset=&quot;https:&amp;#x2F;&amp;#x2F;nilsmango.ch&amp;#x2F;processed_images&amp;#x2F;IMG_3855.1093f45bf50ac7b7.jpg 300w, https:&amp;#x2F;&amp;#x2F;nilsmango.ch&amp;#x2F;processed_images&amp;#x2F;IMG_3855.82b01f83c2c75d5e.jpg 600w, https:&amp;#x2F;&amp;#x2F;nilsmango.ch&amp;#x2F;processed_images&amp;#x2F;IMG_3855.a5cbf9f8cc16bf9e.jpg 1200w, , https:&amp;#x2F;&amp;#x2F;nilsmango.ch&amp;#x2F;processed_images&amp;#x2F;IMG_3855.dfe01947e94fbd5e.jpg 2400w&quot; src=&quot;https:&amp;#x2F;&amp;#x2F;nilsmango.ch&amp;#x2F;processed_images&amp;#x2F;IMG_3855.82b01f83c2c75d5e.jpg&quot; alt=&quot;Plakate anbringen verboten Marktplatz&quot; class=&quot;imgset&quot;&gt;
 &lt;&#x2F;a&gt;
-&lt;figcaption&gt;Marktplatz&lt;&#x2F;figcaption&gt;
-    &lt;&#x2F;figure&gt;
 
+&lt;figcaption&gt;Marktplatz&lt;&#x2F;figcaption&gt;
+
+    &lt;&#x2F;figure&gt;
 
 
 
@@ -2352,9 +2432,10 @@ Basel, January 2011. A two-man job. Artistic civil disobedience for &lt;a href=&
 &lt;a href=&quot;https:&amp;#x2F;&amp;#x2F;nilsmango.ch&amp;#x2F;processed_images&amp;#x2F;IMG_3863.eb8f850b9abe2177.jpg&quot; target=&quot;_blank&quot;&gt;
 &lt;img srcset=&quot;https:&amp;#x2F;&amp;#x2F;nilsmango.ch&amp;#x2F;processed_images&amp;#x2F;IMG_3863.41c20bf0109c5852.jpg 300w, https:&amp;#x2F;&amp;#x2F;nilsmango.ch&amp;#x2F;processed_images&amp;#x2F;IMG_3863.d53398e92b017b42.jpg 600w, https:&amp;#x2F;&amp;#x2F;nilsmango.ch&amp;#x2F;processed_images&amp;#x2F;IMG_3863.be5b0f51f9bd15c9.jpg 1200w, , https:&amp;#x2F;&amp;#x2F;nilsmango.ch&amp;#x2F;processed_images&amp;#x2F;IMG_3863.eb8f850b9abe2177.jpg 2400w&quot; src=&quot;https:&amp;#x2F;&amp;#x2F;nilsmango.ch&amp;#x2F;processed_images&amp;#x2F;IMG_3863.d53398e92b017b42.jpg&quot; alt=&quot;Plakate anbringen verboten Rathaus&quot; class=&quot;imgset&quot;&gt;
 &lt;&#x2F;a&gt;
-&lt;figcaption&gt;Rathaus&lt;&#x2F;figcaption&gt;
-    &lt;&#x2F;figure&gt;
 
+&lt;figcaption&gt;Rathaus&lt;&#x2F;figcaption&gt;
+
+    &lt;&#x2F;figure&gt;
 
 
 
@@ -2380,9 +2461,10 @@ Basel, January 2011. A two-man job. Artistic civil disobedience for &lt;a href=&
 &lt;a href=&quot;https:&amp;#x2F;&amp;#x2F;nilsmango.ch&amp;#x2F;processed_images&amp;#x2F;IMG_3871.52a624ba57e43b68.jpg&quot; target=&quot;_blank&quot;&gt;
 &lt;img srcset=&quot;https:&amp;#x2F;&amp;#x2F;nilsmango.ch&amp;#x2F;processed_images&amp;#x2F;IMG_3871.8811e5c3f4cfe5fc.jpg 300w, https:&amp;#x2F;&amp;#x2F;nilsmango.ch&amp;#x2F;processed_images&amp;#x2F;IMG_3871.b1f847f160689f1e.jpg 600w, https:&amp;#x2F;&amp;#x2F;nilsmango.ch&amp;#x2F;processed_images&amp;#x2F;IMG_3871.7ae391cab31e8e2a.jpg 1200w, , https:&amp;#x2F;&amp;#x2F;nilsmango.ch&amp;#x2F;processed_images&amp;#x2F;IMG_3871.52a624ba57e43b68.jpg 2400w&quot; src=&quot;https:&amp;#x2F;&amp;#x2F;nilsmango.ch&amp;#x2F;processed_images&amp;#x2F;IMG_3871.b1f847f160689f1e.jpg&quot; alt=&quot;Plakate anbringen verboten Elftausendjungfern-Gässlein&quot; class=&quot;imgset&quot;&gt;
 &lt;&#x2F;a&gt;
-&lt;figcaption&gt;Elftausendjungfern-Gässlein&lt;&#x2F;figcaption&gt;
-    &lt;&#x2F;figure&gt;
 
+&lt;figcaption&gt;Elftausendjungfern-Gässlein&lt;&#x2F;figcaption&gt;
+
+    &lt;&#x2F;figure&gt;
 
 
 
@@ -2408,9 +2490,10 @@ Basel, January 2011. A two-man job. Artistic civil disobedience for &lt;a href=&
 &lt;a href=&quot;https:&amp;#x2F;&amp;#x2F;nilsmango.ch&amp;#x2F;processed_images&amp;#x2F;IMG_3933.9e289119352f2f58.jpg&quot; target=&quot;_blank&quot;&gt;
 &lt;img srcset=&quot;https:&amp;#x2F;&amp;#x2F;nilsmango.ch&amp;#x2F;processed_images&amp;#x2F;IMG_3933.10bad866d28e291d.jpg 300w, https:&amp;#x2F;&amp;#x2F;nilsmango.ch&amp;#x2F;processed_images&amp;#x2F;IMG_3933.43898a4084b43374.jpg 600w, https:&amp;#x2F;&amp;#x2F;nilsmango.ch&amp;#x2F;processed_images&amp;#x2F;IMG_3933.61752b740fd4e891.jpg 1200w, , https:&amp;#x2F;&amp;#x2F;nilsmango.ch&amp;#x2F;processed_images&amp;#x2F;IMG_3933.9e289119352f2f58.jpg 2400w&quot; src=&quot;https:&amp;#x2F;&amp;#x2F;nilsmango.ch&amp;#x2F;processed_images&amp;#x2F;IMG_3933.43898a4084b43374.jpg&quot; alt=&quot;Plakate anbringen verboten Greifengasse&quot; class=&quot;imgset&quot;&gt;
 &lt;&#x2F;a&gt;
-&lt;figcaption&gt;Greifengasse&lt;&#x2F;figcaption&gt;
-    &lt;&#x2F;figure&gt;
 
+&lt;figcaption&gt;Greifengasse&lt;&#x2F;figcaption&gt;
+
+    &lt;&#x2F;figure&gt;
 
 
 
@@ -2436,9 +2519,10 @@ Basel, January 2011. A two-man job. Artistic civil disobedience for &lt;a href=&
 &lt;a href=&quot;https:&amp;#x2F;&amp;#x2F;nilsmango.ch&amp;#x2F;processed_images&amp;#x2F;IMG_3961.7dabff951d541410.jpg&quot; target=&quot;_blank&quot;&gt;
 &lt;img srcset=&quot;https:&amp;#x2F;&amp;#x2F;nilsmango.ch&amp;#x2F;processed_images&amp;#x2F;IMG_3961.69e8ac9361754e7e.jpg 300w, https:&amp;#x2F;&amp;#x2F;nilsmango.ch&amp;#x2F;processed_images&amp;#x2F;IMG_3961.0f5aa219dcebc198.jpg 600w, https:&amp;#x2F;&amp;#x2F;nilsmango.ch&amp;#x2F;processed_images&amp;#x2F;IMG_3961.5596f586b63d4a49.jpg 1200w, , https:&amp;#x2F;&amp;#x2F;nilsmango.ch&amp;#x2F;processed_images&amp;#x2F;IMG_3961.7dabff951d541410.jpg 2400w&quot; src=&quot;https:&amp;#x2F;&amp;#x2F;nilsmango.ch&amp;#x2F;processed_images&amp;#x2F;IMG_3961.0f5aa219dcebc198.jpg&quot; alt=&quot;Plakate anbringen verboten Claragraben&quot; class=&quot;imgset&quot;&gt;
 &lt;&#x2F;a&gt;
-&lt;figcaption&gt;Claragraben&lt;&#x2F;figcaption&gt;
-    &lt;&#x2F;figure&gt;
 
+&lt;figcaption&gt;Claragraben&lt;&#x2F;figcaption&gt;
+
+    &lt;&#x2F;figure&gt;
 
 
 
@@ -2464,9 +2548,10 @@ Basel, January 2011. A two-man job. Artistic civil disobedience for &lt;a href=&
 &lt;a href=&quot;https:&amp;#x2F;&amp;#x2F;nilsmango.ch&amp;#x2F;processed_images&amp;#x2F;megaduo.3d778ae86c069fac.jpg&quot; target=&quot;_blank&quot;&gt;
 &lt;img srcset=&quot;https:&amp;#x2F;&amp;#x2F;nilsmango.ch&amp;#x2F;processed_images&amp;#x2F;megaduo.6759ad7730f6eaa0.jpg 300w, https:&amp;#x2F;&amp;#x2F;nilsmango.ch&amp;#x2F;processed_images&amp;#x2F;megaduo.92ddff21eb5c5ea7.jpg 600w, https:&amp;#x2F;&amp;#x2F;nilsmango.ch&amp;#x2F;processed_images&amp;#x2F;megaduo.f73fb39b0327745b.jpg 1200w, , https:&amp;#x2F;&amp;#x2F;nilsmango.ch&amp;#x2F;processed_images&amp;#x2F;megaduo.3d778ae86c069fac.jpg 2400w&quot; src=&quot;https:&amp;#x2F;&amp;#x2F;nilsmango.ch&amp;#x2F;processed_images&amp;#x2F;megaduo.92ddff21eb5c5ea7.jpg&quot; alt=&quot;Plakate anbringen verboten Plakat&quot; class=&quot;imgset&quot;&gt;
 &lt;&#x2F;a&gt;
-&lt;figcaption&gt;Das Plakat&lt;&#x2F;figcaption&gt;
-    &lt;&#x2F;figure&gt;
 
+&lt;figcaption&gt;Das Plakat&lt;&#x2F;figcaption&gt;
+
+    &lt;&#x2F;figure&gt;
 
 
 
@@ -2492,9 +2577,10 @@ Basel, January 2011. A two-man job. Artistic civil disobedience for &lt;a href=&
 &lt;a href=&quot;https:&amp;#x2F;&amp;#x2F;nilsmango.ch&amp;#x2F;processed_images&amp;#x2F;Plakate sind billig.89d6d78b26808833.jpg&quot; target=&quot;_blank&quot;&gt;
 &lt;img srcset=&quot;https:&amp;#x2F;&amp;#x2F;nilsmango.ch&amp;#x2F;processed_images&amp;#x2F;Plakate sind billig.30e276731f36105b.jpg 300w, https:&amp;#x2F;&amp;#x2F;nilsmango.ch&amp;#x2F;processed_images&amp;#x2F;Plakate sind billig.ed889c41828d210b.jpg 600w, https:&amp;#x2F;&amp;#x2F;nilsmango.ch&amp;#x2F;processed_images&amp;#x2F;Plakate sind billig.6db237f8c5051731.jpg 1200w, , https:&amp;#x2F;&amp;#x2F;nilsmango.ch&amp;#x2F;processed_images&amp;#x2F;Plakate sind billig.89d6d78b26808833.jpg 2400w&quot; src=&quot;https:&amp;#x2F;&amp;#x2F;nilsmango.ch&amp;#x2F;processed_images&amp;#x2F;Plakate sind billig.ed889c41828d210b.jpg&quot; alt=&quot;Plakate drucken lassen ist eindeutig zu billig Plakat&quot; class=&quot;imgset&quot;&gt;
 &lt;&#x2F;a&gt;
-&lt;figcaption&gt;Variante 2&lt;&#x2F;figcaption&gt;
-    &lt;&#x2F;figure&gt;
 
+&lt;figcaption&gt;Variante 2&lt;&#x2F;figcaption&gt;
+
+    &lt;&#x2F;figure&gt;
 
 
 
@@ -2534,9 +2620,10 @@ The Toilet Series encapsulates 19 pictures shot on mobile phones. Let the follow
 &lt;a href=&quot;https:&amp;#x2F;&amp;#x2F;nilsmango.ch&amp;#x2F;processed_images&amp;#x2F;DSC00521.fcee1b7095f272cc.jpg&quot; target=&quot;_blank&quot;&gt;
 &lt;img srcset=&quot;https:&amp;#x2F;&amp;#x2F;nilsmango.ch&amp;#x2F;processed_images&amp;#x2F;DSC00521.c226d419efcf08f5.jpg 300w, https:&amp;#x2F;&amp;#x2F;nilsmango.ch&amp;#x2F;processed_images&amp;#x2F;DSC00521.e2ef9433d8da8bd7.jpg 600w, https:&amp;#x2F;&amp;#x2F;nilsmango.ch&amp;#x2F;processed_images&amp;#x2F;DSC00521.fcee1b7095f272cc.jpg 1200w&quot; src=&quot;https:&amp;#x2F;&amp;#x2F;nilsmango.ch&amp;#x2F;processed_images&amp;#x2F;DSC00521.e2ef9433d8da8bd7.jpg&quot; alt=&quot;Nils Mango sitting on a toilet 521&quot; class=&quot;imgset&quot;&gt;
 &lt;&#x2F;a&gt;
-&lt;figcaption&gt;521&lt;&#x2F;figcaption&gt;
-&lt;&#x2F;figure&gt;
 
+&lt;figcaption&gt;521&lt;&#x2F;figcaption&gt;
+
+&lt;&#x2F;figure&gt;
 
 
 
@@ -2557,9 +2644,10 @@ The Toilet Series encapsulates 19 pictures shot on mobile phones. Let the follow
 &lt;a href=&quot;https:&amp;#x2F;&amp;#x2F;nilsmango.ch&amp;#x2F;processed_images&amp;#x2F;IMG_0973.55b628daf20ae545.jpg&quot; target=&quot;_blank&quot;&gt;
 &lt;img srcset=&quot;https:&amp;#x2F;&amp;#x2F;nilsmango.ch&amp;#x2F;processed_images&amp;#x2F;IMG_0973.1e911b30e80bd916.jpg 300w, https:&amp;#x2F;&amp;#x2F;nilsmango.ch&amp;#x2F;processed_images&amp;#x2F;IMG_0973.a3138ff46759325f.jpg 600w, https:&amp;#x2F;&amp;#x2F;nilsmango.ch&amp;#x2F;processed_images&amp;#x2F;IMG_0973.55b628daf20ae545.jpg 1200w&quot; src=&quot;https:&amp;#x2F;&amp;#x2F;nilsmango.ch&amp;#x2F;processed_images&amp;#x2F;IMG_0973.a3138ff46759325f.jpg&quot; alt=&quot;Nils Mango sitting on a toilet 973&quot; class=&quot;imgset&quot;&gt;
 &lt;&#x2F;a&gt;
-&lt;figcaption&gt;973&lt;&#x2F;figcaption&gt;
-&lt;&#x2F;figure&gt;
 
+&lt;figcaption&gt;973&lt;&#x2F;figcaption&gt;
+
+&lt;&#x2F;figure&gt;
 
 
 
@@ -2580,9 +2668,10 @@ The Toilet Series encapsulates 19 pictures shot on mobile phones. Let the follow
 &lt;a href=&quot;https:&amp;#x2F;&amp;#x2F;nilsmango.ch&amp;#x2F;processed_images&amp;#x2F;IMG_1011.e74ee51d24f86930.jpg&quot; target=&quot;_blank&quot;&gt;
 &lt;img srcset=&quot;https:&amp;#x2F;&amp;#x2F;nilsmango.ch&amp;#x2F;processed_images&amp;#x2F;IMG_1011.d933ffaffea42550.jpg 300w, https:&amp;#x2F;&amp;#x2F;nilsmango.ch&amp;#x2F;processed_images&amp;#x2F;IMG_1011.1393c7aad24fb5e6.jpg 600w, https:&amp;#x2F;&amp;#x2F;nilsmango.ch&amp;#x2F;processed_images&amp;#x2F;IMG_1011.e74ee51d24f86930.jpg 1200w&quot; src=&quot;https:&amp;#x2F;&amp;#x2F;nilsmango.ch&amp;#x2F;processed_images&amp;#x2F;IMG_1011.1393c7aad24fb5e6.jpg&quot; alt=&quot;Nils Mango sitting on a toilet 1011&quot; class=&quot;imgset&quot;&gt;
 &lt;&#x2F;a&gt;
-&lt;figcaption&gt;1011&lt;&#x2F;figcaption&gt;
-&lt;&#x2F;figure&gt;
 
+&lt;figcaption&gt;1011&lt;&#x2F;figcaption&gt;
+
+&lt;&#x2F;figure&gt;
 
 
 
@@ -2603,9 +2692,10 @@ The Toilet Series encapsulates 19 pictures shot on mobile phones. Let the follow
 &lt;a href=&quot;https:&amp;#x2F;&amp;#x2F;nilsmango.ch&amp;#x2F;processed_images&amp;#x2F;IMG_1013.c416e09a83c802ad.jpg&quot; target=&quot;_blank&quot;&gt;
 &lt;img srcset=&quot;https:&amp;#x2F;&amp;#x2F;nilsmango.ch&amp;#x2F;processed_images&amp;#x2F;IMG_1013.609aa82c93fd586a.jpg 300w, https:&amp;#x2F;&amp;#x2F;nilsmango.ch&amp;#x2F;processed_images&amp;#x2F;IMG_1013.0b978ef0acc587b1.jpg 600w, https:&amp;#x2F;&amp;#x2F;nilsmango.ch&amp;#x2F;processed_images&amp;#x2F;IMG_1013.c416e09a83c802ad.jpg 1200w&quot; src=&quot;https:&amp;#x2F;&amp;#x2F;nilsmango.ch&amp;#x2F;processed_images&amp;#x2F;IMG_1013.0b978ef0acc587b1.jpg&quot; alt=&quot;Nils Mango sitting on a toilet 1013&quot; class=&quot;imgset&quot;&gt;
 &lt;&#x2F;a&gt;
-&lt;figcaption&gt;1013&lt;&#x2F;figcaption&gt;
-&lt;&#x2F;figure&gt;
 
+&lt;figcaption&gt;1013&lt;&#x2F;figcaption&gt;
+
+&lt;&#x2F;figure&gt;
 
 
 
@@ -2626,9 +2716,10 @@ The Toilet Series encapsulates 19 pictures shot on mobile phones. Let the follow
 &lt;a href=&quot;https:&amp;#x2F;&amp;#x2F;nilsmango.ch&amp;#x2F;processed_images&amp;#x2F;IMG_1031.c8daa04225563813.jpg&quot; target=&quot;_blank&quot;&gt;
 &lt;img srcset=&quot;https:&amp;#x2F;&amp;#x2F;nilsmango.ch&amp;#x2F;processed_images&amp;#x2F;IMG_1031.58bf151ba227a450.jpg 300w, https:&amp;#x2F;&amp;#x2F;nilsmango.ch&amp;#x2F;processed_images&amp;#x2F;IMG_1031.c493649449995d10.jpg 600w, https:&amp;#x2F;&amp;#x2F;nilsmango.ch&amp;#x2F;processed_images&amp;#x2F;IMG_1031.c8daa04225563813.jpg 1200w&quot; src=&quot;https:&amp;#x2F;&amp;#x2F;nilsmango.ch&amp;#x2F;processed_images&amp;#x2F;IMG_1031.c493649449995d10.jpg&quot; alt=&quot;Nils Mango sitting on a toilet 1031&quot; class=&quot;imgset&quot;&gt;
 &lt;&#x2F;a&gt;
-&lt;figcaption&gt;1031&lt;&#x2F;figcaption&gt;
-&lt;&#x2F;figure&gt;
 
+&lt;figcaption&gt;1031&lt;&#x2F;figcaption&gt;
+
+&lt;&#x2F;figure&gt;
 
 
 
@@ -2649,9 +2740,10 @@ The Toilet Series encapsulates 19 pictures shot on mobile phones. Let the follow
 &lt;a href=&quot;https:&amp;#x2F;&amp;#x2F;nilsmango.ch&amp;#x2F;processed_images&amp;#x2F;IMG_1107.241a5f4a7e26fc41.jpg&quot; target=&quot;_blank&quot;&gt;
 &lt;img srcset=&quot;https:&amp;#x2F;&amp;#x2F;nilsmango.ch&amp;#x2F;processed_images&amp;#x2F;IMG_1107.1f3353d343c4fbf7.jpg 300w, https:&amp;#x2F;&amp;#x2F;nilsmango.ch&amp;#x2F;processed_images&amp;#x2F;IMG_1107.2d1315ae5cb58c07.jpg 600w, https:&amp;#x2F;&amp;#x2F;nilsmango.ch&amp;#x2F;processed_images&amp;#x2F;IMG_1107.241a5f4a7e26fc41.jpg 1200w&quot; src=&quot;https:&amp;#x2F;&amp;#x2F;nilsmango.ch&amp;#x2F;processed_images&amp;#x2F;IMG_1107.2d1315ae5cb58c07.jpg&quot; alt=&quot;Nils Mango sitting on a toilet 1107&quot; class=&quot;imgset&quot;&gt;
 &lt;&#x2F;a&gt;
-&lt;figcaption&gt;1107&lt;&#x2F;figcaption&gt;
-&lt;&#x2F;figure&gt;
 
+&lt;figcaption&gt;1107&lt;&#x2F;figcaption&gt;
+
+&lt;&#x2F;figure&gt;
 
 
 
@@ -2672,9 +2764,10 @@ The Toilet Series encapsulates 19 pictures shot on mobile phones. Let the follow
 &lt;a href=&quot;https:&amp;#x2F;&amp;#x2F;nilsmango.ch&amp;#x2F;processed_images&amp;#x2F;IMG_1108.057f405408f9f2d7.jpg&quot; target=&quot;_blank&quot;&gt;
 &lt;img srcset=&quot;https:&amp;#x2F;&amp;#x2F;nilsmango.ch&amp;#x2F;processed_images&amp;#x2F;IMG_1108.28c62e371402151f.jpg 300w, https:&amp;#x2F;&amp;#x2F;nilsmango.ch&amp;#x2F;processed_images&amp;#x2F;IMG_1108.9b96a7909a88a1ff.jpg 600w, https:&amp;#x2F;&amp;#x2F;nilsmango.ch&amp;#x2F;processed_images&amp;#x2F;IMG_1108.057f405408f9f2d7.jpg 1200w&quot; src=&quot;https:&amp;#x2F;&amp;#x2F;nilsmango.ch&amp;#x2F;processed_images&amp;#x2F;IMG_1108.9b96a7909a88a1ff.jpg&quot; alt=&quot;Nils Mango sitting on a toilet 1108&quot; class=&quot;imgset&quot;&gt;
 &lt;&#x2F;a&gt;
-&lt;figcaption&gt;1108&lt;&#x2F;figcaption&gt;
-&lt;&#x2F;figure&gt;
 
+&lt;figcaption&gt;1108&lt;&#x2F;figcaption&gt;
+
+&lt;&#x2F;figure&gt;
 
 
 
@@ -2695,9 +2788,10 @@ The Toilet Series encapsulates 19 pictures shot on mobile phones. Let the follow
 &lt;a href=&quot;https:&amp;#x2F;&amp;#x2F;nilsmango.ch&amp;#x2F;processed_images&amp;#x2F;IMG_1109.245f5965d4bb117b.jpg&quot; target=&quot;_blank&quot;&gt;
 &lt;img srcset=&quot;https:&amp;#x2F;&amp;#x2F;nilsmango.ch&amp;#x2F;processed_images&amp;#x2F;IMG_1109.8a3b709292717982.jpg 300w, https:&amp;#x2F;&amp;#x2F;nilsmango.ch&amp;#x2F;processed_images&amp;#x2F;IMG_1109.03569025e29c74b7.jpg 600w, https:&amp;#x2F;&amp;#x2F;nilsmango.ch&amp;#x2F;processed_images&amp;#x2F;IMG_1109.245f5965d4bb117b.jpg 1200w&quot; src=&quot;https:&amp;#x2F;&amp;#x2F;nilsmango.ch&amp;#x2F;processed_images&amp;#x2F;IMG_1109.03569025e29c74b7.jpg&quot; alt=&quot;Nils Mango standing at a toilet 1109&quot; class=&quot;imgset&quot;&gt;
 &lt;&#x2F;a&gt;
-&lt;figcaption&gt;1109&lt;&#x2F;figcaption&gt;
-&lt;&#x2F;figure&gt;
 
+&lt;figcaption&gt;1109&lt;&#x2F;figcaption&gt;
+
+&lt;&#x2F;figure&gt;
 
 
 
@@ -2718,9 +2812,10 @@ The Toilet Series encapsulates 19 pictures shot on mobile phones. Let the follow
 &lt;a href=&quot;https:&amp;#x2F;&amp;#x2F;nilsmango.ch&amp;#x2F;processed_images&amp;#x2F;IMG_1112.2e77cb5172a7b95c.jpg&quot; target=&quot;_blank&quot;&gt;
 &lt;img srcset=&quot;https:&amp;#x2F;&amp;#x2F;nilsmango.ch&amp;#x2F;processed_images&amp;#x2F;IMG_1112.0041c6381cd3e88e.jpg 300w, https:&amp;#x2F;&amp;#x2F;nilsmango.ch&amp;#x2F;processed_images&amp;#x2F;IMG_1112.72b4441f6b6b78a8.jpg 600w, https:&amp;#x2F;&amp;#x2F;nilsmango.ch&amp;#x2F;processed_images&amp;#x2F;IMG_1112.2e77cb5172a7b95c.jpg 1200w&quot; src=&quot;https:&amp;#x2F;&amp;#x2F;nilsmango.ch&amp;#x2F;processed_images&amp;#x2F;IMG_1112.72b4441f6b6b78a8.jpg&quot; alt=&quot;Nils Mango sitting on a toilet 1112&quot; class=&quot;imgset&quot;&gt;
 &lt;&#x2F;a&gt;
-&lt;figcaption&gt;1112&lt;&#x2F;figcaption&gt;
-&lt;&#x2F;figure&gt;
 
+&lt;figcaption&gt;1112&lt;&#x2F;figcaption&gt;
+
+&lt;&#x2F;figure&gt;
 
 
 
@@ -2741,9 +2836,10 @@ The Toilet Series encapsulates 19 pictures shot on mobile phones. Let the follow
 &lt;a href=&quot;https:&amp;#x2F;&amp;#x2F;nilsmango.ch&amp;#x2F;processed_images&amp;#x2F;IMG_1113.3114904f52a3528e.jpg&quot; target=&quot;_blank&quot;&gt;
 &lt;img srcset=&quot;https:&amp;#x2F;&amp;#x2F;nilsmango.ch&amp;#x2F;processed_images&amp;#x2F;IMG_1113.9a3db7b2c9274351.jpg 300w, https:&amp;#x2F;&amp;#x2F;nilsmango.ch&amp;#x2F;processed_images&amp;#x2F;IMG_1113.affa6a77ae1e76a5.jpg 600w, https:&amp;#x2F;&amp;#x2F;nilsmango.ch&amp;#x2F;processed_images&amp;#x2F;IMG_1113.3114904f52a3528e.jpg 1200w&quot; src=&quot;https:&amp;#x2F;&amp;#x2F;nilsmango.ch&amp;#x2F;processed_images&amp;#x2F;IMG_1113.affa6a77ae1e76a5.jpg&quot; alt=&quot;Nils Mango sitting on a toilet 1113&quot; class=&quot;imgset&quot;&gt;
 &lt;&#x2F;a&gt;
-&lt;figcaption&gt;1113&lt;&#x2F;figcaption&gt;
-&lt;&#x2F;figure&gt;
 
+&lt;figcaption&gt;1113&lt;&#x2F;figcaption&gt;
+
+&lt;&#x2F;figure&gt;
 
 
 
@@ -2764,9 +2860,10 @@ The Toilet Series encapsulates 19 pictures shot on mobile phones. Let the follow
 &lt;a href=&quot;https:&amp;#x2F;&amp;#x2F;nilsmango.ch&amp;#x2F;processed_images&amp;#x2F;IMG_1162.350a3e1415263539.jpg&quot; target=&quot;_blank&quot;&gt;
 &lt;img srcset=&quot;https:&amp;#x2F;&amp;#x2F;nilsmango.ch&amp;#x2F;processed_images&amp;#x2F;IMG_1162.411906833381f7ab.jpg 300w, https:&amp;#x2F;&amp;#x2F;nilsmango.ch&amp;#x2F;processed_images&amp;#x2F;IMG_1162.8f17ab49acac4a96.jpg 600w, https:&amp;#x2F;&amp;#x2F;nilsmango.ch&amp;#x2F;processed_images&amp;#x2F;IMG_1162.350a3e1415263539.jpg 1200w&quot; src=&quot;https:&amp;#x2F;&amp;#x2F;nilsmango.ch&amp;#x2F;processed_images&amp;#x2F;IMG_1162.8f17ab49acac4a96.jpg&quot; alt=&quot;Nils Mango sitting on a toilet 1162&quot; class=&quot;imgset&quot;&gt;
 &lt;&#x2F;a&gt;
-&lt;figcaption&gt;1162&lt;&#x2F;figcaption&gt;
-&lt;&#x2F;figure&gt;
 
+&lt;figcaption&gt;1162&lt;&#x2F;figcaption&gt;
+
+&lt;&#x2F;figure&gt;
 
 
 
@@ -2787,9 +2884,10 @@ The Toilet Series encapsulates 19 pictures shot on mobile phones. Let the follow
 &lt;a href=&quot;https:&amp;#x2F;&amp;#x2F;nilsmango.ch&amp;#x2F;processed_images&amp;#x2F;IMG_1168.2eec111b9aee186a.jpg&quot; target=&quot;_blank&quot;&gt;
 &lt;img srcset=&quot;https:&amp;#x2F;&amp;#x2F;nilsmango.ch&amp;#x2F;processed_images&amp;#x2F;IMG_1168.e53f4b89f8f0a210.jpg 300w, https:&amp;#x2F;&amp;#x2F;nilsmango.ch&amp;#x2F;processed_images&amp;#x2F;IMG_1168.dc2ea46dc5d015dd.jpg 600w, https:&amp;#x2F;&amp;#x2F;nilsmango.ch&amp;#x2F;processed_images&amp;#x2F;IMG_1168.2eec111b9aee186a.jpg 1200w&quot; src=&quot;https:&amp;#x2F;&amp;#x2F;nilsmango.ch&amp;#x2F;processed_images&amp;#x2F;IMG_1168.dc2ea46dc5d015dd.jpg&quot; alt=&quot;Nils Mango sitting on a toilet 1168&quot; class=&quot;imgset&quot;&gt;
 &lt;&#x2F;a&gt;
-&lt;figcaption&gt;1168&lt;&#x2F;figcaption&gt;
-&lt;&#x2F;figure&gt;
 
+&lt;figcaption&gt;1168&lt;&#x2F;figcaption&gt;
+
+&lt;&#x2F;figure&gt;
 
 
 
@@ -2810,9 +2908,10 @@ The Toilet Series encapsulates 19 pictures shot on mobile phones. Let the follow
 &lt;a href=&quot;https:&amp;#x2F;&amp;#x2F;nilsmango.ch&amp;#x2F;processed_images&amp;#x2F;IMG_1169.f5a48f38910161ec.jpg&quot; target=&quot;_blank&quot;&gt;
 &lt;img srcset=&quot;https:&amp;#x2F;&amp;#x2F;nilsmango.ch&amp;#x2F;processed_images&amp;#x2F;IMG_1169.d427ba688fdad782.jpg 300w, https:&amp;#x2F;&amp;#x2F;nilsmango.ch&amp;#x2F;processed_images&amp;#x2F;IMG_1169.62065ed37e495924.jpg 600w, https:&amp;#x2F;&amp;#x2F;nilsmango.ch&amp;#x2F;processed_images&amp;#x2F;IMG_1169.f5a48f38910161ec.jpg 1200w&quot; src=&quot;https:&amp;#x2F;&amp;#x2F;nilsmango.ch&amp;#x2F;processed_images&amp;#x2F;IMG_1169.62065ed37e495924.jpg&quot; alt=&quot;Nils Mango sitting on a toilet 1169&quot; class=&quot;imgset&quot;&gt;
 &lt;&#x2F;a&gt;
-&lt;figcaption&gt;1169&lt;&#x2F;figcaption&gt;
-&lt;&#x2F;figure&gt;
 
+&lt;figcaption&gt;1169&lt;&#x2F;figcaption&gt;
+
+&lt;&#x2F;figure&gt;
 
 
 
@@ -2833,9 +2932,10 @@ The Toilet Series encapsulates 19 pictures shot on mobile phones. Let the follow
 &lt;a href=&quot;https:&amp;#x2F;&amp;#x2F;nilsmango.ch&amp;#x2F;processed_images&amp;#x2F;IMG_1190.8f6ce3cc866d4353.jpg&quot; target=&quot;_blank&quot;&gt;
 &lt;img srcset=&quot;https:&amp;#x2F;&amp;#x2F;nilsmango.ch&amp;#x2F;processed_images&amp;#x2F;IMG_1190.3f04aba4546742fd.jpg 300w, https:&amp;#x2F;&amp;#x2F;nilsmango.ch&amp;#x2F;processed_images&amp;#x2F;IMG_1190.46dfb227f5f2caf4.jpg 600w, https:&amp;#x2F;&amp;#x2F;nilsmango.ch&amp;#x2F;processed_images&amp;#x2F;IMG_1190.8f6ce3cc866d4353.jpg 1200w&quot; src=&quot;https:&amp;#x2F;&amp;#x2F;nilsmango.ch&amp;#x2F;processed_images&amp;#x2F;IMG_1190.46dfb227f5f2caf4.jpg&quot; alt=&quot;Nils Mango sitting on a toilet 1190&quot; class=&quot;imgset&quot;&gt;
 &lt;&#x2F;a&gt;
-&lt;figcaption&gt;1190&lt;&#x2F;figcaption&gt;
-&lt;&#x2F;figure&gt;
 
+&lt;figcaption&gt;1190&lt;&#x2F;figcaption&gt;
+
+&lt;&#x2F;figure&gt;
 
 
 
@@ -2856,9 +2956,10 @@ The Toilet Series encapsulates 19 pictures shot on mobile phones. Let the follow
 &lt;a href=&quot;https:&amp;#x2F;&amp;#x2F;nilsmango.ch&amp;#x2F;processed_images&amp;#x2F;IMG_1195.804adfa6e17d3f0a.jpg&quot; target=&quot;_blank&quot;&gt;
 &lt;img srcset=&quot;https:&amp;#x2F;&amp;#x2F;nilsmango.ch&amp;#x2F;processed_images&amp;#x2F;IMG_1195.f50a8dc366d73c69.jpg 300w, https:&amp;#x2F;&amp;#x2F;nilsmango.ch&amp;#x2F;processed_images&amp;#x2F;IMG_1195.175125290a66e675.jpg 600w, https:&amp;#x2F;&amp;#x2F;nilsmango.ch&amp;#x2F;processed_images&amp;#x2F;IMG_1195.804adfa6e17d3f0a.jpg 1200w&quot; src=&quot;https:&amp;#x2F;&amp;#x2F;nilsmango.ch&amp;#x2F;processed_images&amp;#x2F;IMG_1195.175125290a66e675.jpg&quot; alt=&quot;Nils Mango sitting on a toilet 1195&quot; class=&quot;imgset&quot;&gt;
 &lt;&#x2F;a&gt;
-&lt;figcaption&gt;1195&lt;&#x2F;figcaption&gt;
-&lt;&#x2F;figure&gt;
 
+&lt;figcaption&gt;1195&lt;&#x2F;figcaption&gt;
+
+&lt;&#x2F;figure&gt;
 
 
 
@@ -2879,9 +2980,10 @@ The Toilet Series encapsulates 19 pictures shot on mobile phones. Let the follow
 &lt;a href=&quot;https:&amp;#x2F;&amp;#x2F;nilsmango.ch&amp;#x2F;processed_images&amp;#x2F;IMG_1201.5846742a80b059b5.jpg&quot; target=&quot;_blank&quot;&gt;
 &lt;img srcset=&quot;https:&amp;#x2F;&amp;#x2F;nilsmango.ch&amp;#x2F;processed_images&amp;#x2F;IMG_1201.9199c1cdd0558e42.jpg 300w, https:&amp;#x2F;&amp;#x2F;nilsmango.ch&amp;#x2F;processed_images&amp;#x2F;IMG_1201.ec1ecd179c91f710.jpg 600w, https:&amp;#x2F;&amp;#x2F;nilsmango.ch&amp;#x2F;processed_images&amp;#x2F;IMG_1201.5846742a80b059b5.jpg 1200w&quot; src=&quot;https:&amp;#x2F;&amp;#x2F;nilsmango.ch&amp;#x2F;processed_images&amp;#x2F;IMG_1201.ec1ecd179c91f710.jpg&quot; alt=&quot;Nils Mango standing at a toilet 1201&quot; class=&quot;imgset&quot;&gt;
 &lt;&#x2F;a&gt;
-&lt;figcaption&gt;1201&lt;&#x2F;figcaption&gt;
-&lt;&#x2F;figure&gt;
 
+&lt;figcaption&gt;1201&lt;&#x2F;figcaption&gt;
+
+&lt;&#x2F;figure&gt;
 
 
 
@@ -2902,9 +3004,10 @@ The Toilet Series encapsulates 19 pictures shot on mobile phones. Let the follow
 &lt;a href=&quot;https:&amp;#x2F;&amp;#x2F;nilsmango.ch&amp;#x2F;processed_images&amp;#x2F;IMG_1295.65794a92630374bf.jpg&quot; target=&quot;_blank&quot;&gt;
 &lt;img srcset=&quot;https:&amp;#x2F;&amp;#x2F;nilsmango.ch&amp;#x2F;processed_images&amp;#x2F;IMG_1295.5ab680dc808171b3.jpg 300w, https:&amp;#x2F;&amp;#x2F;nilsmango.ch&amp;#x2F;processed_images&amp;#x2F;IMG_1295.3996878f0de83ff4.jpg 600w, https:&amp;#x2F;&amp;#x2F;nilsmango.ch&amp;#x2F;processed_images&amp;#x2F;IMG_1295.65794a92630374bf.jpg 1200w&quot; src=&quot;https:&amp;#x2F;&amp;#x2F;nilsmango.ch&amp;#x2F;processed_images&amp;#x2F;IMG_1295.3996878f0de83ff4.jpg&quot; alt=&quot;Nils Mango sitting on a toilet 1295&quot; class=&quot;imgset&quot;&gt;
 &lt;&#x2F;a&gt;
-&lt;figcaption&gt;1295&lt;&#x2F;figcaption&gt;
-&lt;&#x2F;figure&gt;
 
+&lt;figcaption&gt;1295&lt;&#x2F;figcaption&gt;
+
+&lt;&#x2F;figure&gt;
 
 
 
@@ -2925,9 +3028,10 @@ The Toilet Series encapsulates 19 pictures shot on mobile phones. Let the follow
 &lt;a href=&quot;https:&amp;#x2F;&amp;#x2F;nilsmango.ch&amp;#x2F;processed_images&amp;#x2F;IMG_1626.7d270151d78629fb.jpg&quot; target=&quot;_blank&quot;&gt;
 &lt;img srcset=&quot;https:&amp;#x2F;&amp;#x2F;nilsmango.ch&amp;#x2F;processed_images&amp;#x2F;IMG_1626.7e7f10531a45d7fa.jpg 300w, https:&amp;#x2F;&amp;#x2F;nilsmango.ch&amp;#x2F;processed_images&amp;#x2F;IMG_1626.26f75a2f1cd3f09a.jpg 600w, https:&amp;#x2F;&amp;#x2F;nilsmango.ch&amp;#x2F;processed_images&amp;#x2F;IMG_1626.7d270151d78629fb.jpg 1200w&quot; src=&quot;https:&amp;#x2F;&amp;#x2F;nilsmango.ch&amp;#x2F;processed_images&amp;#x2F;IMG_1626.26f75a2f1cd3f09a.jpg&quot; alt=&quot;Nils Mango standing at a urinal 1626&quot; class=&quot;imgset&quot;&gt;
 &lt;&#x2F;a&gt;
-&lt;figcaption&gt;1626&lt;&#x2F;figcaption&gt;
-&lt;&#x2F;figure&gt;
 
+&lt;figcaption&gt;1626&lt;&#x2F;figcaption&gt;
+
+&lt;&#x2F;figure&gt;
 
 
 
@@ -2948,9 +3052,10 @@ The Toilet Series encapsulates 19 pictures shot on mobile phones. Let the follow
 &lt;a href=&quot;https:&amp;#x2F;&amp;#x2F;nilsmango.ch&amp;#x2F;processed_images&amp;#x2F;IMG_1629.615ffd47cbd5d17d.jpg&quot; target=&quot;_blank&quot;&gt;
 &lt;img srcset=&quot;https:&amp;#x2F;&amp;#x2F;nilsmango.ch&amp;#x2F;processed_images&amp;#x2F;IMG_1629.b25cea951bdde5d6.jpg 300w, https:&amp;#x2F;&amp;#x2F;nilsmango.ch&amp;#x2F;processed_images&amp;#x2F;IMG_1629.df87bd7515b871f4.jpg 600w, https:&amp;#x2F;&amp;#x2F;nilsmango.ch&amp;#x2F;processed_images&amp;#x2F;IMG_1629.615ffd47cbd5d17d.jpg 1200w&quot; src=&quot;https:&amp;#x2F;&amp;#x2F;nilsmango.ch&amp;#x2F;processed_images&amp;#x2F;IMG_1629.df87bd7515b871f4.jpg&quot; alt=&quot;Nils Mango sitting on a toilet 1629&quot; class=&quot;imgset&quot;&gt;
 &lt;&#x2F;a&gt;
-&lt;figcaption&gt;1629&lt;&#x2F;figcaption&gt;
-&lt;&#x2F;figure&gt;
 
+&lt;figcaption&gt;1629&lt;&#x2F;figcaption&gt;
+
+&lt;&#x2F;figure&gt;
 
 </content>
         
@@ -2985,7 +3090,7 @@ The Toilet Series encapsulates 19 pictures shot on mobile phones. Let the follow
 &lt;a href=&quot;https:&amp;#x2F;&amp;#x2F;nilsmango.ch&amp;#x2F;processed_images&amp;#x2F;guerillawerbung.8e8f2f44cf098b5e.jpg&quot; target=&quot;_blank&quot;&gt;
 &lt;img srcset=&quot;https:&amp;#x2F;&amp;#x2F;nilsmango.ch&amp;#x2F;processed_images&amp;#x2F;guerillawerbung.2a25d299491d282d.jpg 300w, https:&amp;#x2F;&amp;#x2F;nilsmango.ch&amp;#x2F;processed_images&amp;#x2F;guerillawerbung.f0d2084ef53e2df7.jpg 600w, https:&amp;#x2F;&amp;#x2F;nilsmango.ch&amp;#x2F;processed_images&amp;#x2F;guerillawerbung.8e8f2f44cf098b5e.jpg 1028w&quot; src=&quot;https:&amp;#x2F;&amp;#x2F;nilsmango.ch&amp;#x2F;processed_images&amp;#x2F;guerillawerbung.f0d2084ef53e2df7.jpg&quot; alt=&quot;Bundesamt für Guerillawerbung&quot; class=&quot;imgset&quot;&gt;
 &lt;&#x2F;a&gt;
-&lt;figcaption&gt;&lt;&#x2F;figcaption&gt;
+
 &lt;&#x2F;figure&gt;
 
 &lt;&#x2F;p&gt;
@@ -3118,9 +3223,10 @@ Things created:&lt;&#x2F;p&gt;
 &lt;a href=&quot;https:&amp;#x2F;&amp;#x2F;nilsmango.ch&amp;#x2F;processed_images&amp;#x2F;IMG_5247.c98960339044346e.jpg&quot; target=&quot;_blank&quot;&gt;
 &lt;img srcset=&quot;https:&amp;#x2F;&amp;#x2F;nilsmango.ch&amp;#x2F;processed_images&amp;#x2F;IMG_5247.3269cd4ed384fda6.jpg 300w, https:&amp;#x2F;&amp;#x2F;nilsmango.ch&amp;#x2F;processed_images&amp;#x2F;IMG_5247.3b109b7602ea0808.jpg 600w, https:&amp;#x2F;&amp;#x2F;nilsmango.ch&amp;#x2F;processed_images&amp;#x2F;IMG_5247.a5acc52e2b39af8a.jpg 1200w, , https:&amp;#x2F;&amp;#x2F;nilsmango.ch&amp;#x2F;processed_images&amp;#x2F;IMG_5247.c98960339044346e.jpg 2400w&quot; src=&quot;https:&amp;#x2F;&amp;#x2F;nilsmango.ch&amp;#x2F;processed_images&amp;#x2F;IMG_5247.3b109b7602ea0808.jpg&quot; alt=&quot;A dodecahedron made from toilet paper rolls&quot; class=&quot;imgset&quot;&gt;
 &lt;&#x2F;a&gt;
-&lt;figcaption&gt;Dodecahedron&lt;&#x2F;figcaption&gt;
-    &lt;&#x2F;figure&gt;
 
+&lt;figcaption&gt;Dodecahedron&lt;&#x2F;figcaption&gt;
+
+    &lt;&#x2F;figure&gt;
 
 
 
@@ -3147,9 +3253,10 @@ Things created:&lt;&#x2F;p&gt;
 &lt;a href=&quot;https:&amp;#x2F;&amp;#x2F;nilsmango.ch&amp;#x2F;processed_images&amp;#x2F;IMG_6224.6f113d65aa064be4.jpg&quot; target=&quot;_blank&quot;&gt;
 &lt;img srcset=&quot;https:&amp;#x2F;&amp;#x2F;nilsmango.ch&amp;#x2F;processed_images&amp;#x2F;IMG_6224.7fdff5d3569574fd.jpg 300w, https:&amp;#x2F;&amp;#x2F;nilsmango.ch&amp;#x2F;processed_images&amp;#x2F;IMG_6224.5f347767b4beb423.jpg 600w, https:&amp;#x2F;&amp;#x2F;nilsmango.ch&amp;#x2F;processed_images&amp;#x2F;IMG_6224.5d3945e039accbc2.jpg 1200w, , https:&amp;#x2F;&amp;#x2F;nilsmango.ch&amp;#x2F;processed_images&amp;#x2F;IMG_6224.6f113d65aa064be4.jpg 2400w&quot; src=&quot;https:&amp;#x2F;&amp;#x2F;nilsmango.ch&amp;#x2F;processed_images&amp;#x2F;IMG_6224.5f347767b4beb423.jpg&quot; alt=&quot;A dodecahedron and a octahedron made from toilet paper rolls on a shelf&quot; class=&quot;imgset&quot;&gt;
 &lt;&#x2F;a&gt;
-&lt;figcaption&gt;Dodecahedron + Octahedron&lt;&#x2F;figcaption&gt;
-    &lt;&#x2F;figure&gt;
 
+&lt;figcaption&gt;Dodecahedron + Octahedron&lt;&#x2F;figcaption&gt;
+
+    &lt;&#x2F;figure&gt;
 
 
 
@@ -3177,9 +3284,8 @@ PET bottle lamp (concept only)
 &lt;a href=&quot;https:&amp;#x2F;&amp;#x2F;nilsmango.ch&amp;#x2F;processed_images&amp;#x2F;concept for pet bottle lamp.081636b24dc1cc1b.jpg&quot; target=&quot;_blank&quot;&gt;
 &lt;img srcset=&quot;https:&amp;#x2F;&amp;#x2F;nilsmango.ch&amp;#x2F;processed_images&amp;#x2F;concept for pet bottle lamp.a4d812099e4e585d.jpg 300w, https:&amp;#x2F;&amp;#x2F;nilsmango.ch&amp;#x2F;processed_images&amp;#x2F;concept for pet bottle lamp.346ec017c5890709.jpg 600w, https:&amp;#x2F;&amp;#x2F;nilsmango.ch&amp;#x2F;processed_images&amp;#x2F;concept for pet bottle lamp.619cb60ac96d9c8e.jpg 1200w, , https:&amp;#x2F;&amp;#x2F;nilsmango.ch&amp;#x2F;processed_images&amp;#x2F;concept for pet bottle lamp.081636b24dc1cc1b.jpg 2400w&quot; src=&quot;https:&amp;#x2F;&amp;#x2F;nilsmango.ch&amp;#x2F;processed_images&amp;#x2F;concept for pet bottle lamp.346ec017c5890709.jpg&quot; alt=&quot;Concept for PET bottle lamp&quot; class=&quot;imgset&quot;&gt;
 &lt;&#x2F;a&gt;
-&lt;figcaption&gt;&lt;&#x2F;figcaption&gt;
-    &lt;&#x2F;figure&gt;
 
+    &lt;&#x2F;figure&gt;
 
 
 
@@ -3205,7 +3311,9 @@ PET bottle lamp (concept only)
 &lt;a href=&quot;https:&amp;#x2F;&amp;#x2F;nilsmango.ch&amp;#x2F;processed_images&amp;#x2F;Laptop Huelle Front Schwarz.eca61d47c46ae39f.jpg&quot; target=&quot;_blank&quot;&gt;
 &lt;img srcset=&quot;https:&amp;#x2F;&amp;#x2F;nilsmango.ch&amp;#x2F;processed_images&amp;#x2F;Laptop Huelle Front Schwarz.f07b0a83ca32dd91.jpg 300w, https:&amp;#x2F;&amp;#x2F;nilsmango.ch&amp;#x2F;processed_images&amp;#x2F;Laptop Huelle Front Schwarz.8622e17d5d2a6e65.jpg 600w, https:&amp;#x2F;&amp;#x2F;nilsmango.ch&amp;#x2F;processed_images&amp;#x2F;Laptop Huelle Front Schwarz.eca61d47c46ae39f.jpg 1000w&quot; src=&quot;https:&amp;#x2F;&amp;#x2F;nilsmango.ch&amp;#x2F;processed_images&amp;#x2F;Laptop Huelle Front Schwarz.8622e17d5d2a6e65.jpg&quot; alt=&quot;Leather laptop sleeve&quot; class=&quot;imgset&quot;&gt;
 &lt;&#x2F;a&gt;
+
 &lt;figcaption&gt;Laptop sleeve&lt;&#x2F;figcaption&gt;
+
 &lt;&#x2F;figure&gt;
 
 
@@ -3228,9 +3336,10 @@ PET bottle lamp (concept only)
 &lt;a href=&quot;https:&amp;#x2F;&amp;#x2F;nilsmango.ch&amp;#x2F;processed_images&amp;#x2F;Laptop Huelle Beide 3.dc204ae0bc562655.jpg&quot; target=&quot;_blank&quot;&gt;
 &lt;img srcset=&quot;https:&amp;#x2F;&amp;#x2F;nilsmango.ch&amp;#x2F;processed_images&amp;#x2F;Laptop Huelle Beide 3.aacbe030375fe7d6.jpg 300w, https:&amp;#x2F;&amp;#x2F;nilsmango.ch&amp;#x2F;processed_images&amp;#x2F;Laptop Huelle Beide 3.66498f465b88c78a.jpg 600w, https:&amp;#x2F;&amp;#x2F;nilsmango.ch&amp;#x2F;processed_images&amp;#x2F;Laptop Huelle Beide 3.dc204ae0bc562655.jpg 1200w&quot; src=&quot;https:&amp;#x2F;&amp;#x2F;nilsmango.ch&amp;#x2F;processed_images&amp;#x2F;Laptop Huelle Beide 3.66498f465b88c78a.jpg&quot; alt=&quot;2 leather laptop sleeves&quot; class=&quot;imgset&quot;&gt;
 &lt;&#x2F;a&gt;
-&lt;figcaption&gt;Laptop sleeves&lt;&#x2F;figcaption&gt;
-&lt;&#x2F;figure&gt;
 
+&lt;figcaption&gt;Laptop sleeves&lt;&#x2F;figcaption&gt;
+
+&lt;&#x2F;figure&gt;
 
 
 
@@ -3252,9 +3361,10 @@ PET bottle lamp (concept only)
 &lt;a href=&quot;https:&amp;#x2F;&amp;#x2F;nilsmango.ch&amp;#x2F;processed_images&amp;#x2F;Le Portemonnaie Beide Seitlich Halbvoll.53c3697b0a60fcb0.jpg&quot; target=&quot;_blank&quot;&gt;
 &lt;img srcset=&quot;https:&amp;#x2F;&amp;#x2F;nilsmango.ch&amp;#x2F;processed_images&amp;#x2F;Le Portemonnaie Beide Seitlich Halbvoll.2885141c15bae027.jpg 300w, https:&amp;#x2F;&amp;#x2F;nilsmango.ch&amp;#x2F;processed_images&amp;#x2F;Le Portemonnaie Beide Seitlich Halbvoll.25353f6e072b5997.jpg 600w, https:&amp;#x2F;&amp;#x2F;nilsmango.ch&amp;#x2F;processed_images&amp;#x2F;Le Portemonnaie Beide Seitlich Halbvoll.53c3697b0a60fcb0.jpg 1200w&quot; src=&quot;https:&amp;#x2F;&amp;#x2F;nilsmango.ch&amp;#x2F;processed_images&amp;#x2F;Le Portemonnaie Beide Seitlich Halbvoll.25353f6e072b5997.jpg&quot; alt=&quot;2 leather wallets&quot; class=&quot;imgset&quot;&gt;
 &lt;&#x2F;a&gt;
-&lt;figcaption&gt;2 x Le Portemonnaie&lt;&#x2F;figcaption&gt;
-&lt;&#x2F;figure&gt;
 
+&lt;figcaption&gt;2 x Le Portemonnaie&lt;&#x2F;figcaption&gt;
+
+&lt;&#x2F;figure&gt;
 
 
 
@@ -3276,9 +3386,10 @@ PET bottle lamp (concept only)
 &lt;a href=&quot;https:&amp;#x2F;&amp;#x2F;nilsmango.ch&amp;#x2F;processed_images&amp;#x2F;Le Portemonnaie Schwarz Front Halbleer.0590249da9bca9d0.jpg&quot; target=&quot;_blank&quot;&gt;
 &lt;img srcset=&quot;https:&amp;#x2F;&amp;#x2F;nilsmango.ch&amp;#x2F;processed_images&amp;#x2F;Le Portemonnaie Schwarz Front Halbleer.bc3aa728e8b243d7.jpg 300w, https:&amp;#x2F;&amp;#x2F;nilsmango.ch&amp;#x2F;processed_images&amp;#x2F;Le Portemonnaie Schwarz Front Halbleer.1a1cf9760eabe5de.jpg 600w, https:&amp;#x2F;&amp;#x2F;nilsmango.ch&amp;#x2F;processed_images&amp;#x2F;Le Portemonnaie Schwarz Front Halbleer.0590249da9bca9d0.jpg 1200w&quot; src=&quot;https:&amp;#x2F;&amp;#x2F;nilsmango.ch&amp;#x2F;processed_images&amp;#x2F;Le Portemonnaie Schwarz Front Halbleer.1a1cf9760eabe5de.jpg&quot; alt=&quot;A simple leather wallet sleeve&quot; class=&quot;imgset&quot;&gt;
 &lt;&#x2F;a&gt;
-&lt;figcaption&gt;Le Portemonnaie&lt;&#x2F;figcaption&gt;
-&lt;&#x2F;figure&gt;
 
+&lt;figcaption&gt;Le Portemonnaie&lt;&#x2F;figcaption&gt;
+
+&lt;&#x2F;figure&gt;
 
 &lt;&#x2F;p&gt;
 &lt;p&gt;Surf poncho made from old towels.
@@ -3304,9 +3415,10 @@ PET bottle lamp (concept only)
 &lt;a href=&quot;https:&amp;#x2F;&amp;#x2F;nilsmango.ch&amp;#x2F;processed_images&amp;#x2F;IMG_9390.2e4d3e4f4c412acf.jpg&quot; target=&quot;_blank&quot;&gt;
 &lt;img srcset=&quot;https:&amp;#x2F;&amp;#x2F;nilsmango.ch&amp;#x2F;processed_images&amp;#x2F;IMG_9390.1f2117e3f93d212a.jpg 300w, https:&amp;#x2F;&amp;#x2F;nilsmango.ch&amp;#x2F;processed_images&amp;#x2F;IMG_9390.cb5e03d1754ded6b.jpg 600w, https:&amp;#x2F;&amp;#x2F;nilsmango.ch&amp;#x2F;processed_images&amp;#x2F;IMG_9390.85fbb8169c011339.jpg 1200w, , https:&amp;#x2F;&amp;#x2F;nilsmango.ch&amp;#x2F;processed_images&amp;#x2F;IMG_9390.2e4d3e4f4c412acf.jpg 2400w&quot; src=&quot;https:&amp;#x2F;&amp;#x2F;nilsmango.ch&amp;#x2F;processed_images&amp;#x2F;IMG_9390.cb5e03d1754ded6b.jpg&quot; alt=&quot;Surprised looking man wearing a surf poncho&quot; class=&quot;imgset&quot;&gt;
 &lt;&#x2F;a&gt;
-&lt;figcaption&gt;Surf Poncho&lt;&#x2F;figcaption&gt;
-    &lt;&#x2F;figure&gt;
 
+&lt;figcaption&gt;Surf Poncho&lt;&#x2F;figcaption&gt;
+
+    &lt;&#x2F;figure&gt;
 
 
 
@@ -3337,7 +3449,9 @@ PET bottle lamp (concept only)
 &lt;a href=&quot;https:&amp;#x2F;&amp;#x2F;nilsmango.ch&amp;#x2F;processed_images&amp;#x2F;Holzdocht Kerze Normal.9219657e1c3967cd.jpg&quot; target=&quot;_blank&quot;&gt;
 &lt;img srcset=&quot;https:&amp;#x2F;&amp;#x2F;nilsmango.ch&amp;#x2F;processed_images&amp;#x2F;Holzdocht Kerze Normal.36e694d5f0d2146e.jpg 300w, https:&amp;#x2F;&amp;#x2F;nilsmango.ch&amp;#x2F;processed_images&amp;#x2F;Holzdocht Kerze Normal.e8798636cbb2698b.jpg 600w, https:&amp;#x2F;&amp;#x2F;nilsmango.ch&amp;#x2F;processed_images&amp;#x2F;Holzdocht Kerze Normal.9219657e1c3967cd.jpg 1000w&quot; src=&quot;https:&amp;#x2F;&amp;#x2F;nilsmango.ch&amp;#x2F;processed_images&amp;#x2F;Holzdocht Kerze Normal.e8798636cbb2698b.jpg&quot; alt=&quot;A candle made from leftover candles&quot; class=&quot;imgset&quot;&gt;
 &lt;&#x2F;a&gt;
+
 &lt;figcaption&gt;ReUse candle&lt;&#x2F;figcaption&gt;
+
 &lt;&#x2F;figure&gt;
 
 
@@ -3360,7 +3474,9 @@ PET bottle lamp (concept only)
 &lt;a href=&quot;https:&amp;#x2F;&amp;#x2F;nilsmango.ch&amp;#x2F;processed_images&amp;#x2F;Holzdocht Kerze Brennend.0e130c9260f3d23d.jpg&quot; target=&quot;_blank&quot;&gt;
 &lt;img srcset=&quot;https:&amp;#x2F;&amp;#x2F;nilsmango.ch&amp;#x2F;processed_images&amp;#x2F;Holzdocht Kerze Brennend.a62ffd109c138152.jpg 300w, https:&amp;#x2F;&amp;#x2F;nilsmango.ch&amp;#x2F;processed_images&amp;#x2F;Holzdocht Kerze Brennend.589895b1d0cb83bd.jpg 600w, https:&amp;#x2F;&amp;#x2F;nilsmango.ch&amp;#x2F;processed_images&amp;#x2F;Holzdocht Kerze Brennend.0e130c9260f3d23d.jpg 1000w&quot; src=&quot;https:&amp;#x2F;&amp;#x2F;nilsmango.ch&amp;#x2F;processed_images&amp;#x2F;Holzdocht Kerze Brennend.589895b1d0cb83bd.jpg&quot; alt=&quot;A burning candle&quot; class=&quot;imgset&quot;&gt;
 &lt;&#x2F;a&gt;
+
 &lt;figcaption&gt;ReUse candle burning&lt;&#x2F;figcaption&gt;
+
 &lt;&#x2F;figure&gt;
 
 &lt;&#x2F;p&gt;
@@ -3370,7 +3486,7 @@ PET bottle lamp (concept only)
     <entry xml:lang="en">
         <title>Now</title>
         <published>2022-09-16T00:00:00+00:00</published>
-        <updated>2022-11-14T00:00:00+00:00</updated>
+        <updated>2023-10-10T00:00:00+00:00</updated>
         <author>
           <name>Unknown</name>
         </author>
@@ -3379,17 +3495,20 @@ PET bottle lamp (concept only)
         
         <content type="html">&lt;p&gt;This is a now page, for more information visit &lt;a href=&quot;https:&#x2F;&#x2F;nownownow.com&#x2F;about&quot; target=&quot;_blank&quot;&gt;nownownow.com&lt;&#x2F;a&gt;&lt;&#x2F;p&gt;
 &lt;p&gt;&lt;em&gt;Updated: 
-&lt;time datetime=&quot;2022-11-14T00:00:00+00:00&quot;&gt;November 14, 2022&lt;&#x2F;time&gt;
+&lt;time datetime=&quot;2023-10-10T00:00:00+00:00&quot;&gt;October 10, 2023&lt;&#x2F;time&gt;
 - 
-Switzerland
+Biel&amp;#x2F;Bienne, Switzerland
 &lt;&#x2F;em&gt;&lt;&#x2F;p&gt;
 &lt;p&gt;This is what I am up to right now, in no particular order:&lt;&#x2F;p&gt;
 &lt;ul&gt;
-&lt;li&gt;Working on this website&lt;&#x2F;li&gt;
 &lt;li&gt;Winging and foiling (trying to get great at downwinding)&lt;&#x2F;li&gt;
-&lt;li&gt;Learning to program&lt;&#x2F;li&gt;
-&lt;li&gt;Making music (I should make more of this)&lt;&#x2F;li&gt;
-&lt;li&gt;More social, less media (spending more time with loved ones and friends, meditation, and reading)&lt;&#x2F;li&gt;
+&lt;li&gt;Making apps and cool things at &lt;a rel=&quot;noopener&quot; target=&quot;_blank&quot; href=&quot;https:&#x2F;&#x2F;project7iii.com&#x2F;projects&quot;&gt;project7III&lt;&#x2F;a&gt;&lt;&#x2F;li&gt;
+&lt;li&gt;Making music (I should make more of this) -&amp;gt; Check &lt;a href=&quot;&#x2F;tags&#x2F;music&quot;&gt;#music&lt;&#x2F;a&gt;&lt;&#x2F;li&gt;
+&lt;li&gt;More social, less media (spending more time with loved ones and friends, meditation, and reading)
+&lt;ul&gt;
+&lt;li&gt;Read books, not the internet&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;&#x2F;li&gt;
 &lt;li&gt;Essentializing my life&lt;&#x2F;li&gt;
 &lt;&#x2F;ul&gt;
 </content>
@@ -3406,11 +3525,6 @@ Switzerland
         <id>https://nilsmango.ch/projects/</id>
         
         <content type="html">&lt;p&gt;This is where you find all my projects.&lt;&#x2F;p&gt;
-&lt;h2 id=&quot;apps&quot;&gt;Apps&lt;&#x2F;h2&gt;
-&lt;ul&gt;
-&lt;li&gt;Zetteli (coming soon)&lt;&#x2F;li&gt;
-&lt;li&gt;Countli (coming soon)&lt;&#x2F;li&gt;
-&lt;&#x2F;ul&gt;
 &lt;h2 id=&quot;art-design&quot;&gt;Art &amp;amp; Design&lt;&#x2F;h2&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;a href=&quot;&#x2F;megaduo&quot;&gt;megaduo &#x2F; 2000000&lt;&#x2F;a&gt; (2004-2013)&lt;&#x2F;li&gt;
@@ -3422,10 +3536,11 @@ Switzerland
 &lt;&#x2F;ul&gt;
 &lt;h2 id=&quot;business&quot;&gt;Business&lt;&#x2F;h2&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;a rel=&quot;noopener&quot; target=&quot;_blank&quot; href=&quot;https:&#x2F;&#x2F;project7iii.com&quot;&gt;Project7III&lt;&#x2F;a&gt;
+&lt;li&gt;&lt;a rel=&quot;noopener&quot; target=&quot;_blank&quot; href=&quot;https:&#x2F;&#x2F;project7iii.com&quot;&gt;project7III&lt;&#x2F;a&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;a rel=&quot;noopener&quot; target=&quot;_blank&quot; href=&quot;https:&#x2F;&#x2F;moleculestore.com&quot;&gt;Molecule Store&lt;&#x2F;a&gt;&lt;&#x2F;li&gt;
-&lt;li&gt;&lt;a rel=&quot;noopener&quot; target=&quot;_blank&quot; href=&quot;https:&#x2F;&#x2F;birs73.ch&quot;&gt;Birs73&lt;&#x2F;a&gt;&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;a rel=&quot;noopener&quot; target=&quot;_blank&quot; href=&quot;https:&#x2F;&#x2F;moleculestore.com&quot;&gt;Molecule Store&lt;&#x2F;a&gt; -&amp;gt; Chemistry and science inspired jewelry, accessories, t-shirts and hoodies.&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;a rel=&quot;noopener&quot; target=&quot;_blank&quot; href=&quot;https:&#x2F;&#x2F;birs73.ch&quot;&gt;Birs73&lt;&#x2F;a&gt; -&amp;gt; The leading Stand Up Paddle Center in Basel. Sold in 2022.&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;a rel=&quot;noopener&quot; target=&quot;_blank&quot; href=&quot;https:&#x2F;&#x2F;project7iii.com&#x2F;apps&quot;&gt;Apps&lt;&#x2F;a&gt;&lt;&#x2F;li&gt;
 &lt;&#x2F;ul&gt;
 &lt;&#x2F;li&gt;
 &lt;&#x2F;ul&gt;
@@ -3448,6 +3563,7 @@ Switzerland
 &lt;li&gt;No personal information is shared, sent, or sold to third-parties. See exception below.&lt;&#x2F;li&gt;
 &lt;&#x2F;ul&gt;
 &lt;p&gt;We utilize &lt;a rel=&quot;noopener&quot; target=&quot;_blank&quot; href=&quot;https:&#x2F;&#x2F;github.com&#x2F;paulirish&#x2F;lite-youtube-embed&quot;&gt;lite-youtube-embed&lt;&#x2F;a&gt; which embeds YouTube videos via youtube-nocookie.com, which eliminates the use of cookies. However, &lt;strong&gt;please be aware that when you click on the video, your IP address is transmitted to YouTube, and YouTube registers that you have viewed the video&lt;&#x2F;strong&gt;. If you are logged into your YouTube account, this information is also linked to your user profile. You can prevent this by logging out of YouTube before accessing the video.&lt;&#x2F;p&gt;
+&lt;p&gt;Additionally, log data is collected from our servers. This data includes the IP address and the operating system of your device, the data access time, the type of browser, as well as the browser request, including the request&#x27;s origin (referrer). Log data, including IP addresses, is retained for a period of 6 months. The data is used internally for forensic investigations in the case of hacking attacks or for other security-relevant analyses. This ensures the security of your data on our systems and ensures that countermeasures are quickly taken in cases of suspicion to safeguard your data.&lt;&#x2F;p&gt;
 &lt;blockquote&gt;
 &lt;p&gt;It&#x27;s important to note that we have no control over the data collection and usage practices employed by YouTube. For more details, please consult YouTube&#x27;s privacy policy at &lt;a rel=&quot;noopener&quot; target=&quot;_blank&quot; href=&quot;http:&#x2F;&#x2F;www.google.com&#x2F;intl&#x2F;en&#x2F;policies&#x2F;privacy&#x2F;&quot;&gt;www.google.com&#x2F;intl&#x2F;en&#x2F;policies&#x2F;privacy&#x2F;&lt;&#x2F;a&gt;.&lt;&#x2F;p&gt;
 &lt;&#x2F;blockquote&gt;
@@ -3491,9 +3607,10 @@ Switzerland
 &lt;a href=&quot;https:&amp;#x2F;&amp;#x2F;nilsmango.ch&amp;#x2F;processed_images&amp;#x2F;IMG_3516.6a0944673208bc5a.jpg&quot; target=&quot;_blank&quot;&gt;
 &lt;img srcset=&quot;https:&amp;#x2F;&amp;#x2F;nilsmango.ch&amp;#x2F;processed_images&amp;#x2F;IMG_3516.323ba8eaca23b3e2.jpg 300w, https:&amp;#x2F;&amp;#x2F;nilsmango.ch&amp;#x2F;processed_images&amp;#x2F;IMG_3516.2d9dddbde0122b27.jpg 600w, https:&amp;#x2F;&amp;#x2F;nilsmango.ch&amp;#x2F;processed_images&amp;#x2F;IMG_3516.4f2db40357992bb6.jpg 1200w, , https:&amp;#x2F;&amp;#x2F;nilsmango.ch&amp;#x2F;processed_images&amp;#x2F;IMG_3516.6a0944673208bc5a.jpg 2400w&quot; src=&quot;https:&amp;#x2F;&amp;#x2F;nilsmango.ch&amp;#x2F;processed_images&amp;#x2F;IMG_3516.2d9dddbde0122b27.jpg&quot; alt=&quot;Portrait of a child&quot; class=&quot;imgset&quot;&gt;
 &lt;&#x2F;a&gt;
-&lt;figcaption&gt;Little Nils Mango.&lt;&#x2F;figcaption&gt;
-    &lt;&#x2F;figure&gt;
 
+&lt;figcaption&gt;Little Nils Mango.&lt;&#x2F;figcaption&gt;
+
+    &lt;&#x2F;figure&gt;
 
 
 
@@ -3552,9 +3669,10 @@ Made my next steps in programming, playing around with some Processing sketches.
 &lt;a href=&quot;https:&amp;#x2F;&amp;#x2F;nilsmango.ch&amp;#x2F;processed_images&amp;#x2F;IMG_2219.78bef6391aa006e5.jpg&quot; target=&quot;_blank&quot;&gt;
 &lt;img srcset=&quot;https:&amp;#x2F;&amp;#x2F;nilsmango.ch&amp;#x2F;processed_images&amp;#x2F;IMG_2219.314ee94260d9bd5d.jpg 300w, https:&amp;#x2F;&amp;#x2F;nilsmango.ch&amp;#x2F;processed_images&amp;#x2F;IMG_2219.32becb174aab74cc.jpg 600w, https:&amp;#x2F;&amp;#x2F;nilsmango.ch&amp;#x2F;processed_images&amp;#x2F;IMG_2219.78bef6391aa006e5.jpg 1200w&quot; src=&quot;https:&amp;#x2F;&amp;#x2F;nilsmango.ch&amp;#x2F;processed_images&amp;#x2F;IMG_2219.32becb174aab74cc.jpg&quot; alt=&quot;A poster advertising standup paddling in Basel&quot; class=&quot;imgset&quot;&gt;
 &lt;&#x2F;a&gt;
-&lt;figcaption&gt;Poster for Birs73.&lt;&#x2F;figcaption&gt;
-&lt;&#x2F;figure&gt;
 
+&lt;figcaption&gt;Poster for Birs73.&lt;&#x2F;figcaption&gt;
+
+&lt;&#x2F;figure&gt;
 
 &lt;p&gt;&lt;strong&gt;2019&lt;&#x2F;strong&gt; Visited Israel. Managed to score my &lt;a href=&quot;https:&#x2F;&#x2F;youtu.be&#x2F;eCs2MFA2E7c&quot; target=&quot;_blank&quot;&gt;first foil pump round&lt;&#x2F;a&gt;. Birs73 got kicked out of the Inseli, now renting a Store and &lt;a rel=&quot;noopener&quot; target=&quot;_blank&quot; href=&quot;https:&#x2F;&#x2F;youtu.be&#x2F;6q-K6hR3rOI&quot;&gt;paddling through the city&lt;&#x2F;a&gt;. Needed help, got 3 helpers for Birs73 and a shipper for Molecule Store. Wing Foiling got invented and I was hooked, &lt;a rel=&quot;noopener&quot; target=&quot;_blank&quot; href=&quot;https:&#x2F;&#x2F;youtu.be&#x2F;8fbHXbp0mxo&quot;&gt;winging around on the Rhine&lt;&#x2F;a&gt;. Went to Sardinia and Fuerteventura. Call me Mr. Holiday. Got an Apple Watch, wow that thing makes you move and train more! Highly recommended (must not be from Apple).&lt;&#x2F;p&gt;
 &lt;p&gt;&lt;strong&gt;2020&lt;&#x2F;strong&gt; Went to Mexico, Rügen, Sardinia, Burgund, Tenerife. Sold a lot of shit, trying to be more essential again. Started journaling. Started to learn to program in Swift and made some first apps. Lots of Wing Foiling in the waves of El Medano. Started &lt;a href=&quot;&#x2F;journaling&quot;&gt;journaling&lt;&#x2F;a&gt;.&lt;br &#x2F;&gt;
@@ -3610,7 +3728,9 @@ Music: Finished up &lt;a href=&quot;https:&#x2F;&#x2F;nilsmango.bandcamp.com&#x2
 &lt;a href=&quot;https:&amp;#x2F;&amp;#x2F;nilsmango.ch&amp;#x2F;processed_images&amp;#x2F;Making music in 2018.fcf4f646848222ba.jpg&quot; target=&quot;_blank&quot;&gt;
 &lt;img srcset=&quot;https:&amp;#x2F;&amp;#x2F;nilsmango.ch&amp;#x2F;processed_images&amp;#x2F;Making music in 2018.460cfd9bd14d14ec.jpg 300w, https:&amp;#x2F;&amp;#x2F;nilsmango.ch&amp;#x2F;processed_images&amp;#x2F;Making music in 2018.05d987c2d8aa928a.jpg 600w, https:&amp;#x2F;&amp;#x2F;nilsmango.ch&amp;#x2F;processed_images&amp;#x2F;Making music in 2018.fcf4f646848222ba.jpg 1024w&quot; src=&quot;https:&amp;#x2F;&amp;#x2F;nilsmango.ch&amp;#x2F;processed_images&amp;#x2F;Making music in 2018.05d987c2d8aa928a.jpg&quot; alt=&quot;Two people making electronic music with Ableton Push and synthesizers&quot; class=&quot;imgset&quot;&gt;
 &lt;&#x2F;a&gt;
+
 &lt;figcaption&gt;Making music with a friend in 2018&lt;&#x2F;figcaption&gt;
+
 &lt;&#x2F;figure&gt;
 
 &lt;h2 id=&quot;nils-mango&quot;&gt;Nils Mango&lt;&#x2F;h2&gt;

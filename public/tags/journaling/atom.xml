@@ -30,7 +30,7 @@
 &lt;p&gt;Because of safety measures in MacOS launchd jobs can&#x27;t get access to the Documents, Downloads, and other folders. So we have to create an Automator app which will then get access to the Documents folder and can &lt;code&gt;cp&lt;&#x2F;code&gt; the files and commit etc.&lt;&#x2F;p&gt;
 &lt;h3 id=&quot;1-the-script&quot;&gt;1. The Script&lt;&#x2F;h3&gt;
 &lt;pre data-lang=&quot;shell&quot; style=&quot;background-color:#2b303b;color:#c0c5ce;&quot; class=&quot;language-shell &quot;&gt;&lt;code class=&quot;language-shell&quot; data-lang=&quot;shell&quot;&gt;&lt;span&gt;#!&#x2F;bin&#x2F;bash
-&lt;&#x2F;span&gt;&lt;span&gt;cp -R &#x2F;Users&#x2F;simxn&#x2F;Library&#x2F;Mobile\ Documents&#x2F;iCloud~md~obsidian&#x2F;Documents &#x2F;Users&#x2F;simxn&#x2F;Documents&#x2F;Version\ Control\ Obsidian &amp;amp;&amp;amp; cd &#x2F;Users&#x2F;simxn&#x2F;Documents&#x2F;Version\ Control\ Obsidian &amp;amp;&amp;amp; git add . &amp;amp;&amp;amp; git commit -m &amp;quot;daily commit $(date +&amp;#39;%Y-%m-%d&amp;#39;)&amp;quot; &amp;amp;&amp;amp; git push
+&lt;&#x2F;span&gt;&lt;span&gt;cp -R &#x2F;Users&#x2F;nilsmango&#x2F;Library&#x2F;Mobile\ Documents&#x2F;iCloud~md~obsidian&#x2F;Documents &#x2F;Users&#x2F;nilsmango&#x2F;Documents&#x2F;Version\ Control\ Obsidian &amp;amp;&amp;amp; cd &#x2F;Users&#x2F;nilsmango&#x2F;Documents&#x2F;Version\ Control\ Obsidian &amp;amp;&amp;amp; git add . &amp;amp;&amp;amp; git commit -m &amp;quot;daily commit $(date +&amp;#39;%Y-%m-%d&amp;#39;)&amp;quot; &amp;amp;&amp;amp; git push
 &lt;&#x2F;span&gt;&lt;&#x2F;code&gt;&lt;&#x2F;pre&gt;
 &lt;p&gt;Make it executable: &lt;code&gt;chmod +x daily-commit.sh&lt;&#x2F;code&gt;&lt;&#x2F;p&gt;
 &lt;h3 id=&quot;2-the-automator-app&quot;&gt;2. The Automator App&lt;&#x2F;h3&gt;
@@ -55,7 +55,7 @@
 &lt;li&gt;Open &lt;strong&gt;Terminal&lt;&#x2F;strong&gt;&lt;&#x2F;li&gt;
 &lt;li&gt;Execute command:&lt;&#x2F;li&gt;
 &lt;&#x2F;ul&gt;
-&lt;p&gt;&lt;code&gt;open -a run-script.app &#x2F;Users&#x2F;simxn&#x2F;scripts&#x2F;daily-commit.sh&lt;&#x2F;code&gt;&lt;&#x2F;p&gt;
+&lt;p&gt;&lt;code&gt;open -a run-script.app &#x2F;Users&#x2F;nilsmango&#x2F;scripts&#x2F;daily-commit.sh&lt;&#x2F;code&gt;&lt;&#x2F;p&gt;
 &lt;ul&gt;
 &lt;li&gt;Click &lt;strong&gt;Allow&lt;&#x2F;strong&gt; when macOS asks if the application can access your Desktop&lt;&#x2F;li&gt;
 &lt;&#x2F;ul&gt;
@@ -81,7 +81,9 @@
 &lt;a href=&quot;https:&amp;#x2F;&amp;#x2F;nilsmango.ch&amp;#x2F;processed_images&amp;#x2F;8VqAB.2c2b0de2769054d1.jpg&quot; target=&quot;_blank&quot;&gt;
 &lt;img srcset=&quot;https:&amp;#x2F;&amp;#x2F;nilsmango.ch&amp;#x2F;processed_images&amp;#x2F;8VqAB.74721549ff18ee59.jpg 300w, https:&amp;#x2F;&amp;#x2F;nilsmango.ch&amp;#x2F;processed_images&amp;#x2F;8VqAB.4657e8d042ea35a4.jpg 600w, https:&amp;#x2F;&amp;#x2F;nilsmango.ch&amp;#x2F;processed_images&amp;#x2F;8VqAB.2c2b0de2769054d1.jpg 1073w&quot; src=&quot;https:&amp;#x2F;&amp;#x2F;nilsmango.ch&amp;#x2F;processed_images&amp;#x2F;8VqAB.4657e8d042ea35a4.jpg&quot; alt=&quot;Screenshot of Automator App&quot; class=&quot;imgset&quot;&gt;
 &lt;&#x2F;a&gt;
+
 &lt;figcaption&gt;Select Application&lt;&#x2F;figcaption&gt;
+
 &lt;&#x2F;figure&gt;
 
 &lt;&#x2F;p&gt;
@@ -107,9 +109,10 @@
 &lt;a href=&quot;https:&amp;#x2F;&amp;#x2F;nilsmango.ch&amp;#x2F;processed_images&amp;#x2F;Xi9pR.8d3d8b87b19accf8.jpg&quot; target=&quot;_blank&quot;&gt;
 &lt;img srcset=&quot;https:&amp;#x2F;&amp;#x2F;nilsmango.ch&amp;#x2F;processed_images&amp;#x2F;Xi9pR.53342ae019a6dfe4.jpg 300w, https:&amp;#x2F;&amp;#x2F;nilsmango.ch&amp;#x2F;processed_images&amp;#x2F;Xi9pR.ee4e89717947e733.jpg 600w, https:&amp;#x2F;&amp;#x2F;nilsmango.ch&amp;#x2F;processed_images&amp;#x2F;Xi9pR.a9d29c4cfeb74e1a.jpg 1200w, , https:&amp;#x2F;&amp;#x2F;nilsmango.ch&amp;#x2F;processed_images&amp;#x2F;Xi9pR.8d3d8b87b19accf8.jpg 2400w&quot; src=&quot;https:&amp;#x2F;&amp;#x2F;nilsmango.ch&amp;#x2F;processed_images&amp;#x2F;Xi9pR.ee4e89717947e733.jpg&quot; alt=&quot;Screenshot of Automator App&quot; class=&quot;imgset&quot;&gt;
 &lt;&#x2F;a&gt;
-&lt;figcaption&gt;Select Pass Input: as arguments&lt;&#x2F;figcaption&gt;
-    &lt;&#x2F;figure&gt;
 
+&lt;figcaption&gt;Select Pass Input: as arguments&lt;&#x2F;figcaption&gt;
+
+    &lt;&#x2F;figure&gt;
 
 
 
@@ -136,9 +139,9 @@
 &lt;&#x2F;span&gt;&lt;span&gt;
 &lt;&#x2F;span&gt;&lt;span&gt;&amp;lt;&lt;&#x2F;span&gt;&lt;span style=&quot;color:#bf616a;&quot;&gt;string&lt;&#x2F;span&gt;&lt;span&gt;&amp;gt;-a&amp;lt;&#x2F;&lt;&#x2F;span&gt;&lt;span style=&quot;color:#bf616a;&quot;&gt;string&lt;&#x2F;span&gt;&lt;span&gt;&amp;gt;
 &lt;&#x2F;span&gt;&lt;span&gt;
-&lt;&#x2F;span&gt;&lt;span&gt;&amp;lt;&lt;&#x2F;span&gt;&lt;span style=&quot;color:#bf616a;&quot;&gt;string&lt;&#x2F;span&gt;&lt;span&gt;&amp;gt;&#x2F;Users&#x2F;simxn&#x2F;scripts&#x2F;run-script.app&amp;lt;&#x2F;&lt;&#x2F;span&gt;&lt;span style=&quot;color:#bf616a;&quot;&gt;string&lt;&#x2F;span&gt;&lt;span&gt;&amp;gt;
+&lt;&#x2F;span&gt;&lt;span&gt;&amp;lt;&lt;&#x2F;span&gt;&lt;span style=&quot;color:#bf616a;&quot;&gt;string&lt;&#x2F;span&gt;&lt;span&gt;&amp;gt;&#x2F;Users&#x2F;nilsmango&#x2F;scripts&#x2F;run-script.app&amp;lt;&#x2F;&lt;&#x2F;span&gt;&lt;span style=&quot;color:#bf616a;&quot;&gt;string&lt;&#x2F;span&gt;&lt;span&gt;&amp;gt;
 &lt;&#x2F;span&gt;&lt;span&gt;
-&lt;&#x2F;span&gt;&lt;span&gt;&amp;lt;&lt;&#x2F;span&gt;&lt;span style=&quot;color:#bf616a;&quot;&gt;string&lt;&#x2F;span&gt;&lt;span&gt;&amp;gt;&#x2F;Users&#x2F;simxn&#x2F;scripts&#x2F;daily-commit.sh&amp;lt;&#x2F;&lt;&#x2F;span&gt;&lt;span style=&quot;color:#bf616a;&quot;&gt;string&lt;&#x2F;span&gt;&lt;span&gt;&amp;gt;
+&lt;&#x2F;span&gt;&lt;span&gt;&amp;lt;&lt;&#x2F;span&gt;&lt;span style=&quot;color:#bf616a;&quot;&gt;string&lt;&#x2F;span&gt;&lt;span&gt;&amp;gt;&#x2F;Users&#x2F;nilsmango&#x2F;scripts&#x2F;daily-commit.sh&amp;lt;&#x2F;&lt;&#x2F;span&gt;&lt;span style=&quot;color:#bf616a;&quot;&gt;string&lt;&#x2F;span&gt;&lt;span&gt;&amp;gt;
 &lt;&#x2F;span&gt;&lt;span&gt;
 &lt;&#x2F;span&gt;&lt;span&gt;&amp;lt;&#x2F;&lt;&#x2F;span&gt;&lt;span style=&quot;color:#bf616a;&quot;&gt;array&lt;&#x2F;span&gt;&lt;span&gt;&amp;gt;
 &lt;&#x2F;span&gt;&lt;span&gt;
@@ -208,9 +211,10 @@ I use &lt;a rel=&quot;noopener&quot; target=&quot;_blank&quot; href=&quot;https:
 &lt;a href=&quot;https:&amp;#x2F;&amp;#x2F;nilsmango.ch&amp;#x2F;processed_images&amp;#x2F;journal.451094e2729952cf.webp&quot; target=&quot;_blank&quot;&gt;
 &lt;img srcset=&quot;https:&amp;#x2F;&amp;#x2F;nilsmango.ch&amp;#x2F;processed_images&amp;#x2F;journal.c5300a8d16844fd9.webp 300w, https:&amp;#x2F;&amp;#x2F;nilsmango.ch&amp;#x2F;processed_images&amp;#x2F;journal.a5428bbeadd63077.webp 600w, https:&amp;#x2F;&amp;#x2F;nilsmango.ch&amp;#x2F;processed_images&amp;#x2F;journal.451094e2729952cf.webp 1200w&quot; src=&quot;https:&amp;#x2F;&amp;#x2F;nilsmango.ch&amp;#x2F;processed_images&amp;#x2F;journal.a5428bbeadd63077.webp&quot; alt=&quot;The app Obsidian open at a daily journal&quot; class=&quot;imgset&quot;&gt;
 &lt;&#x2F;a&gt;
-&lt;figcaption&gt;My daily journal in Obsidian.&lt;&#x2F;figcaption&gt;
-&lt;&#x2F;figure&gt;
 
+&lt;figcaption&gt;My daily journal in Obsidian.&lt;&#x2F;figcaption&gt;
+
+&lt;&#x2F;figure&gt;
 
 &lt;p&gt;My daily note template looks something like this:&lt;&#x2F;p&gt;
 &lt;pre data-lang=&quot;markdown&quot; style=&quot;background-color:#2b303b;color:#c0c5ce;&quot; class=&quot;language-markdown &quot;&gt;&lt;code class=&quot;language-markdown&quot; data-lang=&quot;markdown&quot;&gt;&lt;span style=&quot;color:#8fa1b3;&quot;&gt;# {{title}} - {{date: dddd}}

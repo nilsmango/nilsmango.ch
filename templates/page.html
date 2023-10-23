@@ -38,7 +38,6 @@
     <meta property="og:description" content="{{ page.description | safe }}  ...">
     {%- elif page.content %}
     <meta property="og:description" content="{{ page.content | striptags | truncate(length=54) | safe }}">
-
     {% endif %}
 {% endblock %}
 
