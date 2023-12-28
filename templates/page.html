@@ -33,9 +33,9 @@
     <meta property="og:image" content="{{ config.base_url }}/ogpic.jpg">
     {% endif %}
     {% if page.summary %}
-    <meta property="og:description" content="{{ page.summary | striptags }} ...">
+    <meta property="og:description" content="{{ page.summary | striptags }}...">
     {%- elif page.description %}
-    <meta property="og:description" content="{{ page.description | safe }}  ...">
+    <meta property="og:description" content="{{ page.description | safe }}...">
     {%- elif page.content %}
     <meta property="og:description" content="{{ page.content | striptags | truncate(length=54) | safe }}">
     {% endif %}
