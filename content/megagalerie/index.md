@@ -9,9 +9,10 @@ featured_image_alt = "Wand 2"
 
 In 2011 I was making a crazy [megaduo / 2000000](/megaduo) exhibition website, complete with a floor plan in the shape of the "Zeichen" with video art, poems, pictures, and "bitte nicht klicken" (please don't click) buttons that opened a huge number of popups and new tabs and endless scrolling with some crazy video and sound experiences.  
 I managed to resurrect one wall of the mega galerie. The surviving wall (wand 4) was located at the west end of the "Zeichen" exhibition center. It features a video installation (called Ping Ping) and an easter egg.  
-**Note:** Quickly press the red play button to start the sound. If it says *video not available*, simply refresh the page.
 
-<a href="/wand4" class="customButton">Enter wand 4</a>
+<a href="/wand4" class="customButton">Enter wand 4</a>  
+
+**Note:** Quickly press the red play button to start the sound. If it says *video not available*, simply refresh the page.
 
 ## Impressions
 Screenshots of the mega galerie, in no particular order.
