@@ -13,8 +13,8 @@ I have a couple of ways of making music:
 - Studio setup: MacBook running Ableton Live + Push
 - Live setup: the studio setup combined with whatever other people bring.
 
-You can download and/or listen to my music for free [below](#nils-mango).
-Check [#music](https://nilsmango.ch/tags/music) to see all blog posts about music.
+You can download and/or listen to my music for free [below](#nils-mango).  
+Check [#music](/tags/music) to see all blog posts about music.
 
 {{ image_sets(path="content/music/Making music in 2018.jpg", format="auto", op="fit_width", quality=90, alt="Two people making electronic music with Ableton Push and synthesizers", caption="Making music with a friend in 2018") }}
 

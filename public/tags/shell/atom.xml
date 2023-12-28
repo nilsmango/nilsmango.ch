@@ -2,8 +2,8 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
     <title>Nils Mango - shell</title>
     <subtitle>Creating things &amp; eliminating errors.</subtitle>
-    <link href="https://nilsmango.ch/tags/shell/atom.xml" rel="self" type="application/atom+xml"/>
-    <link href="https://nilsmango.ch"/>
+    <link rel="self" type="application/atom+xml" href="https://nilsmango.ch/tags/shell/atom.xml"/>
+    <link rel="alternate" type="text/html" href="https://nilsmango.ch"/>
     <generator uri="https://www.getzola.org/">Zola</generator>
     <updated>2023-04-19T00:00:00+00:00</updated>
     <id>https://nilsmango.ch/tags/shell/atom.xml</id>
@@ -11,13 +11,19 @@
         <title>Version Control for Obsidian</title>
         <published>2023-04-19T00:00:00+00:00</published>
         <updated>2023-04-19T00:00:00+00:00</updated>
+        
         <author>
-          <name>Unknown</name>
+          <name>
+            
+              Unknown
+            
+          </name>
         </author>
-        <link rel="alternate" href="https://nilsmango.ch/version-control-for-obsidian/" type="text/html"/>
+        
+        <link rel="alternate" type="text/html" href="https://nilsmango.ch/version-control-for-obsidian/"/>
         <id>https://nilsmango.ch/version-control-for-obsidian/</id>
         
-        <content type="html">&lt;p&gt;Idea: Implement version control for my &lt;a rel=&quot;noopener&quot; target=&quot;_blank&quot; href=&quot;https:&#x2F;&#x2F;obsidian.md&quot;&gt;Obsidian&lt;&#x2F;a&gt; Vault stored in my iCloud Documents.&lt;&#x2F;p&gt;
+        <content type="html" xml:base="https://nilsmango.ch/version-control-for-obsidian/">&lt;p&gt;Idea: Implement version control for my &lt;a rel=&quot;noopener&quot; target=&quot;_blank&quot; href=&quot;https:&#x2F;&#x2F;obsidian.md&quot;&gt;Obsidian&lt;&#x2F;a&gt; Vault stored in my iCloud Documents.&lt;&#x2F;p&gt;
 &lt;p&gt;Inspiration: The book &lt;a rel=&quot;noopener&quot; target=&quot;_blank&quot; href=&quot;https:&#x2F;&#x2F;pragprog.com&#x2F;titles&#x2F;tpp20&#x2F;the-pragmatic-programmer-20th-anniversary-edition&#x2F;&quot;&gt;The Pragmatic Programmer&lt;&#x2F;a&gt; encouraged me to implement version control for all of my work and to learn Shell for automation purposes.&lt;&#x2F;p&gt;
 &lt;p&gt;I thought, &amp;quot;How hard could it be?&amp;quot; - and voilà, after only one full day of work and swearing, I was able to successfully automate version control for my Obsidian Vault.&lt;&#x2F;p&gt;
 &lt;h2 id=&quot;the-plan&quot;&gt;The Plan&lt;&#x2F;h2&gt;

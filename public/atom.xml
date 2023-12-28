@@ -2,22 +2,53 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
     <title>Nils Mango</title>
     <subtitle>Creating things &amp; eliminating errors.</subtitle>
-    <link href="https://nilsmango.ch/atom.xml" rel="self" type="application/atom+xml"/>
-    <link href="https://nilsmango.ch"/>
+    <link rel="self" type="application/atom+xml" href="https://nilsmango.ch/atom.xml"/>
+    <link rel="alternate" type="text/html" href="https://nilsmango.ch"/>
     <generator uri="https://www.getzola.org/">Zola</generator>
-    <updated>2023-10-10T00:00:00+00:00</updated>
+    <updated>2023-12-28T00:00:00+00:00</updated>
     <id>https://nilsmango.ch/atom.xml</id>
+    <entry xml:lang="en">
+        <title>Tracks on a Plane 03</title>
+        <published>2023-12-28T00:00:00+00:00</published>
+        <updated>2023-12-28T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="https://nilsmango.ch/tracksonaplane03/"/>
+        <id>https://nilsmango.ch/tracksonaplane03/</id>
+        
+        <content type="html" xml:base="https://nilsmango.ch/tracksonaplane03/">&lt;p&gt;My newest Album &lt;em&gt;Tracks on a Plane 03&lt;&#x2F;em&gt; is available for &lt;a rel=&quot;noopener&quot; target=&quot;_blank&quot; href=&quot;https:&#x2F;&#x2F;nilsmango.bandcamp.com&#x2F;album&#x2F;tracks-on-a-plane-03&quot;&gt;free on Bandcamp&lt;&#x2F;a&gt; now.&lt;br &#x2F;&gt;
+Tracks on a Plane are tracks that have been entirely written and recorded on a plane ride. Get your ticket, get through security, board the plane, find your seat, stow your carry-on items in the overhead bins, fasten your seatbelt, and enjoy the flight!&lt;&#x2F;p&gt;
+&lt;div class=&quot;youtube&quot;&gt;
+&lt;lite-youtube videoid=&quot;FuOnDA16vK8&quot; playlabel=&quot;Play: Keynote (Google I&#x2F;O &#x27;18)&quot; class=&quot;tvframe&quot; params=&quot;start=0&amp;modestbranding=2&amp;autoplay=1&amp;rel=0&quot;&gt;&lt;&#x2F;lite-youtube&gt;
+&lt;script src=&quot;&#x2F;lite-yt-embed.js&quot;&gt;&lt;&#x2F;script&gt;
+&lt;&#x2F;div&gt;
+</content>
+        
+    </entry>
     <entry xml:lang="en">
         <title>Version Control for Obsidian</title>
         <published>2023-04-19T00:00:00+00:00</published>
         <updated>2023-04-19T00:00:00+00:00</updated>
+        
         <author>
-          <name>Unknown</name>
+          <name>
+            
+              Unknown
+            
+          </name>
         </author>
-        <link rel="alternate" href="https://nilsmango.ch/version-control-for-obsidian/" type="text/html"/>
+        
+        <link rel="alternate" type="text/html" href="https://nilsmango.ch/version-control-for-obsidian/"/>
         <id>https://nilsmango.ch/version-control-for-obsidian/</id>
         
-        <content type="html">&lt;p&gt;Idea: Implement version control for my &lt;a rel=&quot;noopener&quot; target=&quot;_blank&quot; href=&quot;https:&#x2F;&#x2F;obsidian.md&quot;&gt;Obsidian&lt;&#x2F;a&gt; Vault stored in my iCloud Documents.&lt;&#x2F;p&gt;
+        <content type="html" xml:base="https://nilsmango.ch/version-control-for-obsidian/">&lt;p&gt;Idea: Implement version control for my &lt;a rel=&quot;noopener&quot; target=&quot;_blank&quot; href=&quot;https:&#x2F;&#x2F;obsidian.md&quot;&gt;Obsidian&lt;&#x2F;a&gt; Vault stored in my iCloud Documents.&lt;&#x2F;p&gt;
 &lt;p&gt;Inspiration: The book &lt;a rel=&quot;noopener&quot; target=&quot;_blank&quot; href=&quot;https:&#x2F;&#x2F;pragprog.com&#x2F;titles&#x2F;tpp20&#x2F;the-pragmatic-programmer-20th-anniversary-edition&#x2F;&quot;&gt;The Pragmatic Programmer&lt;&#x2F;a&gt; encouraged me to implement version control for all of my work and to learn Shell for automation purposes.&lt;&#x2F;p&gt;
 &lt;p&gt;I thought, &amp;quot;How hard could it be?&amp;quot; - and voilà, after only one full day of work and swearing, I was able to successfully automate version control for my Obsidian Vault.&lt;&#x2F;p&gt;
 &lt;h2 id=&quot;the-plan&quot;&gt;The Plan&lt;&#x2F;h2&gt;
@@ -184,13 +215,19 @@
         <title>Phonogeneli 0.1</title>
         <published>2022-11-17T00:00:00+00:00</published>
         <updated>2022-11-23T00:00:00+00:00</updated>
+        
         <author>
-          <name>Unknown</name>
+          <name>
+            
+              Unknown
+            
+          </name>
         </author>
-        <link rel="alternate" href="https://nilsmango.ch/phonogeneli/" type="text/html"/>
+        
+        <link rel="alternate" type="text/html" href="https://nilsmango.ch/phonogeneli/"/>
         <id>https://nilsmango.ch/phonogeneli/</id>
         
-        <content type="html">&lt;p&gt;I have just released my first Max for Live device called Phonogeneli. It&#x27;s a quirky tape loop effect and a free download. Check the &lt;a href=&quot;https:&#x2F;&#x2F;nilsmango.ch&#x2F;phonogeneli&#x2F;#manual&quot;&gt;manual&lt;&#x2F;a&gt; below. The name comes from the Eurorack module that inspired this device called &lt;a rel=&quot;noopener&quot; target=&quot;_blank&quot; href=&quot;https:&#x2F;&#x2F;makenoisemusic.com&#x2F;modules&#x2F;phonogene-legacy&quot;&gt;Phonogene&lt;&#x2F;a&gt; + li, a suffix used for diminutivization in Swiss German.&lt;br &#x2F;&gt;
+        <content type="html" xml:base="https://nilsmango.ch/phonogeneli/">&lt;p&gt;I have just released my first Max for Live device called Phonogeneli. It&#x27;s a quirky tape loop effect and a free download. Check the &lt;a href=&quot;https:&#x2F;&#x2F;nilsmango.ch&#x2F;phonogeneli&#x2F;#manual&quot;&gt;manual&lt;&#x2F;a&gt; below. The name comes from the Eurorack module that inspired this device called &lt;a rel=&quot;noopener&quot; target=&quot;_blank&quot; href=&quot;https:&#x2F;&#x2F;makenoisemusic.com&#x2F;modules&#x2F;phonogene-legacy&quot;&gt;Phonogene&lt;&#x2F;a&gt; + li, a suffix used for diminutivization in Swiss German.&lt;br &#x2F;&gt;
 This audio effect is capable to produce micro-sounds, many clicks, delays, and sound on sound.&lt;&#x2F;p&gt;
 
 
@@ -277,13 +314,19 @@ I made a track using phonogeneli on all the sounds except the percussive ones (d
         <title>SUP in Basel</title>
         <published>2022-11-16T00:00:00+00:00</published>
         <updated>2022-11-16T00:00:00+00:00</updated>
+        
         <author>
-          <name>Unknown</name>
+          <name>
+            
+              Unknown
+            
+          </name>
         </author>
-        <link rel="alternate" href="https://nilsmango.ch/supbasel/" type="text/html"/>
+        
+        <link rel="alternate" type="text/html" href="https://nilsmango.ch/supbasel/"/>
         <id>https://nilsmango.ch/supbasel/</id>
         
-        <content type="html">&lt;p&gt;I recently found old footage of myself standup paddleboarding in Basel. These drone shots were recorded for a promo video for &lt;a rel=&quot;noopener&quot; target=&quot;_blank&quot; href=&quot;https:&#x2F;&#x2F;project7iii.com&#x2F;birs73.html&quot;&gt;Birs73&lt;&#x2F;a&gt;, but I never came around to editing them into a short video.&lt;&#x2F;p&gt;
+        <content type="html" xml:base="https://nilsmango.ch/supbasel/">&lt;p&gt;I recently found old footage of myself standup paddleboarding in Basel. These drone shots were recorded for a promo video for &lt;a rel=&quot;noopener&quot; target=&quot;_blank&quot; href=&quot;https:&#x2F;&#x2F;project7iii.com&#x2F;birs73.html&quot;&gt;Birs73&lt;&#x2F;a&gt;, but I never came around to editing them into a short video.&lt;&#x2F;p&gt;
 &lt;p&gt;Better late than never: Tag along for a sundowner SUP tour from the Birsköpfli in Birsfelden down the Rhine first paddling under the Schwarzwaldbrücke, then the Wettsteinbrücke, passing by the Münster and tackling the Mittlere Brücke and beyond with a bonus lap around the &amp;quot;Fähri&amp;quot;. Basel, 2018-2019.&lt;&#x2F;p&gt;
 &lt;div class=&quot;youtube&quot;&gt;
 &lt;lite-youtube videoid=&quot;6q-K6hR3rOI&quot; playlabel=&quot;Play: Keynote (Google I&#x2F;O &#x27;18)&quot; class=&quot;tvframe&quot; params=&quot;start=0&amp;modestbranding=2&amp;autoplay=1&amp;rel=0&quot;&gt;&lt;&#x2F;lite-youtube&gt;
@@ -296,13 +339,19 @@ I made a track using phonogeneli on all the sounds except the percussive ones (d
         <title>Tenerife 2021</title>
         <published>2022-11-15T00:00:00+00:00</published>
         <updated>2022-11-15T00:00:00+00:00</updated>
+        
         <author>
-          <name>Unknown</name>
+          <name>
+            
+              Unknown
+            
+          </name>
         </author>
-        <link rel="alternate" href="https://nilsmango.ch/tenerife2021/" type="text/html"/>
+        
+        <link rel="alternate" type="text/html" href="https://nilsmango.ch/tenerife2021/"/>
         <id>https://nilsmango.ch/tenerife2021/</id>
         
-        <content type="html">&lt;p&gt;A short video diary from Tenerife with action from La Matanza to Puerto de la Cruz to Parque Nacional del Teide, down to El Médano, etc.&lt;br &#x2F;&gt;
+        <content type="html" xml:base="https://nilsmango.ch/tenerife2021/">&lt;p&gt;A short video diary from Tenerife with action from La Matanza to Puerto de la Cruz to Parque Nacional del Teide, down to El Médano, etc.&lt;br &#x2F;&gt;
 The &lt;a href=&quot;&#x2F;music&quot;&gt;music&lt;&#x2F;a&gt; was made on a plane to Tenerife.&lt;&#x2F;p&gt;
 &lt;div class=&quot;youtube&quot;&gt;
 &lt;lite-youtube videoid=&quot;s0mlevh0-8Q&quot; playlabel=&quot;Play: Keynote (Google I&#x2F;O &#x27;18)&quot; class=&quot;tvframe&quot; params=&quot;start=0&amp;modestbranding=2&amp;autoplay=1&amp;rel=0&quot;&gt;&lt;&#x2F;lite-youtube&gt;
@@ -315,13 +364,19 @@ The &lt;a href=&quot;&#x2F;music&quot;&gt;music&lt;&#x2F;a&gt; was made on a pla
         <title>Journaling</title>
         <published>2022-11-14T00:00:00+00:00</published>
         <updated>2022-11-14T00:00:00+00:00</updated>
+        
         <author>
-          <name>Unknown</name>
+          <name>
+            
+              Unknown
+            
+          </name>
         </author>
-        <link rel="alternate" href="https://nilsmango.ch/journaling/" type="text/html"/>
+        
+        <link rel="alternate" type="text/html" href="https://nilsmango.ch/journaling/"/>
         <id>https://nilsmango.ch/journaling/</id>
         
-        <content type="html">&lt;p&gt;I started journaling and keeping notes in 2020. I think this is a must for anybody, especially knowledge workers. I write down how much time I spend on what in my daily note (my journal), followed by thoughts and ideas, how my health is doing, which of the things I want to do every day (habits) I actually did, and how much and what I trained that day.
+        <content type="html" xml:base="https://nilsmango.ch/journaling/">&lt;p&gt;I started journaling and keeping notes in 2020. I think this is a must for anybody, especially knowledge workers. I write down how much time I spend on what in my daily note (my journal), followed by thoughts and ideas, how my health is doing, which of the things I want to do every day (habits) I actually did, and how much and what I trained that day.
 I use &lt;a rel=&quot;noopener&quot; target=&quot;_blank&quot; href=&quot;https:&#x2F;&#x2F;obsidian.md&quot;&gt;Obsidian&lt;&#x2F;a&gt; for this and all my other notes. I chose Obsidian because it saves everything in markdown files, allows for linking, shows backlinks, has nice macOS and iOS apps, and syncing via iCloud is simple and works great so far!&lt;&#x2F;p&gt;
 
 
@@ -392,13 +447,19 @@ I use &lt;a rel=&quot;noopener&quot; target=&quot;_blank&quot; href=&quot;https:
         <title>Wenn ich einmal Gross bin</title>
         <published>2022-11-07T00:00:00+00:00</published>
         <updated>2022-11-07T00:00:00+00:00</updated>
+        
         <author>
-          <name>Unknown</name>
+          <name>
+            
+              Unknown
+            
+          </name>
         </author>
-        <link rel="alternate" href="https://nilsmango.ch/wennichgrossbin/" type="text/html"/>
+        
+        <link rel="alternate" type="text/html" href="https://nilsmango.ch/wennichgrossbin/"/>
         <id>https://nilsmango.ch/wennichgrossbin/</id>
         
-        <content type="html">&lt;p&gt;Eine Auseinandersetzung von digitaler zu analoger Fotografie, Fragmentieren und Street Art in Basel, 2011.&lt;br &#x2F;&gt;
+        <content type="html" xml:base="https://nilsmango.ch/wennichgrossbin/">&lt;p&gt;Eine Auseinandersetzung von digitaler zu analoger Fotografie, Fragmentieren und Street Art in Basel, 2011.&lt;br &#x2F;&gt;
 A contemplation of digital to analog, fragmentation, growing up and street art in Basel, 2011. Under the name of &lt;a href=&quot;&#x2F;megaduo&quot;&gt;2000000&lt;&#x2F;a&gt;.&lt;&#x2F;p&gt;
 
 
@@ -581,13 +642,19 @@ A contemplation of digital to analog, fragmentation, growing up and street art i
         <title>selling out</title>
         <published>2022-11-06T00:00:00+00:00</published>
         <updated>2022-11-06T00:00:00+00:00</updated>
+        
         <author>
-          <name>Unknown</name>
+          <name>
+            
+              Unknown
+            
+          </name>
         </author>
-        <link rel="alternate" href="https://nilsmango.ch/sellingout/" type="text/html"/>
+        
+        <link rel="alternate" type="text/html" href="https://nilsmango.ch/sellingout/"/>
         <id>https://nilsmango.ch/sellingout/</id>
         
-        <content type="html">&lt;p&gt;Funny flyers, t-shirts, and stupid ideas to sell t-shirts for &lt;a href=&quot;&#x2F;megaduo&quot;&gt;megaduo &#x2F; 2000000&lt;&#x2F;a&gt;. Basel 2010-2012.&lt;br &#x2F;&gt;
+        <content type="html" xml:base="https://nilsmango.ch/sellingout/">&lt;p&gt;Funny flyers, t-shirts, and stupid ideas to sell t-shirts for &lt;a href=&quot;&#x2F;megaduo&quot;&gt;megaduo &#x2F; 2000000&lt;&#x2F;a&gt;. Basel 2010-2012.&lt;br &#x2F;&gt;
 &lt;a href=&quot;&#x2F;plakate&quot;&gt;Plakate anbringen verboten&lt;&#x2F;a&gt; &amp;amp; &lt;a href=&quot;&#x2F;kettenmegabrief&quot;&gt;mega chain letter&lt;&#x2F;a&gt; are also part of this collection. You can still find some crazy &lt;a rel=&quot;noopener&quot; target=&quot;_blank&quot; href=&quot;https:&#x2F;&#x2F;www.youtube.com&#x2F;user&#x2F;simxn&quot;&gt;videos&lt;&#x2F;a&gt; for the t-shirts I designed.&lt;&#x2F;p&gt;
 
 
@@ -1046,13 +1113,19 @@ A contemplation of digital to analog, fragmentation, growing up and street art i
         <title>Stencils</title>
         <published>2022-11-06T00:00:00+00:00</published>
         <updated>2022-11-06T00:00:00+00:00</updated>
+        
         <author>
-          <name>Unknown</name>
+          <name>
+            
+              Unknown
+            
+          </name>
         </author>
-        <link rel="alternate" href="https://nilsmango.ch/stencils/" type="text/html"/>
+        
+        <link rel="alternate" type="text/html" href="https://nilsmango.ch/stencils/"/>
         <id>https://nilsmango.ch/stencils/</id>
         
-        <content type="html">&lt;p&gt;A collection of stencil graffiti. &lt;a href=&quot;&#x2F;megaduo&quot;&gt;megaduo &#x2F; 2000000&lt;&#x2F;a&gt;, Basel 2010-2012.&lt;&#x2F;p&gt;
+        <content type="html" xml:base="https://nilsmango.ch/stencils/">&lt;p&gt;A collection of stencil graffiti. &lt;a href=&quot;&#x2F;megaduo&quot;&gt;megaduo &#x2F; 2000000&lt;&#x2F;a&gt;, Basel 2010-2012.&lt;&#x2F;p&gt;
 
 
 
@@ -1301,13 +1374,19 @@ A contemplation of digital to analog, fragmentation, growing up and street art i
         <title>mega video</title>
         <published>2022-11-05T00:00:00+00:00</published>
         <updated>2022-11-05T00:00:00+00:00</updated>
+        
         <author>
-          <name>Unknown</name>
+          <name>
+            
+              Unknown
+            
+          </name>
         </author>
-        <link rel="alternate" href="https://nilsmango.ch/megavideo/" type="text/html"/>
+        
+        <link rel="alternate" type="text/html" href="https://nilsmango.ch/megavideo/"/>
         <id>https://nilsmango.ch/megavideo/</id>
         
-        <content type="html">&lt;p&gt;Video installation titled &amp;quot;mega video&amp;quot;.  7 videos spelling &lt;a href=&quot;&#x2F;megaduo&quot;&gt;megaduo&lt;&#x2F;a&gt;. Basel, 2010.&lt;br &#x2F;&gt;
+        <content type="html" xml:base="https://nilsmango.ch/megavideo/">&lt;p&gt;Video installation titled &amp;quot;mega video&amp;quot;.  7 videos spelling &lt;a href=&quot;&#x2F;megaduo&quot;&gt;megaduo&lt;&#x2F;a&gt;. Basel, 2010.&lt;br &#x2F;&gt;
 → If it says &lt;em&gt;video not available&lt;&#x2F;em&gt;, simply refresh the page.&lt;&#x2F;p&gt;
 &lt;div class=&quot;wrap-element&quot;&gt;
 &lt;iframe class=&quot;wrapped-iframe&quot; src=&quot;https:&#x2F;&#x2F;www.youtube.com&#x2F;embed&#x2F;4qEaSMXd9_c?controls=0&amp;autoplay=1&amp;mute=1&amp;loop=1&amp;playlist=4qEaSMXd9_c&quot; title=&quot;YouTube video player&quot; frameborder=&quot;0&quot; allow=&quot;autoplay; clipboard-write; encrypted-media&quot;&gt;&lt;&#x2F;iframe&gt;
@@ -1337,13 +1416,19 @@ A contemplation of digital to analog, fragmentation, growing up and street art i
         <title>Landscapes</title>
         <published>2022-11-04T00:00:00+00:00</published>
         <updated>2022-11-04T00:00:00+00:00</updated>
+        
         <author>
-          <name>Unknown</name>
+          <name>
+            
+              Unknown
+            
+          </name>
         </author>
-        <link rel="alternate" href="https://nilsmango.ch/landscapes/" type="text/html"/>
+        
+        <link rel="alternate" type="text/html" href="https://nilsmango.ch/landscapes/"/>
         <id>https://nilsmango.ch/landscapes/</id>
         
-        <content type="html">&lt;p&gt;A collection of landscape photographs shot from 2004 to 2013. &lt;a href=&quot;&#x2F;megaduo&quot;&gt;megaduo &#x2F; 2000000&lt;&#x2F;a&gt;&lt;&#x2F;p&gt;
+        <content type="html" xml:base="https://nilsmango.ch/landscapes/">&lt;p&gt;A collection of landscape photographs shot from 2004 to 2013. &lt;a href=&quot;&#x2F;megaduo&quot;&gt;megaduo &#x2F; 2000000&lt;&#x2F;a&gt;&lt;&#x2F;p&gt;
 
 
 
@@ -1660,13 +1745,19 @@ A contemplation of digital to analog, fragmentation, growing up and street art i
         <title>Moving Light Series</title>
         <published>2022-11-04T00:00:00+00:00</published>
         <updated>2022-11-04T00:00:00+00:00</updated>
+        
         <author>
-          <name>Unknown</name>
+          <name>
+            
+              Unknown
+            
+          </name>
         </author>
-        <link rel="alternate" href="https://nilsmango.ch/movinglight/" type="text/html"/>
+        
+        <link rel="alternate" type="text/html" href="https://nilsmango.ch/movinglight/"/>
         <id>https://nilsmango.ch/movinglight/</id>
         
-        <content type="html">&lt;p&gt;A study of light and body shapes.&lt;br &#x2F;&gt;
+        <content type="html" xml:base="https://nilsmango.ch/movinglight/">&lt;p&gt;A study of light and body shapes.&lt;br &#x2F;&gt;
 Eine Auseinandersetzung mit Licht und dem menschlichen Körper.&lt;br &#x2F;&gt;
 &lt;a href=&quot;&#x2F;megaduo&quot;&gt;megaduo&lt;&#x2F;a&gt; Basel, 2009-2010.&lt;&#x2F;p&gt;
 &lt;p&gt;
@@ -2021,13 +2112,19 @@ Eine Auseinandersetzung mit Licht und dem menschlichen Körper.&lt;br &#x2F;&gt;
         <title>megaduo &#x2F; 2000000</title>
         <published>2022-11-03T00:00:00+00:00</published>
         <updated>2022-11-03T00:00:00+00:00</updated>
+        
         <author>
-          <name>Unknown</name>
+          <name>
+            
+              Unknown
+            
+          </name>
         </author>
-        <link rel="alternate" href="https://nilsmango.ch/megaduo/" type="text/html"/>
+        
+        <link rel="alternate" type="text/html" href="https://nilsmango.ch/megaduo/"/>
         <id>https://nilsmango.ch/megaduo/</id>
         
-        <content type="html">&lt;p&gt;2004-2013, Basel.
+        <content type="html" xml:base="https://nilsmango.ch/megaduo/">&lt;p&gt;2004-2013, Basel.
 My first ventures into art and design. Or how I wrote in 2010:&lt;&#x2F;p&gt;
 &lt;blockquote&gt;
 &lt;p&gt;Nein, megaduo sind nicht 2.&lt;br &#x2F;&gt;
@@ -2062,13 +2159,19 @@ duo = lateinisch für zwei.&lt;&#x2F;p&gt;
         <title>mega galerie</title>
         <published>2022-11-03T00:00:00+00:00</published>
         <updated>2022-11-03T00:00:00+00:00</updated>
+        
         <author>
-          <name>Unknown</name>
+          <name>
+            
+              Unknown
+            
+          </name>
         </author>
-        <link rel="alternate" href="https://nilsmango.ch/megagalerie/" type="text/html"/>
+        
+        <link rel="alternate" type="text/html" href="https://nilsmango.ch/megagalerie/"/>
         <id>https://nilsmango.ch/megagalerie/</id>
         
-        <content type="html">&lt;p&gt;In 2011 I was making a crazy &lt;a href=&quot;&#x2F;megaduo&quot;&gt;megaduo &#x2F; 2000000&lt;&#x2F;a&gt; exhibition website, complete with a floor plan in the shape of the &amp;quot;Zeichen&amp;quot; with video art, poems, pictures, and &amp;quot;bitte nicht klicken&amp;quot; (please don&#x27;t click) buttons that opened a huge number of popups and new tabs and endless scrolling with some crazy video and sound experiences.&lt;br &#x2F;&gt;
+        <content type="html" xml:base="https://nilsmango.ch/megagalerie/">&lt;p&gt;In 2011 I was making a crazy &lt;a href=&quot;&#x2F;megaduo&quot;&gt;megaduo &#x2F; 2000000&lt;&#x2F;a&gt; exhibition website, complete with a floor plan in the shape of the &amp;quot;Zeichen&amp;quot; with video art, poems, pictures, and &amp;quot;bitte nicht klicken&amp;quot; (please don&#x27;t click) buttons that opened a huge number of popups and new tabs and endless scrolling with some crazy video and sound experiences.&lt;br &#x2F;&gt;
 I managed to resurrect one wall of the mega galerie. The surviving wall (wand 4) was located at the west end of the &amp;quot;Zeichen&amp;quot; exhibition center. It features a video installation (called Ping Ping) and an easter egg.&lt;br &#x2F;&gt;
 &lt;strong&gt;Note:&lt;&#x2F;strong&gt; Quickly press the red play button to start the sound. If it says &lt;em&gt;video not available&lt;&#x2F;em&gt;, simply refresh the page.&lt;&#x2F;p&gt;
 &lt;p&gt;&lt;a href=&quot;&#x2F;wand4&quot; class=&quot;customButton&quot;&gt;Enter wand 4&lt;&#x2F;a&gt;&lt;&#x2F;p&gt;
@@ -2315,13 +2418,19 @@ I managed to resurrect one wall of the mega galerie. The surviving wall (wand 4)
         <title>Plakate anbringen verboten</title>
         <published>2022-11-03T00:00:00+00:00</published>
         <updated>2022-11-03T00:00:00+00:00</updated>
+        
         <author>
-          <name>Unknown</name>
+          <name>
+            
+              Unknown
+            
+          </name>
         </author>
-        <link rel="alternate" href="https://nilsmango.ch/plakate/" type="text/html"/>
+        
+        <link rel="alternate" type="text/html" href="https://nilsmango.ch/plakate/"/>
         <id>https://nilsmango.ch/plakate/</id>
         
-        <content type="html">&lt;p&gt;German for &amp;quot;Post no bills. You idiots. Go home!&amp;quot; Plakate anbringe verboten. Ihr Idioten. Geht nach Hause!&lt;br &#x2F;&gt;
+        <content type="html" xml:base="https://nilsmango.ch/plakate/">&lt;p&gt;German for &amp;quot;Post no bills. You idiots. Go home!&amp;quot; Plakate anbringe verboten. Ihr Idioten. Geht nach Hause!&lt;br &#x2F;&gt;
 Basel, January 2011. A two-man job. Artistic civil disobedience for &lt;a href=&quot;&#x2F;megaduo&quot;&gt;megaduo&lt;&#x2F;a&gt;.&lt;&#x2F;p&gt;
 
 
@@ -2591,13 +2700,19 @@ Basel, January 2011. A two-man job. Artistic civil disobedience for &lt;a href=&
         <title>Toilet Series</title>
         <published>2022-11-03T00:00:00+00:00</published>
         <updated>2022-11-03T00:00:00+00:00</updated>
+        
         <author>
-          <name>Unknown</name>
+          <name>
+            
+              Unknown
+            
+          </name>
         </author>
-        <link rel="alternate" href="https://nilsmango.ch/toiletseries/" type="text/html"/>
+        
+        <link rel="alternate" type="text/html" href="https://nilsmango.ch/toiletseries/"/>
         <id>https://nilsmango.ch/toiletseries/</id>
         
-        <content type="html">&lt;p&gt;The Toilet Series was conceptualized and realized by &lt;a href=&quot;&#x2F;megaduo&quot;&gt;megaduo&lt;&#x2F;a&gt; in Basel, 2010-2011.&lt;br &#x2F;&gt;
+        <content type="html" xml:base="https://nilsmango.ch/toiletseries/">&lt;p&gt;The Toilet Series was conceptualized and realized by &lt;a href=&quot;&#x2F;megaduo&quot;&gt;megaduo&lt;&#x2F;a&gt; in Basel, 2010-2011.&lt;br &#x2F;&gt;
 In a profound and daring contemplation of thermodynamic effects, this work is using the medium of digital photography and toilets in a revolutionary manner, breaking with the status quo.&lt;br &#x2F;&gt;
 This series of digital images is open to the public for the first time in history, as requested by the artist. Nils Mango wishes to open this work&#x27;s incalculable wisdom up to impregnate all humanity and let the power of the Toilet Series transform this universe and beyond into a place of eternal peace, knowledge, and love. The tone and soul of the photographs further convey a richness in emotional value unprecedented and make this series one of the best works by Nils Mango&#x2F;megaduo. To this day, this paradigm-changing work has a crucial effect on modern art.&lt;br &#x2F;&gt;
 The Toilet Series encapsulates 19 pictures shot on mobile phones. Let the following pixels on a screen change your life forever.&lt;&#x2F;p&gt;
@@ -3064,13 +3179,19 @@ The Toilet Series encapsulates 19 pictures shot on mobile phones. Let the follow
         <title>ketten mega brief</title>
         <published>2022-10-14T00:00:00+00:00</published>
         <updated>2022-10-14T00:00:00+00:00</updated>
+        
         <author>
-          <name>Unknown</name>
+          <name>
+            
+              Unknown
+            
+          </name>
         </author>
-        <link rel="alternate" href="https://nilsmango.ch/kettenmegabrief/" type="text/html"/>
+        
+        <link rel="alternate" type="text/html" href="https://nilsmango.ch/kettenmegabrief/"/>
         <id>https://nilsmango.ch/kettenmegabrief/</id>
         
-        <content type="html">&lt;p&gt;A chain letter for &lt;a href=&quot;&#x2F;megaduo&quot;&gt;megaduo&lt;&#x2F;a&gt;. Basel, 2010.
+        <content type="html" xml:base="https://nilsmango.ch/kettenmegabrief/">&lt;p&gt;A chain letter for &lt;a href=&quot;&#x2F;megaduo&quot;&gt;megaduo&lt;&#x2F;a&gt;. Basel, 2010.
 
 
 
@@ -3191,13 +3312,19 @@ worldwide delivery and much more.
         <title>ReUse</title>
         <published>2022-10-14T00:00:00+00:00</published>
         <updated>2022-10-14T00:00:00+00:00</updated>
+        
         <author>
-          <name>Unknown</name>
+          <name>
+            
+              Unknown
+            
+          </name>
         </author>
-        <link rel="alternate" href="https://nilsmango.ch/reuse/" type="text/html"/>
+        
+        <link rel="alternate" type="text/html" href="https://nilsmango.ch/reuse/"/>
         <id>https://nilsmango.ch/reuse/</id>
         
-        <content type="html">&lt;p&gt;Project ReUse takes things that are not useful anymore, aka waste, and makes useful products, aka design out of them.
+        <content type="html" xml:base="https://nilsmango.ch/reuse/">&lt;p&gt;Project ReUse takes things that are not useful anymore, aka waste, and makes useful products, aka design out of them.
 Things created:&lt;&#x2F;p&gt;
 &lt;h2 id=&quot;3d-printed&quot;&gt;3D Printed&lt;&#x2F;h2&gt;
 &lt;p&gt;Platonic bodies made from toilet paper rolls and 3D printed PLA.
@@ -3487,13 +3614,19 @@ PET bottle lamp (concept only)
         <title>Now</title>
         <published>2022-09-16T00:00:00+00:00</published>
         <updated>2023-10-10T00:00:00+00:00</updated>
+        
         <author>
-          <name>Unknown</name>
+          <name>
+            
+              Unknown
+            
+          </name>
         </author>
-        <link rel="alternate" href="https://nilsmango.ch/now/" type="text/html"/>
+        
+        <link rel="alternate" type="text/html" href="https://nilsmango.ch/now/"/>
         <id>https://nilsmango.ch/now/</id>
         
-        <content type="html">&lt;p&gt;This is a now page, for more information visit &lt;a href=&quot;https:&#x2F;&#x2F;nownownow.com&#x2F;about&quot; target=&quot;_blank&quot;&gt;nownownow.com&lt;&#x2F;a&gt;&lt;&#x2F;p&gt;
+        <content type="html" xml:base="https://nilsmango.ch/now/">&lt;p&gt;This is a now page, for more information visit &lt;a href=&quot;https:&#x2F;&#x2F;nownownow.com&#x2F;about&quot; target=&quot;_blank&quot;&gt;nownownow.com&lt;&#x2F;a&gt;&lt;&#x2F;p&gt;
 &lt;p&gt;&lt;em&gt;Updated: 
 &lt;time datetime=&quot;2023-10-10T00:00:00+00:00&quot;&gt;October 10, 2023&lt;&#x2F;time&gt;
 - 
@@ -3518,13 +3651,19 @@ Biel&amp;#x2F;Bienne, Switzerland
         <title>Projects</title>
         <published>2022-09-15T00:00:00+00:00</published>
         <updated>2022-09-15T00:00:00+00:00</updated>
+        
         <author>
-          <name>Unknown</name>
+          <name>
+            
+              Unknown
+            
+          </name>
         </author>
-        <link rel="alternate" href="https://nilsmango.ch/projects/" type="text/html"/>
+        
+        <link rel="alternate" type="text/html" href="https://nilsmango.ch/projects/"/>
         <id>https://nilsmango.ch/projects/</id>
         
-        <content type="html">&lt;p&gt;This is where you find all my projects.&lt;&#x2F;p&gt;
+        <content type="html" xml:base="https://nilsmango.ch/projects/">&lt;p&gt;This is where you find all my projects.&lt;&#x2F;p&gt;
 &lt;h2 id=&quot;art-design&quot;&gt;Art &amp;amp; Design&lt;&#x2F;h2&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;a href=&quot;&#x2F;megaduo&quot;&gt;megaduo &#x2F; 2000000&lt;&#x2F;a&gt; (2004-2013)&lt;&#x2F;li&gt;
@@ -3551,13 +3690,19 @@ Biel&amp;#x2F;Bienne, Switzerland
         <title>Privacy</title>
         <published>2022-09-13T00:00:00+00:00</published>
         <updated>2023-10-02T00:00:00+00:00</updated>
+        
         <author>
-          <name>Unknown</name>
+          <name>
+            
+              Unknown
+            
+          </name>
         </author>
-        <link rel="alternate" href="https://nilsmango.ch/privacy/" type="text/html"/>
+        
+        <link rel="alternate" type="text/html" href="https://nilsmango.ch/privacy/"/>
         <id>https://nilsmango.ch/privacy/</id>
         
-        <content type="html">&lt;ul&gt;
+        <content type="html" xml:base="https://nilsmango.ch/privacy/">&lt;ul&gt;
 &lt;li&gt;This website does not set or use cookies.&lt;&#x2F;li&gt;
 &lt;li&gt;This website does not store any data in the browser to be shared, sent, or sold to third-parties.&lt;&#x2F;li&gt;
 &lt;li&gt;No personal information is shared, sent, or sold to third-parties. See exception below.&lt;&#x2F;li&gt;
@@ -3576,13 +3721,19 @@ Biel&amp;#x2F;Bienne, Switzerland
         <title>About</title>
         <published>2022-09-12T00:00:00+00:00</published>
         <updated>2022-09-12T00:00:00+00:00</updated>
+        
         <author>
-          <name>Unknown</name>
+          <name>
+            
+              Unknown
+            
+          </name>
         </author>
-        <link rel="alternate" href="https://nilsmango.ch/about/" type="text/html"/>
+        
+        <link rel="alternate" type="text/html" href="https://nilsmango.ch/about/"/>
         <id>https://nilsmango.ch/about/</id>
         
-        <content type="html">&lt;p&gt;I am groot... erh Nils Mango! I&#x27;m just here so I won&#x27;t get fined, plus to make things and try to eliminate the resulting errors. Also, I needed a pretty and simple webpage to show off my things. So with the help of &lt;a rel=&quot;noopener&quot; target=&quot;_blank&quot; href=&quot;https:&#x2F;&#x2F;www.getzola.org&quot;&gt;Zola&lt;&#x2F;a&gt; here it is, the website. I also will try to build in public and blog about what I have learned etc. as a help to learn better and to write a lot to learn to write better. Which, as you might have noticed, I could gain from.&lt;&#x2F;p&gt;
+        <content type="html" xml:base="https://nilsmango.ch/about/">&lt;p&gt;I am groot... erh Nils Mango! I&#x27;m just here so I won&#x27;t get fined, plus to make things and try to eliminate the resulting errors. Also, I needed a pretty and simple webpage to show off my things. So with the help of &lt;a rel=&quot;noopener&quot; target=&quot;_blank&quot; href=&quot;https:&#x2F;&#x2F;www.getzola.org&quot;&gt;Zola&lt;&#x2F;a&gt; here it is, the website. I also will try to build in public and blog about what I have learned etc. as a help to learn better and to write a lot to learn to write better. Which, as you might have noticed, I could gain from.&lt;&#x2F;p&gt;
 &lt;h2 id=&quot;a-not-so-short-timeline&quot;&gt;A (not so) short Timeline&lt;&#x2F;h2&gt;
 &lt;p&gt;&lt;strong&gt;1985-2000&lt;&#x2F;strong&gt; | &lt;em&gt;getting shit done&lt;&#x2F;em&gt; | Breaking the same leg twice, crying, playing a lot, mostly Lego, but also floorball (Unihockey) and in the forests of Muttenz (and learning a lot about Jesus motherfucking Christ, thanks CVJM aka Cevi aka YMCA), going Windsurfing with my father and learning to play the trombone.&lt;&#x2F;p&gt;
 
@@ -3695,20 +3846,27 @@ Music: Finished up &lt;a href=&quot;https:&#x2F;&#x2F;nilsmango.bandcamp.com&#x2
         <title>Music</title>
         <published>2022-09-09T00:00:00+00:00</published>
         <updated>2022-09-09T00:00:00+00:00</updated>
+        
         <author>
-          <name>Unknown</name>
+          <name>
+            
+              Unknown
+            
+          </name>
         </author>
-        <link rel="alternate" href="https://nilsmango.ch/music/" type="text/html"/>
+        
+        <link rel="alternate" type="text/html" href="https://nilsmango.ch/music/"/>
         <id>https://nilsmango.ch/music/</id>
         
-        <content type="html">&lt;p&gt;I love making music, especially live and with other people. I am trying to take a minimalist approach to producing music. Using Ableton Live, few plugins, mostly stock, with only 1-2 hardware controllers or synths (Ableton Push mainly). Some hacked-together &lt;a href=&quot;&#x2F;tags&#x2F;maxforlive&quot;&gt;Max for Live&lt;&#x2F;a&gt; devices are helping me to get experimental.&lt;&#x2F;p&gt;
+        <content type="html" xml:base="https://nilsmango.ch/music/">&lt;p&gt;I love making music, especially live and with other people. I am trying to take a minimalist approach to producing music. Using Ableton Live, few plugins, mostly stock, with only 1-2 hardware controllers or synths (Ableton Push mainly). Some hacked-together &lt;a href=&quot;&#x2F;tags&#x2F;maxforlive&quot;&gt;Max for Live&lt;&#x2F;a&gt; devices are helping me to get experimental.&lt;&#x2F;p&gt;
 &lt;p&gt;I have a couple of ways of making music:&lt;&#x2F;p&gt;
 &lt;ul&gt;
 &lt;li&gt;Minimalistic setup: just my MacBook running Ableton Live (used in Tracks on a Plane)&lt;&#x2F;li&gt;
 &lt;li&gt;Studio setup: MacBook running Ableton Live + Push&lt;&#x2F;li&gt;
 &lt;li&gt;Live setup: the studio setup combined with whatever other people bring.&lt;&#x2F;li&gt;
 &lt;&#x2F;ul&gt;
-&lt;p&gt;You can download and&#x2F;or listen to my music for free &lt;a href=&quot;https:&#x2F;&#x2F;nilsmango.ch&#x2F;music&#x2F;#nils-mango&quot;&gt;below&lt;&#x2F;a&gt;.&lt;&#x2F;p&gt;
+&lt;p&gt;You can download and&#x2F;or listen to my music for free &lt;a href=&quot;https:&#x2F;&#x2F;nilsmango.ch&#x2F;music&#x2F;#nils-mango&quot;&gt;below&lt;&#x2F;a&gt;.&lt;br &#x2F;&gt;
+Check &lt;a href=&quot;&#x2F;tags&#x2F;music&quot;&gt;#music&lt;&#x2F;a&gt; to see all blog posts about music.&lt;&#x2F;p&gt;
 
 
 
@@ -3758,26 +3916,38 @@ We are the Vogesen Tape Sessions Collective.&lt;&#x2F;p&gt;
         <title>Blog</title>
         <published>2022-09-01T00:00:00+00:00</published>
         <updated>2022-09-01T00:00:00+00:00</updated>
+        
         <author>
-          <name>Unknown</name>
+          <name>
+            
+              Unknown
+            
+          </name>
         </author>
-        <link rel="alternate" href="https://nilsmango.ch/blog/" type="text/html"/>
+        
+        <link rel="alternate" type="text/html" href="https://nilsmango.ch/blog/"/>
         <id>https://nilsmango.ch/blog/</id>
         
-        <content type="html"></content>
+        <content type="html" xml:base="https://nilsmango.ch/blog/"></content>
         
     </entry>
     <entry xml:lang="en">
         <title>Contact</title>
         <published>2022-09-01T00:00:00+00:00</published>
         <updated>2023-09-15T00:00:00+00:00</updated>
+        
         <author>
-          <name>Unknown</name>
+          <name>
+            
+              Unknown
+            
+          </name>
         </author>
-        <link rel="alternate" href="https://nilsmango.ch/contact/" type="text/html"/>
+        
+        <link rel="alternate" type="text/html" href="https://nilsmango.ch/contact/"/>
         <id>https://nilsmango.ch/contact/</id>
         
-        <content type="html">&lt;p&gt;Nils Mango&lt;br &#x2F;&gt;
+        <content type="html" xml:base="https://nilsmango.ch/contact/">&lt;p&gt;Nils Mango&lt;br &#x2F;&gt;
 c&#x2F;o Simon Lang&lt;br &#x2F;&gt;
 Albert-Anker-Weg 11&lt;br &#x2F;&gt;
 2502 Biel&#x2F;Bienne&lt;&#x2F;p&gt;
@@ -3789,13 +3959,19 @@ Albert-Anker-Weg 11&lt;br &#x2F;&gt;
         <title>Horrorscope</title>
         <published>2022-09-01T00:00:00+00:00</published>
         <updated>2022-10-13T00:00:00+00:00</updated>
+        
         <author>
-          <name>Unknown</name>
+          <name>
+            
+              Unknown
+            
+          </name>
         </author>
-        <link rel="alternate" href="https://nilsmango.ch/horrorscope/" type="text/html"/>
+        
+        <link rel="alternate" type="text/html" href="https://nilsmango.ch/horrorscope/"/>
         <id>https://nilsmango.ch/horrorscope/</id>
         
-        <content type="html"></content>
+        <content type="html" xml:base="https://nilsmango.ch/horrorscope/"></content>
         
     </entry>
 </feed>
