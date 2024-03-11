@@ -17,7 +17,7 @@ Inspiration: The book [The Pragmatic Programmer](https://pragprog.com/titles/tpp
 I thought, "How hard could it be?" - and voilà, after only one full day of work and swearing, I was able to successfully automate version control for my Obsidian Vault.
 
 ## The Plan
-1. Make a new older on your MacBook called `Version Control Obsidian`, copy your vault into this folder.
+1. Create a new folder on your MacBook called `Version Control Obsidian`, copy your vault into this folder.
 2. Put that folder under version control via Git and GitHub
 3. Copy your Vault Folder in iCloud Documents to that `Version Control Obsidian` folder and commit changes and push to a private GitHub repository with a launchd job of a shell script once a day.
 
@@ -25,7 +25,7 @@ I thought, "How hard could it be?" - and voilà, after only one full day of work
 Because of safety measures in MacOS launchd jobs can't get access to the Documents, Downloads, and other folders. So we have to create an Automator app which will then get access to the Documents folder and can `cp` the files and commit etc.
 
 ### 1. The Script
-``` shell
+``` .bash_aliases
 #!/bin/bash
 cp -R /Users/nilsmango/Library/Mobile\ Documents/iCloud~md~obsidian/Documents /Users/nilsmango/Documents/Version\ Control\ Obsidian && cd /Users/nilsmango/Documents/Version\ Control\ Obsidian && git add . && git commit -m "daily commit $(date +'%Y-%m-%d')" && git push
 ```

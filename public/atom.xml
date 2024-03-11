@@ -53,15 +53,15 @@ Tracks on a Plane are tracks that have been entirely written and recorded on a p
 &lt;p&gt;I thought, &amp;quot;How hard could it be?&amp;quot; - and voilà, after only one full day of work and swearing, I was able to successfully automate version control for my Obsidian Vault.&lt;&#x2F;p&gt;
 &lt;h2 id=&quot;the-plan&quot;&gt;The Plan&lt;&#x2F;h2&gt;
 &lt;ol&gt;
-&lt;li&gt;Make a new older on your MacBook called &lt;code&gt;Version Control Obsidian&lt;&#x2F;code&gt;, copy your vault into this folder.&lt;&#x2F;li&gt;
+&lt;li&gt;Create a new folder on your MacBook called &lt;code&gt;Version Control Obsidian&lt;&#x2F;code&gt;, copy your vault into this folder.&lt;&#x2F;li&gt;
 &lt;li&gt;Put that folder under version control via Git and GitHub&lt;&#x2F;li&gt;
 &lt;li&gt;Copy your Vault Folder in iCloud Documents to that &lt;code&gt;Version Control Obsidian&lt;&#x2F;code&gt; folder and commit changes and push to a private GitHub repository with a launchd job of a shell script once a day.&lt;&#x2F;li&gt;
 &lt;&#x2F;ol&gt;
 &lt;h2 id=&quot;the-execution&quot;&gt;The Execution&lt;&#x2F;h2&gt;
 &lt;p&gt;Because of safety measures in MacOS launchd jobs can&#x27;t get access to the Documents, Downloads, and other folders. So we have to create an Automator app which will then get access to the Documents folder and can &lt;code&gt;cp&lt;&#x2F;code&gt; the files and commit etc.&lt;&#x2F;p&gt;
 &lt;h3 id=&quot;1-the-script&quot;&gt;1. The Script&lt;&#x2F;h3&gt;
-&lt;pre data-lang=&quot;shell&quot; style=&quot;background-color:#2b303b;color:#c0c5ce;&quot; class=&quot;language-shell &quot;&gt;&lt;code class=&quot;language-shell&quot; data-lang=&quot;shell&quot;&gt;&lt;span&gt;#!&#x2F;bin&#x2F;bash
-&lt;&#x2F;span&gt;&lt;span&gt;cp -R &#x2F;Users&#x2F;nilsmango&#x2F;Library&#x2F;Mobile\ Documents&#x2F;iCloud~md~obsidian&#x2F;Documents &#x2F;Users&#x2F;nilsmango&#x2F;Documents&#x2F;Version\ Control\ Obsidian &amp;amp;&amp;amp; cd &#x2F;Users&#x2F;nilsmango&#x2F;Documents&#x2F;Version\ Control\ Obsidian &amp;amp;&amp;amp; git add . &amp;amp;&amp;amp; git commit -m &amp;quot;daily commit $(date +&amp;#39;%Y-%m-%d&amp;#39;)&amp;quot; &amp;amp;&amp;amp; git push
+&lt;pre data-lang=&quot;.bash_aliases&quot; style=&quot;background-color:#2b303b;color:#c0c5ce;&quot; class=&quot;language-.bash_aliases &quot;&gt;&lt;code class=&quot;language-.bash_aliases&quot; data-lang=&quot;.bash_aliases&quot;&gt;&lt;span style=&quot;color:#65737e;&quot;&gt;#!&#x2F;bin&#x2F;bash
+&lt;&#x2F;span&gt;&lt;span style=&quot;color:#bf616a;&quot;&gt;cp -R&lt;&#x2F;span&gt;&lt;span&gt; &#x2F;Users&#x2F;nilsmango&#x2F;Library&#x2F;Mobile&lt;&#x2F;span&gt;&lt;span style=&quot;color:#96b5b4;&quot;&gt;\ &lt;&#x2F;span&gt;&lt;span&gt;Documents&#x2F;iCloud&lt;&#x2F;span&gt;&lt;span style=&quot;color:#bf616a;&quot;&gt;~&lt;&#x2F;span&gt;&lt;span&gt;md&lt;&#x2F;span&gt;&lt;span style=&quot;color:#bf616a;&quot;&gt;~&lt;&#x2F;span&gt;&lt;span&gt;obsidian&#x2F;Documents &#x2F;Users&#x2F;nilsmango&#x2F;Documents&#x2F;Version&lt;&#x2F;span&gt;&lt;span style=&quot;color:#96b5b4;&quot;&gt;\ &lt;&#x2F;span&gt;&lt;span&gt;Control&lt;&#x2F;span&gt;&lt;span style=&quot;color:#96b5b4;&quot;&gt;\ &lt;&#x2F;span&gt;&lt;span&gt;Obsidian &amp;amp;&amp;amp; &lt;&#x2F;span&gt;&lt;span style=&quot;color:#96b5b4;&quot;&gt;cd&lt;&#x2F;span&gt;&lt;span&gt; &#x2F;Users&#x2F;nilsmango&#x2F;Documents&#x2F;Version&lt;&#x2F;span&gt;&lt;span style=&quot;color:#96b5b4;&quot;&gt;\ &lt;&#x2F;span&gt;&lt;span&gt;Control&lt;&#x2F;span&gt;&lt;span style=&quot;color:#96b5b4;&quot;&gt;\ &lt;&#x2F;span&gt;&lt;span&gt;Obsidian &amp;amp;&amp;amp; &lt;&#x2F;span&gt;&lt;span style=&quot;color:#bf616a;&quot;&gt;git&lt;&#x2F;span&gt;&lt;span&gt; add . &amp;amp;&amp;amp; &lt;&#x2F;span&gt;&lt;span style=&quot;color:#bf616a;&quot;&gt;git&lt;&#x2F;span&gt;&lt;span&gt; commit&lt;&#x2F;span&gt;&lt;span style=&quot;color:#bf616a;&quot;&gt; -m &lt;&#x2F;span&gt;&lt;span&gt;&amp;quot;&lt;&#x2F;span&gt;&lt;span style=&quot;color:#a3be8c;&quot;&gt;daily commit &lt;&#x2F;span&gt;&lt;span&gt;$&lt;&#x2F;span&gt;&lt;span style=&quot;color:#a3be8c;&quot;&gt;(&lt;&#x2F;span&gt;&lt;span style=&quot;color:#bf616a;&quot;&gt;date&lt;&#x2F;span&gt;&lt;span style=&quot;color:#a3be8c;&quot;&gt; +&lt;&#x2F;span&gt;&lt;span&gt;&amp;#39;&lt;&#x2F;span&gt;&lt;span style=&quot;color:#a3be8c;&quot;&gt;%Y-%m-%d&lt;&#x2F;span&gt;&lt;span&gt;&amp;#39;&lt;&#x2F;span&gt;&lt;span style=&quot;color:#a3be8c;&quot;&gt;)&lt;&#x2F;span&gt;&lt;span&gt;&amp;quot; &amp;amp;&amp;amp; &lt;&#x2F;span&gt;&lt;span style=&quot;color:#bf616a;&quot;&gt;git&lt;&#x2F;span&gt;&lt;span&gt; push
 &lt;&#x2F;span&gt;&lt;&#x2F;code&gt;&lt;&#x2F;pre&gt;
 &lt;p&gt;Make it executable: &lt;code&gt;chmod +x daily-commit.sh&lt;&#x2F;code&gt;&lt;&#x2F;p&gt;
 &lt;h3 id=&quot;2-the-automator-app&quot;&gt;2. The Automator App&lt;&#x2F;h3&gt;
@@ -3627,11 +3627,11 @@ PET bottle lamp (concept only)
         <id>https://nilsmango.ch/now/</id>
         
         <content type="html" xml:base="https://nilsmango.ch/now/">&lt;p&gt;This is a now page, for more information visit &lt;a href=&quot;https:&#x2F;&#x2F;nownownow.com&#x2F;about&quot; target=&quot;_blank&quot;&gt;nownownow.com&lt;&#x2F;a&gt;&lt;&#x2F;p&gt;
-&lt;p&gt;&lt;em&gt;Updated: 
+&lt;p&gt;&lt;strong&gt;Updated:&lt;&#x2F;strong&gt; 
 &lt;time datetime=&quot;2023-10-10T00:00:00+00:00&quot;&gt;October 10, 2023&lt;&#x2F;time&gt;
 - 
 Biel&amp;#x2F;Bienne, Switzerland
-&lt;&#x2F;em&gt;&lt;&#x2F;p&gt;
+&lt;&#x2F;p&gt;
 &lt;p&gt;This is what I am up to right now, in no particular order:&lt;&#x2F;p&gt;
 &lt;ul&gt;
 &lt;li&gt;Winging and foiling (trying to get great at downwinding)&lt;&#x2F;li&gt;
@@ -3665,6 +3665,7 @@ Biel&amp;#x2F;Bienne, Switzerland
         
         <content type="html" xml:base="https://nilsmango.ch/projects/">&lt;p&gt;This is where you find all my projects.&lt;&#x2F;p&gt;
 &lt;h2 id=&quot;art-design&quot;&gt;Art &amp;amp; Design&lt;&#x2F;h2&gt;
+&lt;p&gt;Only artistic endeavours:&lt;&#x2F;p&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;a href=&quot;&#x2F;megaduo&quot;&gt;megaduo &#x2F; 2000000&lt;&#x2F;a&gt; (2004-2013)&lt;&#x2F;li&gt;
 &lt;li&gt;&lt;a href=&quot;&#x2F;music&quot;&gt;Music&lt;&#x2F;a&gt;&lt;&#x2F;li&gt;
@@ -3674,6 +3675,7 @@ Biel&amp;#x2F;Bienne, Switzerland
 &lt;li&gt;&lt;a rel=&quot;noopener&quot; target=&quot;_blank&quot; href=&quot;https:&#x2F;&#x2F;youtube.com&#x2F;nilsmango&quot;&gt;YouTube&lt;&#x2F;a&gt; &#x2F; &lt;a href=&quot;&#x2F;tags&#x2F;video&quot;&gt;Videos&lt;&#x2F;a&gt;&lt;&#x2F;li&gt;
 &lt;&#x2F;ul&gt;
 &lt;h2 id=&quot;business&quot;&gt;Business&lt;&#x2F;h2&gt;
+&lt;p&gt;It&#x27;s not personal, it&#x27;s strictly business:&lt;&#x2F;p&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;a rel=&quot;noopener&quot; target=&quot;_blank&quot; href=&quot;https:&#x2F;&#x2F;project7iii.com&quot;&gt;project7III&lt;&#x2F;a&gt;
 &lt;ul&gt;
@@ -3770,7 +3772,7 @@ After my apprenticeship, I wanted to join Greenpeace because I wished to save th
 &lt;p&gt;&lt;strong&gt;2003-2004&lt;&#x2F;strong&gt; | &lt;em&gt;Maturing?&lt;&#x2F;em&gt; | Got my &amp;quot;Berufsmatura&amp;quot; while getting paid by Roche. Thank you! After a strange night out, I drew the first version of the &amp;quot;Zeichen&amp;quot; - the official Logo of Nils Mango. Also won the Swiss Unihockey Championship U18 Elite with Basel Magic, I also drank a lot there. Stopped playing shortly after because I didn&#x27;t like the new trainer and liked partying way more.&lt;&#x2F;p&gt;
 &lt;p&gt;&lt;strong&gt;2004&lt;&#x2F;strong&gt; | &lt;em&gt;Bildungsreise&lt;&#x2F;em&gt; | Started taking &lt;a href=&quot;&#x2F;landscapes&quot;&gt;pictures&lt;&#x2F;a&gt; and traveled to Nepal and a few months later through India, Thailand, Laos, Cambodia, and back again, just making it back before the tsunami hit because my mother wanted me home for Christmas. During traveling, I discovered the music of the Beatles and learned many lessons for life. I was on the verge of alcoholism because any time I would walk around at night in any given village in Southeast Asia, I would get invited to drink something with anybody having a party + I could use a couple of free drink vouchers each after another because the barkeepers liked me or had problems distinguishing one western traveler from another. Good times. A fellow German traveler showed me a DVD with Liard Hamilton foiling waves on a board with snowboard boots. I was vegetarian for some time because I didn&#x27;t want to kill beings, but then I found out that plants are also beings. So I went back to eating meat because I didn&#x27;t think I would survive as a fruitarian. Even though my name is Mango.&lt;&#x2F;p&gt;
 &lt;p&gt;&lt;strong&gt;2005&lt;&#x2F;strong&gt; | &lt;em&gt;Burgknecht&lt;&#x2F;em&gt; | Working at &lt;a href=&quot;https:&#x2F;&#x2F;www.youthhostel.ch&#x2F;en&#x2F;hostels&#x2F;mariastein&#x2F;&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;Swiss Youth Hostels&lt;&#x2F;a&gt; in Mariastein and Delémont for my &amp;quot;Zivildienst&amp;quot;.&lt;&#x2F;p&gt;
-&lt;p&gt;&lt;strong&gt;2005-2009&lt;&#x2F;strong&gt; | &lt;em&gt;Studying&lt;&#x2F;em&gt; | Getting my Bachelor of Science in Chemistry at FHNW Muttenz while getting paid even more by Roche. Thank you again! I ended up winning the Roche prize for the best diploma and the &lt;a href=&quot;https:&#x2F;&#x2F;scg.ch&#x2F;component&#x2F;page&#x2F;max-luethi&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;Dr. Max Lüthi Award&lt;&#x2F;a&gt; for my thesis. Moving to my own place and spending many nights and days trying to make music, getting girls, but actually getting my appendix removed, partying, and taking pictures: &lt;a href=&quot;&#x2F;movinglight&quot;&gt;Moving Light Series&lt;&#x2F;a&gt;&lt;br &#x2F;&gt;
+&lt;p&gt;&lt;strong&gt;2005-2009&lt;&#x2F;strong&gt; | &lt;em&gt;Studying&lt;&#x2F;em&gt; | Getting my Bachelor of Science in Chemistry at FHNW Muttenz while getting paid even more by Roche. Thank you again! I ended up winning the Roche prize for the best diploma and the &lt;a href=&quot;https:&#x2F;&#x2F;scg.ch&#x2F;component&#x2F;pages&#x2F;page-max-luethi&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;Dr. Max Lüthi Award&lt;&#x2F;a&gt; for my thesis. Moving to my own place and spending many nights and days trying to make music, getting girls, but actually getting my appendix removed, partying, and taking pictures: &lt;a href=&quot;&#x2F;movinglight&quot;&gt;Moving Light Series&lt;&#x2F;a&gt;&lt;br &#x2F;&gt;
 Summer jobs included working at the Delica factory and trying to find donators for the Green Cross in the streets of Switzerland. A homeless man told me he earns more in 10 minutes of begging than what I made in an hour of fundraising.&lt;&#x2F;p&gt;
 &lt;p&gt;&lt;strong&gt;2009&lt;&#x2F;strong&gt; | &lt;em&gt;Gärtner&lt;&#x2F;em&gt; | Second part of &amp;quot;Zivildienst&amp;quot;, this time at the Botanical Garden Basel. Another dream job I&#x27;d always wanted to try.&lt;&#x2F;p&gt;
 &lt;p&gt;&lt;strong&gt;2010&lt;&#x2F;strong&gt; | &lt;em&gt;mango loco&lt;&#x2F;em&gt; | I refined the &amp;quot;Zeichen&amp;quot; while traveling through South America. Learned how to surf and speak Spanish while traveling through Colombia, Venezuela, Ecuador, and Peru. Good times part II.&lt;&#x2F;p&gt;
@@ -3902,7 +3904,7 @@ Check &lt;a href=&quot;&#x2F;tags&#x2F;music&quot;&gt;#music&lt;&#x2F;a&gt; to 
 &lt;h2 id=&quot;vogesen-tape-sessions-collective&quot;&gt;Vogesen Tape Sessions Collective&lt;&#x2F;h2&gt;
 &lt;p&gt;We make live electronic music.&lt;br &#x2F;&gt;
 Nothing prerecorded.&lt;br &#x2F;&gt;
-We are the Vogesen Tape Sessions Collective.&lt;&#x2F;p&gt;
+We are the Vogesen Tape Sessions Collective. &lt;&#x2F;p&gt;
 &lt;p&gt;My favorite albums are:&lt;&#x2F;p&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;a rel=&quot;noopener&quot; target=&quot;_blank&quot; href=&quot;https:&#x2F;&#x2F;vogesentapesessionscollective.bandcamp.com&#x2F;album&#x2F;vogesen-tape-sessions-part-ii&quot;&gt;Vogesen Tape Sessions Part II&lt;&#x2F;a&gt;&lt;&#x2F;li&gt;
@@ -3948,7 +3950,7 @@ We are the Vogesen Tape Sessions Collective.&lt;&#x2F;p&gt;
         <id>https://nilsmango.ch/contact/</id>
         
         <content type="html" xml:base="https://nilsmango.ch/contact/">&lt;p&gt;Nils Mango&lt;br &#x2F;&gt;
-c&#x2F;o Simon Lang&lt;br &#x2F;&gt;
+c&#x2F;o S. Lang&lt;br &#x2F;&gt;
 Albert-Anker-Weg 11&lt;br &#x2F;&gt;
 2502 Biel&#x2F;Bienne&lt;&#x2F;p&gt;
 &lt;p&gt;&lt;a href=&quot;mailto:senf@nilsmango.ch&quot;&gt;senf@nilsmango.ch&lt;&#x2F;a&gt;&lt;&#x2F;p&gt;

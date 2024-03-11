@@ -39,7 +39,7 @@ body {
     background: var(--color-background);
     color: var(--color-text);
     font-size: $font-size-normal;
-    line-height: 1.6rem;
+    line-height: 1.5rem;
     // font-family: monospace, monospace;
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
 }
@@ -89,9 +89,21 @@ header {
   justify-content: space-between;
 }
 
+p, ol, ul {
+  margin-top: 0.5em;
+  margin-bottom: 0.5em;
+}
+
+ol {
+  padding-left: 25px;
+}
+
 ul  {
-    padding: 0;
-    // margin-top: -16px;
+  padding: 0;
+  ul {
+    margin-top: 0px;
+    margin-bottom: 0px;
+  }
 }
 
 .sum {
@@ -106,20 +118,25 @@ ul  {
 }
 
 code {
-      border-radius: 6px;
-      background-color: var(--color-code);
-      font-size: 1rem;
-      padding:.15rem .3rem;
-      max-width: 100%;
-      overflow:auto;
+  border-radius: 6px;
+  background-color: var(--color-code);
+  font-size: 1rem;
+  padding:.15rem .3rem;
+  max-width: 100%;
+  overflow:auto;
 }
 
 pre {
       border-radius: 15px;
-      background-color: var(--color-code);
+      background-color: var(--color-code) !important;
       padding: 15px;
       max-width: 100%;
       overflow:auto;
+
+      code {
+        //background-color: black;
+        color: var(--color-text);
+      }
 }
 
 
@@ -233,8 +250,8 @@ blockquote {
 }
 
 .eliminating {
-  font-size: 3rem;
-  line-height: 3rem;
+  font-size: 3.5rem;
+  line-height: 3.5rem;
   font-weight: normal;
   //font-family: monospace, monospace;
 }
@@ -284,7 +301,8 @@ figure {
 
 details {
  p {
-   padding-bottom: 20px;
+   padding: 10px;
+   background-color: var(--color-gray);
  }
 }
 
@@ -294,7 +312,7 @@ hr {
   width: 90%;
   margin: 0;
   margin-top: 50px;
-  margin-bottom: 30px;
+  margin-bottom: 10px;
 }
 
 
@@ -587,8 +605,8 @@ lite-youtube.lyt-activated > .lty-playbtn {
 
   }
   .eliminating {
-    font-size: 4.5rem;
-    line-height: 4.5rem;
+    font-size: 5rem;
+    line-height: 5rem;
   }
  
 
@@ -612,7 +630,7 @@ lite-youtube.lyt-activated > .lty-playbtn {
     --color-background: #0e0e0e;
     --color-text: #d4d4d4;
     --color-text-sec: #a9a9a9;
-    --color-code: #333;
+    --color-code: #1c1c1c;
     --color-gray: #171717;
     --color-link: #9ed69f;
     --color-hover: #{$border-color};

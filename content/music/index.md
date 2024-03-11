@@ -32,10 +32,9 @@ My favorite albums include:
 ## Vogesen Tape Sessions Collective
 We make live electronic music.  
 Nothing prerecorded.  
-We are the Vogesen Tape Sessions Collective.  
+We are the Vogesen Tape Sessions Collective. 
 
 My favorite albums are:
-
 - [Vogesen Tape Sessions Part II](https://vogesentapesessionscollective.bandcamp.com/album/vogesen-tape-sessions-part-ii)
 - [Vogesen Tape Sessions Part XV](https://vogesentapesessionscollective.bandcamp.com/album/vogesen-tape-sessions-part-xv)
 

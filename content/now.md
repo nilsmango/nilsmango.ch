@@ -8,7 +8,7 @@ location = "Biel/Bienne, Switzerland"
 +++
 This is a now page, for more information visit <a href="https://nownownow.com/about" target="_blank">nownownow.com</a>
 
-*Updated: {{ date_updated() }}- {{ location() }}*
+**Updated:** {{ date_updated() }}- {{ location() }}
 
 This is what I am up to right now, in no particular order:
 

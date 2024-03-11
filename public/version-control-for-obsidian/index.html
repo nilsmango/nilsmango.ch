@@ -114,15 +114,15 @@
 <p>I thought, &quot;How hard could it be?&quot; - and voilà, after only one full day of work and swearing, I was able to successfully automate version control for my Obsidian Vault.</p>
 <h2 id="the-plan">The Plan</h2>
 <ol>
-<li>Make a new older on your MacBook called <code>Version Control Obsidian</code>, copy your vault into this folder.</li>
+<li>Create a new folder on your MacBook called <code>Version Control Obsidian</code>, copy your vault into this folder.</li>
 <li>Put that folder under version control via Git and GitHub</li>
 <li>Copy your Vault Folder in iCloud Documents to that <code>Version Control Obsidian</code> folder and commit changes and push to a private GitHub repository with a launchd job of a shell script once a day.</li>
 </ol>
 <h2 id="the-execution">The Execution</h2>
 <p>Because of safety measures in MacOS launchd jobs can't get access to the Documents, Downloads, and other folders. So we have to create an Automator app which will then get access to the Documents folder and can <code>cp</code> the files and commit etc.</p>
 <h3 id="1-the-script">1. The Script</h3>
-<pre data-lang="shell" style="background-color:#2b303b;color:#c0c5ce;" class="language-shell "><code class="language-shell" data-lang="shell"><span>#!/bin/bash
-</span><span>cp -R /Users/nilsmango/Library/Mobile\ Documents/iCloud~md~obsidian/Documents /Users/nilsmango/Documents/Version\ Control\ Obsidian &amp;&amp; cd /Users/nilsmango/Documents/Version\ Control\ Obsidian &amp;&amp; git add . &amp;&amp; git commit -m &quot;daily commit $(date +&#39;%Y-%m-%d&#39;)&quot; &amp;&amp; git push
+<pre data-lang=".bash_aliases" style="background-color:#2b303b;color:#c0c5ce;" class="language-.bash_aliases "><code class="language-.bash_aliases" data-lang=".bash_aliases"><span style="color:#65737e;">#!/bin/bash
+</span><span style="color:#bf616a;">cp -R</span><span> /Users/nilsmango/Library/Mobile</span><span style="color:#96b5b4;">\ </span><span>Documents/iCloud</span><span style="color:#bf616a;">~</span><span>md</span><span style="color:#bf616a;">~</span><span>obsidian/Documents /Users/nilsmango/Documents/Version</span><span style="color:#96b5b4;">\ </span><span>Control</span><span style="color:#96b5b4;">\ </span><span>Obsidian &amp;&amp; </span><span style="color:#96b5b4;">cd</span><span> /Users/nilsmango/Documents/Version</span><span style="color:#96b5b4;">\ </span><span>Control</span><span style="color:#96b5b4;">\ </span><span>Obsidian &amp;&amp; </span><span style="color:#bf616a;">git</span><span> add . &amp;&amp; </span><span style="color:#bf616a;">git</span><span> commit</span><span style="color:#bf616a;"> -m </span><span>&quot;</span><span style="color:#a3be8c;">daily commit </span><span>$</span><span style="color:#a3be8c;">(</span><span style="color:#bf616a;">date</span><span style="color:#a3be8c;"> +</span><span>&#39;</span><span style="color:#a3be8c;">%Y-%m-%d</span><span>&#39;</span><span style="color:#a3be8c;">)</span><span>&quot; &amp;&amp; </span><span style="color:#bf616a;">git</span><span> push
 </span></code></pre>
 <p>Make it executable: <code>chmod +x daily-commit.sh</code></p>
 <h3 id="2-the-automator-app">2. The Automator App</h3>
@@ -294,6 +294,8 @@
 </ul>
 </nav>
 
+
+  </section>
     <footer>
         <nav class="footernav">
           <ul class="footernav-list">
@@ -349,7 +351,6 @@
   <p class="copyright">This 🥭 thought factory is powered by <a href="https://www.getzola.org/" target="_blank" rel="noopener">Zola</a> | Except where otherwise noted, content on this site is licensed under <a href="https://creativecommons.org/licenses/by-sa/4.0/" target="_blank" rel="noopener">CC BY-SA 4.0</a>.</p>
     </footer>
 </div>
-</section>
 </body>
 
 </html>
