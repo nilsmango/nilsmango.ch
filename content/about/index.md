@@ -23,7 +23,7 @@ After my apprenticeship, I wanted to join Greenpeace because I wished to save th
 
 **2005** | *Burgknecht* | Working at <a href="https://www.youthhostel.ch/en/hostels/mariastein/" target="_blank" rel="noopener">Swiss Youth Hostels</a> in Mariastein and Delémont for my "Zivildienst".
 
-**2005-2009** | *Studying* | Getting my Bachelor of Science in Chemistry at FHNW Muttenz while getting paid even more by Roche. Thank you again! I ended up winning the Roche prize for the best diploma and the <a href="https://scg.ch/component/page/max-luethi" target="_blank" rel="noopener">Dr. Max Lüthi Award</a> for my thesis. Moving to my own place and spending many nights and days trying to make music, getting girls, but actually getting my appendix removed, partying, and taking pictures: [Moving Light Series](/movinglight)  
+**2005-2009** | *Studying* | Getting my Bachelor of Science in Chemistry at FHNW Muttenz while getting paid even more by Roche. Thank you again! I ended up winning the Roche prize for the best diploma and the <a href="https://scg.ch/component/pages/page-max-luethi" target="_blank" rel="noopener">Dr. Max Lüthi Award</a> for my thesis. Moving to my own place and spending many nights and days trying to make music, getting girls, but actually getting my appendix removed, partying, and taking pictures: [Moving Light Series](/movinglight)  
 Summer jobs included working at the Delica factory and trying to find donators for the Green Cross in the streets of Switzerland. A homeless man told me he earns more in 10 minutes of begging than what I made in an hour of fundraising.
 
 **2009** | *Gärtner* | Second part of "Zivildienst", this time at the Botanical Garden Basel. Another dream job I'd always wanted to try.

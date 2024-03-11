@@ -6,7 +6,7 @@ updated = 2023-09-15
 +++
 
 Nils Mango  
-c/o Simon Lang  
+c/o S. Lang  
 Albert-Anker-Weg 11  
 2502 Biel/Bienne
 
