@@ -3,12 +3,15 @@ base_url = "https://nilsmango.ch"
 title = "Nils Mango"
 description = "Creating things & eliminating errors."
 
+# The default language; used in feeds.
+default_language = "en"
 
 # Whether to automatically compile all Sass files in the sass directory
 compile_sass = true
 
 # Whether to build a search index to be used later on by a JavaScript library
-build_search_index = false
+build_search_index = true
+
 
 # When set to "true", a feed is automatically generated.
 generate_feed = true
@@ -19,8 +22,8 @@ taxonomies = [
    { name = "categories", feed = true },
 ]
 
-
-
+[search]
+index_format = "elasticlunr_json"
 
 [markdown]
 

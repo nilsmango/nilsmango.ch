@@ -28,7 +28,7 @@
   <meta property="og:image" content="{{ config.base_url }}/ogpic.jpg">
 {% endblock ogp_head %}
   <!-- My CSS -->
-  <link rel="stylesheet" href="{{ config.base_url }}/style.css">
+  <link rel="stylesheet" href="/style.css">
 </head>
 
 <body>
@@ -50,8 +50,18 @@
             {% endblock nav_bar %}
             </ul>
         </nav>
+        
     </header>
+    <div class="search-container">
+      <input id="search" type="search" placeholder="→ Search Mango">
+      <div class="search-results">
+          <div class="search-results__items"></div>
+          <hr>
+      </div>
+      
+  </div>
     {% endblock header %}
+    
       {% block content %}
       {% endblock content %}
       {%- block comments %}
@@ -79,6 +89,8 @@
     </footer>
   {%- endblock footer %}
 </div>
+<script type="text/javascript" src="/elasticlunr.min.js"></script>
+<script type="text/javascript" src="/search.js"></script>
 </body>
 
 </html>
