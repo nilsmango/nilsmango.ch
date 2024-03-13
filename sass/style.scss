@@ -45,8 +45,9 @@ body {
 }
 
 sup {
-    line-height: 0;
-  }
+  line-height: 0;
+}
+
 .container {
   /* Min Height calculated minus footer height */
   min-height: calc(100vh - 260px);
@@ -364,10 +365,6 @@ hr {
   color: var(--color-text-sec);
 }
 
-.spacer {
-  flex: 1;
-}
-
 footer {
   background-color: var(--color-gray);
   margin-bottom: 0;
@@ -592,7 +589,7 @@ lite-youtube.lyt-activated > .lty-playbtn {
     width: 1px;
   }
 
-  /* SEARCH */
+/* SEARCH */
 
 .search-container {
   width: 100%;
