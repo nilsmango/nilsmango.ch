@@ -22,7 +22,6 @@ Check [#music](/tags/music) to see all blog posts about music.
 My music is better than it sounds.
 
 My favorite albums include:
-
 - [Not An Album 15](https://nilsmango.bandcamp.com/album/not-an-album-15)
 - [Is this real life?](https://nilsmango.bandcamp.com/album/is-this-real-life)
 

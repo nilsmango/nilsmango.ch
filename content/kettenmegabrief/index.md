@@ -21,26 +21,18 @@ Verhelfen Sie megaduo zu einem Leben voller Liebe und Geborgenheit (und Cash).
 Die erwartete Hilfeleistung ist verblüffend einfach und macht unglaublich Spass.
 
 1. klicken Sie bitte auf diesen Link: www.megaduo.ch oder www.2000000.ch (für Chemiker und Freunde der Chemie: [www.moleculestore.com](https://moleculestore.com))
-
 2. kaufen Sie dort ein T-Shirt oder sonst was, tragen sich irgendwo ein, verstecken sich, rennen nackt durch die Stadt, geben Liebe oder was auch immer (optional; wenn Sie heute noch was kaufen (www.megaduo.ch/shop), wird folgendes Szenario Ihrer Wahl eintreffen: A. Die Liebe Ihres Lebens läuft Ihnen am nächsten Dienstag oder Donnerstag von links nach rechts über den Weg; oder B. Ihr geheimster Wunsch wird in den nächsten 13 Jahren in Erfüllung gehen (Einfach gewünschter Szenario-Buchstabe mit wasserfestem Stift auf die linke Backe (links von Ihnen aus (wichtig)) schreiben und schon passiert‘s!
 
 >FUNKTIONIERT IMFALL WIRKLICH, ECHT VO00OLGEIL; HABS ZUERST AUCH NICHT GEGLAUBT, ABER DANN WOOOW WTF? LOL OMG USW....
 
 3. Tätowieren Sie sich megaduo.ch oder 2000000.ch auf irgendwelche sekundären (optional: Stirn oder primäre) Geschlechtsteile, und ziehen Sie sich möglichst oft öffentlich aus (zwingend).
-
 4. Da wir damit auf dem absoluten Tiefpunkt des Niveaus angelangt sind, können wir uns auch gleich duzen.
-
 5. Sende dieses Email in den nächsten 2 Minuten
-
-an 10 reiche, mächtige, oder extrem-viele-Freunde-habende Freunde, und du wirst der vierundzwanzigmillionendreihundertachtundneunzigtausendzweihundertdreissigst glücklichste Mensch auf Erden sein.
-
-an 30 Freunde, und du wirst die Apokalypse an vorderster Front miterleben.
-
-an 50 Freunde, und die Erde wird morgen NICHT von einem sehr grossen Mops verschluckt.
-
-an 100 Leute, und du wirst glücklich sterben. Märtyrermässig stellvertretend für alle Massenmailversender dieses Planeten.
-
-an alle Leute die du kennst und ich sende dir gratis einen wunderschönen, perfekten Moment, einmal Lachen, einen Regenbogen, einen Sonnenuntergang, einen Sonnenaufgang, einen Vollmond, einen Halbmond zunehmend (in schönster Sichelform), einen Halbmond abnehmend, zwei Millionen (2‘000‘000) Sterne und meine besten Wünsche vorbei (echt jetzt).
+    <br><br>an 10 reiche, mächtige, oder extrem-viele-Freunde-habende Freunde, und du wirst der vierundzwanzigmillionendreihundertachtundneunzigtausendzweihundertdreissigst glücklichste Mensch auf Erden sein.
+    <br><br>an 30 Freunde, und du wirst die Apokalypse an vorderster Front miterleben.
+    <br><br>an 50 Freunde, und die Erde wird morgen NICHT von einem sehr grossen Mops verschluckt.
+    <br><br>an 100 Leute, und du wirst glücklich sterben. Märtyrermässig stellvertretend für alle Massenmailversender dieses Planeten.
+    <br><br>an alle Leute die du kennst und ich sende dir gratis einen wunderschönen, perfekten Moment, einmal Lachen, einen Regenbogen, einen Sonnenuntergang, einen Sonnenaufgang, einen Vollmond, einen Halbmond zunehmend (in schönster Sichelform), einen Halbmond abnehmend, zwei Millionen (2‘000‘000) Sterne und meine besten Wünsche vorbei (echt jetzt).
 
 6. Und zum Schluss (danke fürs Durchhalten): Gehe auf www.megaduo.ch/brief und gib uns deinen momentanem Zustand (Bsp.: müde, frierend, vor Glück strahlend, empfindungslos...) und ein Foto von dir. Das ist ein Projekt um dieses Mail beim Reisen beobachten zu können (Nein, deine Emailadresse wird sicher nicht verkauft/verschenk/verstümmelt/besuddelt; wir sind vom Bund).  
 Als Belohnung (nur mit Foto) kriegst du eine handgeschriebene Einladung zur Vernissage der Ausstellung auf welcher dieses „Kunstwerk“ zu sehen sein wird.

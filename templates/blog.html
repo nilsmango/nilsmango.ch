@@ -18,7 +18,7 @@
       {% for post in posts | filter(attribute="taxonomies.categories") %}
  <li class="nobullets"><a href="{{ post.permalink | safe }}">
           <h3>{{ post.title }}</h3></a>
-          <div class="sum">
+          <div class="sum_blog">
 
             {%- if post.summary %}
               {{ post.summary | markdown(inline=true) | safe }}...

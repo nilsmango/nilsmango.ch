@@ -90,8 +90,13 @@ header {
   justify-content: space-between;
 }
 
-p, ol, ul {
+p, ol {
   margin-top: 0.5em;
+  margin-bottom: 0.5em;
+}
+
+ul {
+  margin-top: 0;
   margin-bottom: 0.5em;
 }
 
@@ -107,9 +112,9 @@ ul  {
   }
 }
 
-.sum {
+.sum_blog {
   //font-style: italic;
-
+  padding-top: 6px;
 }
 
 .posts {
@@ -317,7 +322,7 @@ hr {
 }
 
 .article-info {
-  padding-top: 2px;
+  padding-top: 6px;
 }
 
 .customButton {
@@ -635,7 +640,7 @@ input[type=search], textarea {
 }
 
 .results_list_item {
-  margin-top: 0px;
+  margin-top: 6px;
 }
 
 .search-results li:first-of-type {
