@@ -18,6 +18,6 @@ Only artistic endeavours
 ## Business
 It's not personal, it's strictly business
 - [project7III](https://project7iii.com)
-  - [Molecule Store](https://moleculestore.com) -> Chemistry and science inspired jewelry, accessories, t-shirts and hoodies.
-  - [Birs73](https://birs73.ch) -> The leading Stand Up Paddle Center in Basel. Sold in 2022.
+  - [Molecule Store](https://moleculestore.com) → Chemistry and science inspired jewelry, accessories, t-shirts and hoodies.
+  - [Birs73](https://birs73.ch) → The leading Stand Up Paddle Center in Basel. Sold in 2022.
   - [Apps](https://project7iii.com/apps)
