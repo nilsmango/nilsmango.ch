@@ -28,7 +28,7 @@
 &lt;li&gt;Try with your private Apple ID and the iPhone or Mac app. Fail many times until they tell you they can’t enroll you.&lt;&#x2F;li&gt;
 &lt;li&gt;Write to Apple Support (because the app tells you to do that), and they&#x27;ll graciously get back to you saying they can&#x27;t enroll you. But fear not! You can still use Xcode for your own projects.&lt;&#x2F;li&gt;
 &lt;li&gt;Try enrolling again. And again. And again, until the app finally takes pity on you and stops letting you humiliate yourself.&lt;&#x2F;li&gt;
-&lt;li&gt;Call Apple Support this time. They&#x27;ll calmly inform you that they cannot enroll you, but you can still use Xcode for your own projects. The reason? &amp;quot;The system&amp;quot; says it can&#x27;t enroll you. Any questions about possible alternative strategies will yield the same answer: you&#x27;re denied an Apple developer account, but you can still use Xcode for yourself. Below is the actual footage of your phone call:&lt;&#x2F;li&gt;
+&lt;li&gt;Call Apple Support this time. They&#x27;ll calmly inform you that they cannot enroll you, but you can still use Xcode for your own projects. The reason? &quot;The system&quot; says it can&#x27;t enroll you. Any questions about possible alternative strategies will yield the same answer: you&#x27;re denied an Apple developer account, but you can still use Xcode for yourself. Below is the actual footage of your phone call:&lt;&#x2F;li&gt;
 &lt;&#x2F;ol&gt;
 &lt;div class=&quot;youtube&quot;&gt;
 &lt;lite-youtube videoid=&quot;qNDS4kVwA68&quot; playlabel=&quot;Play: Keynote (Google I&#x2F;O &#x27;18)&quot; class=&quot;tvframe&quot; params=&quot;start=44&amp;modestbranding=2&amp;autoplay=1&amp;rel=0&quot;&gt;&lt;&#x2F;lite-youtube&gt;
@@ -85,7 +85,7 @@ Tracks on a Plane are tracks that have been entirely written and recorded on a p
         
         <content type="html" xml:base="https://nilsmango.ch/version-control-for-obsidian/">&lt;p&gt;Idea: Implement version control for my &lt;a rel=&quot;noopener&quot; target=&quot;_blank&quot; href=&quot;https:&#x2F;&#x2F;obsidian.md&quot;&gt;Obsidian&lt;&#x2F;a&gt; Vault stored in my iCloud Documents.&lt;&#x2F;p&gt;
 &lt;p&gt;Inspiration: The book &lt;a rel=&quot;noopener&quot; target=&quot;_blank&quot; href=&quot;https:&#x2F;&#x2F;pragprog.com&#x2F;titles&#x2F;tpp20&#x2F;the-pragmatic-programmer-20th-anniversary-edition&#x2F;&quot;&gt;The Pragmatic Programmer&lt;&#x2F;a&gt; encouraged me to implement version control for all of my work and to learn Shell for automation purposes.&lt;&#x2F;p&gt;
-&lt;p&gt;I thought, &amp;quot;How hard could it be?&amp;quot; - and voilà, after only one full day of work and swearing, I was able to successfully automate version control for my Obsidian Vault.&lt;&#x2F;p&gt;
+&lt;p&gt;I thought, &quot;How hard could it be?&quot; - and voilà, after only one full day of work and swearing, I was able to successfully automate version control for my Obsidian Vault.&lt;&#x2F;p&gt;
 &lt;h2 id=&quot;the-plan&quot;&gt;The Plan&lt;&#x2F;h2&gt;
 &lt;ol&gt;
 &lt;li&gt;Create a new folder on your MacBook called &lt;code&gt;Version Control Obsidian&lt;&#x2F;code&gt;, copy your vault into this folder.&lt;&#x2F;li&gt;
@@ -111,7 +111,7 @@ Tracks on a Plane are tracks that have been entirely written and recorded on a p
 &lt;li&gt;Click &lt;strong&gt;Choose&lt;&#x2F;strong&gt;&lt;&#x2F;li&gt;
 &lt;li&gt;Select &lt;strong&gt;Utilities &amp;gt; Run Shell Script&lt;&#x2F;strong&gt;&lt;&#x2F;li&gt;
 &lt;li&gt;Select &lt;strong&gt;Pass Input: as arguments&lt;&#x2F;strong&gt;&lt;&#x2F;li&gt;
-&lt;li&gt;Enter &lt;code&gt;&#x2F;bin&#x2F;bash -c &amp;quot;$1&amp;quot;&lt;&#x2F;code&gt; as the body of the script (see screenshot below)&lt;&#x2F;li&gt;
+&lt;li&gt;Enter &lt;code&gt;&#x2F;bin&#x2F;bash -c &quot;$1&quot;&lt;&#x2F;code&gt; as the body of the script (see screenshot below)&lt;&#x2F;li&gt;
 &lt;li&gt;Click &lt;strong&gt;File &amp;gt; Save&lt;&#x2F;strong&gt; and save the application wherever you&#x27;d like (&lt;code&gt;run-script.app&lt;&#x2F;code&gt; in this example)&lt;&#x2F;li&gt;
 &lt;&#x2F;ul&gt;
 &lt;&#x2F;li&gt;
@@ -237,10 +237,10 @@ Tracks on a Plane are tracks that have been entirely written and recorded on a p
 &lt;&#x2F;span&gt;&lt;span&gt;
 &lt;&#x2F;span&gt;&lt;span&gt;&amp;lt;&#x2F;&lt;&#x2F;span&gt;&lt;span style=&quot;color:#bf616a;&quot;&gt;plist&lt;&#x2F;span&gt;&lt;span&gt;&amp;gt;
 &lt;&#x2F;span&gt;&lt;&#x2F;code&gt;&lt;&#x2F;pre&gt;
-&lt;p&gt;Making the document: &lt;&#x2F;p&gt;
+&lt;p&gt;Making the document:&lt;&#x2F;p&gt;
 &lt;pre style=&quot;background-color:#2b303b;color:#c0c5ce;&quot;&gt;&lt;code&gt;&lt;span&gt;nano ~&#x2F;Library&#x2F;LaunchAgents&#x2F;com.project7iii.daily-commit.plist
 &lt;&#x2F;span&gt;&lt;&#x2F;code&gt;&lt;&#x2F;pre&gt;
-&lt;p&gt;Loading the launchd job: &lt;&#x2F;p&gt;
+&lt;p&gt;Loading the launchd job:&lt;&#x2F;p&gt;
 &lt;pre style=&quot;background-color:#2b303b;color:#c0c5ce;&quot;&gt;&lt;code&gt;&lt;span&gt;launchctl load ~&#x2F;Library&#x2F;LaunchAgents&#x2F;com.project7iii.daily-commit.plist
 &lt;&#x2F;span&gt;&lt;&#x2F;code&gt;&lt;&#x2F;pre&gt;
 </content>
@@ -362,7 +362,7 @@ I made a track using phonogeneli on all the sounds except the percussive ones (d
         <id>https://nilsmango.ch/supbasel/</id>
         
         <content type="html" xml:base="https://nilsmango.ch/supbasel/">&lt;p&gt;I recently found old footage of myself standup paddleboarding in Basel. These drone shots were recorded for a promo video for &lt;a rel=&quot;noopener&quot; target=&quot;_blank&quot; href=&quot;https:&#x2F;&#x2F;project7iii.com&#x2F;birs73.html&quot;&gt;Birs73&lt;&#x2F;a&gt;, but I never came around to editing them into a short video.&lt;&#x2F;p&gt;
-&lt;p&gt;Better late than never: Tag along for a sundowner SUP tour from the Birsköpfli in Birsfelden down the Rhine first paddling under the Schwarzwaldbrücke, then the Wettsteinbrücke, passing by the Münster and tackling the Mittlere Brücke and beyond with a bonus lap around the &amp;quot;Fähri&amp;quot;. Basel, 2018-2019.&lt;&#x2F;p&gt;
+&lt;p&gt;Better late than never: Tag along for a sundowner SUP tour from the Birsköpfli in Birsfelden down the Rhine first paddling under the Schwarzwaldbrücke, then the Wettsteinbrücke, passing by the Münster and tackling the Mittlere Brücke and beyond with a bonus lap around the &quot;Fähri&quot;. Basel, 2018-2019.&lt;&#x2F;p&gt;
 &lt;div class=&quot;youtube&quot;&gt;
 &lt;lite-youtube videoid=&quot;6q-K6hR3rOI&quot; playlabel=&quot;Play: Keynote (Google I&#x2F;O &#x27;18)&quot; class=&quot;tvframe&quot; params=&quot;start=0&amp;modestbranding=2&amp;autoplay=1&amp;rel=0&quot;&gt;&lt;&#x2F;lite-youtube&gt;
 &lt;script src=&quot;&#x2F;lite-yt-embed.js&quot;&gt;&lt;&#x2F;script&gt;

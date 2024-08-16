@@ -18,8 +18,10 @@
 <link rel="manifest" href="/favi/site.webmanifest">
 <!-- RSS Feed -->
 
-    <link rel="alternate" type="application/atom+xml" title="RSS" href="https://nilsmango.ch/atom.xml">
-    
+  
+  <link rel="alternate" type="application/atom+xml" title="RSS" href="https://nilsmango.ch/atom.xml">
+  
+
 <!-- Share things -->
 
     
@@ -120,7 +122,7 @@
 
 <p>Idea: Implement version control for my <a rel="noopener" target="_blank" href="https://obsidian.md">Obsidian</a> Vault stored in my iCloud Documents.</p>
 <p>Inspiration: The book <a rel="noopener" target="_blank" href="https://pragprog.com/titles/tpp20/the-pragmatic-programmer-20th-anniversary-edition/">The Pragmatic Programmer</a> encouraged me to implement version control for all of my work and to learn Shell for automation purposes.</p>
-<p>I thought, &quot;How hard could it be?&quot; - and voilà, after only one full day of work and swearing, I was able to successfully automate version control for my Obsidian Vault.</p>
+<p>I thought, "How hard could it be?" - and voilà, after only one full day of work and swearing, I was able to successfully automate version control for my Obsidian Vault.</p>
 <h2 id="the-plan">The Plan</h2>
 <ol>
 <li>Create a new folder on your MacBook called <code>Version Control Obsidian</code>, copy your vault into this folder.</li>
@@ -146,7 +148,7 @@
 <li>Click <strong>Choose</strong></li>
 <li>Select <strong>Utilities &gt; Run Shell Script</strong></li>
 <li>Select <strong>Pass Input: as arguments</strong></li>
-<li>Enter <code>/bin/bash -c &quot;$1&quot;</code> as the body of the script (see screenshot below)</li>
+<li>Enter <code>/bin/bash -c "$1"</code> as the body of the script (see screenshot below)</li>
 <li>Click <strong>File &gt; Save</strong> and save the application wherever you'd like (<code>run-script.app</code> in this example)</li>
 </ul>
 </li>
@@ -272,10 +274,10 @@
 </span><span>
 </span><span>&lt;/</span><span style="color:#bf616a;">plist</span><span>&gt;
 </span></code></pre>
-<p>Making the document: </p>
+<p>Making the document:</p>
 <pre style="background-color:#2b303b;color:#c0c5ce;"><code><span>nano ~/Library/LaunchAgents/com.project7iii.daily-commit.plist
 </span></code></pre>
-<p>Loading the launchd job: </p>
+<p>Loading the launchd job:</p>
 <pre style="background-color:#2b303b;color:#c0c5ce;"><code><span>launchctl load ~/Library/LaunchAgents/com.project7iii.daily-commit.plist
 </span></code></pre>
 
@@ -341,7 +343,7 @@
             
           
           
-            <li class="footernav-item"><a  target="_blank" rel="noopener" href="https:&#x2F;&#x2F;www.instagram.com&#x2F;nils_mango">Instagram </a> </li>
+            <li class="footernav-item"><a  target="_blank" rel="noopener" href="https:&#x2F;&#x2F;www.instagram.com&#x2F;nilsmango">Instagram </a> </li>
             
             
           
