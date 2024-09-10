@@ -18,3 +18,5 @@ This is what I am up to right now, in no particular order:
 - More social, less media (spending more time with loved ones and friends, meditation, and reading)
   - Read books, not the internet
 - Still essentializing my life
+
+>If you want to keep tabs on my life, consider subscribing to my [newsletter](http://eepurl.com/hR1b3v).

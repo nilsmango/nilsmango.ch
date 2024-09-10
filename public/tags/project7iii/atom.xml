@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
+    <title>Nils Mango - project7iii</title>
+    <subtitle>Creating things &amp; eliminating errors.</subtitle>
+    <link rel="self" type="application/atom+xml" href="https://nilsmango.ch/tags/project7iii/atom.xml"/>
+    <link rel="alternate" type="text/html" href="https://nilsmango.ch"/>
+    <generator uri="https://www.getzola.org/">Zola</generator>
+    <updated>2024-09-10T00:00:00+00:00</updated>
+    <id>https://nilsmango.ch/tags/project7iii/atom.xml</id>
+    <entry xml:lang="en">
+        <title>First Apps</title>
+        <published>2024-09-10T00:00:00+00:00</published>
+        <updated>2024-09-10T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="https://nilsmango.ch/first-apps/"/>
+        <id>https://nilsmango.ch/first-apps/</id>
+        
+        <content type="html" xml:base="https://nilsmango.ch/first-apps/">&lt;p&gt;I finally did it. After starting to learn how to program in &lt;a rel=&quot;noopener&quot; target=&quot;_blank&quot; href=&quot;https:&#x2F;&#x2F;www.swift.org&quot;&gt;Swift&lt;&#x2F;a&gt; in 2021, I now have my first apps available on the App Store.&lt;br &#x2F;&gt;
+All my apps are products I wanted for myself. The first app was also one of the first apps I have ever made. Let me introduce to you:&lt;&#x2F;p&gt;
+&lt;h2 id=&quot;7iii-qr&quot;&gt;7III QR&lt;&#x2F;h2&gt;
+&lt;p&gt;It&#x27;s a simple QR code generator for iPhone and Apple Watch. I thought it would be handy when you meet people, to have a QR code of your contact information or other things ready. It&#x27;s especially handy if you’re only carrying your watch.&lt;&#x2F;p&gt;
+&lt;p&gt;→ You can find more info about my little QR code generator app at &lt;a rel=&quot;noopener&quot; target=&quot;_blank&quot; href=&quot;https:&#x2F;&#x2F;project7iii.com&#x2F;qr&quot;&gt;project7III&#x2F;qr&lt;&#x2F;a&gt;.&lt;&#x2F;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure&gt;
+&lt;img srcset=&quot;https:&amp;#x2F;&amp;#x2F;nilsmango.ch&amp;#x2F;processed_images&amp;#x2F;7III QR Code Creator Apple Watch.d5d15f115667e60a.webp 300w, https:&amp;#x2F;&amp;#x2F;nilsmango.ch&amp;#x2F;processed_images&amp;#x2F;7III QR Code Creator Apple Watch.9be3ee6fc581c976.webp 600w, https:&amp;#x2F;&amp;#x2F;nilsmango.ch&amp;#x2F;processed_images&amp;#x2F;7III QR Code Creator Apple Watch.1fae3a15656bba88.webp 1200w&quot; src=&quot;https:&amp;#x2F;&amp;#x2F;nilsmango.ch&amp;#x2F;processed_images&amp;#x2F;7III QR Code Creator Apple Watch.1fae3a15656bba88.webp&quot; alt=&quot;7III QR Code Generator on Apple Watch&quot; class=&quot;imgset&quot;&gt;
+
+&lt;figcaption&gt;7III QR is simple, pretty and useful.&lt;&#x2F;figcaption&gt;
+
+&lt;&#x2F;figure&gt;
+
+&lt;p&gt;I actually made that app completely open source, check the &lt;a rel=&quot;noopener&quot; target=&quot;_blank&quot; href=&quot;https:&#x2F;&#x2F;github.com&#x2F;nilsmango&#x2F;QRCoder&quot;&gt;source code&lt;&#x2F;a&gt; if you are interested.&lt;&#x2F;p&gt;
+&lt;p&gt;Next is an app I spent a lot of time with, and might be the one I will never make a lot of money with (but that doesn’t matter as long as it makes one person happy - me!).&lt;&#x2F;p&gt;
+&lt;h2 id=&quot;7iii-water&quot;&gt;7III Water&lt;&#x2F;h2&gt;
+&lt;p&gt;I call this the app I made for myself and my downwind foiling crew. As it is a downwind foiling tracker app. It works on iPhone and Apple Watch. I just wanted to have my own water sport tracker with a nice design, great tracking, tags and cool statistics. I also wanted the app to save as much as possible in the Health app. So you will never loose your data and your data is safe and stored locally, not on my server. This has also the benefit that 7III Water will load any water sport activity you’ve recorded into Health!&lt;br &#x2F;&gt;
+I am looking forward to slowly turning 7III Water into the best water sports app out there. Especially for winging and downwinding. It already is very amazing, because it is the only watersports app with an amazing sticker pack.&lt;&#x2F;p&gt;
+&lt;p&gt;→ Check it out at &lt;a rel=&quot;noopener&quot; target=&quot;_blank&quot; href=&quot;https:&#x2F;&#x2F;project7iii.com&#x2F;water&quot;&gt;project7III&#x2F;water&lt;&#x2F;a&gt;.&lt;&#x2F;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure&gt;
+&lt;img srcset=&quot;https:&amp;#x2F;&amp;#x2F;nilsmango.ch&amp;#x2F;processed_images&amp;#x2F;7III Water App iPhone.9e2bf4b812f77796.webp 300w, https:&amp;#x2F;&amp;#x2F;nilsmango.ch&amp;#x2F;processed_images&amp;#x2F;7III Water App iPhone.4e05e1e90cc17aa3.webp 600w, https:&amp;#x2F;&amp;#x2F;nilsmango.ch&amp;#x2F;processed_images&amp;#x2F;7III Water App iPhone.345f71bac7b6fbd1.webp 1200w&quot; src=&quot;https:&amp;#x2F;&amp;#x2F;nilsmango.ch&amp;#x2F;processed_images&amp;#x2F;7III Water App iPhone.345f71bac7b6fbd1.webp&quot; alt=&quot;7III Water App showing a downwind route on iPhone&quot; class=&quot;imgset&quot;&gt;
+
+&lt;figcaption&gt;7III Water is pretty darn nice.&lt;&#x2F;figcaption&gt;
+
+&lt;&#x2F;figure&gt;
+
+&lt;p&gt;And now, the last app, and the one a lot of music makers are excited about.&lt;&#x2F;p&gt;
+&lt;h2 id=&quot;7iii-tap&quot;&gt;7III Tap&lt;&#x2F;h2&gt;
+&lt;p&gt;7III Tap is another app I made for myself, which is like an Ableton Push for your pocket and more. A highly playful MIDI controller for Ableton Live. Plus a universal MIDI CC encoder matrix ou can customize and use even with the main engine of Tap. Plug your iPhone into your Mac and off you go. Whether in the studio or on the go. You’ll always have a compact yet powerful Ableton Live controller with you.&lt;&#x2F;p&gt;
+&lt;p&gt;→ Get all the infos at &lt;a rel=&quot;noopener&quot; target=&quot;_blank&quot; href=&quot;https:&#x2F;&#x2F;project7iii.com&#x2F;tap&quot;&gt;project7III&#x2F;tap&lt;&#x2F;a&gt;.&lt;&#x2F;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure&gt;
+&lt;img srcset=&quot;https:&amp;#x2F;&amp;#x2F;nilsmango.ch&amp;#x2F;processed_images&amp;#x2F;7III Tap Ableton MIDI Controller.6af929c7c82b5409.webp 300w, https:&amp;#x2F;&amp;#x2F;nilsmango.ch&amp;#x2F;processed_images&amp;#x2F;7III Tap Ableton MIDI Controller.9e47d143ea5dbeb1.webp 600w, https:&amp;#x2F;&amp;#x2F;nilsmango.ch&amp;#x2F;processed_images&amp;#x2F;7III Tap Ableton MIDI Controller.409b1e620d05b682.webp 1200w&quot; src=&quot;https:&amp;#x2F;&amp;#x2F;nilsmango.ch&amp;#x2F;processed_images&amp;#x2F;7III Tap Ableton MIDI Controller.409b1e620d05b682.webp&quot; alt=&quot;7III Tap Ableton MIDI Controller for iPhone&quot; class=&quot;imgset&quot;&gt;
+
+&lt;figcaption&gt;7III Tap showing the device view.&lt;&#x2F;figcaption&gt;
+
+&lt;&#x2F;figure&gt;
+
+&lt;p&gt;I&#x27;m still amazed that I, along with ChatGPT and a little help from a guy called Claude, managed to create such a cool MIDI app.&lt;&#x2F;p&gt;
+</content>
+        
+    </entry>
+</feed>

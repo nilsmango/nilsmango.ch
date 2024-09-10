@@ -78,10 +78,12 @@ Made my next steps in programming, playing around with some Processing sketches.
 **2020** Went to Mexico, Rügen, Sardinia, Burgund, Tenerife. Sold a lot of shit, trying to be more essential again. Started journaling. Started to learn to program in Swift and made some first apps. Lots of Wing Foiling in the waves of El Medano. Started [journaling](/journaling).  
 Music: <a href="https://nilsmango.bandcamp.com/album/not-an-album-20" target="_blank">Not An Album 20</a> + finished up <a href="https://nilsmango.bandcamp.com/album/tracks-on-a-plane-01" target="_blank">Tracks on a Plane 01</a>, an album with tracks produced on airplanes from 2018 to 2020.
 
-**2021** Rügen, Berlin, Tenerife. Started participating in <a href="https://foodsharing.de" target="_blank" rel="noopener">food sharing</a>, and got rid of a lot more shit.
+**2021** Rügen, Berlin, Tenerife. Started participating in <a href="https://foodsharing.de" target="_blank" rel="noopener">food sharing</a>, and got rid of a lot more shit. Started to dive into Swift and making [apps](/tags/apps/).
 
-**2022** Sold Birs73, made big changes to how Molecule Store works, towards a more premium and more ecological version. Went wing foiling in Tenerife. Sold our car. Made three websites: <a href="https://www.quaetschkomode.ch" target="_blank" rel="noopener">quätschkomode.ch</a>, <a href="https://reitcoaching.ch" target="_blank" rel="noopener">reitcoaching.ch</a>, and <a href="https://project7iii.com" target="_blank" rel="noopener">project7iii.com</a> - the last one is the new parent company under which all my business projects find a place. Moved to Biel/Bienne. Started to work on this website. Started to work on [Max for Live](/tags/maxforlive) devices and iOS apps.  
+**2022** Sold Birs73, made big changes to how Molecule Store works, towards a more premium and more ecological version. Went wing foiling in Tenerife. Sold our car. Made three websites: <a href="https://www.quaetschkomode.ch" target="_blank" rel="noopener">quätschkomode.ch</a>, <a href="https://reitcoaching.ch" target="_blank" rel="noopener">reitcoaching.ch</a>, and <a href="https://project7iii.com" target="_blank" rel="noopener">project7iii.com</a> - the last one is the new parent company under which all my business projects find a place. Moved to Biel/Bienne. Started to work on this website. Started to work on [Max for Live](/tags/maxforlive) devices and continued working on my first apps.  
 Music: Finished up <a href="https://nilsmango.bandcamp.com/album/tracks-on-a-plane-02" target="_blank">Tracks on a Plane 02</a>, then <a href="https://nilsmango.bandcamp.com/album/going-in-circuits" target="_blank">an album made entirely on the Novation Circuit</a>, and added <a href="https://nilsmango.bandcamp.com/album/is-this-real-life" target="_blank">a third album</a> for good measure.
+
+**2023** Learned donwind foiling. Life is a blur since then.
 
 → See what I am up to right [now](/now).
 
