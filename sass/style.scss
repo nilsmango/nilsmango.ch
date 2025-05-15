@@ -90,13 +90,7 @@ header {
   justify-content: space-between;
 }
 
-p, ol {
-  margin-top: 0.5em;
-  margin-bottom: 0.5em;
-}
-
 ul {
-  margin-top: 0;
   margin-bottom: 0.5em;  
 }
 
@@ -110,6 +104,14 @@ ul  {
     margin-top: 0px;
     margin-bottom: 0px;
   }
+}
+
+p:has(+ ul) {
+  margin-bottom: -1rem;
+}
+
+p:has(+ ol) {
+  margin-bottom: -1rem;
 }
 
 .sum_blog {
