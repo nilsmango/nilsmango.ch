@@ -5,8 +5,63 @@
     <link rel="self" type="application/atom+xml" href="https://nilsmango.ch/categories/articles/atom.xml"/>
     <link rel="alternate" type="text/html" href="https://nilsmango.ch"/>
     <generator uri="https://www.getzola.org/">Zola</generator>
-    <updated>2025-07-08T00:00:00+00:00</updated>
+    <updated>2025-07-28T00:00:00+00:00</updated>
     <id>https://nilsmango.ch/categories/articles/atom.xml</id>
+    <entry xml:lang="en">
+        <title>Foiling Map of the World</title>
+        <published>2025-07-28T00:00:00+00:00</published>
+        <updated>2025-07-28T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="https://nilsmango.ch/foiling-map/"/>
+        <id>https://nilsmango.ch/foiling-map/</id>
+        
+        <content type="html" xml:base="https://nilsmango.ch/foiling-map/">&lt;p&gt;I made something! It&#x27;s a small website called &lt;a rel=&quot;noopener&quot; target=&quot;_blank&quot; href=&quot;https:&#x2F;&#x2F;project7iii.com&#x2F;foildata&quot;&gt;foildata&lt;&#x2F;a&gt;. It&#x27;s a website where I will collect all the tools I build for foiling.&lt;&#x2F;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure&gt;
+&lt;img srcset=&quot;https:&amp;#x2F;&amp;#x2F;nilsmango.ch&amp;#x2F;processed_images&amp;#x2F;Foiling Map of the World.3f4c10051a07f3d5.webp 300w, https:&amp;#x2F;&amp;#x2F;nilsmango.ch&amp;#x2F;processed_images&amp;#x2F;Foiling Map of the World.7c96c4c0721a047f.webp 600w, https:&amp;#x2F;&amp;#x2F;nilsmango.ch&amp;#x2F;processed_images&amp;#x2F;Foiling Map of the World.e3c3a1ce572677ee.webp 1200w, https:&amp;#x2F;&amp;#x2F;nilsmango.ch&amp;#x2F;processed_images&amp;#x2F;Foiling Map of the World.11567bc0107cb388.webp 2400w&quot; src=&quot;https:&amp;#x2F;&amp;#x2F;nilsmango.ch&amp;#x2F;processed_images&amp;#x2F;Foiling Map of the World.e3c3a1ce572677ee.webp&quot; alt=&quot;Map showing downwind foiling spots&quot; class=&quot;imgset&quot;&gt;
+
+&lt;figcaption&gt;foildata Foiling Map&lt;&#x2F;figcaption&gt;
+
+    &lt;&#x2F;figure&gt;
+
+
+
+&lt;p&gt;The first tool I made was an interactive table of &lt;a rel=&quot;noopener&quot; target=&quot;_blank&quot; href=&quot;https:&#x2F;&#x2F;project7iii.com&#x2F;foildata&#x2F;parawings.html&quot;&gt;parawings&lt;&#x2F;a&gt;, where anyone can add parawings and compare them. As the number of entries exploded, I stopped updating it manually; but if you&#x27;d like to add a parawing or write a review, you&#x27;re very welcome to contribute!&lt;&#x2F;p&gt;
+&lt;p&gt;The second tool is the &lt;a rel=&quot;noopener&quot; target=&quot;_blank&quot; href=&quot;https:&#x2F;&#x2F;project7iii.com&#x2F;foildata&#x2F;map&quot;&gt;Foiling Map&lt;&#x2F;a&gt;. You can quickly add your foiling spots (wave, wake thief, pump foiling, wing, whatever) along with schools, rentals, and downwind foiling runs. No login required. I made it so we can easily share the downwind runs we care about with new foiling friends or find new ones when visiting other places. Each spot lets you add any info you want, including Instagram or YouTube videos.&lt;&#x2F;p&gt;
+&lt;p&gt;Here&#x27;s a small demo video of the foiling map:
+&lt;div class=&quot;youtube&quot;&gt;
+&lt;lite-youtube videoid=&quot;BnbFnn7Sfqs&quot; playlabel=&quot;Play: Keynote (Google I&#x2F;O &#x27;18)&quot; class=&quot;tvframe&quot; params=&quot;start=0&amp;modestbranding=2&amp;autoplay=1&amp;rel=0&quot;&gt;&lt;&#x2F;lite-youtube&gt;
+&lt;script src=&quot;&#x2F;lite-yt-embed.js&quot;&gt;&lt;&#x2F;script&gt;
+&lt;&#x2F;div&gt;
+&lt;&#x2F;p&gt;
+</content>
+        
+    </entry>
     <entry xml:lang="en">
         <title>Plates Calc</title>
         <published>2025-07-08T00:00:00+00:00</published>
@@ -23,7 +78,7 @@
         <link rel="alternate" type="text/html" href="https://nilsmango.ch/plates-calc/"/>
         <id>https://nilsmango.ch/plates-calc/</id>
         
-        <content type="html" xml:base="https://nilsmango.ch/plates-calc/">&lt;p&gt;I just released a simple but super useful app I built for my own weight training: Plates Calc. Plates Calc is available for iPhone, iPad, and Mac.&lt;br &#x2F;&gt;
+        <content type="html" xml:base="https://nilsmango.ch/plates-calc/">&lt;p&gt;I just released a simple but super useful app I built for my own weight training: &lt;a rel=&quot;noopener&quot; target=&quot;_blank&quot; href=&quot;https:&#x2F;&#x2F;project7iii.com&#x2F;plates-calc&#x2F;&quot;&gt;Plates Calc&lt;&#x2F;a&gt;. Plates Calc is available for iPhone, iPad, and Mac.&lt;br &#x2F;&gt;
 It’s free (for now), works offline, and keeps your data completely private.&lt;&#x2F;p&gt;
 &lt;p&gt;With Plates Calc, you can:&lt;&#x2F;p&gt;
 &lt;ul&gt;

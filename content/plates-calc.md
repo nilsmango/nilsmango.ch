@@ -7,7 +7,7 @@ tags = ["apps", "project7iii"]
 categories = ["articles"]
 +++
 
-I just released a simple but super useful app I built for my own weight training: Plates Calc. Plates Calc is available for iPhone, iPad, and Mac.  
+I just released a simple but super useful app I built for my own weight training: [Plates Calc](https://project7iii.com/plates-calc/). Plates Calc is available for iPhone, iPad, and Mac.  
 It’s free (for now), works offline, and keeps your data completely private. 
 
 With Plates Calc, you can:
