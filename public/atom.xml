@@ -5,7 +5,7 @@
     <link rel="self" type="application/atom+xml" href="https://nilsmango.ch/atom.xml"/>
     <link rel="alternate" type="text/html" href="https://nilsmango.ch"/>
     <generator uri="https://www.getzola.org/">Zola</generator>
-    <updated>2025-07-28T00:00:00+00:00</updated>
+    <updated>2025-12-22T00:00:00+00:00</updated>
     <id>https://nilsmango.ch/atom.xml</id>
     <entry xml:lang="en">
         <title>Foiling Map of the World</title>
@@ -3628,7 +3628,7 @@ PET bottle lamp (concept only)
     <entry xml:lang="en">
         <title>Now</title>
         <published>2022-09-16T00:00:00+00:00</published>
-        <updated>2023-10-10T00:00:00+00:00</updated>
+        <updated>2025-12-22T00:00:00+00:00</updated>
         
         <author>
           <name>
@@ -3645,14 +3645,14 @@ PET bottle lamp (concept only)
 &lt;p&gt;&lt;strong&gt;Last update:&lt;&#x2F;strong&gt; 
     
 
-&lt;time datetime=&quot;2023-10-10T00:00:00+00:00&quot;&gt;October 10, 2023&lt;&#x2F;time&gt;
+&lt;time datetime=&quot;2025-12-22T00:00:00+00:00&quot;&gt;December 22, 2025&lt;&#x2F;time&gt;
 - 
 Biel&amp;#x2F;Bienne, Switzerland
 &lt;&#x2F;p&gt;
 &lt;p&gt;This is what I am up to right now, in no particular order:&lt;&#x2F;p&gt;
 &lt;ul&gt;
-&lt;li&gt;Foiling (most of the time &lt;a rel=&quot;noopener&quot; target=&quot;_blank&quot; href=&quot;https:&#x2F;&#x2F;dwfoiling.com&quot;&gt;downwind foiling&lt;&#x2F;a&gt;)&lt;&#x2F;li&gt;
-&lt;li&gt;Making apps and cool things at &lt;a rel=&quot;noopener&quot; target=&quot;_blank&quot; href=&quot;https:&#x2F;&#x2F;project7iii.com&#x2F;projects&quot;&gt;project7III&lt;&#x2F;a&gt;&lt;&#x2F;li&gt;
+&lt;li&gt;Foiling&lt;&#x2F;li&gt;
+&lt;li&gt;Making apps and cool things at &lt;a rel=&quot;noopener&quot; target=&quot;_blank&quot; href=&quot;https:&#x2F;&#x2F;project7iii.com&quot;&gt;project7III&lt;&#x2F;a&gt;&lt;&#x2F;li&gt;
 &lt;li&gt;Making music (I should make more of this) → Check &lt;a href=&quot;&#x2F;tags&#x2F;music&quot;&gt;#music&lt;&#x2F;a&gt;&lt;&#x2F;li&gt;
 &lt;li&gt;More social, less media (spending more time with loved ones and friends, meditation, and reading)
 &lt;ul&gt;
@@ -3864,7 +3864,7 @@ Music: Finished up &lt;a href=&quot;https:&#x2F;&#x2F;nilsmango.bandcamp.com&#x2
     <entry xml:lang="en">
         <title>Music</title>
         <published>2022-09-09T00:00:00+00:00</published>
-        <updated>2022-09-09T00:00:00+00:00</updated>
+        <updated>2025-12-18T00:00:00+00:00</updated>
         
         <author>
           <name>
@@ -3877,15 +3877,15 @@ Music: Finished up &lt;a href=&quot;https:&#x2F;&#x2F;nilsmango.bandcamp.com&#x2
         <link rel="alternate" type="text/html" href="https://nilsmango.ch/music/"/>
         <id>https://nilsmango.ch/music/</id>
         
-        <content type="html" xml:base="https://nilsmango.ch/music/">&lt;p&gt;I love making music, especially live and with other people. I am trying to take a minimalist approach to producing music. Using Ableton Live, few plugins, mostly stock, with only 1-2 hardware controllers or synths (Ableton Push mainly). Some hacked-together &lt;a href=&quot;&#x2F;tags&#x2F;maxforlive&quot;&gt;Max for Live&lt;&#x2F;a&gt; devices are helping me to get experimental.&lt;&#x2F;p&gt;
+        <content type="html" xml:base="https://nilsmango.ch/music/">&lt;p&gt;I love making music, especially live and with other people. I am trying to take a minimalist approach to producing music. Using Ableton Live, few plugins, mostly stock, controlling Ableton Live with &lt;a rel=&quot;noopener&quot; target=&quot;_blank&quot; href=&quot;https:&#x2F;&#x2F;project7iii.com&#x2F;tap&quot;&gt;7III Tap&lt;&#x2F;a&gt; running on an iPad and&#x2F;or iPhone. Some hacked-together &lt;a href=&quot;&#x2F;tags&#x2F;maxforlive&quot;&gt;Max for Live&lt;&#x2F;a&gt; devices are helping me to get experimental.&lt;&#x2F;p&gt;
 &lt;p&gt;I have a couple of ways of making music:&lt;&#x2F;p&gt;
 &lt;ul&gt;
 &lt;li&gt;Minimalistic setup: just my MacBook running Ableton Live (used in Tracks on a Plane)&lt;&#x2F;li&gt;
-&lt;li&gt;Studio setup: MacBook running Ableton Live + Push&lt;&#x2F;li&gt;
+&lt;li&gt;Studio setup: MacBook running Ableton Live + &lt;a rel=&quot;noopener&quot; target=&quot;_blank&quot; href=&quot;https:&#x2F;&#x2F;project7iii.com&#x2F;tap&quot;&gt;7III Tap&lt;&#x2F;a&gt;&lt;&#x2F;li&gt;
 &lt;li&gt;Live setup: the studio setup combined with whatever other people bring.&lt;&#x2F;li&gt;
 &lt;&#x2F;ul&gt;
 &lt;p&gt;You can download and&#x2F;or listen to my music for free &lt;a href=&quot;https:&#x2F;&#x2F;nilsmango.ch&#x2F;music&#x2F;#nils-mango&quot;&gt;below&lt;&#x2F;a&gt;.&lt;br &#x2F;&gt;
-Check &lt;a href=&quot;&#x2F;tags&#x2F;music&quot;&gt;#music&lt;&#x2F;a&gt; to see all blog posts about music.&lt;&#x2F;p&gt;
+Check &lt;a href=&quot;&#x2F;tags&#x2F;music&quot;&gt;#music&lt;&#x2F;a&gt; to see all blog posts about music.&lt;&#x2F;p&gt;
 
 
 
