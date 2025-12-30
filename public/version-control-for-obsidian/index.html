@@ -42,6 +42,8 @@
     
     
     
+    <meta property="article:modified_time" content="2025-12-30">
+    
     
     <meta property="og:url" content="https://nilsmango.ch/version-control-for-obsidian/">
     
@@ -107,6 +109,8 @@
 
 <p><span class="post-dates">Posted on <time datetime="2023-04-19T00:00:00+00:00">April 19, 2023</time></span>
 
+<span class="divider">|</span><span class="post-updated"> Updated: <time datetime="2025-12-30T00:00:00+00:00">December 30, 2025</time></span>
+
 
 <span class="divider">|</span>
  <a href="https://nilsmango.ch/tags/obsidian/">#obsidian</a>
@@ -120,6 +124,9 @@
 
 </p>
 
+<blockquote>
+<p><strong>Update 2025:</strong> I decided to stop using iCloud due to ongoing issues. Now, I solely rely on GitHub to sync changes between my iPhone and MacBook.</p>
+</blockquote>
 <p>Idea: Implement version control for my <a rel="noopener" target="_blank" href="https://obsidian.md">Obsidian</a> Vault stored in my iCloud Documents.</p>
 <p>Inspiration: The book <a rel="noopener" target="_blank" href="https://pragprog.com/titles/tpp20/the-pragmatic-programmer-20th-anniversary-edition/">The Pragmatic Programmer</a> encouraged me to implement version control for all of my work and to learn Shell for automation purposes.</p>
 <p>I thought, "How hard could it be?" - and voilà, after only one full day of work and swearing, I was able to successfully automate version control for my Obsidian Vault.</p>
@@ -156,10 +163,8 @@
 <p>Next, run the application that was just created manually to make sure it has the permissions it needs (you need also grant <strong>Full Disk Access</strong> to the new application in <strong>Security &amp; Privacy</strong>, (in my case even Automator needed <strong>Full Disk Access</strong>))</p>
 <ul>
 <li>Open <strong>Terminal</strong></li>
-<li>Execute command:</li>
-</ul>
-<p><code>open -a run-script.app /Users/nilsmango/scripts/daily-commit.sh</code></p>
-<ul>
+<li>Execute command:
+<code>open -a run-script.app /Users/nilsmango/scripts/daily-commit.sh</code></li>
 <li>Click <strong>Allow</strong> when macOS asks if the application can access your Desktop</li>
 </ul>
 </li>

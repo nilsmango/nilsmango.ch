@@ -2,6 +2,7 @@
 title = "Version Control for Obsidian"
 description = "An automatic version control for Obsidian in 3 easy steps"
 date = 2023-04-19
+updated = 2025-12-30
 [taxonomies]
 tags = ["obsidian", "journaling", "writing", "shell"]
 categories = ["articles"]
@@ -9,6 +10,8 @@ categories = ["articles"]
 featured_image = "versioncontrol.png"
 featured_image_alt = "Obsidian Version Control"
 +++
+
+>**Update 2025:** I decided to stop using iCloud due to ongoing issues. Now, I solely rely on GitHub to sync changes between my iPhone and MacBook.  
 
 Idea: Implement version control for my [Obsidian](https://obsidian.md) Vault stored in my iCloud Documents.
 
@@ -48,7 +51,6 @@ Source: [Stack Overflow answer by Steven Oxley](https://stackoverflow.com/a/5935
 -   Next, run the application that was just created manually to make sure it has the permissions it needs (you need also grant **Full Disk Access** to the new application in **Security & Privacy**, (in my case even Automator needed **Full Disk Access**))
     -   Open **Terminal**
     -   Execute command:
-    
     `open -a run-script.app /Users/nilsmango/scripts/daily-commit.sh`
     -   Click **Allow** when macOS asks if the application can access your Desktop
 

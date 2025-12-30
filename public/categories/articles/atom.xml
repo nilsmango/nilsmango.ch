@@ -5,7 +5,7 @@
     <link rel="self" type="application/atom+xml" href="https://nilsmango.ch/categories/articles/atom.xml"/>
     <link rel="alternate" type="text/html" href="https://nilsmango.ch"/>
     <generator uri="https://www.getzola.org/">Zola</generator>
-    <updated>2025-07-28T00:00:00+00:00</updated>
+    <updated>2025-12-30T00:00:00+00:00</updated>
     <id>https://nilsmango.ch/categories/articles/atom.xml</id>
     <entry xml:lang="en">
         <title>Foiling Map of the World</title>
@@ -268,7 +268,7 @@ Tracks on a Plane are tracks that have been entirely written and recorded on a p
     <entry xml:lang="en">
         <title>Version Control for Obsidian</title>
         <published>2023-04-19T00:00:00+00:00</published>
-        <updated>2023-04-19T00:00:00+00:00</updated>
+        <updated>2025-12-30T00:00:00+00:00</updated>
         
         <author>
           <name>
@@ -281,7 +281,10 @@ Tracks on a Plane are tracks that have been entirely written and recorded on a p
         <link rel="alternate" type="text/html" href="https://nilsmango.ch/version-control-for-obsidian/"/>
         <id>https://nilsmango.ch/version-control-for-obsidian/</id>
         
-        <content type="html" xml:base="https://nilsmango.ch/version-control-for-obsidian/">&lt;p&gt;Idea: Implement version control for my &lt;a rel=&quot;noopener&quot; target=&quot;_blank&quot; href=&quot;https:&#x2F;&#x2F;obsidian.md&quot;&gt;Obsidian&lt;&#x2F;a&gt; Vault stored in my iCloud Documents.&lt;&#x2F;p&gt;
+        <content type="html" xml:base="https://nilsmango.ch/version-control-for-obsidian/">&lt;blockquote&gt;
+&lt;p&gt;&lt;strong&gt;Update 2025:&lt;&#x2F;strong&gt; I decided to stop using iCloud due to ongoing issues. Now, I solely rely on GitHub to sync changes between my iPhone and MacBook.&lt;&#x2F;p&gt;
+&lt;&#x2F;blockquote&gt;
+&lt;p&gt;Idea: Implement version control for my &lt;a rel=&quot;noopener&quot; target=&quot;_blank&quot; href=&quot;https:&#x2F;&#x2F;obsidian.md&quot;&gt;Obsidian&lt;&#x2F;a&gt; Vault stored in my iCloud Documents.&lt;&#x2F;p&gt;
 &lt;p&gt;Inspiration: The book &lt;a rel=&quot;noopener&quot; target=&quot;_blank&quot; href=&quot;https:&#x2F;&#x2F;pragprog.com&#x2F;titles&#x2F;tpp20&#x2F;the-pragmatic-programmer-20th-anniversary-edition&#x2F;&quot;&gt;The Pragmatic Programmer&lt;&#x2F;a&gt; encouraged me to implement version control for all of my work and to learn Shell for automation purposes.&lt;&#x2F;p&gt;
 &lt;p&gt;I thought, &quot;How hard could it be?&quot; - and voilà, after only one full day of work and swearing, I was able to successfully automate version control for my Obsidian Vault.&lt;&#x2F;p&gt;
 &lt;h2 id=&quot;the-plan&quot;&gt;The Plan&lt;&#x2F;h2&gt;
@@ -317,10 +320,8 @@ Tracks on a Plane are tracks that have been entirely written and recorded on a p
 &lt;p&gt;Next, run the application that was just created manually to make sure it has the permissions it needs (you need also grant &lt;strong&gt;Full Disk Access&lt;&#x2F;strong&gt; to the new application in &lt;strong&gt;Security &amp;amp; Privacy&lt;&#x2F;strong&gt;, (in my case even Automator needed &lt;strong&gt;Full Disk Access&lt;&#x2F;strong&gt;))&lt;&#x2F;p&gt;
 &lt;ul&gt;
 &lt;li&gt;Open &lt;strong&gt;Terminal&lt;&#x2F;strong&gt;&lt;&#x2F;li&gt;
-&lt;li&gt;Execute command:&lt;&#x2F;li&gt;
-&lt;&#x2F;ul&gt;
-&lt;p&gt;&lt;code&gt;open -a run-script.app &#x2F;Users&#x2F;nilsmango&#x2F;scripts&#x2F;daily-commit.sh&lt;&#x2F;code&gt;&lt;&#x2F;p&gt;
-&lt;ul&gt;
+&lt;li&gt;Execute command:
+&lt;code&gt;open -a run-script.app &#x2F;Users&#x2F;nilsmango&#x2F;scripts&#x2F;daily-commit.sh&lt;&#x2F;code&gt;&lt;&#x2F;li&gt;
 &lt;li&gt;Click &lt;strong&gt;Allow&lt;&#x2F;strong&gt; when macOS asks if the application can access your Desktop&lt;&#x2F;li&gt;
 &lt;&#x2F;ul&gt;
 &lt;&#x2F;li&gt;
