@@ -101,7 +101,7 @@ ol {
 ul  {
   padding: 0;
   ul {
-    margin-top: 1rem;
+    /* margin-top: 1rem; */
     margin-bottom: 0px;
   }
 }
@@ -234,8 +234,6 @@ li {
 ul ul {
   padding-left: 1.25rem;
 }
-
-
 
 .nobullets {
   list-style: none;
