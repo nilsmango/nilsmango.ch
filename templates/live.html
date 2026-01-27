@@ -1,0 +1,40 @@
+{% extends "base.html" %}
+
+{% block title %}{{ section.title }} - {{ config.title }}{% endblock title %}
+{% block description %}{{ section.description | default(value=config.description) }}{% endblock description %}
+
+{% block content %}
+<h1 class="title">{{ section.title }}</h1>
+{{ section.content | safe }}
+
+<ul class="posts">
+  {% for page in section.pages | sort(attribute="date") | reverse %}
+  <li class="nobullets">
+    <a href="{{ page.permalink | safe }}">
+      <h3>{{ page.title }}</h3>
+    </a>
+    <div class="article-info">
+      <time datetime="{{ page.date | date(format="%+") }}">{{ page.date | date(format="%B %d, %Y") }}</time>
+      <span class="divider">|</span>
+      Episode {{ page.extra.episode_number }}
+      <span class="divider">|</span>
+      Duration: {{ page.extra.audio_duration }}
+    </div>
+    <div class="sum">
+      {% if page.description %}
+        {{ page.description | safe }}...
+      {% elif page.content %}
+        {{ page.content | striptags | truncate(length=200) | safe }}
+      {% endif %}
+    </div>
+    {% if page.extra.audio_url %}
+    <audio controls src="{{ page.extra.audio_url }}" style="width: 100%; margin: 0.5rem 0;">
+      Your browser does not support the audio element.
+    </audio>
+    {% endif %}
+  </li>
+  {% endfor %}
+</ul>
+
+<p class="viewall">→ Subscribe to the <a href="{{ get_url(path='live/rss.xml') }}">Podcast RSS Feed</a></p>
+{% endblock content %}

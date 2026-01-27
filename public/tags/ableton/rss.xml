@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+    <channel>
+        <title>Nils Mango</title>
+        <link>https://nilsmango.ch</link>
+        <description>Creating things &amp; eliminating errors.</description>
+        <language>en</language>
+        <lastBuildDate>Wed, 23 Nov 2022 00:00:00 +0000</lastBuildDate>
+        <atom:link href="https://nilsmango.ch/tags/ableton/rss.xml" rel="self" type="application/rss+xml"/>
+        
+            <item>
+                <title>Phonogeneli 0.1</title>
+                <pubDate>Thu, 17 Nov 2022 00:00:00 +0000</pubDate>
+                <link>https://nilsmango.ch/phonogeneli/</link>
+                <guid>https://nilsmango.ch/phonogeneli/</guid>
+                <description>
+                    
+                        Max for Live device Phonogeneli 0.1
+                    
+                </description>
+            </item>
+        
+    </channel>
+</rss>

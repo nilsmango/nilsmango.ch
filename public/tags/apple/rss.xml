@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+    <channel>
+        <title>Nils Mango</title>
+        <link>https://nilsmango.ch</link>
+        <description>Creating things &amp; eliminating errors.</description>
+        <language>en</language>
+        <lastBuildDate>Mon, 13 May 2024 00:00:00 +0000</lastBuildDate>
+        <atom:link href="https://nilsmango.ch/tags/apple/rss.xml" rel="self" type="application/rss+xml"/>
+        
+            <item>
+                <title>Apple Developer Program</title>
+                <pubDate>Mon, 13 May 2024 00:00:00 +0000</pubDate>
+                <link>https://nilsmango.ch/apple-developer-program/</link>
+                <guid>https://nilsmango.ch/apple-developer-program/</guid>
+                <description>
+                    
+                        How to enroll in the Apple Developer Program in 7 easy steps
+                    
+                </description>
+            </item>
+        
+    </channel>
+</rss>

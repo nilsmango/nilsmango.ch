@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+    <channel>
+        <title>Nils Mango</title>
+        <link>https://nilsmango.ch</link>
+        <description>Creating things &amp; eliminating errors.</description>
+        <language>en</language>
+        <lastBuildDate>Thu, 28 Dec 2023 00:00:00 +0000</lastBuildDate>
+        <atom:link href="https://nilsmango.ch/tags/video/rss.xml" rel="self" type="application/rss+xml"/>
+        
+            <item>
+                <title>Tracks on a Plane 03</title>
+                <pubDate>Thu, 28 Dec 2023 00:00:00 +0000</pubDate>
+                <link>https://nilsmango.ch/tracksonaplane03/</link>
+                <guid>https://nilsmango.ch/tracksonaplane03/</guid>
+                <description>
+                    
+                        A new album with music made on airplanes
+                    
+                </description>
+            </item>
+        
+            <item>
+                <title>SUP in Basel</title>
+                <pubDate>Wed, 16 Nov 2022 00:00:00 +0000</pubDate>
+                <link>https://nilsmango.ch/supbasel/</link>
+                <guid>https://nilsmango.ch/supbasel/</guid>
+                <description>
+                    
+                        Drone footage of me standup paddling through Basel
+                    
+                </description>
+            </item>
+        
+            <item>
+                <title>Tenerife 2021</title>
+                <pubDate>Tue, 15 Nov 2022 00:00:00 +0000</pubDate>
+                <link>https://nilsmango.ch/tenerife2021/</link>
+                <guid>https://nilsmango.ch/tenerife2021/</guid>
+                <description>
+                    
+                        A short video diary from Tenerife in spring 2021
+                    
+                </description>
+            </item>
+        
+    </channel>
+</rss>

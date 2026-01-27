@@ -6,6 +6,9 @@ description = "Creating things & eliminating errors."
 # The default language; used in feeds.
 default_language = "en"
 
+# Feed filenames
+feed_filenames = ["atom.xml", "rss.xml"]
+
 # Whether to automatically compile all Sass files in the sass directory
 compile_sass = true
 
@@ -47,6 +50,7 @@ menu_items = [
     { name = "Blog", url = "/blog" },
     { name = "Projects", url = "/projects" },
     { name = "Music", url = "/music" },
+    { name = "Live", url = "/live" },
     { name = "Now", url = "/now" },
 ]
 # Footer Navigation Items

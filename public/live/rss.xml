@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0"
+  xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd"
+  xmlns:content="http://purl.org/rss/1.0/modules/content/"
+  xmlns:podcast="https://podcastindex.org/namespace/1.0">
+<channel>
+  <title>Nils Mango Live</title>
+  <link>https:&#x2F;&#x2F;nilsmango.ch/live</link>
+  <language>en</language>
+  <copyright>Copyright Nils Mango</copyright>
+  <description><![CDATA[Live electronic music, created in the moment]]></description>
+
+  <itunes:author>Nils Mango</itunes:author>
+  <itunes:summary><![CDATA[Live electronic music, created in the moment]]></itunes:summary>
+  <itunes:type>episodic</itunes:type>
+  <itunes:explicit>false</itunes:explicit>
+  <itunes:image href="https:&#x2F;&#x2F;nilsmango.ch/live/podcast-cover.jpg"/>
+  <itunes:owner>
+    <itunes:name>Nils Mango</itunes:name>
+    <itunes:email>senf@nilsmango.ch</itunes:email>
+  </itunes:owner>
+
+  <itunes:category text="Music">
+    <itunes:category text="Electronic"/>
+  </itunes:category>
+  <itunes:category text="Music"/>
+  <itunes:category text="Arts"/>
+
+  <podcast:owner>senf@nilsmango.ch</podcast:owner>
+  <podcast:locked>no</podcast:locked>
+
+  
+  <item>
+    <title>Nils Mango Live – Session 001</title>
+    <description>Live techno and ambient session recorded in Switzerland</description>
+    <content:encoded><![CDATA[<h2 id="session-001-ambient-techno-exploration">Session 001: Ambient Techno Exploration</h2>
+<p>Recorded on January 20, 2026 in a small studio in Switzerland.</p>
+<h3 id="setup">Setup</h3>
+<ul>
+<li>MacBook Pro</li>
+<li>Ableton Live</li>
+<li>7III Tap on iPad</li>
+<li>No prerecorded loops or samples</li>
+</ul>
+<h3 id="performance-notes">Performance Notes</h3>
+<p>This session started with a simple drone and evolved into a full techno exploration. The mood shifted between ambient textures and driving rhythms.</p>
+<h3 id="gear">Gear</h3>
+<ul>
+<li>Audio interface: Focusrite Scarlett 2i2</li>
+<li>Synthesizers: Ableton stock plugins</li>
+<li>Controllers: iPad with 7III Tap, Launchpad Mini</li>
+</ul>
+<h3 id="tracklist">Tracklist</h3>
+<p>0:00 - Intro &amp; Ambient Opening
+12:30 - First Rhythmic Element
+25:00 - Peak Techno Section
+45:00 - Wind Down &amp; Finale</p>
+<h3 id="credits">Credits</h3>
+<p>All music performed, recorded, and mixed by Nils Mango in real time.</p>
+]]></content:encoded>
+
+    <enclosure url="https:&#x2F;&#x2F;nilsmango.ch&#x2F;live&#x2F;episode-001.mp3" type="audio/mpeg" length="0"/>
+    <guid isPermaLink="false">https:&#x2F;&#x2F;nilsmango.ch&#x2F;live&#x2F;episode-001.mp3</guid>
+    <pubDate>Tue, 20 Jan 2026 00:00:00 +0000</pubDate>
+
+    <itunes:duration>58:12</itunes:duration>
+    <itunes:episode>1</itunes:episode>
+    <itunes:episodeType>full</itunes:episodeType>
+    <itunes:explicit>false</itunes:explicit>
+    <itunes:author>Nils Mango</itunes:author>
+    <itunes:summary>Live techno and ambient session recorded in Switzerland</itunes:summary>
+  </item>
+  
+</channel>
+</rss>

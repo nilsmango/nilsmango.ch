@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+    <channel>
+        <title>Nils Mango</title>
+        <link>https://nilsmango.ch</link>
+        <description>Creating things &amp; eliminating errors.</description>
+        <language>en</language>
+        <lastBuildDate>Tue, 30 Dec 2025 00:00:00 +0000</lastBuildDate>
+        <atom:link href="https://nilsmango.ch/tags/journaling/rss.xml" rel="self" type="application/rss+xml"/>
+        
+            <item>
+                <title>Version Control for Obsidian</title>
+                <pubDate>Wed, 19 Apr 2023 00:00:00 +0000</pubDate>
+                <link>https://nilsmango.ch/version-control-for-obsidian/</link>
+                <guid>https://nilsmango.ch/version-control-for-obsidian/</guid>
+                <description>
+                    
+                        An automatic version control for Obsidian in 3 easy steps
+                    
+                </description>
+            </item>
+        
+            <item>
+                <title>Journaling</title>
+                <pubDate>Mon, 14 Nov 2022 00:00:00 +0000</pubDate>
+                <link>https://nilsmango.ch/journaling/</link>
+                <guid>https://nilsmango.ch/journaling/</guid>
+                <description>
+                    
+                        A short post about my daily journaling practice
+                    
+                </description>
+            </item>
+        
+    </channel>
+</rss>

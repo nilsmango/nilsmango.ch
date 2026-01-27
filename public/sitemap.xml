@@ -22,6 +22,9 @@
         <loc>https://nilsmango.ch/categories/articles/</loc>
     </url>
     <url>
+        <loc>https://nilsmango.ch/categories/live/</loc>
+    </url>
+    <url>
         <loc>https://nilsmango.ch/contact/</loc>
         <lastmod>2023-09-15</lastmod>
     </url>
@@ -48,6 +51,16 @@
     <url>
         <loc>https://nilsmango.ch/landscapes/</loc>
         <lastmod>2022-11-04</lastmod>
+    </url>
+    <url>
+        <loc>https://nilsmango.ch/live/</loc>
+    </url>
+    <url>
+        <loc>https://nilsmango.ch/live/page/1/</loc>
+    </url>
+    <url>
+        <loc>https://nilsmango.ch/live/session-001/</loc>
+        <lastmod>2026-01-20</lastmod>
     </url>
     <url>
         <loc>https://nilsmango.ch/megaduo/</loc>

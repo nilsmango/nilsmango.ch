@@ -1,0 +1,80 @@
+{% if section and "live" in section.path %}<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0"
+  xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd"
+  xmlns:content="http://purl.org/rss/1.0/modules/content/"
+  xmlns:podcast="https://podcastindex.org/namespace/1.0">
+<channel>
+  <title>{{ section.title }}</title>
+  <link>{{ config.base_url }}/live</link>
+  <language>en</language>
+  <copyright>Copyright {{ config.title }}</copyright>
+  <description><![CDATA[{{ section.description | safe }}]]></description>
+
+  <itunes:author>Nils Mango</itunes:author>
+  <itunes:summary><![CDATA[{{ section.description | safe }}]]></itunes:summary>
+  <itunes:type>episodic</itunes:type>
+  <itunes:explicit>false</itunes:explicit>
+  <itunes:image href="{{ config.base_url }}/live/podcast-cover.jpg"/>
+  <itunes:owner>
+    <itunes:name>Nils Mango</itunes:name>
+    <itunes:email>senf@nilsmango.ch</itunes:email>
+  </itunes:owner>
+
+  <itunes:category text="Music">
+    <itunes:category text="Electronic"/>
+  </itunes:category>
+  <itunes:category text="Music"/>
+  <itunes:category text="Arts"/>
+
+  <podcast:owner>senf@nilsmango.ch</podcast:owner>
+  <podcast:locked>no</podcast:locked>
+
+  {% for page in pages | sort(attribute="date") | reverse %}
+  <item>
+    <title>{{ page.title }}</title>
+    <description>{{ page.description | default(value="") }}</description>
+    <content:encoded><![CDATA[{{ page.content | safe }}]]></content:encoded>
+
+    <enclosure url="{{ page.extra.audio_url }}" type="audio/mpeg" length="0"/>
+    <guid isPermaLink="false">{{ page.extra.audio_url }}</guid>
+    <pubDate>{{ page.date | date(format="%a, %d %b %Y %H:%M:%S %z") }}</pubDate>
+
+    <itunes:duration>{{ page.extra.audio_duration }}</itunes:duration>
+    <itunes:episode>{{ page.extra.episode_number }}</itunes:episode>
+    <itunes:episodeType>full</itunes:episodeType>
+    <itunes:explicit>{{ page.extra.explicit | default(value=false) }}</itunes:explicit>
+    <itunes:author>Nils Mango</itunes:author>
+    <itunes:summary>{{ page.description | default(value="") }}</itunes:summary>
+  </item>
+  {% endfor %}
+</channel>
+</rss>
+{% else %}<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+    <channel>
+        <title>{{ config.title }}</title>
+        <link>{{ config.base_url | safe }}</link>
+        <description>{{ config.description }}</description>
+        <language>{{ lang }}</language>
+        <lastBuildDate>{% if last_updated %}{{ last_updated | date(format="%a, %d %b %Y %H:%M:%S %z") }}{% else %}{{ now_utc | date(format="%a, %d %b %Y %H:%M:%S %z") }}{% endif %}</lastBuildDate>
+        <atom:link href="{{ feed_url | safe }}" rel="self" type="application/rss+xml"/>
+        {% for page in pages | sort(attribute="date") | reverse %}
+            <item>
+                <title>{{ page.title }}</title>
+                <pubDate>{{ page.date | date(format="%a, %d %b %Y %H:%M:%S %z") }}</pubDate>
+                <link>{{ page.permalink | safe }}</link>
+                <guid>{{ page.permalink | safe }}</guid>
+                <description>
+                    {% if page.summary %}
+                        {{ page.summary | safe }}
+                    {% elif page.description %}
+                        {{ page.description | safe }}
+                    {% elif page.content %}
+                        {{ page.content | striptags | truncate(length=200) | safe }}
+                    {% endif %}
+                </description>
+            </item>
+        {% endfor %}
+    </channel>
+</rss>
+{% endif %}
