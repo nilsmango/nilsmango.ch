@@ -1,5 +1,5 @@
 +++
-title = "About"
+title = "About Nils Mango"
 description = "About Nils Mango"
 date = 2022-09-12
 [extra]
