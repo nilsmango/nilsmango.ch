@@ -48,9 +48,9 @@ menu_items = [
     #{ name = "Home", url = "/" },
     { name = "About", url = "/about" },
     { name = "Blog", url = "/blog" },
+    { name = "Live", url = "/live" },
     { name = "Projects", url = "/projects" },
     { name = "Music", url = "/music" },
-    { name = "Live", url = "/live" },
     { name = "Now", url = "/now" },
 ]
 # Footer Navigation Items

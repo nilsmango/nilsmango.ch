@@ -8,7 +8,7 @@
 {{ section.content | safe }}
 
 <ul class="posts">
-  {% for page in section.pages | sort(attribute="date") | reverse %}
+  {% for page in paginator.pages | sort(attribute="date") | reverse %}
   <li class="nobullets">
     <a href="{{ page.permalink | safe }}">
       <h3>{{ page.title }}</h3>
@@ -35,6 +35,26 @@
   </li>
   {% endfor %}
 </ul>
+
+{% if paginator.number_pagers > 1 %}
+<nav class="pagenav">
+  <ul>
+    {% if paginator.previous %}
+    <li><a href="{{ paginator.previous }}">← Previous</a></li>
+    {% endif %}
+    {% for pager in paginator.pagers %}
+      {% if pager.current %}
+        <li><span>{{ paginator.current_index }}</span></li>
+      {% else %}
+        <li><a href="{{ pager }}">{{ paginator.number }}</a></li>
+      {% endif %}
+    {% endfor %}
+    {% if paginator.next %}
+    <li><a href="{{ paginator.next }}">Next →</a></li>
+    {% endif %}
+  </ul>
+</nav>
+{% endif %}
 
 <p class="viewall">→ Subscribe to the <a href="{{ get_url(path='live/rss.xml') }}">Podcast RSS Feed</a></p>
 {% endblock content %}

@@ -4,6 +4,7 @@ description = "Live electronic music, created in the moment"
 sort_by = "date"
 render = true
 paginate_by = 20
+transparent = true
 generate_feeds = true
 template = "live.html"
 +++
