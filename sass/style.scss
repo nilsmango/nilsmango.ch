@@ -24,6 +24,7 @@ $page-width: 800px;
 /* SASS as CSS Variables so we can use them for dark mode */
 :root {
   --color-background: #{$background-color};
+  --color-footer: #{$gray-color};
   --color-text: #{$text-color};
   --color-text-sec: #{$text-color-sec};
   --color-code: #{$gray-color};
@@ -371,7 +372,7 @@ hr {
 }
 
 footer {
-  background-color: var(--color-gray);
+  background-color: var(--color-footer);
   margin-bottom: 0;
   padding-left: 10px;
   padding-right: 10px;
@@ -613,7 +614,17 @@ input[type=search], textarea {
   border-radius: 35px; 
   margin: 2rem auto 0;
   color: var(--color-text);
-  background-color: var(--color-gray);
+  background-color: var(--color-footer);
+}
+
+input[type=search]::placeholder {
+  color: #333333;
+}
+
+@media (prefers-color-scheme: dark) {
+  input[type=search]::placeholder {
+    color: #a9a9a9;
+  }
 }
 
 .search-results {
