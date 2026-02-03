@@ -31,36 +31,16 @@
 
   
   <item>
-    <title>Nils Mango Live – Session 001</title>
+    <title>Session #1: Ambient Techno Exploration</title>
     <description>Live techno and ambient session recorded in Switzerland</description>
-    <content:encoded><![CDATA[<h2 id="session-001-ambient-techno-exploration">Session 001: Ambient Techno Exploration</h2>
-<p>Recorded on January 20, 2026 in a small studio in Switzerland.</p>
-<h3 id="setup">Setup</h3>
-<ul>
-<li>MacBook Pro</li>
-<li>Ableton Live</li>
-<li>7III Tap on iPad</li>
-<li>No prerecorded loops or samples</li>
-</ul>
-<h3 id="performance-notes">Performance Notes</h3>
-<p>This session started with a simple drone and evolved into a full techno exploration. The mood shifted between ambient textures and driving rhythms.</p>
-<h3 id="gear">Gear</h3>
-<ul>
-<li>Audio interface: Focusrite Scarlett 2i2</li>
-<li>Synthesizers: Ableton stock plugins</li>
-<li>Controllers: iPad with 7III Tap, Launchpad Mini</li>
-</ul>
-<h3 id="tracklist">Tracklist</h3>
-<p>0:00 - Intro &amp; Ambient Opening
-12:30 - First Rhythmic Element
-25:00 - Peak Techno Section
-45:00 - Wind Down &amp; Finale</p>
-<h3 id="credits">Credits</h3>
-<p>All music performed, recorded, and mixed by Nils Mango in real time.</p>
+    <content:encoded><![CDATA[<p>So we are actually doing this. Enterly played live, nothing prerecorded.
+Used in this session: iPad with <a rel="noopener" target="_blank" href="https://project7iii.com/tap">7III Tap</a>, Ableton Live.</p>
+<h2 id="video">Video</h2>
+<p>Youtube video of the Live Set.</p>
 ]]></content:encoded>
 
     <enclosure url="https:&#x2F;&#x2F;nilsmango.ch&#x2F;live&#x2F;episode-001.mp3" type="audio/mpeg" length="0"/>
-    <guid isPermaLink="false">https:&#x2F;&#x2F;nilsmango.ch&#x2F;live&#x2F;episode-001.mp3</guid>
+    <guid isPermaLink="true">https:&#x2F;&#x2F;nilsmango.ch&#x2F;live&#x2F;episode-001.mp3</guid>
     <pubDate>Tue, 20 Jan 2026 00:00:00 +0000</pubDate>
 
     <itunes:duration>58:12</itunes:duration>

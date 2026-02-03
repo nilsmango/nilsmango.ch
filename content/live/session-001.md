@@ -1,40 +1,22 @@
 +++
-title = "Nils Mango Live – Session 001"
+title = "Session #1: Ambient Techno Exploration"
 description = "Live techno and ambient session recorded in Switzerland"
 date = 2026-01-20
 [taxonomies]
 categories = ["live"]
+tags = ["Biel/Bienne"]
 
 [extra]
 audio_url = "https://nilsmango.ch/live/episode-001.mp3"
 audio_duration = "58:12"
 episode_number = 1
 explicit = false
+featured_image = "podcast-cover.jpg"
+featured_image_alt = "Nils Mango Live Episode 001"
 +++
 
-## Session 001: Ambient Techno Exploration
+So we are actually doing this. Enterly played live, nothing prerecorded. 
+Used in this session: iPad with [7III Tap](https://project7iii.com/tap), Ableton Live.
 
-Recorded on January 20, 2026 in a small studio in Switzerland.
-
-### Setup
-- MacBook Pro
-- Ableton Live
-- 7III Tap on iPad
-- No prerecorded loops or samples
-
-### Performance Notes
-This session started with a simple drone and evolved into a full techno exploration. The mood shifted between ambient textures and driving rhythms.
-
-### Gear
-- Audio interface: Focusrite Scarlett 2i2
-- Synthesizers: Ableton stock plugins
-- Controllers: iPad with 7III Tap, Launchpad Mini
-
-### Tracklist
-0:00 - Intro & Ambient Opening
-12:30 - First Rhythmic Element
-25:00 - Peak Techno Section
-45:00 - Wind Down & Finale
-
-### Credits
-All music performed, recorded, and mixed by Nils Mango in real time.
+## Video
+Youtube video of the Live Set.

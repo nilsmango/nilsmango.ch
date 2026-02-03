@@ -15,14 +15,17 @@
     </a>
     <div class="article-info">
       <time datetime="{{ page.date | date(format="%+") }}">{{ page.date | date(format="%B %d, %Y") }}</time>
-      <span class="divider">|</span>
-      Episode {{ page.extra.episode_number }}
-      <span class="divider">|</span>
-      Duration: {{ page.extra.audio_duration }}
+      {% if page.taxonomies.tags %}
+·
+              {% for tag in page.taxonomies.tags %}
+                <a href="{{ get_taxonomy_url(kind="tags", name=tag) | safe }}">#{{ tag }}</a>
+              {% endfor %}
+{% endif %}
+      
     </div>
     <div class="sum">
       {% if page.description %}
-        {{ page.description | safe }}...
+        {{ page.description | safe }}
       {% elif page.content %}
         {{ page.content | striptags | truncate(length=200) | safe }}
       {% endif %}

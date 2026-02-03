@@ -18,10 +18,6 @@
         <div class="article-info">
           {% if page.date %}
         <time datetime="{{ page.date | date(format="%+") }}">{{ page.date | date(format="%B %d, %Y") }}</time>
-        {% if page.extra.episode_number %}
-          <span class="divider">|</span>
-          Episode {{ page.extra.episode_number }}
-        {% endif %}
 {% endif %}
         {% if page.taxonomies.tags %}
   ·
@@ -33,7 +29,7 @@
 
         <div class="sum">
           {%- if page.description %}
-            {{ page.description | safe }}...
+            {{ page.description | safe }}
           {%- elif page.content %}
             {{ page.content | striptags | truncate(length=64) | safe }}
           {%- endif %}
@@ -73,9 +69,9 @@
 
         <div class="sum">
           {%- if page.summary %}
-            {{ page.summary | markdown(inline=true) | safe }}...
+            {{ page.summary | markdown(inline=true) | safe }}
           {%- elif page.description %}
-            {{ page.description | safe }}...
+            {{ page.description | safe }}
           {%- elif page.content %}
             {{ page.content | striptags | truncate(length=64) | safe }}
           {%- endif %}

@@ -8,7 +8,7 @@
     <updated>2026-01-20T00:00:00+00:00</updated>
     <id>https://nilsmango.ch/atom.xml</id>
     <entry xml:lang="en">
-        <title>Nils Mango Live – Session 001</title>
+        <title>Session #1: Ambient Techno Exploration</title>
         <published>2026-01-20T00:00:00+00:00</published>
         <updated>2026-01-20T00:00:00+00:00</updated>
         
@@ -23,30 +23,10 @@
         <link rel="alternate" type="text/html" href="https://nilsmango.ch/live/session-001/"/>
         <id>https://nilsmango.ch/live/session-001/</id>
         
-        <content type="html" xml:base="https://nilsmango.ch/live/session-001/">&lt;h2 id=&quot;session-001-ambient-techno-exploration&quot;&gt;Session 001: Ambient Techno Exploration&lt;&#x2F;h2&gt;
-&lt;p&gt;Recorded on January 20, 2026 in a small studio in Switzerland.&lt;&#x2F;p&gt;
-&lt;h3 id=&quot;setup&quot;&gt;Setup&lt;&#x2F;h3&gt;
-&lt;ul&gt;
-&lt;li&gt;MacBook Pro&lt;&#x2F;li&gt;
-&lt;li&gt;Ableton Live&lt;&#x2F;li&gt;
-&lt;li&gt;7III Tap on iPad&lt;&#x2F;li&gt;
-&lt;li&gt;No prerecorded loops or samples&lt;&#x2F;li&gt;
-&lt;&#x2F;ul&gt;
-&lt;h3 id=&quot;performance-notes&quot;&gt;Performance Notes&lt;&#x2F;h3&gt;
-&lt;p&gt;This session started with a simple drone and evolved into a full techno exploration. The mood shifted between ambient textures and driving rhythms.&lt;&#x2F;p&gt;
-&lt;h3 id=&quot;gear&quot;&gt;Gear&lt;&#x2F;h3&gt;
-&lt;ul&gt;
-&lt;li&gt;Audio interface: Focusrite Scarlett 2i2&lt;&#x2F;li&gt;
-&lt;li&gt;Synthesizers: Ableton stock plugins&lt;&#x2F;li&gt;
-&lt;li&gt;Controllers: iPad with 7III Tap, Launchpad Mini&lt;&#x2F;li&gt;
-&lt;&#x2F;ul&gt;
-&lt;h3 id=&quot;tracklist&quot;&gt;Tracklist&lt;&#x2F;h3&gt;
-&lt;p&gt;0:00 - Intro &amp;amp; Ambient Opening
-12:30 - First Rhythmic Element
-25:00 - Peak Techno Section
-45:00 - Wind Down &amp;amp; Finale&lt;&#x2F;p&gt;
-&lt;h3 id=&quot;credits&quot;&gt;Credits&lt;&#x2F;h3&gt;
-&lt;p&gt;All music performed, recorded, and mixed by Nils Mango in real time.&lt;&#x2F;p&gt;
+        <content type="html" xml:base="https://nilsmango.ch/live/session-001/">&lt;p&gt;So we are actually doing this. Enterly played live, nothing prerecorded.
+Used in this session: iPad with &lt;a rel=&quot;noopener&quot; target=&quot;_blank&quot; href=&quot;https:&#x2F;&#x2F;project7iii.com&#x2F;tap&quot;&gt;7III Tap&lt;&#x2F;a&gt;, Ableton Live.&lt;&#x2F;p&gt;
+&lt;h2 id=&quot;video&quot;&gt;Video&lt;&#x2F;h2&gt;
+&lt;p&gt;Youtube video of the Live Set.&lt;&#x2F;p&gt;
 </content>
         
     </entry>
