@@ -19,4 +19,4 @@ So we are actually doing this. Enterly played live, nothing prerecorded.
 Used in this session: iPad with [7III Tap](https://project7iii.com/tap), Ableton Live.
 
 ## Video
-Youtube video of the Live Set.
+Youtube video of the live session.

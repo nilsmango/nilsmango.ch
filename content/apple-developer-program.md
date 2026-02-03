@@ -15,6 +15,6 @@ How to enroll in the Apple Developer Program in 7 easy steps:
 
 {{ youtube(id="qNDS4kVwA68", start="44") }}
 
-1. Go make a special Apple ID - use a random Gmail email address after failing with all your other email accounts.
-2. Don’t use the apps; it's a trap! Go through the web on your computer (worked for me, at least).
-3. Get the payment to go through and voila, it works! Simple as that!
+5. Go make a special Apple ID - use a random Gmail email address after failing with all your other email accounts.
+6. Don’t use the apps; it's a trap! Go through the web on your computer (worked for me, at least).
+7. Get the payment to go through and voila, it works! Simple as that!
