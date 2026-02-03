@@ -29,11 +29,11 @@
   <podcast:owner>senf@nilsmango.ch</podcast:owner>
   <podcast:locked>no</podcast:locked>
 
-  {% for page in pages | sort(attribute="date") | reverse %}
-  <item>
-    <title>{{ page.title }}</title>
-    <description>{{ page.description | default(value="") }}</description>
-    <content:encoded><![CDATA[{{ page.content | safe }}]]></content:encoded>
+   {% for page in pages | sort(attribute="date") | reverse %}
+   <item>
+     <title>{{ page.title }}</title>
+     <description>{{ page.description | default(value="") }}</description>
+     <content:encoded><![CDATA[{% set content_no_div = page.content | replace(from='<div class="youtube">', to='') | replace(from='<script src="/lite-yt-embed.js"></script>', to='') | replace(from='</div>', to='') %}{% set content_clean_link = content_no_div | replace(from='<lite-youtube videoid="', to='<a href="https://youtube.com/watch?v=') | replace(from='"></lite-youtube>', to='">Watch on YouTube</a>') %}{% set content_final = content_clean_link | regex_replace(pattern=' playlabel="[^"]*"', rep='') | regex_replace(pattern=' class="tvframe"', rep='') | regex_replace(pattern=' params="[^"]*"', rep='') %}{{ content_final | safe }}]]></content:encoded>
 
     <enclosure url="{{ page.extra.audio_url }}" type="audio/mpeg" length="0"/>
     <guid isPermaLink="true">{{ page.extra.audio_url }}</guid>
