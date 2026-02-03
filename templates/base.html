@@ -46,7 +46,9 @@
             {% block nav_bar %}
             {% for subsec in config.extra.menu_items %}
                 {% set link_url = subsec.url %}
-                <li class="nav-item"><a {% if current_url and current_url is containing(link_url ~ '/') %}class="active"{% endif %} href="{{ link_url }}">{{ subsec.name }}</a></li>
+                {% set section_active = section and section.permalink and (section.permalink | replace(from=config.base_url, to="") | replace(from="/", to="") == link_url | replace(from="/", to="")) %}
+                {% set page_active = page and page.permalink and (page.permalink | replace(from=config.base_url, to="") | replace(from="/", to="") == link_url | replace(from="/", to="")) %}
+                <li class="nav-item"><a {% if section_active or page_active %}class="active"{% endif %} href="{{ link_url }}">{{ subsec.name }}</a></li>
             {% endfor %}
 
             {% endblock nav_bar %}
@@ -77,12 +79,16 @@
           <ul class="footernav-list">
           {% for subsec in config.extra.footer_nav %}
           {% set link_url = subsec.url %}
+          {% set section_active = section and section.permalink and (section.permalink | replace(from=config.base_url, to="") | replace(from="/", to="") == link_url | replace(from="/", to="")) %}
+          {% set page_active = page and page.permalink and (page.permalink | replace(from=config.base_url, to="") | replace(from="/", to="") == link_url | replace(from="/", to="")) %}
+          {% set term_active = term and term.permalink and (term.permalink | replace(from=config.base_url, to="") | replace(from="/", to="") == link_url | replace(from="/", to="")) %}
+          {% set taxonomy_active = taxonomy and taxonomy.name | lower == link_url | replace(from="/", to="") %}
           {% if subsec.name == "Ko-fi" %}
             <li class="footernav-item"><a href="{{ link_url }}" target="_blank"><img src="/ko-fi.svg" alt="Buy me a Ko-fi" class="kofi"></a> </li>
           {% else %}
-            <li class="footernav-item"><a {% if current_url and current_url is containing(link_url ~ '/') %}class="active"{% endif %} {% if subsec.newtab == true %}target="_blank" rel="noopener"{% endif %} href="{{ link_url }}">{{ subsec.name }} </a> </li>
-            {% endif %}
-            {% endfor %}
+            <li class="footernav-item"><a {% if section_active or page_active or term_active or taxonomy_active %}class="active"{% endif %} {% if subsec.newtab == true %}target="_blank" rel="noopener"{% endif %} href="{{ link_url }}">{{ subsec.name }} </a> </li>
+          {% endif %}
+          {% endfor %}
           </ul>
         </nav>
 
