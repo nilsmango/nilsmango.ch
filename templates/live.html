@@ -8,6 +8,7 @@
 {{ section.content | safe }}
 
 <ul class="posts">
+    <h2>Live Sessions </h2>
   {% for page in paginator.pages | sort(attribute="date") | reverse %}
   <li class="nobullets">
     <a href="{{ page.permalink | safe }}">

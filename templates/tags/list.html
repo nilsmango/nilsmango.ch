@@ -3,8 +3,9 @@
 {% block title %}Tags - {{ config.title }}{% endblock title%}
 
 {% block content %}
-<h1>Tags</h1>
-<p>View all <a href="/blog">articles</a> </p>
+<h1 class="title">Tags</h1>
+<p>View all <a href="/blog">articles</a></p>
+<p></p>
 <ul class="posts">
     {% for term in terms %}
     <li class="nobullets"><h3>
