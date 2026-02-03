@@ -45,6 +45,9 @@
 <h1 class="title">
   {{ page.title }}
 </h1>
+{% if page.extra.featured_image %}
+<img src="/live/{{ page.extra.featured_image }}" alt="{% if page.extra.featured_image_alt %}{{ page.extra.featured_image_alt }}{% else %}Featured image{% endif %}" style="width: 100%; margin: 1rem 0;">
+{% endif %}
 
 {% if page.taxonomies.categories %}
 <p><span class="post-dates">Posted on <time datetime="{{ page.date | date(format="%+") }}">{{ page.date | date(format="%B %d, %Y") }}</time></span>
