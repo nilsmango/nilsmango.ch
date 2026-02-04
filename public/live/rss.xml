@@ -31,29 +31,29 @@
 
    
    <item>
-     <title>Session #1: Ambient Techno Exploration</title>
-     <description>Live techno and ambient session recorded in Switzerland</description>
-     <content:encoded><![CDATA[<p>So we are actually doing this. Enterly played live, nothing prerecorded.
-Used in this session: iPad with <a rel="noopener" target="_blank" href="https://project7iii.com/tap">7III Tap</a>, Ableton Live.</p>
+     <title>Session #6: A New Beginning</title>
+     <description>First session after a long break: live techno and ambient session recorded in Switzerland</description>
+     <content:encoded><![CDATA[<p>So we are actually doing this, after a long break Nils Mango Live is back. With a self-hosted podcast even. Enterly played live, nothing prerecorded.
+Used in this session: iPad with <a rel="noopener" target="_blank" href="https://project7iii.com/tap">7III Tap</a>, <a rel="noopener" target="_blank" href="https://ableton.com/live">Ableton Live</a>.</p>
 <h2 id="video">Video</h2>
 <p>If you don't like audio only, here's a YouTube video of the live session:
 
-<a href="https://youtube.com/watch?v=BnbFnn7Sfqs">Watch on YouTube</a>
+<a href="https://youtube.com/watch?v=8DqCBgK7MVo">Watch on YouTube</a>
 
 
 </p>
 ]]></content:encoded>
 
-    <enclosure url="https:&#x2F;&#x2F;nilsmango.ch&#x2F;live&#x2F;episode-001.mp3" type="audio/mpeg" length="0"/>
-    <guid isPermaLink="true">https:&#x2F;&#x2F;nilsmango.ch&#x2F;live&#x2F;episode-001.mp3</guid>
-    <pubDate>Tue, 20 Jan 2026 00:00:00 +0000</pubDate>
+    <enclosure url="https:&#x2F;&#x2F;nilsmango.ch&#x2F;live&#x2F;episode-006.mp3" type="audio/mpeg" length="0"/>
+    <guid isPermaLink="true">https:&#x2F;&#x2F;nilsmango.ch&#x2F;live&#x2F;episode-006.mp3</guid>
+    <pubDate>Thu, 15 Jan 2026 00:00:00 +0000</pubDate>
 
     <itunes:duration>56:16</itunes:duration>
-    <itunes:episode>1</itunes:episode>
+    <itunes:episode>6</itunes:episode>
     <itunes:episodeType>full</itunes:episodeType>
     <itunes:explicit>false</itunes:explicit>
     <itunes:author>Nils Mango</itunes:author>
-    <itunes:summary>Live techno and ambient session recorded in Switzerland</itunes:summary>
+    <itunes:summary>First session after a long break: live techno and ambient session recorded in Switzerland</itunes:summary>
   </item>
   
 </channel>
