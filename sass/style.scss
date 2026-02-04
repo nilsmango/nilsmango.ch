@@ -243,16 +243,35 @@ ul ul {
 // hier unten und oben noch verbessern, schauen auch andere themes! vor allem ob active in base auch so gemacht wird.
 
 blockquote {
+  position: relative;
   margin-left: 0px;
   padding-left: 15px;
-  border-left: 3px solid var(--color-link);
+
+  &::before {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 1rem;
+    bottom: 1rem;
+    width: 3px;
+    background-color: var(--color-link);
+  }
 }
 
 .comments {
+  position: relative;
   margin-top: 40px;
-  border-left: 3px solid var(--color-text);
   padding-left: 15px;
-  //text-align: center;
+
+  &::before {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 1rem;
+    bottom: 1rem;
+    width: 3px;
+    background-color: var(--color-text);
+  }
 }
 .smaller {
   font-size: $font-size-smaller;
