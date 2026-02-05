@@ -21,7 +21,7 @@
     } else {
       h = Math.floor(Math.random() * 360);
       s = Math.floor(Math.random() * 30) + 70;
-      l = Math.floor(Math.random() * 10) + 90;
+      l = Math.floor(Math.random() * 5) + 95;
     }
     const bgColor = `hsl(${h}, ${s}%, ${l}%)`;
     const footerL = isDark ? l + 4 : l - 4;
