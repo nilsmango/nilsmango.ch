@@ -1,6 +1,6 @@
 +++
 title = "Session #6: A New Beginning"
-description = "First session after a long break: live techno and ambient session recorded in Switzerland"
+description = "First session after a long break: live techno and electronica session recorded in Switzerland"
 date = 2026-01-15
 template = "live/page.html"
 [taxonomies]
