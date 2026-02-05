@@ -5,8 +5,20 @@
         <link>https://nilsmango.ch</link>
         <description>Creating things &amp; eliminating errors.</description>
         <language>en</language>
-        <lastBuildDate>Thu, 15 Jan 2026 00:00:00 +0000</lastBuildDate>
+        <lastBuildDate>Sat, 24 Jan 2026 00:00:00 +0000</lastBuildDate>
         <atom:link href="https://nilsmango.ch/tags/biel-bienne/rss.xml" rel="self" type="application/rss+xml"/>
+        
+            <item>
+                <title>Session #7: Empty Battery</title>
+                <pubDate>Sat, 24 Jan 2026 00:00:00 +0000</pubDate>
+                <link>https://nilsmango.ch/live/session-007/</link>
+                <guid>https://nilsmango.ch/live/session-007/</guid>
+                <description>
+                    
+                        We partied till the juice ran out. An improvised live electronic music session, recorded in Switzerland.
+                    
+                </description>
+            </item>
         
             <item>
                 <title>Session #6: A New Beginning</title>
@@ -15,7 +27,7 @@
                 <guid>https://nilsmango.ch/live/session-006/</guid>
                 <description>
                     
-                        First session after a long break: live techno and ambient session recorded in Switzerland
+                        First session after a long break: live techno and electronica session recorded in Switzerland
                     
                 </description>
             </item>

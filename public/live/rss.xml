@@ -31,8 +31,34 @@
 
    
    <item>
+     <title>Session #7: Empty Battery</title>
+     <description>We partied till the juice ran out. An improvised live electronic music session, recorded in Switzerland.</description>
+     <content:encoded><![CDATA[<p>The second episode of the new era. Starting calmly, then going crazy. I had a couple of audio glitches and a problem with my battery, so the session ends rather abruptly with a dead battery. Entirely improvised and played live, nothing prerecorded.<br />
+Used in this session: iPad with <a rel="noopener" target="_blank" href="https://project7iii.com/tap">7III Tap</a>, <a rel="noopener" target="_blank" href="https://ableton.com/live">Ableton Live</a>.</p>
+<h2 id="video">Video</h2>
+<p>If you don't like audio only, here's a YouTube video of the live session:
+
+<a href="https://youtube.com/watch?v=Ah47xP-iaLg">Watch on YouTube</a>
+
+
+</p>
+]]></content:encoded>
+
+    <enclosure url="https:&#x2F;&#x2F;nilsmango.ch&#x2F;live&#x2F;episode-007.mp3" type="audio/mpeg" length="0"/>
+    <guid isPermaLink="true">https:&#x2F;&#x2F;nilsmango.ch&#x2F;live&#x2F;episode-007.mp3</guid>
+    <pubDate>Sat, 24 Jan 2026 00:00:00 +0000</pubDate>
+
+    <itunes:duration>47:42</itunes:duration>
+    <itunes:episode>7</itunes:episode>
+    <itunes:episodeType>full</itunes:episodeType>
+    <itunes:explicit>false</itunes:explicit>
+    <itunes:author>Nils Mango</itunes:author>
+    <itunes:summary>We partied till the juice ran out. An improvised live electronic music session, recorded in Switzerland.</itunes:summary>
+  </item>
+  
+   <item>
      <title>Session #6: A New Beginning</title>
-     <description>First session after a long break: live techno and ambient session recorded in Switzerland</description>
+     <description>First session after a long break: live techno and electronica session recorded in Switzerland</description>
      <content:encoded><![CDATA[<p>So we are actually doing this, after a long break Nils Mango Live is back. With a self-hosted podcast even. Enterly played live, nothing prerecorded.
 Used in this session: iPad with <a rel="noopener" target="_blank" href="https://project7iii.com/tap">7III Tap</a>, <a rel="noopener" target="_blank" href="https://ableton.com/live">Ableton Live</a>.</p>
 <h2 id="video">Video</h2>
@@ -53,7 +79,7 @@ Used in this session: iPad with <a rel="noopener" target="_blank" href="https://
     <itunes:episodeType>full</itunes:episodeType>
     <itunes:explicit>false</itunes:explicit>
     <itunes:author>Nils Mango</itunes:author>
-    <itunes:summary>First session after a long break: live techno and ambient session recorded in Switzerland</itunes:summary>
+    <itunes:summary>First session after a long break: live techno and electronica session recorded in Switzerland</itunes:summary>
   </item>
   
 </channel>
