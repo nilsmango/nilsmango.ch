@@ -5,8 +5,20 @@
         <link>https://nilsmango.ch</link>
         <description>Creating things &amp; eliminating errors.</description>
         <language>en</language>
-        <lastBuildDate>Sat, 24 Jan 2026 00:00:00 +0000</lastBuildDate>
+        <lastBuildDate>Sun, 25 Jan 2026 00:00:00 +0000</lastBuildDate>
         <atom:link href="https://nilsmango.ch/rss.xml" rel="self" type="application/rss+xml"/>
+        
+            <item>
+                <title>Session #8: Lunch Jazz</title>
+                <pubDate>Sun, 25 Jan 2026 00:00:00 +0000</pubDate>
+                <link>https://nilsmango.ch/live/session-008/</link>
+                <guid>https://nilsmango.ch/live/session-008/</guid>
+                <description>
+                    
+                        Starts slow and gets jazzy toward the end. A fully live electronic music session recorded in Switzerland.
+                    
+                </description>
+            </item>
         
             <item>
                 <title>Session #7: Empty Battery</title>

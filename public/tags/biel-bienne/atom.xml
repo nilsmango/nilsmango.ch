@@ -5,8 +5,36 @@
     <link rel="self" type="application/atom+xml" href="https://nilsmango.ch/tags/biel-bienne/atom.xml"/>
     <link rel="alternate" type="text/html" href="https://nilsmango.ch"/>
     <generator uri="https://www.getzola.org/">Zola</generator>
-    <updated>2026-01-24T00:00:00+00:00</updated>
+    <updated>2026-01-25T00:00:00+00:00</updated>
     <id>https://nilsmango.ch/tags/biel-bienne/atom.xml</id>
+    <entry xml:lang="en">
+        <title>Session #8: Lunch Jazz</title>
+        <published>2026-01-25T00:00:00+00:00</published>
+        <updated>2026-01-25T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="https://nilsmango.ch/live/session-008/"/>
+        <id>https://nilsmango.ch/live/session-008/</id>
+        
+        <content type="html" xml:base="https://nilsmango.ch/live/session-008/">&lt;p&gt;The third episode of the new era. Starting calm, then going jazzy. A &quot;feel good&quot; episode, and the longest so far. Entirely improvised and played live, nothing prerecorded.&lt;br &#x2F;&gt;
+Used in this session: iPad with &lt;a rel=&quot;noopener&quot; target=&quot;_blank&quot; href=&quot;https:&#x2F;&#x2F;project7iii.com&#x2F;tap&quot;&gt;7III Tap&lt;&#x2F;a&gt;, &lt;a rel=&quot;noopener&quot; target=&quot;_blank&quot; href=&quot;https:&#x2F;&#x2F;ableton.com&#x2F;live&quot;&gt;Ableton Live&lt;&#x2F;a&gt;. All synths stock Ableton Live instruments.&lt;&#x2F;p&gt;
+&lt;h2 id=&quot;video&quot;&gt;Video&lt;&#x2F;h2&gt;
+&lt;p&gt;If you don&#x27;t like audio only, here&#x27;s a YouTube video of the live session:
+&lt;div class=&quot;youtube&quot;&gt;
+&lt;lite-youtube videoid=&quot;QKzxbC-ZSxc&quot; playlabel=&quot;Play: Keynote (Google I&#x2F;O &#x27;18)&quot; class=&quot;tvframe&quot; params=&quot;start=0&amp;modestbranding=2&amp;autoplay=1&amp;rel=0&quot;&gt;&lt;&#x2F;lite-youtube&gt;
+&lt;script src=&quot;&#x2F;lite-yt-embed.js&quot;&gt;&lt;&#x2F;script&gt;
+&lt;&#x2F;div&gt;
+&lt;&#x2F;p&gt;
+</content>
+        
+    </entry>
     <entry xml:lang="en">
         <title>Session #7: Empty Battery</title>
         <published>2026-01-24T00:00:00+00:00</published>
