@@ -9,38 +9,37 @@
 <h2>Latest Live Session Podcasts</h2>
 
 <ul class="posts">
-  {% for page in section.pages | filter(attribute="taxonomies.categories") | slice(end=4) %}
-    {% if "live" in page.taxonomies.categories %}
+  {% set live_section = get_section(path="live/_index.md") %}
+  {% for episode in live_section.pages | sort(attribute="date") | reverse | slice(end=2) %}
   <li class="nobullets">
-      <a href="{{ page.permalink | safe }}">
-      <h3>{{ page.title }}</h3>
+      <a href="{{ episode.permalink | safe }}">
+      <h3>{{ episode.title }}</h3>
       </a>
         <div class="article-info">
-          {% if page.date %}
-        <time datetime="{{ page.date | date(format="%+") }}">{{ page.date | date(format="%B %d, %Y") }}</time>
+          {% if episode.date %}
+        <time datetime="{{ episode.date | date(format="%+") }}">{{ episode.date | date(format="%B %d, %Y") }}</time>
 {% endif %}
-        {% if page.taxonomies.tags %}
+        {% if episode.taxonomies.tags %}
   ·
-                {% for tag in page.taxonomies.tags %}
+                {% for tag in episode.taxonomies.tags %}
                   <a href="{{ get_taxonomy_url(kind="tags", name=tag) | safe }}">#{{ tag }}</a>
                 {% endfor %}
 {% endif %}
               </div>
 
         <div class="sum">
-          {%- if page.description %}
-            {{ page.description | safe }}
-          {%- elif page.content %}
-            {{ page.content | striptags | truncate(length=64) | safe }}
+          {%- if episode.description %}
+            {{ episode.description | safe }}
+          {%- elif episode.content %}
+            {{ episode.content | striptags | truncate(length=64) | safe }}
           {%- endif %}
           </div>
-        {% if page.extra.audio_url %}
-        <audio controls src="{{ page.extra.audio_url }}" style="width: 100%; margin: 0.5rem 0;">
+        {% if episode.extra.audio_url %}
+        <audio controls src="{{ episode.extra.audio_url }}" style="width: 100%; margin: 0.5rem 0;">
           Your browser does not support the audio element.
         </audio>
         {% endif %}
       </li>
-    {% endif %}
   {% endfor %}
 </ul>
 <p class="viewall">→ View all <a href="/live">live sessions</a></p>
@@ -48,8 +47,10 @@
 <h2>Latest Articles</h2>
 
 <ul class="posts">
-  {% for page in section.pages | filter(attribute="taxonomies.categories") | slice(end=4) %}
-    {% if "live" not in page.taxonomies.categories %}
+  {% set_global article_count = 0 %}
+  {% for page in section.pages | filter(attribute="taxonomies.categories") | sort(attribute="date") | reverse %}
+    {% if "live" not in page.taxonomies.categories and article_count < 2 %}
+      {% set_global article_count = article_count + 1 %}
   <li class="nobullets">
       <a href="{{ page.permalink | safe }}">
       <h3>{{ page.title }}</h3>
@@ -76,7 +77,6 @@
             {{ page.content | striptags | truncate(length=64) | safe }}
           {%- endif %}
           </div>
-
 
       </li>
     {% endif %}
