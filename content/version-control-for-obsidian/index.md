@@ -39,14 +39,14 @@ Make it executable: `chmod +x daily-commit.sh`
 Source: [Stack Overflow answer by Steven Oxley](https://stackoverflow.com/a/59350529/21681219)
 
 -   Create an Automator application
-    -   Open **Automator**
-    -   Click **New Document**
-    -   Select **Application**
-    -   Click **Choose**
-    -   Select **Utilities > Run Shell Script**
-    -   Select **Pass Input: as arguments**
-    -   Enter `/bin/bash -c "$1"` as the body of the script (see screenshot below)
-    -   Click **File > Save** and save the application wherever you'd like (`run-script.app` in this example)
+    -   Open **Automator**
+    -   Click **New Document**
+    -   Select **Application**
+    -   Click **Choose**
+    -   Select **Utilities > Run Shell Script**
+    -   Select **Pass Input: as arguments**
+    -   Enter `/bin/bash -c "$1"` as the body of the script (see screenshot below)
+    -   Click **File > Save** and save the application wherever you'd like (`run-script.app` in this example)
 
 -   Next, run the application that was just created manually to make sure it has the permissions it needs (you need also grant **Full Disk Access** to the new application in **Security & Privacy**, (in my case even Automator needed **Full Disk Access**))
     -   Open **Terminal**

@@ -107,11 +107,11 @@ ul  {
   }
 }
 
-p:has(+ ul) {
+:not(li) > p:has(+ ul) {
   margin-bottom: -1rem;
 }
 
-p:has(+ ol) {
+:not(li) > p:has(+ ol) {
   margin-bottom: -1rem;
 }
 
@@ -230,6 +230,10 @@ a:visited {
 
 li {
   padding-top: 0.25rem;
+}
+
+li > p {
+  margin-bottom: 0;
 }
 
 ul ul {
