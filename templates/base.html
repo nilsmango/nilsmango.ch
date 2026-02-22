@@ -30,7 +30,7 @@
   <meta property="og:image" content="{{ config.base_url }}/ogpic.jpg">
 {% endblock ogp_head %}
   <!-- My CSS -->
-  <link rel="stylesheet" href="/style.css">
+  <link rel="stylesheet" href="{{ get_url(path='style.css', cachebust=true) }}">
 </head>
 
 <body>
