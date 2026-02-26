@@ -5,7 +5,7 @@ date = 2026-01-29
 template = "live/page.html"
 [taxonomies]
 categories = ["live"]
-tags = ["TracksOnAPlane", "BSL", "TFS", "EJU1025"]
+tags = ["TracksOnAPlane", "BSL", "TFS", "EJU1025", "music"]
 
 [extra]
 audio_url = "https://nilsmango.ch/live/episode-009.mp3"

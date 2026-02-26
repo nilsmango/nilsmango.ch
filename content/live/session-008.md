@@ -5,7 +5,7 @@ date = 2026-01-25
 template = "live/page.html"
 [taxonomies]
 categories = ["live"]
-tags = ["Biel/Bienne"]
+tags = ["Biel/Bienne", "music"]
 
 [extra]
 audio_url = "https://nilsmango.ch/live/episode-008.mp3"
