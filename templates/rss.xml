@@ -17,7 +17,7 @@
   <itunes:image href="{{ config.base_url }}/live/podcast-cover.jpg"/>
   <itunes:owner>
     <itunes:name>Nils Mango</itunes:name>
-    <itunes:email>senf@nilsmango.ch</itunes:email>
+    <itunes:email>1+1@nilsmango.ch</itunes:email>
   </itunes:owner>
 
   <itunes:category text="Music">
@@ -26,7 +26,7 @@
   <itunes:category text="Music"/>
   <itunes:category text="Arts"/>
 
-  <podcast:owner>senf@nilsmango.ch</podcast:owner>
+  <podcast:owner>1+1@nilsmango.ch</podcast:owner>
   <podcast:locked>no</podcast:locked>
 
    {% for page in pages | sort(attribute="date") | reverse %}

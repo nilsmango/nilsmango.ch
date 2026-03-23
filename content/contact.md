@@ -10,4 +10,4 @@ c/o S. Lang
 Albert-Anker-Weg 11  
 2502 Biel/Bienne
 
-[senf@nilsmango.ch](mailto:senf@nilsmango.ch)
+[1+1@nilsmango.ch](mailto:1+1@nilsmango.ch)
