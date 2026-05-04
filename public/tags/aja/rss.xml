@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+    <channel>
+        <title>Nils Mango</title>
+        <link>https://nilsmango.ch</link>
+        <description>Creating things &amp; eliminating errors.</description>
+        <language>en</language>
+        <lastBuildDate>Mon, 04 May 2026 00:00:00 +0000</lastBuildDate>
+        <atom:link href="https://nilsmango.ch/tags/aja/rss.xml" rel="self" type="application/rss+xml"/>
+        
+            <item>
+                <title>Session #12: GVA to AJA Apr 30 2026 EZS1359</title>
+                <pubDate>Mon, 04 May 2026 00:00:00 +0000</pubDate>
+                <link>https://nilsmango.ch/live/session-012/</link>
+                <guid>https://nilsmango.ch/live/session-012/</guid>
+                <description>
+                    
+                        Tracks on a Plane is back for a short episode. A short electronic music session recorded mid-flight from Geneva to Ajaccio.
+                    
+                </description>
+            </item>
+        
+    </channel>
+</rss>
