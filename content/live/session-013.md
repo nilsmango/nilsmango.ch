@@ -24,4 +24,4 @@ Used in this session: iPad with [7III Tap](https://project7iii.com/tap), [Ableto
 
 ## Video
 If you don't like audio-only, here's a YouTube video of the live session:
-{{ youtube(id="Rgy2wYsogb8", start="0") }}
+{{ youtube(id="3XtFHFDvJg0", start="0") }}
