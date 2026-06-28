@@ -21,13 +21,13 @@ Check my podcast [Nils Mango Live](/live) to listen to improvised, in the moment
 {{ image_sets(path="content/music/Making music in 2018.jpg", format="auto", op="fit_width", quality=90, alt="Two people making electronic music with Ableton Push and synthesizers", caption="Making music with a friend in 2018") }}
 
 ## Nils Mango
-My music is better than it sounds.
+My music is better than it sounds. Listen to all [my music on YouTube](https://youtube.com/playlist?list=PLcN8qnz0I9JiwZbodUs9b69JBiPfXCmX4&si=cwLGEbWXdQ0kKe85).
 
 My favorite albums include:
 - [Not An Album 15](https://nilsmango.bandcamp.com/album/not-an-album-15)
 - [Is this real life?](https://nilsmango.bandcamp.com/album/is-this-real-life)
 
-→  Find all albums by Nils Mango [here](https://nilsmango.bandcamp.com).
+→  Find all albums by [Nils Mango on bandcamp](https://nilsmango.bandcamp.com).
 
 
 ## Vogesen Tape Sessions Collective
@@ -35,8 +35,10 @@ We make live electronic music.
 Nothing prerecorded.  
 We are the Vogesen Tape Sessions Collective. 
 
+Watch and listen to all our sessions in our [Vogesen Tap Sessions Collective playlist on YouTube](https://youtube.com/playlist?list=PLcN8qnz0I9JjIxp_TwmvYfnAbDoDRYCgI&si=YFST6Fw-ptOz4bTD).
+
 My favorite albums are:
 - [Vogesen Tape Sessions Part II](https://vogesentapesessionscollective.bandcamp.com/album/vogesen-tape-sessions-part-ii)
 - [Vogesen Tape Sessions Part XV](https://vogesentapesessionscollective.bandcamp.com/album/vogesen-tape-sessions-part-xv)
 
-→  Find all albums by the Vogesen Tape Sessions Collective [here](https://vogesentapesessionscollective.bandcamp.com).
+→  Find most albums by the [Vogesen Tape Sessions Collective on bandcamp](https://vogesentapesessionscollective.bandcamp.com).

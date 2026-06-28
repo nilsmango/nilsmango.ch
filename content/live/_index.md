@@ -22,7 +22,7 @@ Find this podcast everywhere you are listening to podcast by searching for "Nils
 - [Listen on Overcast](https://overcast.fm/itunes1874875439)
 - [Listen on Castbox](https://castbox.fm/channel/id7003227)
 
-Every session is also getting uploaded to [YouTube](https://youtube.com/nilsmango) and the [Nils Mango Live YouTube playlist](https://youtube.com/playlist?list=PLcN8qnz0I9JidvrC5fo9A8-hD7rwPM3xq&si=X8kiD-ntXVOkpWnu).
+Every session is also getting uploaded to the [Nils Mango Live YouTube playlist](https://youtube.com/playlist?list=PLcN8qnz0I9JidvrC5fo9A8-hD7rwPM3xq&si=X8kiD-ntXVOkpWnu).
 
 There are two recurring formats:  
 - **Tracks on a Plane** - Live performances recorded airplanes. Portable setup (7III Tap on iPhone), limited conditions, full commitment to the moment.
