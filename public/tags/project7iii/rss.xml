@@ -5,8 +5,20 @@
         <link>https://nilsmango.ch</link>
         <description>Creating things &amp; eliminating errors.</description>
         <language>en</language>
-        <lastBuildDate>Thu, 26 Feb 2026 00:00:00 +0000</lastBuildDate>
+        <lastBuildDate>Wed, 01 Jul 2026 00:00:00 +0000</lastBuildDate>
         <atom:link href="https://nilsmango.ch/tags/project7iii/rss.xml" rel="self" type="application/rss+xml"/>
+        
+            <item>
+                <title>Best Ableton Push Alternative? Why I Built 7III Tap</title>
+                <pubDate>Wed, 01 Jul 2026 00:00:00 +0000</pubDate>
+                <link>https://nilsmango.ch/ableton-push-alternative/</link>
+                <guid>https://nilsmango.ch/ableton-push-alternative/</guid>
+                <description>
+                    
+                        How and why I built 7III Tap, my Ableton Live controller
+                    
+                </description>
+            </item>
         
             <item>
                 <title>Foiling Map of the World</title>
