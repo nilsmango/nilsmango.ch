@@ -3,7 +3,7 @@ title = "Best Ableton Push Alternative? Why I Built 7III Tap"
 description = "How and why I built 7III Tap, my Ableton Live controller"
 date = 2026-07-01
 [taxonomies]
-tags = ["apps", "music", "tap"]
+tags = ["apps", "music", "tap", "project7iii"]
 categories = ["articles"]
 [extra]
 featured_image = "Tap Ableton Live Controller iPad.jpg"
