@@ -5,8 +5,99 @@
     <link rel="self" type="application/atom+xml" href="https://nilsmango.ch/tags/project7iii/atom.xml"/>
     <link rel="alternate" type="text/html" href="https://nilsmango.ch"/>
     <generator uri="https://www.getzola.org/">Zola</generator>
-    <updated>2026-07-01T00:00:00+00:00</updated>
+    <updated>2026-07-05T00:00:00+00:00</updated>
     <id>https://nilsmango.ch/tags/project7iii/atom.xml</id>
+    <entry xml:lang="en">
+        <title>My Ableton Live Setup for Live Performance</title>
+        <published>2026-07-05T00:00:00+00:00</published>
+        <updated>2026-07-05T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="https://nilsmango.ch/live-performance-setup/"/>
+        <id>https://nilsmango.ch/live-performance-setup/</id>
+        
+        <content type="html" xml:base="https://nilsmango.ch/live-performance-setup/">&lt;p&gt;This is my ultimate guide to playing live electronic music with Ableton Live.
+The most important thing, even more important than a great controller I would say, are the basics, the live set, then the presets.&lt;&#x2F;p&gt;
+&lt;h2 id=&quot;the-basics&quot;&gt;The Basics&lt;&#x2F;h2&gt;
+&lt;p&gt;I usually record my session, and because I do not want to edit video and sound together later, I use some cameras (if available (I usually have one top view of my controller and one from a bit farther away with myself in the frame to keep it interesting)) with an &lt;a rel=&quot;noopener&quot; target=&quot;_blank&quot; href=&quot;https:&#x2F;&#x2F;gist.github.com&#x2F;nilsmango&#x2F;58857855454801f4bc642f74dfffdaef&quot;&gt;automatic scene switching script&lt;&#x2F;a&gt; in &lt;a rel=&quot;noopener&quot; target=&quot;_blank&quot; href=&quot;https:&#x2F;&#x2F;obsproject.com&quot;&gt;OBS&lt;&#x2F;a&gt;. Add cool lightning for beautiful video if possible. To get the sound into OBS and the speakers, I use BlackHole with a Multi Output Device added to Audio-MIDI-Setup. My normal output is the first audio device, the second is BlackHole 2ch, with Drift-Correction. It is very important that the Multi Output Device is using the same sample rate as you use in Ableton!
+In Ableton I use that output as output. And in OBS I use it too. Done.&lt;&#x2F;p&gt;
+&lt;p&gt;Use a sample rate and buffer size that gives you the best CPU usage. I use 48.0 or 41.0 kHz + 256 (check again).&lt;&#x2F;p&gt;
+&lt;h2 id=&quot;the-live-set&quot;&gt;The Live Set&lt;&#x2F;h2&gt;
+&lt;p&gt;I set it up so that I do have a max of 8 tracks and a couple of sends. I prefer having less tracks to not get overwhelmed. I also keep it minimalistic with effects and sends. Speaking of effects: It&#x27;s better for CPU to use a lot of sends than a lot of effect inside the tracks. I have a couple of master effects on the master and a compressor with sidechain tuned to the kick freq of my drums track (first track for me). Usually followed by another percussion or vocals track (both drum racks), then a base, lead, pad etc.&lt;&#x2F;p&gt;
+&lt;h2 id=&quot;the-presets&quot;&gt;The Presets&lt;&#x2F;h2&gt;
+&lt;p&gt;To be able to get inspired it is important for me to have really good presets ready. Those are your starting or jumping off points, so make a lot of them. I have added them to a folder &lt;code&gt;Live Sets 26&lt;&#x2F;code&gt;, with two folders: &lt;code&gt;Effects&lt;&#x2F;code&gt;, &lt;code&gt;Sounds&lt;&#x2F;code&gt;. Then in  sounds I have the drums (with vocals also), base, acid etc. some name that makes clear what the things might sound inside. I change the sounds in the 8 tracks frequently to get a new input. Presets make or break a live set of course. I usually group my sound or effect, then add at least 8 macros for each preset and also add a couple of snapshots. If you have a good controller it will be able to use those snapshots, and even save new ones. The better my own controller Tap gets, the less important really are those macro controls. But it is still very hand to have them for knowing which parameters are great candidates for automation and modulation etc.&lt;br &#x2F;&gt;
+As my controller gets more deeply integrated with Live (I only use stock live effects and instruments for 99% of the cases)
+Drums: do not make them too loud, you can still move them up, have a grouped instrument with volume in each pad. Also drums: I like to add some global effects into each pad indivually, for example I add a send with delay and one with reverb. To get them into a rack in the drum pad you have to be a bit sneaky: Use a modulator, the map it to the send of this pad to the reverb or delay. Voila, individual sends in pads.&lt;&#x2F;p&gt;
+&lt;h2 id=&quot;the-ableton-live-controller&quot;&gt;The Ableton Live Controller&lt;&#x2F;h2&gt;
+&lt;p&gt;7III Tap is my controller of choice, as &lt;a href=&quot;&#x2F;ableton-push-alternative&quot;&gt;I made it especially for performing completely live with Ableton Live&lt;&#x2F;a&gt;&lt;&#x2F;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure&gt;
+&lt;img srcset=&quot;https:&amp;#x2F;&amp;#x2F;nilsmango.ch&amp;#x2F;processed_images&amp;#x2F;Tap automating ableton live.870453bfa63ff4d5.jpg 300w, https:&amp;#x2F;&amp;#x2F;nilsmango.ch&amp;#x2F;processed_images&amp;#x2F;Tap automating ableton live.931997301a6cd5c1.jpg 600w, https:&amp;#x2F;&amp;#x2F;nilsmango.ch&amp;#x2F;processed_images&amp;#x2F;Tap automating ableton live.44a1e909c92a2438.jpg 1200w&quot; src=&quot;https:&amp;#x2F;&amp;#x2F;nilsmango.ch&amp;#x2F;processed_images&amp;#x2F;Tap automating ableton live.44a1e909c92a2438.jpg&quot; alt=&quot;The best Ableton Live controller for me: 7III Tap on iPad&quot; class=&quot;imgset&quot;&gt;
+
+&lt;figcaption&gt;7III Tap with some automation.&lt;&#x2F;figcaption&gt;
+
+&lt;&#x2F;figure&gt;
+
+&lt;p&gt;You will want a controller that can do all these things (yes, this is of course a list of what my controller Tap can do, so it&#x27;s clear it fits my needs):&lt;&#x2F;p&gt;
+&lt;ul&gt;
+&lt;li&gt;Play in melodies and drums&lt;&#x2F;li&gt;
+&lt;li&gt;Sequence like a motherf*cker - fast, sturdy, great editing tools&lt;&#x2F;li&gt;
+&lt;li&gt;If possible, have the ability to get a companion that mutates some patterns musically, so you have something dynamic to play with&lt;&#x2F;li&gt;
+&lt;li&gt;get into macros and controls of instruments quickly. Mixer controls and other deeply integrated parameter controls would be optimal&lt;&#x2F;li&gt;
+&lt;li&gt;also have the ability to move to pads in drum racks to edit the instruments and effects for each pad&lt;&#x2F;li&gt;
+&lt;li&gt;modulate those macros, automate them and edit the automation&lt;&#x2F;li&gt;
+&lt;li&gt;trigger scenes and clips&lt;&#x2F;li&gt;
+&lt;li&gt;add and edit follow actions&lt;&#x2F;li&gt;
+&lt;li&gt;mix&lt;&#x2F;li&gt;
+&lt;li&gt;add, remove, move effects, instruments, presets&lt;&#x2F;li&gt;
+&lt;li&gt;all these actions need to be second nature, so you can quickly realize any idea you have, so practice like hell. It should be fun to make music, so make it every day if possible. Short sets are better than no sets.&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Really give Tap a try, it&#x27;s the &lt;a rel=&quot;noopener&quot; target=&quot;_blank&quot; href=&quot;https:&#x2F;&#x2F;project7iii.com&#x2F;tap&quot;&gt;best Ableton Live controller&lt;&#x2F;a&gt; out there (my opinion, not investment advice).&lt;br &#x2F;&gt;
+If you do not believe me, check this &lt;a rel=&quot;noopener&quot; target=&quot;_blank&quot; href=&quot;https:&#x2F;&#x2F;project7iii.com&#x2F;tap&#x2F;best-ableton-live-controller&#x2F;&quot;&gt;comparison page for best Ableton Live Controller 2026&lt;&#x2F;a&gt; → The overview shows the strengths of Tap vs. Push or other Ableton Live controller apps (and is also totaly unbiased and written by yours truly).&lt;&#x2F;p&gt;
+&lt;&#x2F;blockquote&gt;
+&lt;h2 id=&quot;global-things-direction-etc&quot;&gt;Global things&#x2F;direction etc:&lt;&#x2F;h2&gt;
+&lt;p&gt;I try to keep it very simple and find sounds and ideas, then go off from there. Too many sounds and it gets too complicated. A minimalistic approach is great for creativity.&lt;&#x2F;p&gt;
+&lt;p&gt;Ideas for building up&lt;&#x2F;p&gt;
+&lt;ul&gt;
+&lt;li&gt;Aufbau
+&lt;ul&gt;
+&lt;li&gt;Ein Thema finden. (Baseline, Beat, je nachdem: Melodie, Fläche, Noises, FX, Samples)&lt;&#x2F;li&gt;
+&lt;li&gt;Diverse Steigerungen des Themas&#x2F;Beat oder Variation machen.&lt;&#x2F;li&gt;
+&lt;li&gt;Dann ein Break finden, Auflösung&lt;&#x2F;li&gt;
+&lt;li&gt;Je nachdem ein Gegenthema&#x2F;noch eine Variation entwickeln&lt;&#x2F;li&gt;
+&lt;li&gt;Wieder zurück zum Thema, verschieden Steigerungen wiederholen.&lt;&#x2F;li&gt;
+&lt;li&gt;Wieder zum Break.&lt;&#x2F;li&gt;
+&lt;li&gt;Neues Thema mit neuen Synths und Percussion suchen.&lt;&#x2F;li&gt;
+&lt;li&gt;etwas weg (fade out most), dafür was neues dazu, abwechselnd&lt;&#x2F;li&gt;
+&lt;li&gt;Ambient anfangen mit schönen melodien, dann erst perc&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+</content>
+        
+    </entry>
     <entry xml:lang="en">
         <title>Best Ableton Push Alternative? Why I Built 7III Tap</title>
         <published>2026-07-01T00:00:00+00:00</published>
