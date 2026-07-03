@@ -1,0 +1,373 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <meta name="theme-color"
+      content="#fff" media="(prefers-color-scheme: light)">
+      <meta name="theme-color" content="#171717"
+         media="(prefers-color-scheme: dark)">
+
+
+  <title>How I Perform Live Electronic Music with Ableton Live - Nils Mango</title>
+  <!-- Favicon -->
+<link rel="apple-touch-icon" sizes="180x180" href="/favi/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="/favi/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/favi/favicon-16x16.png">
+<link rel="manifest" href="/favi/site.webmanifest">
+<!-- RSS Feed -->
+
+  
+  <link rel="alternate" type="application/atom+xml" title="RSS" href="https://nilsmango.ch/atom.xml">
+  
+  <link rel="alternate" type="application/rss+xml" title="RSS" href="https://nilsmango.ch/rss.xml">
+  
+
+<!-- Share things -->
+
+    
+    <meta name="author" content="Nils Mango">
+    <meta property="og:title" content="How I Perform Live Electronic Music with Ableton Live">
+    
+    <meta property="og:type" content="article">
+    <meta property="article:published_time" content="2026-07-05">
+    
+    
+    <meta property="article:tag" content="apps">
+    
+    <meta property="article:tag" content="music">
+    
+    <meta property="article:tag" content="tap">
+    
+    <meta property="article:tag" content="project7iii">
+    
+    
+    
+    <meta property="article:modified_time" content="2026-07-05">
+    
+    
+    <meta property="og:url" content="https://nilsmango.ch/live-performance-setup/">
+    
+    
+    <meta property="og:image" content="https://nilsmango.ch/live-performance-setup/Tap automating ableton live.jpg">
+    
+    <meta property="og:image:alt" content="In my opinion, the best Ableton Live controller: 7III Tap on iPad">
+    
+    
+    
+    <meta property="og:description" content="The ultimate guide to performing completely live with Ableton Live...">
+
+  <!-- My CSS -->
+  <link rel="stylesheet" href="https://nilsmango.ch/style.css?h=646760ec9511993df702">
+</head>
+
+<body>
+  <section class="section">
+    <div class="container">
+      
+
+    <header>
+            <a href="https:&#x2F;&#x2F;nilsmango.ch"><img src="/zeichen73x150.svg" alt="Nils Mango Zeichen" class="logo"></a>
+
+        <nav class="nav">
+            <ul class="nav-list">
+            
+            
+                
+                
+                
+                <li class="nav-item"><a  href="&#x2F;blog">Blog</a></li>
+            
+                
+                
+                
+                <li class="nav-item"><a  href="&#x2F;live">Live</a></li>
+            
+                
+                
+                
+                <li class="nav-item"><a  href="&#x2F;music">Music</a></li>
+            
+                
+                
+                
+                <li class="nav-item"><a  href="&#x2F;projects">Projects</a></li>
+            
+                
+                
+                
+                <li class="nav-item"><a  href="&#x2F;about">About</a></li>
+            
+                
+                
+                
+                <li class="nav-item"><a  href="&#x2F;now">Now</a></li>
+            
+
+            
+            </ul>
+        </nav>
+        
+    </header>
+    <div class="search-container">
+      <input id="search" type="search" placeholder="→ Search Mango">
+      <div class="search-results">
+          <div class="search-results__items"></div>
+          <hr>
+      </div>
+  </div>
+    
+    
+      
+<h1 class="title">
+  How I Perform Live Electronic Music with Ableton Live
+</h1>
+
+<p><span class="post-dates">Posted on <time datetime="2026-07-05T00:00:00+00:00">July 05, 2026</time></span>
+
+<span class="divider">|</span><span class="post-updated"> Updated: <time datetime="2026-07-05T00:00:00+00:00">July 05, 2026</time></span>
+
+
+<span class="divider">|</span>
+ <a href="https://nilsmango.ch/tags/apps/">#apps</a>
+
+ <a href="https://nilsmango.ch/tags/music/">#music</a>
+
+ <a href="https://nilsmango.ch/tags/tap/">#tap</a>
+
+ <a href="https://nilsmango.ch/tags/project7iii/">#project7iii</a>
+
+
+</p>
+
+<p>This is my ultimate guide to playing live electronic music with Ableton Live.
+The most important thing, even more important than a great controller I would say, are the basics, the live set, then the presets.</p>
+<h2 id="the-basics">The Basics</h2>
+<p>I usually record my sessions, and because I do not want to sync and edit video and audio later, I do that directly in <a rel="noopener" target="_blank" href="https://obsproject.com">OBS</a>, a great piece of software you can also use to livestream.</p>
+<p>I use external cameras if available (if I am on the road, I simply use the webcam in my MacBook). Usually I have one top view of my controller and one from a bit farther away with myself in the frame to keep things visually interesting. To make it even more intersting, I use an <a rel="noopener" target="_blank" href="https://gist.github.com/nilsmango/58857855454801f4bc642f74dfffdaef">automatic scene switching script</a> inside OBS. Add some good lighting if possible, it makes a huge difference for video quality.</p>
+<p>To get the sound into both OBS and the speakers, I use <a rel="noopener" target="_blank" href="https://existential.audio/blackhole/">BlackHole</a>) with a Multi-Output Device created in the MacOS app Audio-MIDI-Setup. My normal audio output is the first device, the second is BlackHole 2ch with drift correction enabled.
+It is very important that the Multi-Output Device uses the same sample rate as Ableton Live.<br />
+In Ableton, I use that output as my main output. In OBS, I use it as the audio input. Done.</p>
+<p>Use a sample rate and buffer size that give you the best CPU performance. I currently use 48 kHz with a buffer size of 256 samples.</p>
+<h2 id="the-live-set">The Live Set</h2>
+<p>I set things up with a maximum of 8 tracks and a couple of sends. I prefer fewer tracks so I do not get overwhelmed. I also keep effects and routing fairly minimal.<br />
+Speaking of effects: using sends is usually much better for CPU usage than placing lots of effects directly on individual tracks.<br />
+I also have a few master effects on the master channel (for drops and master effects), plus a compressor with sidechain tuned to the kick frequency of my drums track, which is usually track one.<br />
+That is often followed by another percussion or vocal track (both typically drum racks), then bass, lead, pad, and so on.</p>
+<h2 id="the-presets">The Presets</h2>
+<p>To stay inspired, it is very important for me to have excellent presets ready. These are your starting points, so make lots of them.</p>
+<p>I keep them in a folder called <code>Live Sets 26</code>, with two subfolders: <code>Effects</code> &amp; <code>Sounds</code><br />
+Inside <code>Sounds</code>, I have categories like drums (including chopped vocals), bass, acid, and so on. I name things so it is immediately clear what they might sound like.</p>
+<p>I change the sounds in the 8 tracks frequently to get fresh input and new ideas. Presets can absolutely make or break a live set. I usually group a sound or effect, add at least 8 macros to each preset, and also create a couple of snapshots. If you have a good controller, it can use those snapshots and even save new ones. The better my own controller 7III Tap gets, the less important traditional macro control becomes. Still, macros are very useful because they show which parameters are strong candidates for automation and modulation. As Tap becomes more deeply integrated with Live, I rely even more on direct parameter access.</p>
+<p>I only use stock Ableton Live effects and instruments in about 99% of cases.</p>
+<h3 id="drum-tips">Drum Tips</h3>
+<p>Do not make drums too loud. You can always push them up later.<br />
+I recommend a grouped instrument with volume control on each pad.<br />
+I also like adding global effects to individual drum pads, for example delay and reverb sends. To get sends controls inside a drum pad, you need a small workaround:</p>
+<ol>
+<li>Add the modulator <code>Shaper</code> into the drum pad group</li>
+<li>Switch the Shaper to <code>Manual</code> mode,</li>
+<li>Map the Shaper to the send of that pad to the reverb or delay (I use remote, not modulate)</li>
+<li>Make the shaper use a liner shaper (or whatever you prefer)</li>
+<li>Add the <code>Manual Encoder</code> to the group macros.</li>
+<li>Voilà, individual sends per drum pad.</li>
+</ol>
+<h2 id="the-ableton-live-controller">The Ableton Live Controller</h2>
+<p><a rel="noopener" target="_blank" href="https://project7iii.com/tap">7III Tap</a> is my controller of choice, as <a href="/ableton-push-alternative">I built it specifically for performing completely live with Ableton Live</a></p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<figure>
+<img srcset="https:&#x2F;&#x2F;nilsmango.ch&#x2F;processed_images&#x2F;Tap automating ableton live.870453bfa63ff4d5.jpg 300w, https:&#x2F;&#x2F;nilsmango.ch&#x2F;processed_images&#x2F;Tap automating ableton live.931997301a6cd5c1.jpg 600w, https:&#x2F;&#x2F;nilsmango.ch&#x2F;processed_images&#x2F;Tap automating ableton live.44a1e909c92a2438.jpg 1200w" src="https:&#x2F;&#x2F;nilsmango.ch&#x2F;processed_images&#x2F;Tap automating ableton live.44a1e909c92a2438.jpg" alt="The best Ableton Live controller for me: 7III Tap on iPad" class="imgset">
+
+<figcaption>7III Tap with some automation.</figcaption>
+
+</figure>
+
+<p>You want a controller that can do all of this well (yes, this list conveniently describes why Tap fits my needs):</p>
+<ul>
+<li>Play melodies and drums</li>
+<li>Sequence extremely fast, reliably, and with great editing tools</li>
+<li>Ideally have a companion system that can mutate patterns musically, giving you something dynamic to perform with</li>
+<li>Access macros and instrument controls quickly</li>
+<li>Offer mixer controls at the device level and deep parameter integration</li>
+<li>Move into drum rack pads and edit instruments and effects for each pad</li>
+<li>Modulate macros, automate them, and edit that automation</li>
+<li>Trigger scenes and clips</li>
+<li>Add and edit follow actions</li>
+<li>Mix</li>
+<li>Add, remove, and move effects, instruments, and presets</li>
+</ul>
+<p>All of these actions need to become second nature so you can immediately realize any idea you have. Practice like hell. Make music a thing you do every day! Even if it is only 10 minutes a day. Short performances are better than no performances at all.</p>
+<blockquote>
+<p>Really give Tap a try. I think it is the <a rel="noopener" target="_blank" href="https://project7iii.com/tap">best Ableton Live controller</a> out there.</p>
+<p>If you are not convinced, check this <a rel="noopener" target="_blank" href="https://project7iii.com/tap/best-ableton-live-controller/">comparison page for the best Ableton Live controllers in 2026</a> to see where Tap shines compared to Push and other controller apps.</p>
+</blockquote>
+<h2 id="musical-direction-and-arrangement">Musical Direction and Arrangement</h2>
+<p>I try to keep things simple. Start with a few strong sounds and a clear idea, then build outward from there. Too many sounds quickly become overwhelming. A minimal approach is often best for creativity.</p>
+<p>Here is the general structure I often follow while improvising live:</p>
+<ol>
+<li>Find a central theme: bassline, beat, melody, pad, noise texture, FX, or sample</li>
+<li>Build several variations or intensifications of that theme</li>
+<li>Create a break or moment of release</li>
+<li>Introduce a counter-theme or new variation if needed</li>
+<li>Return to the original theme and repeat with different intensities</li>
+<li>Use another break to reset tension</li>
+<li>Search for a new theme with fresh synths or percussion</li>
+<li>Remove elements gradually while introducing new ones</li>
+<li>Go back to 1.</li>
+</ol>
+<p>General ideas:</p>
+<ul>
+<li>Alternate between subtraction and addition to keep movement alive</li>
+<li>For ambient sections, start with beautiful melodies or textures first, then bring in percussion later</li>
+<li>A great live set is often not about adding more. It is about knowing what to remove, when to create tension, and when to release it.</li>
+<li>Just try things and have no fear. Fear is the mind-killer.</li>
+</ul>
+
+
+
+<div class="comments">
+<p>Got questions, suggestions, comments, or just want to share this post?<br>
+→ Share on <a href="https://twitter.com/share?text=Your+comment+or+whatever&via=nilsmango&url=https://nilsmango.ch/live-performance-setup/" target="_blank" rel="noopener" title="X can be used for both commenting and sharing">X</a>, or <a href="mailto:1+1@nilsmango.ch?subject=How I Perform Live Electronic Music with Ableton Live" title="Please don't email me if you want to share this post, I am already familiar with the theme">email</a> me (and I will add it to this post, if appropriate).
+</p>
+</div>
+
+
+<nav class="pagenav">
+<ul>
+  
+  <li></li>
+  
+
+
+<li><a href="https:&#x2F;&#x2F;nilsmango.ch&#x2F;ableton-push-alternative&#x2F;">Best Ableton Push Alternative? Why I Built 7III Tap →</a></li>
+
+
+
+
+</ul>
+</nav>
+
+
+  </section>
+    <footer>
+        <nav class="footernav">
+          <ul class="footernav-list">
+          
+          
+          
+          
+          
+          
+          
+            <li class="footernav-item"><a   href="&#x2F;privacy">Privacy </a> </li>
+          
+          
+          
+          
+          
+          
+          
+          
+            <li class="footernav-item"><a   href="&#x2F;contact">Contact </a> </li>
+          
+          
+          
+          
+          
+          
+          
+          
+            <li class="footernav-item"><a   href="&#x2F;atom.xml">Feed </a> </li>
+          
+          
+          
+          
+          
+          
+          
+          
+            <li class="footernav-item"><a   href="&#x2F;tags">Tags </a> </li>
+          
+          
+          
+          
+          
+          
+          
+          
+            <li class="footernav-item"><a  target="_blank" rel="noopener" href="https:&#x2F;&#x2F;twitter.com&#x2F;nilsmango">X </a> </li>
+          
+          
+          
+          
+          
+          
+          
+          
+            <li class="footernav-item"><a  target="_blank" rel="noopener" href="https:&#x2F;&#x2F;www.youtube.com&#x2F;nilsmango">YouTube </a> </li>
+          
+          
+          
+          
+          
+          
+          
+          
+            <li class="footernav-item"><a  target="_blank" rel="noopener" href="https:&#x2F;&#x2F;www.instagram.com&#x2F;nilsmango">Instagram </a> </li>
+          
+          
+          
+          
+          
+          
+          
+          
+            <li class="footernav-item"><a  target="_blank" rel="noopener" href="https:&#x2F;&#x2F;github.com&#x2F;nilsmango">GitHub </a> </li>
+          
+          
+          
+          
+          
+          
+          
+          
+            <li class="footernav-item"><a  target="_blank" rel="noopener" href="http:&#x2F;&#x2F;eepurl.com&#x2F;hR1b3v">Newsletter </a> </li>
+          
+          
+          
+          
+          
+          
+          
+          
+            <li class="footernav-item"><a href="https:&#x2F;&#x2F;ko-fi.com&#x2F;nilsmango" target="_blank"><img src="/ko-fi.svg" alt="Buy me a Ko-fi" class="kofi"></a> </li>
+          
+          
+          </ul>
+        </nav>
+
+  <p class="copyright">This 🥭 thought factory is powered by <a href="https://www.getzola.org/" target="_blank" rel="noopener">Zola</a>.
+    <br>Except where otherwise noted, content on this site is licensed under <a href="https://creativecommons.org/licenses/by-sa/4.0/" target="_blank" rel="noopener">CC BY-SA 4.0</a>.</p>
+    </footer>
+</div>
+<script type="text/javascript" src="/elasticlunr.min.js"></script>
+<script type="text/javascript" src="/search.js"></script>
+<script type="text/javascript" src="/random-bg.js"></script>
+</body>
+
+</html>
