@@ -1,20 +1,23 @@
 <?xml version="1.0" encoding="utf-8"?>
 <rss version="2.0"
+  xmlns:atom="http://www.w3.org/2005/Atom"
   xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd"
   xmlns:content="http://purl.org/rss/1.0/modules/content/"
   xmlns:podcast="https://podcastindex.org/namespace/1.0">
 <channel>
   <title>Nils Mango Live</title>
-  <link>https:&#x2F;&#x2F;nilsmango.ch/live</link>
+  <link>https:&#x2F;&#x2F;nilsmango.ch/live/</link>
+  <atom:link href="https://nilsmango.ch/live/rss.xml" rel="self" type="application/rss+xml"/>
   <language>en</language>
   <copyright>Copyright Nils Mango</copyright>
-  <description><![CDATA[Live electronic music performances, fully improvised in real time. 'I didn't prepare for this, let's make some music.']]></description>
+  <description><![CDATA[Fully improvised live electronic music. Nothing prerecorded. Techno, electronica, ambient, and occasional experimental journeys by Nils Mango.]]></description>
+  <lastBuildDate>Tue, 23 Jun 2026 00:00:00 +0000</lastBuildDate>
 
   <itunes:author>Nils Mango</itunes:author>
-  <itunes:summary><![CDATA[Live electronic music performances, fully improvised in real time. 'I didn't prepare for this, let's make some music.']]></itunes:summary>
+  <itunes:summary><![CDATA[Fully improvised live electronic music. Nothing prerecorded. Techno, electronica, ambient, and occasional experimental journeys by Nils Mango.]]></itunes:summary>
   <itunes:type>episodic</itunes:type>
   <itunes:explicit>false</itunes:explicit>
-  <itunes:image href="https:&#x2F;&#x2F;nilsmango.ch/live/podcast-cover.jpg"/>
+  <itunes:image href="https://nilsmango.ch/live/podcast-cover.jpg"/>
   <itunes:owner>
     <itunes:name>Nils Mango</itunes:name>
     <itunes:email>1+1@nilsmango.ch</itunes:email>
@@ -32,7 +35,8 @@
    
    <item>
      <title>Session #14: Maybe I should prepare more?</title>
-     <description>Techno to &quot;what is this?&quot; to let&#x27;s just get done with it. Live electronic music recorded in Switzerland.</description>
+     <link>https://nilsmango.ch/live/session-014/</link>
+     <description><![CDATA[Techno to &quot;what is this?&quot; to let&#x27;s just get done with it. Live electronic music recorded in Switzerland.]]></description>
      <content:encoded><![CDATA[<p>Techno to "what is this?" to let's just get done with it. Live electronic music recorded in Switzerland.</p>
 <p>Entirely improvised and played live, nothing prerecorded.<br />
 If you are new to this: Hi, I'm Nils Mango and I didn't prepare for this. Let's try to make some music!<br />
@@ -46,8 +50,8 @@ Used in this session: iPad with <a rel="noopener" target="_blank" href="https://
 </p>
 ]]></content:encoded>
 
-    <enclosure url="https:&#x2F;&#x2F;nilsmango.ch&#x2F;live&#x2F;episode-014.mp3" type="audio/mpeg" length="0"/>
-    <guid isPermaLink="true">https:&#x2F;&#x2F;nilsmango.ch&#x2F;live&#x2F;episode-014.mp3</guid>
+    <enclosure url="https://nilsmango.ch/live/episode-014.mp3" type="audio/mpeg" length="84466988"/>
+    <guid isPermaLink="true">https://nilsmango.ch/live/episode-014.mp3</guid>
     <pubDate>Tue, 23 Jun 2026 00:00:00 +0000</pubDate>
 
     <itunes:duration>58:39</itunes:duration>
@@ -55,12 +59,14 @@ Used in this session: iPad with <a rel="noopener" target="_blank" href="https://
     <itunes:episodeType>full</itunes:episodeType>
     <itunes:explicit>false</itunes:explicit>
     <itunes:author>Nils Mango</itunes:author>
-    <itunes:summary>Techno to &quot;what is this?&quot; to let&#x27;s just get done with it. Live electronic music recorded in Switzerland.</itunes:summary>
+    <itunes:summary><![CDATA[Techno to &quot;what is this?&quot; to let&#x27;s just get done with it. Live electronic music recorded in Switzerland.]]></itunes:summary>
+    <itunes:image href="https://nilsmango.ch/live/episode-014a.jpg"/>
   </item>
   
    <item>
      <title>Session #13: Happy Birthday Tobi!</title>
-     <description>After a rough start, Mango recovers and ends on a high note.</description>
+     <link>https://nilsmango.ch/live/session-013/</link>
+     <description><![CDATA[After a rough start, Mango recovers and ends on a high note.]]></description>
      <content:encoded><![CDATA[<p>After a rough start, Mango recovers and ends on a high note.</p>
 <p>Entirely improvised and played live, nothing prerecorded.<br />
 Recorded in Switzerland, going from melodic electronica to some crazy noisy techno.
@@ -74,8 +80,8 @@ Used in this session: iPad with <a rel="noopener" target="_blank" href="https://
 </p>
 ]]></content:encoded>
 
-    <enclosure url="https:&#x2F;&#x2F;nilsmango.ch&#x2F;live&#x2F;episode-013.mp3" type="audio/mpeg" length="0"/>
-    <guid isPermaLink="true">https:&#x2F;&#x2F;nilsmango.ch&#x2F;live&#x2F;episode-013.mp3</guid>
+    <enclosure url="https://nilsmango.ch/live/episode-013.mp3" type="audio/mpeg" length="80467913"/>
+    <guid isPermaLink="true">https://nilsmango.ch/live/episode-013.mp3</guid>
     <pubDate>Tue, 23 Jun 2026 00:00:00 +0000</pubDate>
 
     <itunes:duration>55:53</itunes:duration>
@@ -83,12 +89,14 @@ Used in this session: iPad with <a rel="noopener" target="_blank" href="https://
     <itunes:episodeType>full</itunes:episodeType>
     <itunes:explicit>false</itunes:explicit>
     <itunes:author>Nils Mango</itunes:author>
-    <itunes:summary>After a rough start, Mango recovers and ends on a high note.</itunes:summary>
+    <itunes:summary><![CDATA[After a rough start, Mango recovers and ends on a high note.]]></itunes:summary>
+    <itunes:image href="https://nilsmango.ch/live/episode-013a.jpg"/>
   </item>
   
    <item>
      <title>Session #12: GVA to AJA Apr 30 2026 EZS1359</title>
-     <description>Tracks on a Plane is back for a short episode. A short electronic music session recorded mid-flight from Geneva to Ajaccio.</description>
+     <link>https://nilsmango.ch/live/session-012/</link>
+     <description><![CDATA[Tracks on a Plane is back for a short episode. A short electronic music session recorded mid-flight from Geneva to Ajaccio.]]></description>
      <content:encoded><![CDATA[<p>Tracks on a Plane is back for a short episode. A short electronic music session recorded mid-flight from Geneva to Ajaccio.</p>
 <p>Entirely improvised and played live, nothing prerecorded.<br />
 Used in this session: iPad with <a rel="noopener" target="_blank" href="https://project7iii.com/tap">7III Tap</a>, <a rel="noopener" target="_blank" href="https://ableton.com/live">Ableton Live</a>. All synths stock Ableton Live instruments.</p>
@@ -101,8 +109,8 @@ Used in this session: iPad with <a rel="noopener" target="_blank" href="https://
 </p>
 ]]></content:encoded>
 
-    <enclosure url="https:&#x2F;&#x2F;nilsmango.ch&#x2F;live&#x2F;episode-012.mp3" type="audio/mpeg" length="0"/>
-    <guid isPermaLink="true">https:&#x2F;&#x2F;nilsmango.ch&#x2F;live&#x2F;episode-012.mp3</guid>
+    <enclosure url="https://nilsmango.ch/live/episode-012.mp3" type="audio/mpeg" length="37777197"/>
+    <guid isPermaLink="true">https://nilsmango.ch/live/episode-012.mp3</guid>
     <pubDate>Mon, 04 May 2026 00:00:00 +0000</pubDate>
 
     <itunes:duration>26:14</itunes:duration>
@@ -110,12 +118,14 @@ Used in this session: iPad with <a rel="noopener" target="_blank" href="https://
     <itunes:episodeType>full</itunes:episodeType>
     <itunes:explicit>false</itunes:explicit>
     <itunes:author>Nils Mango</itunes:author>
-    <itunes:summary>Tracks on a Plane is back for a short episode. A short electronic music session recorded mid-flight from Geneva to Ajaccio.</itunes:summary>
+    <itunes:summary><![CDATA[Tracks on a Plane is back for a short episode. A short electronic music session recorded mid-flight from Geneva to Ajaccio.]]></itunes:summary>
+    <itunes:image href="https://nilsmango.ch/live/episode-012a.jpg"/>
   </item>
   
    <item>
      <title>Session #11: What Ending?</title>
-     <description>Exploring alternative realities. A fully live electronic music session recorded in Switzerland.</description>
+     <link>https://nilsmango.ch/live/session-011/</link>
+     <description><![CDATA[Exploring alternative realities. A fully live electronic music session recorded in Switzerland.]]></description>
      <content:encoded><![CDATA[<p>Number 11 is not too good, but also not too bad, we are getting there. Entirely improvised and played live, nothing prerecorded.<br />
 Used in this session: iPad with <a rel="noopener" target="_blank" href="https://project7iii.com/tap">7III Tap</a>, <a rel="noopener" target="_blank" href="https://ableton.com/live">Ableton Live</a>. All synths stock Ableton Live instruments.</p>
 <h2 id="video">Video</h2>
@@ -127,8 +137,8 @@ Used in this session: iPad with <a rel="noopener" target="_blank" href="https://
 </p>
 ]]></content:encoded>
 
-    <enclosure url="https:&#x2F;&#x2F;nilsmango.ch&#x2F;live&#x2F;episode-011.mp3" type="audio/mpeg" length="0"/>
-    <guid isPermaLink="true">https:&#x2F;&#x2F;nilsmango.ch&#x2F;live&#x2F;episode-011.mp3</guid>
+    <enclosure url="https://nilsmango.ch/live/episode-011.mp3" type="audio/mpeg" length="75677804"/>
+    <guid isPermaLink="true">https://nilsmango.ch/live/episode-011.mp3</guid>
     <pubDate>Fri, 24 Apr 2026 00:00:00 +0000</pubDate>
 
     <itunes:duration>52:33</itunes:duration>
@@ -136,12 +146,14 @@ Used in this session: iPad with <a rel="noopener" target="_blank" href="https://
     <itunes:episodeType>full</itunes:episodeType>
     <itunes:explicit>false</itunes:explicit>
     <itunes:author>Nils Mango</itunes:author>
-    <itunes:summary>Exploring alternative realities. A fully live electronic music session recorded in Switzerland.</itunes:summary>
+    <itunes:summary><![CDATA[Exploring alternative realities. A fully live electronic music session recorded in Switzerland.]]></itunes:summary>
+    <itunes:image href="https://nilsmango.ch/live/episode-011b.jpg"/>
   </item>
   
    <item>
      <title>Session #10: Celebrating Tap 1.5</title>
-     <description>Celebrating the release of 7III Tap 1.5, the best Ableton Live controller for iPad.</description>
+     <link>https://nilsmango.ch/live/session-010/</link>
+     <description><![CDATA[Celebrating the release of 7III Tap 1.5, the best Ableton Live controller for iPad.]]></description>
      <content:encoded><![CDATA[<p>Sorry it took me so long to get episode 10 out, I have been very busy finishing some things for Tap. Which. Is. Now 100% the best Ableton Live controller out there, so good, so really good now!! <a rel="noopener" target="_blank" href="https://project7iii.com/tap">Try Tap for free!</a><br />
 I still found some bugs in Tap I need to fix during this live set. I also had some crazy audio glitches where I had to stop everything and restart the audio in Ableton Live. I need to find out why it sometimes starts adding those strange artifacts.</p>
 <p>Used in this session: iPad with <a rel="noopener" target="_blank" href="https://project7iii.com/tap">7III Tap</a>, <a rel="noopener" target="_blank" href="https://ableton.com/live">Ableton Live</a>. All synths are stock Ableton Live instruments. Never had to use the computer (only when I had to restart the audio in Ableton Live), so Tap really works now with the improved encoders/macros and the simple but awesome browser.</p>
@@ -154,8 +166,8 @@ I still found some bugs in Tap I need to fix during this live set. I also had so
 </p>
 ]]></content:encoded>
 
-    <enclosure url="https:&#x2F;&#x2F;nilsmango.ch&#x2F;live&#x2F;episode-010.mp3" type="audio/mpeg" length="0"/>
-    <guid isPermaLink="true">https:&#x2F;&#x2F;nilsmango.ch&#x2F;live&#x2F;episode-010.mp3</guid>
+    <enclosure url="https://nilsmango.ch/live/episode-010.mp3" type="audio/mpeg" length="105169580"/>
+    <guid isPermaLink="true">https://nilsmango.ch/live/episode-010.mp3</guid>
     <pubDate>Sat, 11 Apr 2026 00:00:00 +0000</pubDate>
 
     <itunes:duration>1:13:02</itunes:duration>
@@ -163,12 +175,14 @@ I still found some bugs in Tap I need to fix during this live set. I also had so
     <itunes:episodeType>full</itunes:episodeType>
     <itunes:explicit>false</itunes:explicit>
     <itunes:author>Nils Mango</itunes:author>
-    <itunes:summary>Celebrating the release of 7III Tap 1.5, the best Ableton Live controller for iPad.</itunes:summary>
+    <itunes:summary><![CDATA[Celebrating the release of 7III Tap 1.5, the best Ableton Live controller for iPad.]]></itunes:summary>
+    <itunes:image href="https://nilsmango.ch/live/episode-010b.jpg"/>
   </item>
   
    <item>
      <title>Session #9: BSL to TFS Jan 29 2026 EJU1025</title>
-     <description>The first Tracks on a Plane on the podcast. An improvised electronic music session recorded mid-flight from Basel to Tenerife.</description>
+     <link>https://nilsmango.ch/live/session-009/</link>
+     <description><![CDATA[The first Tracks on a Plane on the podcast. An improvised electronic music session recorded mid-flight from Basel to Tenerife.]]></description>
      <content:encoded><![CDATA[<p>The first <strong>Tracks on a Plane</strong> installment of the Nils Mango Live podcast. Entirely improvised and played live, nothing prerecorded, on a plane ride from Basel to Tenerife (EJU1025). Some turbulence, and a pretty wild ride.<br />
 Used in this session: iPhone with <a rel="noopener" target="_blank" href="https://project7iii.com/tap">7III Tap</a>, <a rel="noopener" target="_blank" href="https://ableton.com/live">Ableton Live</a>. All synths stock Ableton Live instruments.</p>
 <h2 id="video">Video</h2>
@@ -180,8 +194,8 @@ Used in this session: iPhone with <a rel="noopener" target="_blank" href="https:
 </p>
 ]]></content:encoded>
 
-    <enclosure url="https:&#x2F;&#x2F;nilsmango.ch&#x2F;live&#x2F;episode-009.mp3" type="audio/mpeg" length="0"/>
-    <guid isPermaLink="true">https:&#x2F;&#x2F;nilsmango.ch&#x2F;live&#x2F;episode-009.mp3</guid>
+    <enclosure url="https://nilsmango.ch/live/episode-009.mp3" type="audio/mpeg" length="84466017"/>
+    <guid isPermaLink="true">https://nilsmango.ch/live/episode-009.mp3</guid>
     <pubDate>Thu, 29 Jan 2026 00:00:00 +0000</pubDate>
 
     <itunes:duration>58:39</itunes:duration>
@@ -189,12 +203,14 @@ Used in this session: iPhone with <a rel="noopener" target="_blank" href="https:
     <itunes:episodeType>full</itunes:episodeType>
     <itunes:explicit>false</itunes:explicit>
     <itunes:author>Nils Mango</itunes:author>
-    <itunes:summary>The first Tracks on a Plane on the podcast. An improvised electronic music session recorded mid-flight from Basel to Tenerife.</itunes:summary>
+    <itunes:summary><![CDATA[The first Tracks on a Plane on the podcast. An improvised electronic music session recorded mid-flight from Basel to Tenerife.]]></itunes:summary>
+    <itunes:image href="https://nilsmango.ch/live/episode-009a.jpg"/>
   </item>
   
    <item>
      <title>Session #8: Lunch Jazz</title>
-     <description>Starts slow and gets jazzy toward the end. A fully live electronic music session recorded in Switzerland.</description>
+     <link>https://nilsmango.ch/live/session-008/</link>
+     <description><![CDATA[Starts slow and gets jazzy toward the end. A fully live electronic music session recorded in Switzerland.]]></description>
      <content:encoded><![CDATA[<p>The third episode of the new era. Starting calm, then going jazzy. A "feel good" episode, and the longest so far. Entirely improvised and played live, nothing prerecorded.<br />
 Used in this session: iPad with <a rel="noopener" target="_blank" href="https://project7iii.com/tap">7III Tap</a>, <a rel="noopener" target="_blank" href="https://ableton.com/live">Ableton Live</a>. All synths stock Ableton Live instruments.</p>
 <h2 id="video">Video</h2>
@@ -206,8 +222,8 @@ Used in this session: iPad with <a rel="noopener" target="_blank" href="https://
 </p>
 ]]></content:encoded>
 
-    <enclosure url="https:&#x2F;&#x2F;nilsmango.ch&#x2F;live&#x2F;episode-008.mp3" type="audio/mpeg" length="0"/>
-    <guid isPermaLink="true">https:&#x2F;&#x2F;nilsmango.ch&#x2F;live&#x2F;episode-008.mp3</guid>
+    <enclosure url="https://nilsmango.ch/live/episode-008.mp3" type="audio/mpeg" length="92976812"/>
+    <guid isPermaLink="true">https://nilsmango.ch/live/episode-008.mp3</guid>
     <pubDate>Sun, 25 Jan 2026 00:00:00 +0000</pubDate>
 
     <itunes:duration>1:04:34</itunes:duration>
@@ -215,12 +231,14 @@ Used in this session: iPad with <a rel="noopener" target="_blank" href="https://
     <itunes:episodeType>full</itunes:episodeType>
     <itunes:explicit>false</itunes:explicit>
     <itunes:author>Nils Mango</itunes:author>
-    <itunes:summary>Starts slow and gets jazzy toward the end. A fully live electronic music session recorded in Switzerland.</itunes:summary>
+    <itunes:summary><![CDATA[Starts slow and gets jazzy toward the end. A fully live electronic music session recorded in Switzerland.]]></itunes:summary>
+    <itunes:image href="https://nilsmango.ch/live/episode-008b.jpg"/>
   </item>
   
    <item>
      <title>Session #7: Empty Battery</title>
-     <description>We partied till the juice ran out. An improvised live electronic music session, recorded in Switzerland.</description>
+     <link>https://nilsmango.ch/live/session-007/</link>
+     <description><![CDATA[We partied till the juice ran out. An improvised live electronic music session, recorded in Switzerland.]]></description>
      <content:encoded><![CDATA[<p>The second episode of the new era. Starting calmly, then going crazy. I had a couple of audio glitches and a problem with my battery, so the session ends rather abruptly with a dead battery. Entirely improvised and played live, nothing prerecorded.<br />
 Used in this session: iPad with <a rel="noopener" target="_blank" href="https://project7iii.com/tap">7III Tap</a>, <a rel="noopener" target="_blank" href="https://ableton.com/live">Ableton Live</a>.</p>
 <h2 id="video">Video</h2>
@@ -232,8 +250,8 @@ Used in this session: iPad with <a rel="noopener" target="_blank" href="https://
 </p>
 ]]></content:encoded>
 
-    <enclosure url="https:&#x2F;&#x2F;nilsmango.ch&#x2F;live&#x2F;episode-007.mp3" type="audio/mpeg" length="0"/>
-    <guid isPermaLink="true">https:&#x2F;&#x2F;nilsmango.ch&#x2F;live&#x2F;episode-007.mp3</guid>
+    <enclosure url="https://nilsmango.ch/live/episode-007.mp3" type="audio/mpeg" length="68692076"/>
+    <guid isPermaLink="true">https://nilsmango.ch/live/episode-007.mp3</guid>
     <pubDate>Sat, 24 Jan 2026 00:00:00 +0000</pubDate>
 
     <itunes:duration>47:42</itunes:duration>
@@ -241,12 +259,14 @@ Used in this session: iPad with <a rel="noopener" target="_blank" href="https://
     <itunes:episodeType>full</itunes:episodeType>
     <itunes:explicit>false</itunes:explicit>
     <itunes:author>Nils Mango</itunes:author>
-    <itunes:summary>We partied till the juice ran out. An improvised live electronic music session, recorded in Switzerland.</itunes:summary>
+    <itunes:summary><![CDATA[We partied till the juice ran out. An improvised live electronic music session, recorded in Switzerland.]]></itunes:summary>
+    <itunes:image href="https://nilsmango.ch/live/episode-007a.jpg"/>
   </item>
   
    <item>
      <title>Session #6: A New Beginning</title>
-     <description>First session after a long break: live techno and electronica session recorded in Switzerland</description>
+     <link>https://nilsmango.ch/live/session-006/</link>
+     <description><![CDATA[First session after a long break: live techno and electronica session recorded in Switzerland]]></description>
      <content:encoded><![CDATA[<p>So we are actually doing this, after a long break Nils Mango Live is back. With a self-hosted podcast even. Enterly played live, nothing prerecorded.
 Used in this session: iPad with <a rel="noopener" target="_blank" href="https://project7iii.com/tap">7III Tap</a>, <a rel="noopener" target="_blank" href="https://ableton.com/live">Ableton Live</a>.</p>
 <h2 id="video">Video</h2>
@@ -258,8 +278,8 @@ Used in this session: iPad with <a rel="noopener" target="_blank" href="https://
 </p>
 ]]></content:encoded>
 
-    <enclosure url="https:&#x2F;&#x2F;nilsmango.ch&#x2F;live&#x2F;episode-006.mp3" type="audio/mpeg" length="0"/>
-    <guid isPermaLink="true">https:&#x2F;&#x2F;nilsmango.ch&#x2F;live&#x2F;episode-006.mp3</guid>
+    <enclosure url="https://nilsmango.ch/live/episode-006.mp3" type="audio/mpeg" length="81034131"/>
+    <guid isPermaLink="true">https://nilsmango.ch/live/episode-006.mp3</guid>
     <pubDate>Thu, 15 Jan 2026 00:00:00 +0000</pubDate>
 
     <itunes:duration>56:16</itunes:duration>
@@ -267,8 +287,10 @@ Used in this session: iPad with <a rel="noopener" target="_blank" href="https://
     <itunes:episodeType>full</itunes:episodeType>
     <itunes:explicit>false</itunes:explicit>
     <itunes:author>Nils Mango</itunes:author>
-    <itunes:summary>First session after a long break: live techno and electronica session recorded in Switzerland</itunes:summary>
+    <itunes:summary><![CDATA[First session after a long break: live techno and electronica session recorded in Switzerland]]></itunes:summary>
+    <itunes:image href="https://nilsmango.ch/live/episode-006b.png"/>
   </item>
   
 </channel>
 </rss>
+

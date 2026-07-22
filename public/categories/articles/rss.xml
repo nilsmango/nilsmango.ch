@@ -13,11 +13,11 @@
                 <pubDate>Fri, 03 Jul 2026 00:00:00 +0000</pubDate>
                 <link>https://nilsmango.ch/live-performance-setup/</link>
                 <guid>https://nilsmango.ch/live-performance-setup/</guid>
-                <description>
+                <description><![CDATA[
                     
                         The ultimate guide to performing completely live with Ableton Live
                     
-                </description>
+                ]]></description>
             </item>
         
             <item>
@@ -25,11 +25,11 @@
                 <pubDate>Wed, 01 Jul 2026 00:00:00 +0000</pubDate>
                 <link>https://nilsmango.ch/ableton-push-alternative/</link>
                 <guid>https://nilsmango.ch/ableton-push-alternative/</guid>
-                <description>
+                <description><![CDATA[
                     
                         How and why I built 7III Tap, my Ableton Live controller
                     
-                </description>
+                ]]></description>
             </item>
         
             <item>
@@ -37,11 +37,11 @@
                 <pubDate>Mon, 28 Jul 2025 00:00:00 +0000</pubDate>
                 <link>https://nilsmango.ch/foiling-map/</link>
                 <guid>https://nilsmango.ch/foiling-map/</guid>
-                <description>
+                <description><![CDATA[
                     
                         A map where you can add your foil spots and share them with others
                     
-                </description>
+                ]]></description>
             </item>
         
             <item>
@@ -49,11 +49,11 @@
                 <pubDate>Tue, 08 Jul 2025 00:00:00 +0000</pubDate>
                 <link>https://nilsmango.ch/plates-calc/</link>
                 <guid>https://nilsmango.ch/plates-calc/</guid>
-                <description>
+                <description><![CDATA[
                     
                         A minimalist app for calculating barbell weights
                     
-                </description>
+                ]]></description>
             </item>
         
             <item>
@@ -61,11 +61,11 @@
                 <pubDate>Tue, 10 Sep 2024 00:00:00 +0000</pubDate>
                 <link>https://nilsmango.ch/first-apps/</link>
                 <guid>https://nilsmango.ch/first-apps/</guid>
-                <description>
+                <description><![CDATA[
                     
                         My first apps are now in the App Store
                     
-                </description>
+                ]]></description>
             </item>
         
             <item>
@@ -73,11 +73,11 @@
                 <pubDate>Mon, 13 May 2024 00:00:00 +0000</pubDate>
                 <link>https://nilsmango.ch/apple-developer-program/</link>
                 <guid>https://nilsmango.ch/apple-developer-program/</guid>
-                <description>
+                <description><![CDATA[
                     
                         How to enroll in the Apple Developer Program in 7 easy steps
                     
-                </description>
+                ]]></description>
             </item>
         
             <item>
@@ -85,11 +85,11 @@
                 <pubDate>Thu, 28 Dec 2023 00:00:00 +0000</pubDate>
                 <link>https://nilsmango.ch/tracksonaplane03/</link>
                 <guid>https://nilsmango.ch/tracksonaplane03/</guid>
-                <description>
+                <description><![CDATA[
                     
                         A new album with music made on airplanes
                     
-                </description>
+                ]]></description>
             </item>
         
             <item>
@@ -97,11 +97,11 @@
                 <pubDate>Wed, 19 Apr 2023 00:00:00 +0000</pubDate>
                 <link>https://nilsmango.ch/version-control-for-obsidian/</link>
                 <guid>https://nilsmango.ch/version-control-for-obsidian/</guid>
-                <description>
+                <description><![CDATA[
                     
                         An automatic version control for Obsidian in 3 easy steps
                     
-                </description>
+                ]]></description>
             </item>
         
             <item>
@@ -109,11 +109,11 @@
                 <pubDate>Thu, 17 Nov 2022 00:00:00 +0000</pubDate>
                 <link>https://nilsmango.ch/phonogeneli/</link>
                 <guid>https://nilsmango.ch/phonogeneli/</guid>
-                <description>
+                <description><![CDATA[
                     
                         Max for Live device Phonogeneli 0.1
                     
-                </description>
+                ]]></description>
             </item>
         
             <item>
@@ -121,11 +121,11 @@
                 <pubDate>Wed, 16 Nov 2022 00:00:00 +0000</pubDate>
                 <link>https://nilsmango.ch/supbasel/</link>
                 <guid>https://nilsmango.ch/supbasel/</guid>
-                <description>
+                <description><![CDATA[
                     
                         Drone footage of me standup paddling through Basel
                     
-                </description>
+                ]]></description>
             </item>
         
             <item>
@@ -133,11 +133,11 @@
                 <pubDate>Tue, 15 Nov 2022 00:00:00 +0000</pubDate>
                 <link>https://nilsmango.ch/tenerife2021/</link>
                 <guid>https://nilsmango.ch/tenerife2021/</guid>
-                <description>
+                <description><![CDATA[
                     
                         A short video diary from Tenerife in spring 2021
                     
-                </description>
+                ]]></description>
             </item>
         
             <item>
@@ -145,12 +145,13 @@
                 <pubDate>Mon, 14 Nov 2022 00:00:00 +0000</pubDate>
                 <link>https://nilsmango.ch/journaling/</link>
                 <guid>https://nilsmango.ch/journaling/</guid>
-                <description>
+                <description><![CDATA[
                     
                         A short post about my daily journaling practice
                     
-                </description>
+                ]]></description>
             </item>
         
     </channel>
 </rss>
+

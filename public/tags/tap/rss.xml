@@ -13,11 +13,11 @@
                 <pubDate>Fri, 03 Jul 2026 00:00:00 +0000</pubDate>
                 <link>https://nilsmango.ch/live-performance-setup/</link>
                 <guid>https://nilsmango.ch/live-performance-setup/</guid>
-                <description>
+                <description><![CDATA[
                     
                         The ultimate guide to performing completely live with Ableton Live
                     
-                </description>
+                ]]></description>
             </item>
         
             <item>
@@ -25,12 +25,13 @@
                 <pubDate>Wed, 01 Jul 2026 00:00:00 +0000</pubDate>
                 <link>https://nilsmango.ch/ableton-push-alternative/</link>
                 <guid>https://nilsmango.ch/ableton-push-alternative/</guid>
-                <description>
+                <description><![CDATA[
                     
                         How and why I built 7III Tap, my Ableton Live controller
                     
-                </description>
+                ]]></description>
             </item>
         
     </channel>
 </rss>
+

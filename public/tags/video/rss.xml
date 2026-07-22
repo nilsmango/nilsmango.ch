@@ -13,11 +13,11 @@
                 <pubDate>Thu, 28 Dec 2023 00:00:00 +0000</pubDate>
                 <link>https://nilsmango.ch/tracksonaplane03/</link>
                 <guid>https://nilsmango.ch/tracksonaplane03/</guid>
-                <description>
+                <description><![CDATA[
                     
                         A new album with music made on airplanes
                     
-                </description>
+                ]]></description>
             </item>
         
             <item>
@@ -25,11 +25,11 @@
                 <pubDate>Wed, 16 Nov 2022 00:00:00 +0000</pubDate>
                 <link>https://nilsmango.ch/supbasel/</link>
                 <guid>https://nilsmango.ch/supbasel/</guid>
-                <description>
+                <description><![CDATA[
                     
                         Drone footage of me standup paddling through Basel
                     
-                </description>
+                ]]></description>
             </item>
         
             <item>
@@ -37,12 +37,13 @@
                 <pubDate>Tue, 15 Nov 2022 00:00:00 +0000</pubDate>
                 <link>https://nilsmango.ch/tenerife2021/</link>
                 <guid>https://nilsmango.ch/tenerife2021/</guid>
-                <description>
+                <description><![CDATA[
                     
                         A short video diary from Tenerife in spring 2021
                     
-                </description>
+                ]]></description>
             </item>
         
     </channel>
 </rss>
+

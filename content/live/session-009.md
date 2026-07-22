@@ -10,6 +10,8 @@ tags = ["TracksOnAPlane", "BSL", "TFS", "EJU1025", "music"]
 [extra]
 audio_url = "https://nilsmango.ch/live/episode-009.mp3"
 audio_duration = "58:39"
+audio_duration_iso = "PT58M39S"
+audio_length = 84466017
 episode_number = 9
 explicit = false
 featured_image = "episode-009a.jpg"

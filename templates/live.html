@@ -1,7 +1,32 @@
 {% extends "base.html" %}
 
-{% block title %}{{ section.title }} - {{ config.title }}{% endblock title %}
-{% block description %}{{ section.description | default(value=config.description) }}{% endblock description %}
+{% block title %}Nils Mango Live Podcast - Improvised Electronic Music{% endblock title %}
+
+{% block structured_data %}
+{{ super() }}
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "PodcastSeries",
+  "name": {{ section.title | json_encode | safe }},
+  "description": {{ section.description | json_encode | safe }},
+  "url": "{{ section.permalink | safe }}",
+  "webFeed": "{{ get_url(path='live/rss.xml') | safe }}",
+  "image": "{{ config.base_url | safe }}/live/podcast-cover.jpg",
+  "author": {
+    "@type": "Person",
+    "@id": "{{ config.base_url | safe }}/#nils-mango",
+    "name": "Nils Mango",
+    "url": "{{ config.base_url | safe }}/about/"
+  },
+  "sameAs": [
+    "https://podcasts.apple.com/us/podcast/nils-mango-live/id1874875439",
+    "https://www.youtube.com/playlist?list=PLcN8qnz0I9JidvrC5fo9A8-hD7rwPM3xq"
+  ],
+  "inLanguage": "en"
+}
+</script>
+{% endblock structured_data %}
 
 {% block content %}
 <h1 class="title">{{ section.title }}</h1>

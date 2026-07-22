@@ -13,12 +13,13 @@
                 <pubDate>Tue, 15 Nov 2022 00:00:00 +0000</pubDate>
                 <link>https://nilsmango.ch/tenerife2021/</link>
                 <guid>https://nilsmango.ch/tenerife2021/</guid>
-                <description>
+                <description><![CDATA[
                     
                         A short video diary from Tenerife in spring 2021
                     
-                </description>
+                ]]></description>
             </item>
         
     </channel>
 </rss>
+

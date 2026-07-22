@@ -3,16 +3,16 @@ title = "Best Ableton Push Alternative? Why I Built 7III Tap"
 description = "How and why I built 7III Tap, my Ableton Live controller"
 date = 2026-07-01
 [taxonomies]
-tags = ["apps", "music", "tap", "project7iii"]
+tags = ["apps", "music", "tap", "project7iii", "ableton"]
 categories = ["articles"]
 [extra]
-featured_image = "Tap Ableton Live Controller iPad.jpg"
+featured_image = "tap-ableton-live-controller-ipad.jpg"
 featured_image_alt = "Playing 7III Tap, an Ableton Push alternative and Ableton Live controller, on iPhone or iPad for live music performance"
 +++
 
 I’ve always wanted an Ableton Push alternative that lets me get ideas from my head directly into my music. A portable, instrument-like controller deeply integrated with [Ableton Live](https://www.ableton.com/en/live/). So after using Ableton Live for 20 years, I ended up building my own Ableton Push alternative for iPad and iPhone: [7III Tap](https://project7iii.com/tap).
 
-{{ image_sets(path="content/ableton-push-alternative/Tap Ableton Live Controller iPad.jpg", format="auto", op="fit_width", quality=80, alt="7III Tap, the best Ableton Live controller", caption="7III Tap sequencing MIDI with automation.") }}
+{{ image_sets(path="content/ableton-push-alternative/tap-ableton-live-controller-ipad.jpg", format="auto", op="fit_width", quality=80, alt="7III Tap, the best Ableton Live controller", caption="7III Tap sequencing MIDI with automation.") }}
 
 ## Why I Needed an Ableton Push Alternative
 I started making [music in 2002](https://nilsmango.bandcamp.com/track/01) with some cracked music software and my first digital audio workstation, which I do not even remember the name of anymore.  
@@ -74,7 +74,7 @@ I always liked the idea of the DAW as an instrument. To me, it remains one of th
 
 Tap is now so refined and self-contained that every feature works comfortably even on an iPhone, meaning you can build a real live setup with nothing but your laptop and phone. I have even used it many times to perform [live on an airplane](/tags/tracksonaplane/), which feels like the ultimate test of how portable and versatile it really is.
 
-{{ image_sets(path="content/ableton-push-alternative/Tap on a plane.png", format="auto", op="fit_width", quality=80, alt="Nils Mango performing live with Tap on an iPhone in airplane mode", caption="An electronic music live performance with Tap on an airplane. ✈️") }}
+{{ image_sets(path="content/ableton-push-alternative/tap-live-performance-airplane.png", format="auto", op="fit_width", quality=80, alt="Nils Mango performing live with Tap on an iPhone in airplane mode", caption="An electronic music live performance with Tap on an airplane. ✈️") }}
 
 With the latest Tap 2.0.1 update, for example, mixing and send controls are available directly in Device View as Track Controls in the [Devices Bar](https://project7iii.com/tap/manual/#3-3-1-devices-bar). Even clip triggering and clip selection can be handled through the [Play Menu](https://project7iii.com/tap/manual/#play-menu) in the Footer Bar. This means you almost never need to switch views, making everything faster and much less disruptive to creative flow.
 

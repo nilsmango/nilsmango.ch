@@ -13,12 +13,13 @@
                 <pubDate>Tue, 10 Sep 2024 00:00:00 +0000</pubDate>
                 <link>https://nilsmango.ch/first-apps/</link>
                 <guid>https://nilsmango.ch/first-apps/</guid>
-                <description>
+                <description><![CDATA[
                     
                         My first apps are now in the App Store
                     
-                </description>
+                ]]></description>
             </item>
         
     </channel>
 </rss>
+

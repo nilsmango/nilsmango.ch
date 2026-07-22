@@ -71,11 +71,16 @@ Inside &lt;code&gt;Sounds&lt;&#x2F;code&gt;, I have categories like drums (inclu
 
 
 &lt;figure&gt;
-&lt;img srcset=&quot;https:&amp;#x2F;&amp;#x2F;nilsmango.ch&amp;#x2F;processed_images&amp;#x2F;Tap automating ableton live.870453bfa63ff4d5.jpg 300w, https:&amp;#x2F;&amp;#x2F;nilsmango.ch&amp;#x2F;processed_images&amp;#x2F;Tap automating ableton live.931997301a6cd5c1.jpg 600w, https:&amp;#x2F;&amp;#x2F;nilsmango.ch&amp;#x2F;processed_images&amp;#x2F;Tap automating ableton live.44a1e909c92a2438.jpg 1200w&quot; src=&quot;https:&amp;#x2F;&amp;#x2F;nilsmango.ch&amp;#x2F;processed_images&amp;#x2F;Tap automating ableton live.44a1e909c92a2438.jpg&quot; alt=&quot;The best Ableton Live controller for me: 7III Tap on iPad&quot; class=&quot;imgset&quot;&gt;
+&lt;img srcset=&quot;&#x2F;processed_images&#x2F;tap-automating-ableton-live.d5714914a9f18a5f.jpg 300w, &#x2F;processed_images&#x2F;tap-automating-ableton-live.cbd471f41d0ae3e2.jpg 600w, &#x2F;processed_images&#x2F;tap-automating-ableton-live.919f05ce215d6f56.jpg 1200w&quot;
+     sizes=&quot;(max-width: 650px) calc(100vw - 3rem), 600px&quot;
+     src=&quot;&#x2F;processed_images&#x2F;tap-automating-ableton-live.919f05ce215d6f56.jpg&quot;
+     width=&quot;1200&quot; height=&quot;1200&quot;
+     loading=&quot;lazy&quot; decoding=&quot;async&quot; alt=&quot;The best Ableton Live controller for me: 7III Tap on iPad&quot; class=&quot;imgset&quot;&gt;
 
 &lt;figcaption&gt;7III Tap with some automation.&lt;&#x2F;figcaption&gt;
 
 &lt;&#x2F;figure&gt;
+
 
 &lt;p&gt;You want a controller that can do all of this well (yes, this list conveniently describes why Tap fits my needs):&lt;&#x2F;p&gt;
 &lt;ul&gt;
@@ -156,11 +161,16 @@ Inside &lt;code&gt;Sounds&lt;&#x2F;code&gt;, I have categories like drums (inclu
 
 
 &lt;figure&gt;
-&lt;img srcset=&quot;https:&amp;#x2F;&amp;#x2F;nilsmango.ch&amp;#x2F;processed_images&amp;#x2F;Tap Ableton Live Controller iPad.2c4136db58838fda.jpg 300w, https:&amp;#x2F;&amp;#x2F;nilsmango.ch&amp;#x2F;processed_images&amp;#x2F;Tap Ableton Live Controller iPad.1c5d81e5e932b849.jpg 600w, https:&amp;#x2F;&amp;#x2F;nilsmango.ch&amp;#x2F;processed_images&amp;#x2F;Tap Ableton Live Controller iPad.93b1acdc7f0ec285.jpg 1200w, https:&amp;#x2F;&amp;#x2F;nilsmango.ch&amp;#x2F;processed_images&amp;#x2F;Tap Ableton Live Controller iPad.82ced57e0ca91ede.jpg 2400w&quot; src=&quot;https:&amp;#x2F;&amp;#x2F;nilsmango.ch&amp;#x2F;processed_images&amp;#x2F;Tap Ableton Live Controller iPad.93b1acdc7f0ec285.jpg&quot; alt=&quot;7III Tap, the best Ableton Live controller&quot; class=&quot;imgset&quot;&gt;
+&lt;img srcset=&quot;&#x2F;processed_images&#x2F;tap-ableton-live-controller-ipad.2d54b934667aea38.jpg 300w, &#x2F;processed_images&#x2F;tap-ableton-live-controller-ipad.688f3ba22fbedd90.jpg 600w, &#x2F;processed_images&#x2F;tap-ableton-live-controller-ipad.ef54c0ae36c5e40c.jpg 1200w, &#x2F;processed_images&#x2F;tap-ableton-live-controller-ipad.38469695440071d2.jpg 2400w&quot;
+     sizes=&quot;(max-width: 650px) calc(100vw - 3rem), 600px&quot;
+     src=&quot;&#x2F;processed_images&#x2F;tap-ableton-live-controller-ipad.ef54c0ae36c5e40c.jpg&quot;
+     width=&quot;1200&quot; height=&quot;1075&quot;
+     loading=&quot;lazy&quot; decoding=&quot;async&quot; alt=&quot;7III Tap, the best Ableton Live controller&quot; class=&quot;imgset&quot;&gt;
 
 &lt;figcaption&gt;7III Tap sequencing MIDI with automation.&lt;&#x2F;figcaption&gt;
 
     &lt;&#x2F;figure&gt;
+
 
 
 
@@ -236,11 +246,16 @@ A companion tool that can musically mutate MIDI and later return to the original
 
 
 &lt;figure&gt;
-&lt;img srcset=&quot;https:&amp;#x2F;&amp;#x2F;nilsmango.ch&amp;#x2F;processed_images&amp;#x2F;Tap on a plane.339c28638a6f8704.png 300w, https:&amp;#x2F;&amp;#x2F;nilsmango.ch&amp;#x2F;processed_images&amp;#x2F;Tap on a plane.00a2e71e8f026417.png 600w, https:&amp;#x2F;&amp;#x2F;nilsmango.ch&amp;#x2F;processed_images&amp;#x2F;Tap on a plane.6c33472b992a7b90.png 1200w, https:&amp;#x2F;&amp;#x2F;nilsmango.ch&amp;#x2F;processed_images&amp;#x2F;Tap on a plane.2c17ed089eb7fcdd.png 2400w&quot; src=&quot;https:&amp;#x2F;&amp;#x2F;nilsmango.ch&amp;#x2F;processed_images&amp;#x2F;Tap on a plane.6c33472b992a7b90.png&quot; alt=&quot;Nils Mango performing live with Tap on an iPhone in airplane mode&quot; class=&quot;imgset&quot;&gt;
+&lt;img srcset=&quot;&#x2F;processed_images&#x2F;tap-live-performance-airplane.a9947371ea7a9533.png 300w, &#x2F;processed_images&#x2F;tap-live-performance-airplane.083ec8d8b4d6b36e.png 600w, &#x2F;processed_images&#x2F;tap-live-performance-airplane.fb0e6db30e9a0c8c.png 1200w, &#x2F;processed_images&#x2F;tap-live-performance-airplane.9c9f9a624719476c.png 2400w&quot;
+     sizes=&quot;(max-width: 650px) calc(100vw - 3rem), 600px&quot;
+     src=&quot;&#x2F;processed_images&#x2F;tap-live-performance-airplane.fb0e6db30e9a0c8c.png&quot;
+     width=&quot;1200&quot; height=&quot;825&quot;
+     loading=&quot;lazy&quot; decoding=&quot;async&quot; alt=&quot;Nils Mango performing live with Tap on an iPhone in airplane mode&quot; class=&quot;imgset&quot;&gt;
 
 &lt;figcaption&gt;An electronic music live performance with Tap on an airplane. ✈️&lt;&#x2F;figcaption&gt;
 
     &lt;&#x2F;figure&gt;
+
 
 
 
@@ -570,11 +585,16 @@ This audio effect is capable to produce micro-sounds, many clicks, delays, and s
 
 
 &lt;figure&gt;
-&lt;img srcset=&quot;https:&amp;#x2F;&amp;#x2F;nilsmango.ch&amp;#x2F;processed_images&amp;#x2F;phonogeneli 0.1.735887434765851b.webp 300w, https:&amp;#x2F;&amp;#x2F;nilsmango.ch&amp;#x2F;processed_images&amp;#x2F;phonogeneli 0.1.207c66745b6b6638.webp 600w, https:&amp;#x2F;&amp;#x2F;nilsmango.ch&amp;#x2F;processed_images&amp;#x2F;phonogeneli 0.1.5690583932becd8b.webp 669w&quot; src=&quot;https:&amp;#x2F;&amp;#x2F;nilsmango.ch&amp;#x2F;processed_images&amp;#x2F;phonogeneli 0.1.5690583932becd8b.webp&quot; alt=&quot;Max for Live device Phonogeneli 0.1 in action&quot; class=&quot;imgset&quot;&gt;
+&lt;img srcset=&quot;&#x2F;processed_images&#x2F;phonogeneli 0.1.735887434765851b.webp 300w, &#x2F;processed_images&#x2F;phonogeneli 0.1.207c66745b6b6638.webp 600w, &#x2F;processed_images&#x2F;phonogeneli 0.1.5690583932becd8b.webp 669w&quot;
+     sizes=&quot;(max-width: 650px) calc(100vw - 3rem), 600px&quot;
+     src=&quot;&#x2F;processed_images&#x2F;phonogeneli 0.1.5690583932becd8b.webp&quot;
+     width=&quot;669&quot; height=&quot;387&quot;
+     loading=&quot;lazy&quot; decoding=&quot;async&quot; alt=&quot;Max for Live device Phonogeneli 0.1 in action&quot; class=&quot;imgset&quot;&gt;
 
 &lt;figcaption&gt;Phonogeneli 0.1 in action&lt;&#x2F;figcaption&gt;
 
 &lt;&#x2F;figure&gt;
+
 
 &lt;h2 id=&quot;demo&quot;&gt;Demo&lt;&#x2F;h2&gt;
 &lt;div class=&quot;youtube&quot;&gt;

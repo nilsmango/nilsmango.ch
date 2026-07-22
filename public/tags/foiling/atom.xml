@@ -43,11 +43,16 @@
 
 
 &lt;figure&gt;
-&lt;img srcset=&quot;https:&amp;#x2F;&amp;#x2F;nilsmango.ch&amp;#x2F;processed_images&amp;#x2F;Foiling Map of the World.3f4c10051a07f3d5.webp 300w, https:&amp;#x2F;&amp;#x2F;nilsmango.ch&amp;#x2F;processed_images&amp;#x2F;Foiling Map of the World.7c96c4c0721a047f.webp 600w, https:&amp;#x2F;&amp;#x2F;nilsmango.ch&amp;#x2F;processed_images&amp;#x2F;Foiling Map of the World.e3c3a1ce572677ee.webp 1200w, https:&amp;#x2F;&amp;#x2F;nilsmango.ch&amp;#x2F;processed_images&amp;#x2F;Foiling Map of the World.11567bc0107cb388.webp 2400w&quot; src=&quot;https:&amp;#x2F;&amp;#x2F;nilsmango.ch&amp;#x2F;processed_images&amp;#x2F;Foiling Map of the World.e3c3a1ce572677ee.webp&quot; alt=&quot;Map showing downwind foiling spots&quot; class=&quot;imgset&quot;&gt;
+&lt;img srcset=&quot;&#x2F;processed_images&#x2F;Foiling Map of the World.3f4c10051a07f3d5.webp 300w, &#x2F;processed_images&#x2F;Foiling Map of the World.7c96c4c0721a047f.webp 600w, &#x2F;processed_images&#x2F;Foiling Map of the World.e3c3a1ce572677ee.webp 1200w, &#x2F;processed_images&#x2F;Foiling Map of the World.11567bc0107cb388.webp 2400w&quot;
+     sizes=&quot;(max-width: 650px) calc(100vw - 3rem), 600px&quot;
+     src=&quot;&#x2F;processed_images&#x2F;Foiling Map of the World.e3c3a1ce572677ee.webp&quot;
+     width=&quot;1200&quot; height=&quot;864&quot;
+     loading=&quot;lazy&quot; decoding=&quot;async&quot; alt=&quot;Map showing downwind foiling spots&quot; class=&quot;imgset&quot;&gt;
 
 &lt;figcaption&gt;foildata Foiling Map&lt;&#x2F;figcaption&gt;
 
     &lt;&#x2F;figure&gt;
+
 
 
 

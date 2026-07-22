@@ -10,6 +10,8 @@ tags = ["TracksOnAPlane", "GVA", "AJA", "EZS1359", "music"]
 [extra]
 audio_url = "https://nilsmango.ch/live/episode-012.mp3"
 audio_duration = "26:14"
+audio_duration_iso = "PT26M14S"
+audio_length = 37777197
 episode_number = 12
 explicit = false
 featured_image = "episode-012a.jpg"

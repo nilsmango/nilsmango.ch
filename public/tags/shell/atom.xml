@@ -85,11 +85,16 @@
 
 
 &lt;figure&gt;
-&lt;img srcset=&quot;https:&amp;#x2F;&amp;#x2F;nilsmango.ch&amp;#x2F;processed_images&amp;#x2F;8VqAB.74721549ff18ee59.jpg 300w, https:&amp;#x2F;&amp;#x2F;nilsmango.ch&amp;#x2F;processed_images&amp;#x2F;8VqAB.4657e8d042ea35a4.jpg 600w, https:&amp;#x2F;&amp;#x2F;nilsmango.ch&amp;#x2F;processed_images&amp;#x2F;8VqAB.2c2b0de2769054d1.jpg 1073w&quot; src=&quot;https:&amp;#x2F;&amp;#x2F;nilsmango.ch&amp;#x2F;processed_images&amp;#x2F;8VqAB.2c2b0de2769054d1.jpg&quot; alt=&quot;Screenshot of Automator App&quot; class=&quot;imgset&quot;&gt;
+&lt;img srcset=&quot;&#x2F;processed_images&#x2F;8VqAB.74721549ff18ee59.jpg 300w, &#x2F;processed_images&#x2F;8VqAB.4657e8d042ea35a4.jpg 600w, &#x2F;processed_images&#x2F;8VqAB.2c2b0de2769054d1.jpg 1073w&quot;
+     sizes=&quot;(max-width: 650px) calc(100vw - 3rem), 600px&quot;
+     src=&quot;&#x2F;processed_images&#x2F;8VqAB.2c2b0de2769054d1.jpg&quot;
+     width=&quot;1073&quot; height=&quot;963&quot;
+     loading=&quot;lazy&quot; decoding=&quot;async&quot; alt=&quot;Screenshot of Automator App&quot; class=&quot;imgset&quot;&gt;
 
 &lt;figcaption&gt;Select Application&lt;&#x2F;figcaption&gt;
 
 &lt;&#x2F;figure&gt;
+
 
 &lt;&#x2F;p&gt;
 
@@ -111,11 +116,16 @@
 
 
 &lt;figure&gt;
-&lt;img srcset=&quot;https:&amp;#x2F;&amp;#x2F;nilsmango.ch&amp;#x2F;processed_images&amp;#x2F;Xi9pR.53342ae019a6dfe4.jpg 300w, https:&amp;#x2F;&amp;#x2F;nilsmango.ch&amp;#x2F;processed_images&amp;#x2F;Xi9pR.ee4e89717947e733.jpg 600w, https:&amp;#x2F;&amp;#x2F;nilsmango.ch&amp;#x2F;processed_images&amp;#x2F;Xi9pR.a9d29c4cfeb74e1a.jpg 1200w, https:&amp;#x2F;&amp;#x2F;nilsmango.ch&amp;#x2F;processed_images&amp;#x2F;Xi9pR.8d3d8b87b19accf8.jpg 2400w&quot; src=&quot;https:&amp;#x2F;&amp;#x2F;nilsmango.ch&amp;#x2F;processed_images&amp;#x2F;Xi9pR.a9d29c4cfeb74e1a.jpg&quot; alt=&quot;Screenshot of Automator App&quot; class=&quot;imgset&quot;&gt;
+&lt;img srcset=&quot;&#x2F;processed_images&#x2F;Xi9pR.53342ae019a6dfe4.jpg 300w, &#x2F;processed_images&#x2F;Xi9pR.ee4e89717947e733.jpg 600w, &#x2F;processed_images&#x2F;Xi9pR.a9d29c4cfeb74e1a.jpg 1200w, &#x2F;processed_images&#x2F;Xi9pR.8d3d8b87b19accf8.jpg 2400w&quot;
+     sizes=&quot;(max-width: 650px) calc(100vw - 3rem), 600px&quot;
+     src=&quot;&#x2F;processed_images&#x2F;Xi9pR.a9d29c4cfeb74e1a.jpg&quot;
+     width=&quot;1200&quot; height=&quot;421&quot;
+     loading=&quot;lazy&quot; decoding=&quot;async&quot; alt=&quot;Screenshot of Automator App&quot; class=&quot;imgset&quot;&gt;
 
 &lt;figcaption&gt;Select Pass Input: as arguments&lt;&#x2F;figcaption&gt;
 
     &lt;&#x2F;figure&gt;
+
 
 
 

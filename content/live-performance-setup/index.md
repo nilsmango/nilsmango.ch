@@ -4,10 +4,10 @@ description = "The ultimate guide to performing completely live with Ableton Liv
 date = 2026-07-03
 updated = 2026-07-04
 [taxonomies]
-tags = ["apps", "music", "tap", "project7iii"]
+tags = ["apps", "music", "tap", "project7iii", "ableton"]
 categories = ["articles"]
 [extra]
-featured_image = "Tap automating ableton live.jpg"
+featured_image = "tap-automating-ableton-live.jpg"
 featured_image_alt = "In my opinion, the best Ableton Live controller: 7III Tap on iPad"
 +++
 
@@ -56,7 +56,7 @@ Do not make the individual drum pads too loud. You can always push them up later
 
 [7III Tap](https://project7iii.com/tap) is my controller of choice, as [I built it specifically for performing completely live with Ableton Live](/ableton-push-alternative)
 
-{{ image_sets(path="content/live-performance-setup/Tap automating ableton live.jpg", format="auto", op="fit_width", quality=80, alt="The best Ableton Live controller for me: 7III Tap on iPad", caption="7III Tap with some automation.") }}
+{{ image_sets(path="content/live-performance-setup/tap-automating-ableton-live.jpg", format="auto", op="fit_width", quality=80, alt="The best Ableton Live controller for me: 7III Tap on iPad", caption="7III Tap with some automation.") }}
 
 You want a controller that can do all of this well (yes, this list conveniently describes why Tap fits my needs):
 

@@ -10,6 +10,8 @@ tags = ["Biel/Bienne", "music"]
 [extra]
 audio_url = "https://nilsmango.ch/live/episode-010.mp3"
 audio_duration = "1:13:02"
+audio_duration_iso = "PT1H13M2S"
+audio_length = 105169580
 episode_number = 10
 explicit = false
 featured_image = "episode-010b.jpg"

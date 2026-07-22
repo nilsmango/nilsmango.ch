@@ -71,11 +71,16 @@ Inside &lt;code&gt;Sounds&lt;&#x2F;code&gt;, I have categories like drums (inclu
 
 
 &lt;figure&gt;
-&lt;img srcset=&quot;https:&amp;#x2F;&amp;#x2F;nilsmango.ch&amp;#x2F;processed_images&amp;#x2F;Tap automating ableton live.870453bfa63ff4d5.jpg 300w, https:&amp;#x2F;&amp;#x2F;nilsmango.ch&amp;#x2F;processed_images&amp;#x2F;Tap automating ableton live.931997301a6cd5c1.jpg 600w, https:&amp;#x2F;&amp;#x2F;nilsmango.ch&amp;#x2F;processed_images&amp;#x2F;Tap automating ableton live.44a1e909c92a2438.jpg 1200w&quot; src=&quot;https:&amp;#x2F;&amp;#x2F;nilsmango.ch&amp;#x2F;processed_images&amp;#x2F;Tap automating ableton live.44a1e909c92a2438.jpg&quot; alt=&quot;The best Ableton Live controller for me: 7III Tap on iPad&quot; class=&quot;imgset&quot;&gt;
+&lt;img srcset=&quot;&#x2F;processed_images&#x2F;tap-automating-ableton-live.d5714914a9f18a5f.jpg 300w, &#x2F;processed_images&#x2F;tap-automating-ableton-live.cbd471f41d0ae3e2.jpg 600w, &#x2F;processed_images&#x2F;tap-automating-ableton-live.919f05ce215d6f56.jpg 1200w&quot;
+     sizes=&quot;(max-width: 650px) calc(100vw - 3rem), 600px&quot;
+     src=&quot;&#x2F;processed_images&#x2F;tap-automating-ableton-live.919f05ce215d6f56.jpg&quot;
+     width=&quot;1200&quot; height=&quot;1200&quot;
+     loading=&quot;lazy&quot; decoding=&quot;async&quot; alt=&quot;The best Ableton Live controller for me: 7III Tap on iPad&quot; class=&quot;imgset&quot;&gt;
 
 &lt;figcaption&gt;7III Tap with some automation.&lt;&#x2F;figcaption&gt;
 
 &lt;&#x2F;figure&gt;
+
 
 &lt;p&gt;You want a controller that can do all of this well (yes, this list conveniently describes why Tap fits my needs):&lt;&#x2F;p&gt;
 &lt;ul&gt;
@@ -156,11 +161,16 @@ Inside &lt;code&gt;Sounds&lt;&#x2F;code&gt;, I have categories like drums (inclu
 
 
 &lt;figure&gt;
-&lt;img srcset=&quot;https:&amp;#x2F;&amp;#x2F;nilsmango.ch&amp;#x2F;processed_images&amp;#x2F;Tap Ableton Live Controller iPad.2c4136db58838fda.jpg 300w, https:&amp;#x2F;&amp;#x2F;nilsmango.ch&amp;#x2F;processed_images&amp;#x2F;Tap Ableton Live Controller iPad.1c5d81e5e932b849.jpg 600w, https:&amp;#x2F;&amp;#x2F;nilsmango.ch&amp;#x2F;processed_images&amp;#x2F;Tap Ableton Live Controller iPad.93b1acdc7f0ec285.jpg 1200w, https:&amp;#x2F;&amp;#x2F;nilsmango.ch&amp;#x2F;processed_images&amp;#x2F;Tap Ableton Live Controller iPad.82ced57e0ca91ede.jpg 2400w&quot; src=&quot;https:&amp;#x2F;&amp;#x2F;nilsmango.ch&amp;#x2F;processed_images&amp;#x2F;Tap Ableton Live Controller iPad.93b1acdc7f0ec285.jpg&quot; alt=&quot;7III Tap, the best Ableton Live controller&quot; class=&quot;imgset&quot;&gt;
+&lt;img srcset=&quot;&#x2F;processed_images&#x2F;tap-ableton-live-controller-ipad.2d54b934667aea38.jpg 300w, &#x2F;processed_images&#x2F;tap-ableton-live-controller-ipad.688f3ba22fbedd90.jpg 600w, &#x2F;processed_images&#x2F;tap-ableton-live-controller-ipad.ef54c0ae36c5e40c.jpg 1200w, &#x2F;processed_images&#x2F;tap-ableton-live-controller-ipad.38469695440071d2.jpg 2400w&quot;
+     sizes=&quot;(max-width: 650px) calc(100vw - 3rem), 600px&quot;
+     src=&quot;&#x2F;processed_images&#x2F;tap-ableton-live-controller-ipad.ef54c0ae36c5e40c.jpg&quot;
+     width=&quot;1200&quot; height=&quot;1075&quot;
+     loading=&quot;lazy&quot; decoding=&quot;async&quot; alt=&quot;7III Tap, the best Ableton Live controller&quot; class=&quot;imgset&quot;&gt;
 
 &lt;figcaption&gt;7III Tap sequencing MIDI with automation.&lt;&#x2F;figcaption&gt;
 
     &lt;&#x2F;figure&gt;
+
 
 
 
@@ -236,11 +246,16 @@ A companion tool that can musically mutate MIDI and later return to the original
 
 
 &lt;figure&gt;
-&lt;img srcset=&quot;https:&amp;#x2F;&amp;#x2F;nilsmango.ch&amp;#x2F;processed_images&amp;#x2F;Tap on a plane.339c28638a6f8704.png 300w, https:&amp;#x2F;&amp;#x2F;nilsmango.ch&amp;#x2F;processed_images&amp;#x2F;Tap on a plane.00a2e71e8f026417.png 600w, https:&amp;#x2F;&amp;#x2F;nilsmango.ch&amp;#x2F;processed_images&amp;#x2F;Tap on a plane.6c33472b992a7b90.png 1200w, https:&amp;#x2F;&amp;#x2F;nilsmango.ch&amp;#x2F;processed_images&amp;#x2F;Tap on a plane.2c17ed089eb7fcdd.png 2400w&quot; src=&quot;https:&amp;#x2F;&amp;#x2F;nilsmango.ch&amp;#x2F;processed_images&amp;#x2F;Tap on a plane.6c33472b992a7b90.png&quot; alt=&quot;Nils Mango performing live with Tap on an iPhone in airplane mode&quot; class=&quot;imgset&quot;&gt;
+&lt;img srcset=&quot;&#x2F;processed_images&#x2F;tap-live-performance-airplane.a9947371ea7a9533.png 300w, &#x2F;processed_images&#x2F;tap-live-performance-airplane.083ec8d8b4d6b36e.png 600w, &#x2F;processed_images&#x2F;tap-live-performance-airplane.fb0e6db30e9a0c8c.png 1200w, &#x2F;processed_images&#x2F;tap-live-performance-airplane.9c9f9a624719476c.png 2400w&quot;
+     sizes=&quot;(max-width: 650px) calc(100vw - 3rem), 600px&quot;
+     src=&quot;&#x2F;processed_images&#x2F;tap-live-performance-airplane.fb0e6db30e9a0c8c.png&quot;
+     width=&quot;1200&quot; height=&quot;825&quot;
+     loading=&quot;lazy&quot; decoding=&quot;async&quot; alt=&quot;Nils Mango performing live with Tap on an iPhone in airplane mode&quot; class=&quot;imgset&quot;&gt;
 
 &lt;figcaption&gt;An electronic music live performance with Tap on an airplane. ✈️&lt;&#x2F;figcaption&gt;
 
     &lt;&#x2F;figure&gt;
+
 
 
 
@@ -289,11 +304,16 @@ This milestone meant it was about time to write and talk about it — but it doe
 
 
 &lt;figure&gt;
-&lt;img srcset=&quot;https:&amp;#x2F;&amp;#x2F;nilsmango.ch&amp;#x2F;processed_images&amp;#x2F;Foiling Map of the World.3f4c10051a07f3d5.webp 300w, https:&amp;#x2F;&amp;#x2F;nilsmango.ch&amp;#x2F;processed_images&amp;#x2F;Foiling Map of the World.7c96c4c0721a047f.webp 600w, https:&amp;#x2F;&amp;#x2F;nilsmango.ch&amp;#x2F;processed_images&amp;#x2F;Foiling Map of the World.e3c3a1ce572677ee.webp 1200w, https:&amp;#x2F;&amp;#x2F;nilsmango.ch&amp;#x2F;processed_images&amp;#x2F;Foiling Map of the World.11567bc0107cb388.webp 2400w&quot; src=&quot;https:&amp;#x2F;&amp;#x2F;nilsmango.ch&amp;#x2F;processed_images&amp;#x2F;Foiling Map of the World.e3c3a1ce572677ee.webp&quot; alt=&quot;Map showing downwind foiling spots&quot; class=&quot;imgset&quot;&gt;
+&lt;img srcset=&quot;&#x2F;processed_images&#x2F;Foiling Map of the World.3f4c10051a07f3d5.webp 300w, &#x2F;processed_images&#x2F;Foiling Map of the World.7c96c4c0721a047f.webp 600w, &#x2F;processed_images&#x2F;Foiling Map of the World.e3c3a1ce572677ee.webp 1200w, &#x2F;processed_images&#x2F;Foiling Map of the World.11567bc0107cb388.webp 2400w&quot;
+     sizes=&quot;(max-width: 650px) calc(100vw - 3rem), 600px&quot;
+     src=&quot;&#x2F;processed_images&#x2F;Foiling Map of the World.e3c3a1ce572677ee.webp&quot;
+     width=&quot;1200&quot; height=&quot;864&quot;
+     loading=&quot;lazy&quot; decoding=&quot;async&quot; alt=&quot;Map showing downwind foiling spots&quot; class=&quot;imgset&quot;&gt;
 
 &lt;figcaption&gt;foildata Foiling Map&lt;&#x2F;figcaption&gt;
 
     &lt;&#x2F;figure&gt;
+
 
 
 
@@ -390,11 +410,16 @@ All my apps are products I wanted for myself. The first app was also one of the 
 
 
 &lt;figure&gt;
-&lt;img srcset=&quot;https:&amp;#x2F;&amp;#x2F;nilsmango.ch&amp;#x2F;processed_images&amp;#x2F;7III QR Code Creator Apple Watch.d5d15f115667e60a.webp 300w, https:&amp;#x2F;&amp;#x2F;nilsmango.ch&amp;#x2F;processed_images&amp;#x2F;7III QR Code Creator Apple Watch.9be3ee6fc581c976.webp 600w, https:&amp;#x2F;&amp;#x2F;nilsmango.ch&amp;#x2F;processed_images&amp;#x2F;7III QR Code Creator Apple Watch.1fae3a15656bba88.webp 1200w&quot; src=&quot;https:&amp;#x2F;&amp;#x2F;nilsmango.ch&amp;#x2F;processed_images&amp;#x2F;7III QR Code Creator Apple Watch.1fae3a15656bba88.webp&quot; alt=&quot;7III QR Code Generator on Apple Watch&quot; class=&quot;imgset&quot;&gt;
+&lt;img srcset=&quot;&#x2F;processed_images&#x2F;7III QR Code Creator Apple Watch.d5d15f115667e60a.webp 300w, &#x2F;processed_images&#x2F;7III QR Code Creator Apple Watch.9be3ee6fc581c976.webp 600w, &#x2F;processed_images&#x2F;7III QR Code Creator Apple Watch.1fae3a15656bba88.webp 1200w&quot;
+     sizes=&quot;(max-width: 650px) calc(100vw - 3rem), 600px&quot;
+     src=&quot;&#x2F;processed_images&#x2F;7III QR Code Creator Apple Watch.1fae3a15656bba88.webp&quot;
+     width=&quot;1200&quot; height=&quot;1200&quot;
+     loading=&quot;lazy&quot; decoding=&quot;async&quot; alt=&quot;7III QR Code Generator on Apple Watch&quot; class=&quot;imgset&quot;&gt;
 
 &lt;figcaption&gt;7III QR is simple, pretty and useful.&lt;&#x2F;figcaption&gt;
 
 &lt;&#x2F;figure&gt;
+
 
 &lt;p&gt;I actually made that app completely open source, check the &lt;a rel=&quot;noopener&quot; target=&quot;_blank&quot; href=&quot;https:&#x2F;&#x2F;github.com&#x2F;nilsmango&#x2F;QRCoder&quot;&gt;source code&lt;&#x2F;a&gt; if you are interested.&lt;&#x2F;p&gt;
 &lt;p&gt;Next is an app I spent a lot of time with, and might be the one I will never make a lot of money with (but that doesn’t matter as long as it makes one person happy - me!).&lt;&#x2F;p&gt;
@@ -418,11 +443,16 @@ I am looking forward to slowly turning 7III Water into the best water sports app
 
 
 &lt;figure&gt;
-&lt;img srcset=&quot;https:&amp;#x2F;&amp;#x2F;nilsmango.ch&amp;#x2F;processed_images&amp;#x2F;7III Water App iPhone.9e2bf4b812f77796.webp 300w, https:&amp;#x2F;&amp;#x2F;nilsmango.ch&amp;#x2F;processed_images&amp;#x2F;7III Water App iPhone.4e05e1e90cc17aa3.webp 600w, https:&amp;#x2F;&amp;#x2F;nilsmango.ch&amp;#x2F;processed_images&amp;#x2F;7III Water App iPhone.345f71bac7b6fbd1.webp 1200w&quot; src=&quot;https:&amp;#x2F;&amp;#x2F;nilsmango.ch&amp;#x2F;processed_images&amp;#x2F;7III Water App iPhone.345f71bac7b6fbd1.webp&quot; alt=&quot;7III Water App showing a downwind route on iPhone&quot; class=&quot;imgset&quot;&gt;
+&lt;img srcset=&quot;&#x2F;processed_images&#x2F;7III Water App iPhone.9e2bf4b812f77796.webp 300w, &#x2F;processed_images&#x2F;7III Water App iPhone.4e05e1e90cc17aa3.webp 600w, &#x2F;processed_images&#x2F;7III Water App iPhone.345f71bac7b6fbd1.webp 1200w&quot;
+     sizes=&quot;(max-width: 650px) calc(100vw - 3rem), 600px&quot;
+     src=&quot;&#x2F;processed_images&#x2F;7III Water App iPhone.345f71bac7b6fbd1.webp&quot;
+     width=&quot;1200&quot; height=&quot;1200&quot;
+     loading=&quot;lazy&quot; decoding=&quot;async&quot; alt=&quot;7III Water App showing a downwind route on iPhone&quot; class=&quot;imgset&quot;&gt;
 
 &lt;figcaption&gt;7III Water is pretty darn nice.&lt;&#x2F;figcaption&gt;
 
 &lt;&#x2F;figure&gt;
+
 
 &lt;p&gt;And now, the last app, and the one a lot of music makers are excited about.&lt;&#x2F;p&gt;
 &lt;h2 id=&quot;7iii-tap&quot;&gt;7III Tap&lt;&#x2F;h2&gt;
@@ -444,11 +474,16 @@ I am looking forward to slowly turning 7III Water into the best water sports app
 
 
 &lt;figure&gt;
-&lt;img srcset=&quot;https:&amp;#x2F;&amp;#x2F;nilsmango.ch&amp;#x2F;processed_images&amp;#x2F;7III Tap Ableton MIDI Controller.6af929c7c82b5409.webp 300w, https:&amp;#x2F;&amp;#x2F;nilsmango.ch&amp;#x2F;processed_images&amp;#x2F;7III Tap Ableton MIDI Controller.9e47d143ea5dbeb1.webp 600w, https:&amp;#x2F;&amp;#x2F;nilsmango.ch&amp;#x2F;processed_images&amp;#x2F;7III Tap Ableton MIDI Controller.409b1e620d05b682.webp 1200w&quot; src=&quot;https:&amp;#x2F;&amp;#x2F;nilsmango.ch&amp;#x2F;processed_images&amp;#x2F;7III Tap Ableton MIDI Controller.409b1e620d05b682.webp&quot; alt=&quot;7III Tap Ableton MIDI Controller for iPhone&quot; class=&quot;imgset&quot;&gt;
+&lt;img srcset=&quot;&#x2F;processed_images&#x2F;7III Tap Ableton MIDI Controller.6af929c7c82b5409.webp 300w, &#x2F;processed_images&#x2F;7III Tap Ableton MIDI Controller.9e47d143ea5dbeb1.webp 600w, &#x2F;processed_images&#x2F;7III Tap Ableton MIDI Controller.409b1e620d05b682.webp 1200w&quot;
+     sizes=&quot;(max-width: 650px) calc(100vw - 3rem), 600px&quot;
+     src=&quot;&#x2F;processed_images&#x2F;7III Tap Ableton MIDI Controller.409b1e620d05b682.webp&quot;
+     width=&quot;1200&quot; height=&quot;1200&quot;
+     loading=&quot;lazy&quot; decoding=&quot;async&quot; alt=&quot;7III Tap Ableton MIDI Controller for iPhone&quot; class=&quot;imgset&quot;&gt;
 
 &lt;figcaption&gt;7III Tap showing the device view.&lt;&#x2F;figcaption&gt;
 
 &lt;&#x2F;figure&gt;
+
 
 &lt;p&gt;I&#x27;m still amazed that I, along with ChatGPT and a little help from a guy called Claude, managed to create such a cool MIDI app.&lt;&#x2F;p&gt;
 </content>
@@ -592,11 +627,16 @@ Tracks on a Plane are tracks that have been entirely written and recorded on a p
 
 
 &lt;figure&gt;
-&lt;img srcset=&quot;https:&amp;#x2F;&amp;#x2F;nilsmango.ch&amp;#x2F;processed_images&amp;#x2F;8VqAB.74721549ff18ee59.jpg 300w, https:&amp;#x2F;&amp;#x2F;nilsmango.ch&amp;#x2F;processed_images&amp;#x2F;8VqAB.4657e8d042ea35a4.jpg 600w, https:&amp;#x2F;&amp;#x2F;nilsmango.ch&amp;#x2F;processed_images&amp;#x2F;8VqAB.2c2b0de2769054d1.jpg 1073w&quot; src=&quot;https:&amp;#x2F;&amp;#x2F;nilsmango.ch&amp;#x2F;processed_images&amp;#x2F;8VqAB.2c2b0de2769054d1.jpg&quot; alt=&quot;Screenshot of Automator App&quot; class=&quot;imgset&quot;&gt;
+&lt;img srcset=&quot;&#x2F;processed_images&#x2F;8VqAB.74721549ff18ee59.jpg 300w, &#x2F;processed_images&#x2F;8VqAB.4657e8d042ea35a4.jpg 600w, &#x2F;processed_images&#x2F;8VqAB.2c2b0de2769054d1.jpg 1073w&quot;
+     sizes=&quot;(max-width: 650px) calc(100vw - 3rem), 600px&quot;
+     src=&quot;&#x2F;processed_images&#x2F;8VqAB.2c2b0de2769054d1.jpg&quot;
+     width=&quot;1073&quot; height=&quot;963&quot;
+     loading=&quot;lazy&quot; decoding=&quot;async&quot; alt=&quot;Screenshot of Automator App&quot; class=&quot;imgset&quot;&gt;
 
 &lt;figcaption&gt;Select Application&lt;&#x2F;figcaption&gt;
 
 &lt;&#x2F;figure&gt;
+
 
 &lt;&#x2F;p&gt;
 
@@ -618,11 +658,16 @@ Tracks on a Plane are tracks that have been entirely written and recorded on a p
 
 
 &lt;figure&gt;
-&lt;img srcset=&quot;https:&amp;#x2F;&amp;#x2F;nilsmango.ch&amp;#x2F;processed_images&amp;#x2F;Xi9pR.53342ae019a6dfe4.jpg 300w, https:&amp;#x2F;&amp;#x2F;nilsmango.ch&amp;#x2F;processed_images&amp;#x2F;Xi9pR.ee4e89717947e733.jpg 600w, https:&amp;#x2F;&amp;#x2F;nilsmango.ch&amp;#x2F;processed_images&amp;#x2F;Xi9pR.a9d29c4cfeb74e1a.jpg 1200w, https:&amp;#x2F;&amp;#x2F;nilsmango.ch&amp;#x2F;processed_images&amp;#x2F;Xi9pR.8d3d8b87b19accf8.jpg 2400w&quot; src=&quot;https:&amp;#x2F;&amp;#x2F;nilsmango.ch&amp;#x2F;processed_images&amp;#x2F;Xi9pR.a9d29c4cfeb74e1a.jpg&quot; alt=&quot;Screenshot of Automator App&quot; class=&quot;imgset&quot;&gt;
+&lt;img srcset=&quot;&#x2F;processed_images&#x2F;Xi9pR.53342ae019a6dfe4.jpg 300w, &#x2F;processed_images&#x2F;Xi9pR.ee4e89717947e733.jpg 600w, &#x2F;processed_images&#x2F;Xi9pR.a9d29c4cfeb74e1a.jpg 1200w, &#x2F;processed_images&#x2F;Xi9pR.8d3d8b87b19accf8.jpg 2400w&quot;
+     sizes=&quot;(max-width: 650px) calc(100vw - 3rem), 600px&quot;
+     src=&quot;&#x2F;processed_images&#x2F;Xi9pR.a9d29c4cfeb74e1a.jpg&quot;
+     width=&quot;1200&quot; height=&quot;421&quot;
+     loading=&quot;lazy&quot; decoding=&quot;async&quot; alt=&quot;Screenshot of Automator App&quot; class=&quot;imgset&quot;&gt;
 
 &lt;figcaption&gt;Select Pass Input: as arguments&lt;&#x2F;figcaption&gt;
 
     &lt;&#x2F;figure&gt;
+
 
 
 
@@ -724,11 +769,16 @@ This audio effect is capable to produce micro-sounds, many clicks, delays, and s
 
 
 &lt;figure&gt;
-&lt;img srcset=&quot;https:&amp;#x2F;&amp;#x2F;nilsmango.ch&amp;#x2F;processed_images&amp;#x2F;phonogeneli 0.1.735887434765851b.webp 300w, https:&amp;#x2F;&amp;#x2F;nilsmango.ch&amp;#x2F;processed_images&amp;#x2F;phonogeneli 0.1.207c66745b6b6638.webp 600w, https:&amp;#x2F;&amp;#x2F;nilsmango.ch&amp;#x2F;processed_images&amp;#x2F;phonogeneli 0.1.5690583932becd8b.webp 669w&quot; src=&quot;https:&amp;#x2F;&amp;#x2F;nilsmango.ch&amp;#x2F;processed_images&amp;#x2F;phonogeneli 0.1.5690583932becd8b.webp&quot; alt=&quot;Max for Live device Phonogeneli 0.1 in action&quot; class=&quot;imgset&quot;&gt;
+&lt;img srcset=&quot;&#x2F;processed_images&#x2F;phonogeneli 0.1.735887434765851b.webp 300w, &#x2F;processed_images&#x2F;phonogeneli 0.1.207c66745b6b6638.webp 600w, &#x2F;processed_images&#x2F;phonogeneli 0.1.5690583932becd8b.webp 669w&quot;
+     sizes=&quot;(max-width: 650px) calc(100vw - 3rem), 600px&quot;
+     src=&quot;&#x2F;processed_images&#x2F;phonogeneli 0.1.5690583932becd8b.webp&quot;
+     width=&quot;669&quot; height=&quot;387&quot;
+     loading=&quot;lazy&quot; decoding=&quot;async&quot; alt=&quot;Max for Live device Phonogeneli 0.1 in action&quot; class=&quot;imgset&quot;&gt;
 
 &lt;figcaption&gt;Phonogeneli 0.1 in action&lt;&#x2F;figcaption&gt;
 
 &lt;&#x2F;figure&gt;
+
 
 &lt;h2 id=&quot;demo&quot;&gt;Demo&lt;&#x2F;h2&gt;
 &lt;div class=&quot;youtube&quot;&gt;
@@ -871,11 +921,16 @@ I use &lt;a rel=&quot;noopener&quot; target=&quot;_blank&quot; href=&quot;https:
 
 
 &lt;figure&gt;
-&lt;img srcset=&quot;https:&amp;#x2F;&amp;#x2F;nilsmango.ch&amp;#x2F;processed_images&amp;#x2F;journal.c5300a8d16844fd9.webp 300w, https:&amp;#x2F;&amp;#x2F;nilsmango.ch&amp;#x2F;processed_images&amp;#x2F;journal.a5428bbeadd63077.webp 600w, https:&amp;#x2F;&amp;#x2F;nilsmango.ch&amp;#x2F;processed_images&amp;#x2F;journal.451094e2729952cf.webp 1200w&quot; src=&quot;https:&amp;#x2F;&amp;#x2F;nilsmango.ch&amp;#x2F;processed_images&amp;#x2F;journal.451094e2729952cf.webp&quot; alt=&quot;The app Obsidian open at a daily journal&quot; class=&quot;imgset&quot;&gt;
+&lt;img srcset=&quot;&#x2F;processed_images&#x2F;journal.c5300a8d16844fd9.webp 300w, &#x2F;processed_images&#x2F;journal.a5428bbeadd63077.webp 600w, &#x2F;processed_images&#x2F;journal.451094e2729952cf.webp 1200w&quot;
+     sizes=&quot;(max-width: 650px) calc(100vw - 3rem), 600px&quot;
+     src=&quot;&#x2F;processed_images&#x2F;journal.451094e2729952cf.webp&quot;
+     width=&quot;1200&quot; height=&quot;1060&quot;
+     loading=&quot;lazy&quot; decoding=&quot;async&quot; alt=&quot;The app Obsidian open at a daily journal&quot; class=&quot;imgset&quot;&gt;
 
 &lt;figcaption&gt;My daily journal in Obsidian.&lt;&#x2F;figcaption&gt;
 
 &lt;&#x2F;figure&gt;
+
 
 &lt;p&gt;My daily note template looks something like this:&lt;&#x2F;p&gt;
 &lt;pre data-lang=&quot;markdown&quot; style=&quot;background-color:#2b303b;color:#c0c5ce;&quot; class=&quot;language-markdown &quot;&gt;&lt;code class=&quot;language-markdown&quot; data-lang=&quot;markdown&quot;&gt;&lt;span style=&quot;color:#8fa1b3;&quot;&gt;# {{title}} - {{date: dddd}}

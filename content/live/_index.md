@@ -1,12 +1,15 @@
 +++
 title = "Nils Mango Live"
-description = "Live electronic music performances, fully improvised in real time. 'I didn't prepare for this, let's make some music.'"
+description = "Fully improvised live electronic music. Nothing prerecorded. Techno, electronica, ambient, and occasional experimental journeys by Nils Mango."
 sort_by = "date"
 render = true
 paginate_by = 20
 transparent = true
 generate_feeds = true
 template = "live.html"
+[extra]
+featured_image = "live-social-card.png"
+featured_image_alt = "Nils Mango Live - I didn't prepare for this. Let's make some music."
 +++
 
 Live electronic music, created in the moment.  

@@ -13,12 +13,13 @@
                 <pubDate>Wed, 19 Apr 2023 00:00:00 +0000</pubDate>
                 <link>https://nilsmango.ch/version-control-for-obsidian/</link>
                 <guid>https://nilsmango.ch/version-control-for-obsidian/</guid>
-                <description>
+                <description><![CDATA[
                     
                         An automatic version control for Obsidian in 3 easy steps
                     
-                </description>
+                ]]></description>
             </item>
         
     </channel>
 </rss>
+

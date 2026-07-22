@@ -41,11 +41,16 @@ This audio effect is capable to produce micro-sounds, many clicks, delays, and s
 
 
 &lt;figure&gt;
-&lt;img srcset=&quot;https:&amp;#x2F;&amp;#x2F;nilsmango.ch&amp;#x2F;processed_images&amp;#x2F;phonogeneli 0.1.735887434765851b.webp 300w, https:&amp;#x2F;&amp;#x2F;nilsmango.ch&amp;#x2F;processed_images&amp;#x2F;phonogeneli 0.1.207c66745b6b6638.webp 600w, https:&amp;#x2F;&amp;#x2F;nilsmango.ch&amp;#x2F;processed_images&amp;#x2F;phonogeneli 0.1.5690583932becd8b.webp 669w&quot; src=&quot;https:&amp;#x2F;&amp;#x2F;nilsmango.ch&amp;#x2F;processed_images&amp;#x2F;phonogeneli 0.1.5690583932becd8b.webp&quot; alt=&quot;Max for Live device Phonogeneli 0.1 in action&quot; class=&quot;imgset&quot;&gt;
+&lt;img srcset=&quot;&#x2F;processed_images&#x2F;phonogeneli 0.1.735887434765851b.webp 300w, &#x2F;processed_images&#x2F;phonogeneli 0.1.207c66745b6b6638.webp 600w, &#x2F;processed_images&#x2F;phonogeneli 0.1.5690583932becd8b.webp 669w&quot;
+     sizes=&quot;(max-width: 650px) calc(100vw - 3rem), 600px&quot;
+     src=&quot;&#x2F;processed_images&#x2F;phonogeneli 0.1.5690583932becd8b.webp&quot;
+     width=&quot;669&quot; height=&quot;387&quot;
+     loading=&quot;lazy&quot; decoding=&quot;async&quot; alt=&quot;Max for Live device Phonogeneli 0.1 in action&quot; class=&quot;imgset&quot;&gt;
 
 &lt;figcaption&gt;Phonogeneli 0.1 in action&lt;&#x2F;figcaption&gt;
 
 &lt;&#x2F;figure&gt;
+
 
 &lt;h2 id=&quot;demo&quot;&gt;Demo&lt;&#x2F;h2&gt;
 &lt;div class=&quot;youtube&quot;&gt;

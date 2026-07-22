@@ -13,12 +13,13 @@
                 <pubDate>Wed, 16 Nov 2022 00:00:00 +0000</pubDate>
                 <link>https://nilsmango.ch/supbasel/</link>
                 <guid>https://nilsmango.ch/supbasel/</guid>
-                <description>
+                <description><![CDATA[
                     
                         Drone footage of me standup paddling through Basel
                     
-                </description>
+                ]]></description>
             </item>
         
     </channel>
 </rss>
+

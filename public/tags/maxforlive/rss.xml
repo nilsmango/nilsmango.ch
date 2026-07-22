@@ -13,12 +13,13 @@
                 <pubDate>Thu, 17 Nov 2022 00:00:00 +0000</pubDate>
                 <link>https://nilsmango.ch/phonogeneli/</link>
                 <guid>https://nilsmango.ch/phonogeneli/</guid>
-                <description>
+                <description><![CDATA[
                     
                         Max for Live device Phonogeneli 0.1
                     
-                </description>
+                ]]></description>
             </item>
         
     </channel>
 </rss>
+

@@ -13,11 +13,11 @@
                 <pubDate>Mon, 04 May 2026 00:00:00 +0000</pubDate>
                 <link>https://nilsmango.ch/live/session-012/</link>
                 <guid>https://nilsmango.ch/live/session-012/</guid>
-                <description>
+                <description><![CDATA[
                     
                         Tracks on a Plane is back for a short episode. A short electronic music session recorded mid-flight from Geneva to Ajaccio.
                     
-                </description>
+                ]]></description>
             </item>
         
             <item>
@@ -25,11 +25,11 @@
                 <pubDate>Thu, 29 Jan 2026 00:00:00 +0000</pubDate>
                 <link>https://nilsmango.ch/live/session-009/</link>
                 <guid>https://nilsmango.ch/live/session-009/</guid>
-                <description>
+                <description><![CDATA[
                     
                         The first Tracks on a Plane on the podcast. An improvised electronic music session recorded mid-flight from Basel to Tenerife.
                     
-                </description>
+                ]]></description>
             </item>
         
             <item>
@@ -37,12 +37,13 @@
                 <pubDate>Thu, 28 Dec 2023 00:00:00 +0000</pubDate>
                 <link>https://nilsmango.ch/tracksonaplane03/</link>
                 <guid>https://nilsmango.ch/tracksonaplane03/</guid>
-                <description>
+                <description><![CDATA[
                     
                         A new album with music made on airplanes
                     
-                </description>
+                ]]></description>
             </item>
         
     </channel>
 </rss>
+
