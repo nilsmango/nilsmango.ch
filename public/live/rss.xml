@@ -11,7 +11,7 @@
   <language>en</language>
   <copyright>Copyright Nils Mango</copyright>
   <description><![CDATA[Fully improvised live electronic music. Nothing prerecorded. Techno, electronica, ambient, and occasional experimental journeys by Nils Mango.]]></description>
-  <lastBuildDate>Tue, 23 Jun 2026 00:00:00 +0000</lastBuildDate>
+  <lastBuildDate>Thu, 15 Oct 2026 00:00:00 +0000</lastBuildDate>
 
   <itunes:author>Nils Mango</itunes:author>
   <itunes:summary><![CDATA[Fully improvised live electronic music. Nothing prerecorded. Techno, electronica, ambient, and occasional experimental journeys by Nils Mango.]]></itunes:summary>
@@ -33,6 +33,33 @@
   <podcast:locked>no</podcast:locked>
 
    
+   <item>
+     <title>Session #15: Vogesen Tap Sessions Part XXVI</title>
+     <link>https://nilsmango.ch/live/session-015/</link>
+     <description><![CDATA[Vogesen Tap Session recorded live in Biel&#x2F;Bienne, Switzerland. A little rough electronica to techno has never hurt nobody. Using 7III Tap and a Novation Circuit.]]></description>
+     <content:encoded><![CDATA[<p>Vogesen Tap Session recorded live in Biel/Bienne, Switzerland. A little rough electronica to techno has never hurt nobody. Using <a rel="noopener" target="_blank" href="https://project7iii.com/tap">7III Tap</a>, <a rel="noopener" target="_blank" href="https://ableton.com/live">Ableton Live</a> and a Novation Circuit.</p>
+<h2 id="video">Video</h2>
+<p>If you don't like audio-only, here's a YouTube video of the live session:
+
+<a href="https://youtube.com/watch?v=bI7Won6zhyg">Watch on YouTube</a>
+
+
+</p>
+]]></content:encoded>
+
+    <enclosure url="https://nilsmango.ch/live/episode-015.mp3" type="audio/mpeg" length="82062286"/>
+    <guid isPermaLink="true">https://nilsmango.ch/live/episode-015.mp3</guid>
+    <pubDate>Thu, 15 Oct 2026 00:00:00 +0000</pubDate>
+
+    <itunes:duration>56:59</itunes:duration>
+    <itunes:episode>15</itunes:episode>
+    <itunes:episodeType>full</itunes:episodeType>
+    <itunes:explicit>false</itunes:explicit>
+    <itunes:author>Nils Mango</itunes:author>
+    <itunes:summary><![CDATA[Vogesen Tap Session recorded live in Biel&#x2F;Bienne, Switzerland. A little rough electronica to techno has never hurt nobody. Using 7III Tap and a Novation Circuit.]]></itunes:summary>
+    <itunes:image href="https://nilsmango.ch/live/episode-015a.jpg"/>
+  </item>
+  
    <item>
      <title>Session #14: Maybe I should prepare more?</title>
      <link>https://nilsmango.ch/live/session-014/</link>
